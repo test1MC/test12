@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetFile
+  Version="2"
+  DefaultUrl="/Content/Introduction.htm"
+  OutputFile="Image Studio"
+  Type="WebHelp2"
+  MasterToc="/Project/TOCs/Image Studio.fltoc"
+  GlossaryTermConversion="marked"
+  AliasFile="/Project/Advanced/Image Studio.flali"
+  OutputFolder="H:\SHARED\Marcom\Techcom Bio\IS Help\Image Studio 4\Image Studio 4\Output"
+  PatchHeadingLevels="true"
+  InjectBookHeadings="true">
+  <Variables />
+  <ConditionTags />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Web4.fldes" />
+  </Destinations>
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="100"
+    CollapsedBookmarks="true" />
+</CatapultTargetFile>

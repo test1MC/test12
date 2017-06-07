@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="612" MadCap:lastWidth="612">
+    <body>
+        <p>
+            <img src="../Images/IS5.0-EditFileName-dialog.png" alt="Image Studio 5.0 Edit File Name dialog" class="width0375pct" />
+        </p>
+        <ul>
+            <li>Type the desired file name at the beginning of the <MadCap:snippetText src="FileNameField.flsnp" /> text field.</li>
+            <li>Any unwanted characters that may already appear in the <MadCap:snippetText src="FileNameField.flsnp" /> text field can be deleted.</li>
+        </ul>
+    </body>
+</html>

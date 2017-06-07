@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="575" MadCap:lastWidth="575">
+    <head>
+    </head>
+    <body>
+        <p><b>Background</b> — <MadCap:snippetText src="ICWBg_definition.flsnp"></MadCap:snippetText></p>
+        <p><b>Linked Wells</b> — The pixel intensities from linked wells are averaged, and this average is used in the following calculations for each of the linked wells. </p>
+        <MadCap:snippetBlock src="ICWRelative_explanation.flsnp">
+        </MadCap:snippetBlock>
+        <p><b>ICW&#160;% Response</b> — After background subtraction and normalization (if used), all wells designated as Sample are divided by the average of the wells designated as 100% Standard in that channel and multiplied by 100 to give a percentage response to the control in the 100% Standard.</p>
+        <p class="note"> All <MadCap:snippetText src="ICW_Per_Response.flsnp"></MadCap:snippetText> values for the normalization channel are reported as <MadCap:snippetText src="NaN.flsnp"></MadCap:snippetText>. </p>
+        <p><b>ICW Std Dev</b> — The ICW&#160;standard deviation is the standard deviation of the average of the pixel intensities from linked wells. </p>
+    </body>
+</html>

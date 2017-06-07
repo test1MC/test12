@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="760" MadCap:lastWidth="760">
+    <head>
+    </head>
+    <body>
+        <p>Use the <MadCap:snippetText src="DisplayChannelColor.flsnp"></MadCap:snippetText> buttons in the <MadCap:snippetText src="DisplayTab.flsnp"></MadCap:snippetText> to turn on/off channels.</p>
+        <p>
+            <img src="../Images/DisplayTab_BothChannels_example.png" class="width013pct" />
+        </p>
+    </body>
+</html>

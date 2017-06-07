@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="655" MadCap:lastWidth="655">
+    <body>
+        <ol>
+            <li>
+                <p>Select <MadCap:snippetText src="DeleteMarkerLaneSet.flsnp" /> from the <MadCap:snippetText src="SelectMarkerLanesSet_list.flsnp" />&#160;<img src="../Images/MarkerSetTemplate.gif" alt="Image Studio 4.0 Set Custom Marker icon" class="inLineIcon20by20" />.</p>
+                <p>
+                    <img src="../Images/WesternAnalysis-DeleteMarkerLaneSet-example.png" alt="Delete Marker Lane Set in the Select Marker Lane Set list, Marker Lanes group, Western Analysis tab" class="width013pct" />
+                </p>
+                <p>The <MadCap:snippetText src="DeleteMarkerLaneSet_dialog.flsnp" /> will open.</p>
+                <p>
+                    <img src="../../Images/image197.gif" class="width013pct no-border" />
+                </p>
+            </li>
+            <li>Select the marker lane to delete and click <MadCap:snippetText src="Delete.flsnp" />.</li>
+        </ol>
+        <p class="note">The deleted marker will still appear on other images where it was used previously. An asterisk will appear after the marker's name to designate that it is a deleted marker.</p>
+    </body>
+</html>

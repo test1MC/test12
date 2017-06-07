@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="59" MadCap:lastWidth="624">
+    <body><b>Save the 700 and 800 channel </b>
+        <MadCap:snippetText src="TIFF_Bld.flsnp" /><b> images to separate locations</b>: Disable the <MadCap:snippetText src="FillAllChannelLocs.flsnp" /> check box and use the <MadCap:snippetText src="Browse.flsnp" /> button next to each channel to browse to the folder where each image will be saved.</body>
+</html>

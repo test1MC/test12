@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1474" MadCap:lastWidth="614">
+    <head><title>Working with Table Data</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Excel spreadsheet:Creating;Tables:Launch spreadsheet from;Table data:Copy to Excel spreadsheet" />Working with Table Data</h1>
+        <p>The top right of the Table section has commands to <MadCap:snippetText src="Resources/Snippets/Filter.flsnp" /> the Table, <MadCap:snippetText src="Resources/Snippets/Report.flsnp" /> table information, and choose <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /> to display in the table. You can also <MadCap:snippetText src="Resources/Snippets/Copy.flsnp" /> selected rows from the table onto the clipboard for pasting into other programs and <MadCap:snippetText src="Resources/Snippets/Paste.flsnp" /> the contents of the clipboard into the table. </p>
+        <p>
+            <img src="Images/image204.gif" class="no-thumb" />
+        </p>
+        <h2>Copy</h2>
+        <p>The <MadCap:snippetText src="Resources/Snippets/Copy.flsnp" /> button copies to the 
+ clipboard the selected rows of the table view in the current order. If 
+ you want all visible rows from the table, <MadCap:snippetText src="Resources/Snippets/Ctrl-A_bold.flsnp" /> 
+ will select them all, or click the <MadCap:snippetText src="Resources/Snippets/SelectAll.flsnp" /> button <img src="Images/image93.gif" style="width: 17px; height: 17px;" width="17" height="17" border="0" class="no-thumb" /> in the upper left corner of the table . Column headings are included.</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li>Click the tab on the left top of the Table section to select the Table you want to work with.</li>
+            <li>Select one or more rows in the table. (Press <MadCap:snippetText src="Resources/Snippets/Ctrl-A_bold.flsnp" /> 
+ to select them all, including the column headings, or click <MadCap:snippetText src="Resources/Snippets/SelectAll.flsnp" /> <img src="Images/image93.gif" class="no-thumb" /> in the upper left corner of the table.)</li>
+            <li>Click <MadCap:snippetText src="Resources/Snippets/Copy.flsnp" /> or press <MadCap:snippetText src="Resources/Snippets/CTRL-C.flsnp" /> on your keyboard. This copies the selection to the clipboard. You can now  paste the rows with the column headings in another program.</li>
+        </ol>
+        <h2>Paste</h2>
+        <p>The <MadCap:snippetText src="Resources/Snippets/Paste.flsnp" /> button pastes data from the clipboard down a table column  starting at the current selection.</p>
+        <ol>
+            <li>In the selected table, select any editable row or column.</li>
+            <li>Click <MadCap:snippetText src="Resources/Snippets/Paste.flsnp" /> or press <MadCap:snippetText src="Resources/Snippets/CTRL-V.flsnp" /> on your keyboard. This adds the rows from the clipboard in the selected column beginning with the selected row. Each entry in the paste buffer fills one row in the table view. Rows are filled starting with the selected row down one row per entry until reaching the last row in the table view.</li>
+        </ol>
+        <ul style="list-style: disc;" type="disc">
+            <li>If there are fewer entries in the paste buffer than remaining rows in the table view, all the entries in the paste buffer are used, but all the rows may not be filled with new entries.</li>
+            <li>If there are more entries in the paste buffer than remaining rows in the table view, the new entries are pasted into the selected column beginning at the selected row with a new entry in each subsequent row until the end of the table view is reached. A warning message displays stating that some entries in the paste buffer are discarded.</li>
+        </ul>
+        <p>When the paste with multiple entries in the clipboard function is used on tables outside of the <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" /> on an <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" /> column, all rows of this column will be the same. All values in this column will have the value of the last row filled in with this paste operation. This is because only one value is applied to this column of the <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" /> for a given Image ID. Since the non-image table is only of one Image ID, all rows of any <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" /> column are the same.</p>
+        <h2>
+            <MadCap:keyword term="Launch spreadsheet" />Launch Spreadsheet</h2>
+        <p>To export data to a spreadsheet:</p>
+        <ol>
+            <li>Select the rows that you want to export to a spreadsheet.</li>
+            <li>Click <MadCap:snippetText src="Resources/Snippets/Report.flsnp" /> in the upper right corner of the Table section and select <MadCap:snippetText src="Resources/Snippets/LaunchSpreadsheet.flsnp" /> from the list to create a (*.xls) file containing the selected rows of the table view in the current order.</li>
+            <p>
+                <img src="Images/image203.gif" class="no-thumb" />
+            </p>
+            <li>If you have Excel on your computer, or another spreadsheet program that can open .xls files, the program is launched. First you will be prompted for a name. You can accept the default, or change the name and location. The program then opens.</li>
+        </ol>
+        <p class="note">If you do not have an <MadCap:keyword term="Excel spreadsheet:Setting up" />Excel or compatible program installed, you will get a message that an application to read Excel files must be installed before using this feature. You must also set the file association to open the application for files with the .xls extension (this is done in the <i>Windows Control Panel –&gt; Default Programs –&gt;Set Associations dialog</i>).</p>
+    </body>
+</html>

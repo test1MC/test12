@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1132" MadCap:lastWidth="1132">
+    <body>
+        <ul>
+            <li>The background shape should be placed on a shaved part of the animal, ideally in the same location but on the contralateral side of the feature to be quantified.</li>
+            <li>If the background shape cannot be placed on the animal's contralateral side, place it close to the feature to be quantified.</li>
+            <li>Some organs may retain probe after 24 hours. Be careful not to place the background shape on these bright areas.</li>
+            <li>If the region drawn by the <span class="snippet-font">Define New</span> feature encompasses too much area, the background shape can be moved so it incorporates a small region of bright space surrounding a feature to be quantified. This will raise the average background value and decrease the area of the region after the region is redrawn using the <span class="snippet-font">Define New</span> feature. However, only try moving the background shape this close to the feature of interest if adjusting the <span class="snippet-font">St. Dev. Multiplier</span> and <span class="snippet-font">Search Limit</span> does not produce the desired boundary.</li>
+        </ul>
+    </body>
+</html>

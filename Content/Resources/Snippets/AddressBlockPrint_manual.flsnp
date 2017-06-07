@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="243.3333" MadCap:lastWidth="1125">
+    <head>
+    </head>
+    <body>
+        <p style="margin: 50px 0 0 0;padding: 0;font-size: 9pt;font-family: 'Univers Next Pro Condensed';">© 2015 LI-COR, Inc. LI-COR, Pearl, and IRDye are trademarks or registered trademarks of LI-COR, Inc. in the United States and other countries. All other trademarks belong to their respective owners. LI-COR is an ISO 9001 registered company.</p>
+        <table style="width: 100%;">
+            <col style="width: 236px;" />
+            <col style="width: 456px;" />
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;text-align: center;padding-left: 2pt;padding-right: 2pt;padding-top: 10pt;border-top-style: solid;border-top-width: 1pt;border-top-color: #000000;">
+                        <img src="../Images/licor-logo-black.eps" style="width: 208px;height: 41px;" />
+                    </td>
+                    <td style="vertical-align: top;border-top-style: solid;border-top-width: 1pt;border-top-color: #000000;padding-left: 2pt;padding-right: 2pt;padding-top: 10pt;">
+                        <p style="margin:0;">Global Headquarters, Serving the United States • 4647 Superior Street • Lincoln, NE 68504 Toll free: 800-645-4267 • International: 1-402-467-0700 • <a href="mailto:biosales@licor.com">biosales@licor.com</a></p>
+                        <p style="margin-left:0; margin-top: 0; margin-bottom: 10pt;"><a href="http://www.licor.com/bio">www.licor.com/bio</a>
+                        </p>
+                        <p style="margin:0;padding:0;">Outside the United States, contact your local sales office or distributor:</p>
+                        <p style="margin:0;padding:0;"><a href="http://www.licor.com/bio/distributors">www.licor.com/bio/distributors</a>
+                        </p>
+                        <p class="front" style="text-align:right;">Doc: 988-15840 <MadCap:variable name="Variables.MarcomDate" /></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <span class="snippet-font">Signal:</span> The signal for each spot in a <MadCap:snippetText src="sub-grid.flsnp" /> will be calculated by taking the <MadCap:snippetText src="Total.flsnp" /> for that spot and subtracting the product of the background from the background spots in that <MadCap:snippetText src="sub-grid.flsnp" /> and the <MadCap:snippetText src="Area.flsnp" /> of the spot being quantified.</p>
+    </body>
+</html>

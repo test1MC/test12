@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="734" MadCap:lastWidth="734">
+    <body>
+        <p>The Intensity fields control the detector sensitivity and affect the band intensity on the image.</p>
+        <ul>
+            <li>If the intensity is set too <span class="snippet-font">high</span>, the detector may saturate and produce white areas in the middle of intense bands/dots. Saturated pixels are colored blue when the image is displayed in grayscale (see the <MadCap:xref href="../../Lookup_Table_Values_(LUTs).htm" class="HypLinkTopic"><span style="color: Blue;"><u>Display</u></span></MadCap:xref> topic for how to display images in grayscale).</li>
+            <li>If the intensity is set too <span class="snippet-font">low</span>, the image may not show any fluorescence even though there is adequate signal from the samples.
+		</li>
+        </ul>
+    </body>
+</html>

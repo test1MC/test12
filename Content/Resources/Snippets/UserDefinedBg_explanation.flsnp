@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>The <MadCap:snippetText src="User-defined.flsnp" /> background method finds the average pixel intensity within a shape placed by the user to calculate background.</body>
+</html>

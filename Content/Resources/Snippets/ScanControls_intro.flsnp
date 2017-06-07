@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Use the controls in the <MadCap:snippetText src="Scan_Controls_group.flsnp" /> to set the <MadCap:snippetText src="Resolution.flsnp" /> and <MadCap:snippetText src="Focus_Offset.flsnp" />. Use <MadCap:keyword term="Flip Image" /><MadCap:snippetText src="Flip_Image.flsnp" /> to automatically show the acquired image flipped top to bottom (useful for microplate images).</body>
+</html>

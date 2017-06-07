@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1212" MadCap:lastWidth="1212">
+    <body>
+        <ol>
+            <li>
+                <p>On the Analysis tab, ensure Plate is chosen in the Type group.</p>
+            </li>
+            <li>
+                <p>In the Plate Wells table, add the Trim Signal column.</p>
+                <p><strong>Image Studio 4.x or 5.x:</strong> Click Columns <img src="../Images/ColumnsIcon.gif" class="inLineIcon" /> above and to the right of the tables.</p>
+                <p><strong>Image Studio 3.x or earlier:</strong> On the Table tab, click Add/Remove Columns.</p>
+            </li>
+            <li>
+                <p>On the Plate Analysis tab, ensure the following are set up correctly.</p>
+                <p>
+                    <img src="../Images/plate_analysis_presets.png" style="width: 225px;height: 70px;" />
+                </p>
+                <p><strong>Plate group:</strong> Choose the 96-Well Plate preset.</p>
+                <p><strong>Well group:</strong> Click Larger/Smaller until the Area (in the Area column of the Plate Wells table) is 1649.</p>
+            </li>
+            <li>
+                <p>Assign background wells.</p>
+                <p>a. Click and drag to select the background wells (column 6).</p>
+                <p>b. On the Plate Analysis tab, select User Defined from the Background list.</p>
+                <p>c. Click OK to dismiss the User Defined Background dialog.</p>
+                <p>d. In the Background group, click Assign Wells.</p>
+            </li>
+            <li>
+                <p>Select images and choose data to export.</p>
+                <p>a. In the Images table, select the images to be analyzed. Click Filter  &gt; Selection.</p>
+                <p>b. In the Plate Wells table, clear the Display Current filter. Click Filter &gt; Display Current.</p>
+            </li>
+            <li>
+                <p>Export Data.</p>
+                <p>Ensure columns in the Plate Wells table are in the order shown below.</p>
+                <p>
+                    <img src="../Images/plate_wells.tif" style="width: 450px;height:auto;" />
+                </p>
+                <p><strong>Image Studio 4.x or 5.x:</strong> Click Report <img src="../Images/GridExport.gif" style="height: 22px; width: 22px; margin-bottom: -5pt;" /> &gt; Launch Spreadsheet <img src="../Images/FilterSingleSelectWArrow.gif" class="inLineIcon" style="width: 16px;height: 16px;" /> above and to the right of the tables.</p>
+                <p><strong>Image Studio 3.x or earlier:</strong> On the Table tab, click Launch Spreadsheet.</p>
+            </li>
+            <li MadCap:conditions="Default.PaperCopy">
+                <p>LI-COR provides an Excel<sup>®</sup> workbook for analyzing <MadCap:snippetText src="verification_plate_lwr.flsnp" /> data. The workbook and instructions are available at <a href="https://www.licor.com/bio/help/imagestudio5/#VerificationPlate/vplate_data_clx.html">www.licor.com/ovp</a>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

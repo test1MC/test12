@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="355" MadCap:lastWidth="1184">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Differences between Rolling Ball and Lane</h1>
+        <p>Image Studio Lane and ImageJ Rolling ball are different in two key ways.</p>
+        <ol>
+            <li>
+                <p>Rolling ball requires a user to choose a radius that will be used for background subtraction. Lane does not require input to accurately subtract background.</p>
+            </li>
+            <li>
+                <p>Rolling ball can be used to subtract background from an entire image, which will modify the underlying image data. Lane background can only be applied to a lane, and the background subtraction process does not change the underlying image data.</p>
+            </li>
+        </ol>
+        <p>Whether Rolling ball is applied to an entire image or a lane, an appropriate radius must be chosen for accurate results. The correct radius is dependent on many factors: image resolution, shape width, shape separation, and shape overlap. These factors are likely to vary throughout an image, so choosing a radius that allows for consistent, accurate background subtraction can be difficult.</p>
+        <p>When deciding if Rolling ball is appropriate for your analysis, consider the description of Rolling ball from the ImageJ documentation:</p>
+        <p class="citeQuoteBox">“Removes smooth continuous backgrounds from gels and other images” <MadCap:xref href="../Normalization/references.html#Subtract" class="inline">(<span style="color: #63abdd;" class="mcFormatColor"><u>28</u></span>)</MadCap:xref></p>
+        <p>If the background does not appear smooth and continuous, another approach may be necessary for accurate quantification and normalization.</p>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="849" MadCap:lastWidth="959">
+    <head>
+    </head>
+    <body>
+        <!-- FIXME: Unify this with the Revert Protcol! -->
+        <h1 MadCap:autonum="I. ">Total Protein Quantification (700 nm image)</h1>
+        <p>Use the Draw Rectangle tool in <MadCap:snippetText src="../Resources/Snippets/Image Studio.flsnp" /> to quantify the Total Protein signal in each lane.</p>
+        <ol>
+            <li>
+                <p>Draw a shape around the first lane on the Total Protein Stain image (700 nm channel).</p>
+                <!-- FIXME: local formatting -->
+                <ol style="list-style:lower-alpha;">
+                    <li style="border-left:none;">
+                        <p>In the Shape group on the Analysis tab, click Draw Rectangle.</p>
+                        <p>
+                            <img src="../Resources/Images/draw_rectangle.tif" style="width: 180px;height:auto;" />
+                        </p>
+                        <!-- FIXME: IS terminology formatting -->
+                    </li>
+                    <li style="border-left:none;">
+                        <p>Draw a rectangle around the first lane.</p>
+                        <p>If lanes are skewed, rotate the shape by clicking Rotate in the Edit group.</p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/bg-subtract-more-info.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Copy the shape from the first lane to each remaining lane.</p>
+                <ol style="list-style: lower-alpha;">
+                    <li style="border-left:none;">
+                        <p>With the first shape selected, click Add Selection.</p>
+                    </li>
+                    <li style="border-left:none;">
+                        <p>Click the next lane to copy the shape.</p>
+                        <p>If necessary, adjust the shape borders to ensure that each shape encloses the signal from one and only one lane.</p>
+                        <p class="pad-top20" MadCap:conditions="TechNoteCond.hkp-validation">
+                            <!-- FIXME: NEED SPECIFIC IMAGES FOR QUANTIFICATION STEPS, HKP NORM, REVERT NORM -->
+                            <img class="no-border width050pct" src="../Resources/Images/hkp-valid-revert-0004528_04.eps" />
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Export total protein quantification data.</p>
+                <ol style="list-style:lower-alpha;">
+                    <li style="border-left:none;">
+                        <p>Click Shapes to open the Shapes data table.</p>
+                        <p>
+                            <img src="../Resources/Images/shapes_table_report.tif" style="width: 275px;height: 30px;" />
+                        </p>
+                    </li>
+                    <li style="border-left:none;">
+                        <p>Select shape data, then copy and paste data into a spreadsheet.</p>
+                        <p class="note">All data fields will be exported, but “Signal” is the field of interest for analysis.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

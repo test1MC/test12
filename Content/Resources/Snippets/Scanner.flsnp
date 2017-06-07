@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="734" MadCap:lastWidth="734">
+    <body>
+        <p>Use the controls in the <span class="snippet-font">Scanner</span> group to Start the scan. Use <span class="snippet-font">Preview</span> to show the image as it is being scanned. </p>
+        <p>
+            <img src="../../Images/Sa_Acquire1.gif" class="width013pct" />
+        </p>
+        <ul>
+            <li><span class="snippet-font">Start</span> — Starts the image acquisition using the currently displayed parameter values. The status of the acquisition is displayed in the Status group. It also shows the channel being acquired, and the acquisition is listed in the Images Table.</li>
+            <li><span class="snippet-font">Preview</span> — Creates a fast, low resolution preview image.</li>
+            <li><span class="snippet-font">Stop</span> — Stops the current acquisition at the current point of collection.</li>
+            <li><span class="snippet-font">Cancel</span> — Cancels the current acquisition. All existing and pending channel images are discarded.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Use the <MadCap:snippetText src="Analysis_Type_list.flsnp" /> <img src="../Images/NoAnalyzeType.gif" alt="Select an Analysis type from the Setup group in the Acquire tab" class="inLineIcon" /> in the <MadCap:snippetText src="Setup_group.flsnp" /> to specify the type of analysis to perform when an acquisition completes. You can also choose <MadCap:snippetText src="No_Analysis.flsnp" />. </p>
+        <p>If an analysis type is selected, the analysis automatically starts when the acquisition is complete. The previous analysis will be used unless a different analysis is chosen.</p>
+        <p>Possible analysis types are listed below. Click a link to open the help topic for that Analysis Type.</p>
+    </body>
+</html>

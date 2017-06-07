@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"
+    conditions="TechNoteCond.RevisionTarget,TechNoteCond.PaperCopy,TechNoteCond.ElectronicPDF"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/BackgroundNote/Table of Contents.htm"
+    BreakType="chapter"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/ExportNote/Introduction.htm" />
+  <TocEntry
+    Title="Explanation of Exportable Image Formats"
+    Link="/Content/ExportNote/ExplanationOfExportableImageFormatsAndAcquisitionFolders.htm">
+    <TocEntry
+      Title="JPEG File Type"
+      Link="/Content/ExportNote/JPEGFileType.htm" />
+    <TocEntry
+      Title="PNG File Type"
+      Link="/Content/ExportNote/PNGFileType.htm" />
+    <TocEntry
+      Title="TIFF File Type"
+      Link="/Content/ExportNote/TIFFFileType.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Exporting Images and Movies"
+    Link="/Content/ExportNote/ExportingImagesandMovies.htm">
+    <TocEntry
+      Title="Export Single Image View"
+      Link="/Content/ExportNote/PresentationOnly-ExportSingleImage.htm">
+      <TocEntry
+        Title="CurrentImage"
+        Link="/Content/ExportNote/CurrentImage.htm" />
+      <TocEntry
+        Title="SelectedImagesInImagesTable"
+        Link="/Content/ExportNote/SelectedImagesInImagesTable.htm" />
+      <TocEntry
+        Title="ExportColorBarOnly"
+        Link="/Content/ExportNote/ExportColorBarOnly.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Exporting Multiple Image View"
+      Link="/Content/ExportNote/PresentationOnly-MultipleImageView.htm" />
+    <TocEntry
+      Title="Exporting from  or  Without Annotations"
+      Link="/Content/ExportNote/ExportingFromSingleImageViewOrMultipleImageViewWithoutAnnotations.htm"></TocEntry>
+    <TocEntry
+      Title="Using the Export Dialog Box: for  and"
+      Link="/Content/ExportNote/UsingExportDialogBox.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Exporting Movies"
+    Link="/Content/ExportNote/PresentationOnly-ExportMovieOfImages.htm">
+    <TocEntry
+      Title="When to Use"
+      Link="/Content/ExportNote/WhenExportMovies.htm" />
+    <TocEntry
+      Title="Procedure"
+      Link="/Content/ExportNote/ProcedureExportMovies.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="What  Are and When to Export"
+    Link="/Content/ExportNote/WhatAndWhenAcqFldr.htm">
+    <TocEntry
+      Title="Folder vs Zip File"
+      Link="/Content/ExportNote/AcqVsZipAcq.htm" />
+    <TocEntry
+      Title="Exporting Acquisition Folders for Analysis"
+      Link="/Content/ExportNote/ExportingAcquisitionFoldersForAnalysis.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Exporting a Lab Book"
+    Link="/Content/ExportNote/ExportingLabNotebooks.htm">
+    <TocEntry
+      Title="Layout Template"
+      Link="/Content/ExportNote/ExpLabBook-LayoutTemp.htm" />
+    <TocEntry
+      Title="Editing the Layout"
+      Link="/Content/ExportNote/ExpLabBook-EditLayout.htm" />
+    <TocEntry
+      Title="Header Options"
+      Link="/Content/ExportNote/ExpLabBook-HeaderOptions.htm">
+      <TocEntry
+        Title="What a Header Is"
+        Link="/Content/ExportNote/WhatAHeaderIs.htm" />
+      <TocEntry
+        Title="Editing Headers"
+        Link="/Content/ExportNote/EditingHeaders.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Saving a Customized Layout"
+      Link="/Content/ExportNote/ExpLabBook-SavingCustomLayout.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Page Setup"
+    Link="/Content/ExportNote/PageSetup.htm" />
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

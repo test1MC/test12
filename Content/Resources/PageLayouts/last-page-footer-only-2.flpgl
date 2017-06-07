@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Left" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.00in" PaddingRight="1.50in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.5in" Height="2.895833in" X="-48px" Y="634px" Right="-96px" Bottom="-48px" Anchors="" FlowIndex="2">
+        </Frame>
+        <Frame X="-48px" Y="601px" Width="720px" Height="84px" FlowIndex="1" Flow="body" Right="-96px" Bottom="179px" Anchors="" />
+        <Frame X="-48px" Y="829px" Width="720px" Height="80px" Flow="footer" Right="-96px" Bottom="-45px" VerticalAlign="bottom" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: right;font-size: 9pt;font-family: 'Univers Next Pro Condensed';">
+                            <MadCap:snippetText xhtml:src="../Snippets/FooterDocNoAndDate-2.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Copy of Left" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1.50in" PaddingRight="1.00in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.5in" Height="2.895833in" X="-96px" Y="634px" Right="-48px" Bottom="-48px" Anchors="" FlowIndex="2" PaddingLeft="0px" PaddingRight="0px">
+        </Frame>
+        <Frame X="-96px" Y="601px" Width="720px" Height="84px" FlowIndex="1" Flow="body" Right="-48px" Bottom="179px" Anchors="" PaddingLeft="0px" PaddingRight="0px" />
+        <Frame X="-96px" Y="829px" Width="720px" Height="80px" Flow="footer" Right="-48px" Bottom="-45px" VerticalAlign="bottom" Anchors="" PaddingLeft="0px" PaddingRight="0px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: right;font-size: 9pt;font-family: 'Univers Next Pro Condensed';">
+                            <MadCap:snippetText xhtml:src="../Snippets/FooterDocNoAndDate-2.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

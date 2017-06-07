@@ -1,0 +1,453 @@
+﻿  /*
+
+  For one page quick starts that use one-page-quick-start.flpgl
+  Page width: 7.5 in
+  Body length: 9.5 in
+  */
+
+  body
+  {
+    margin-left: 0;
+    font-family: 'Univers Next Pro Light';
+  }
+
+.page-num-top /* applied to the title snippet paragraph at the top of each page */
+{
+  font-size: 12pt;
+  text-align: center;
+}
+
+.header-icon-p /* applied to the paragraphs containing instrument icons in the header deco frame */
+{
+  margin-top: .12em;
+  margin-left: .12em;
+  margin-bottom: 1.12em;
+}
+
+.header-icon-img /* applied to, you guessed it, the header icon IMAGE */
+{
+  border: none;
+  width: 54px;
+  height: 54px;
+}
+
+.title-front /* big white title in deco frame */
+{
+  font-size: 17pt;
+  color: white;
+  text-align: left;
+  line-height: .25in;
+}
+
+.subtitle /* applied to the dumb subtitle "Image Studio Software X.x.x ..." on the first page */
+{
+  font-weight: bold;
+  color: #0093CB;
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+.front
+{
+  column-break-before: always;
+  margin: 0 20pt 10pt 0;
+  font-size: 9pt;
+  font-family: 'Univers Next Pro Condensed';
+  line-height: 10pt;
+}
+
+.center {
+  text-align: center;
+}
+
+.step
+{
+  margin-left: -3pt;
+  mc-auto-number-format: 'CS: {n+}. ';
+}
+
+.pgBrkBfr
+{
+  page-break-before: always;
+}
+
+.pgBrkAft
+{
+  page-break-after: always;
+}
+
+h1
+{
+  page-break-before: avoid;
+  color: #0093CB;
+  font-weight: bold;
+  font-size: 13pt;
+  clear: both;
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+
+h2
+{
+  color: #424242;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-left: 0;
+  margin-top: 6pt;
+}
+
+p.h2
+{
+ color: #424242;
+ font-weight: bold;
+ font-size: 12pt;
+ margin-left: 0;
+ margin-top: 6pt;
+}
+
+p
+{
+  font-size: 10pt;
+  margin: 5pt 24pt 5pt 0;
+  mc-hyphenate: never;
+}
+
+.big-warning
+{
+  background-image: url('../Images/demo-cover-warn.eps');
+  background-repeat: no-repeat;
+  padding-left: 100pt;
+  padding-bottom: 72pt;
+}
+
+p.warning
+{
+  background-image: url('../Images/warn.eps');
+  background-repeat: no-repeat;
+  padding-left: 30pt;
+  padding-bottom: 8pt;
+}
+
+p.front-matter-warning1-warning2
+{
+  background-image: url('../Images/warn1-warn2.eps');
+  background-repeat: no-repeat;
+  padding-left: 60pt;
+  padding-bottom: 8pt;
+}
+
+p.front-matter-warning1
+{
+  background-image: url('../Images/front-matter-warn1.eps');
+  background-repeat: no-repeat;
+  padding-left: 60pt;
+  padding-bottom: 8pt;
+}
+
+p.warning_fr
+{
+  margin-bottom: 0pt;
+  margin-left: 30pt;
+  font-weight: bold;
+}
+
+p.warning_fr_body
+{
+  margin-left: 30pt;
+}
+
+figure
+{
+  page-break-inside: avoid;
+  page-break-before: avoid;
+  margin: 0;
+}
+
+figcaption
+{
+  display: block;
+  font-size: 8pt;
+  font-style: normal;
+  margin-left: 0;
+  margin-top: 1pt;
+  margin-bottom: 10pt;
+  text-align: left;
+  width: 100%;
+}
+
+.big-font1
+{
+  font-size: 1.2em;
+}
+
+.big-font2
+{
+  font-size: 1.5em;
+}
+
+.big-font3
+{
+  font-size: 2em;
+}
+
+.important
+{
+  page-break-inside: avoid;
+  border-left: 6px solid #e89999;
+  background-color: #FFCCCC;
+  padding: 5px;
+  color: #424242;
+  width: 75%;
+}
+
+.important::before
+{
+  content: 'Important: ';
+  font-weight: bold;
+}
+
+.note
+{
+  page-break-inside: avoid;
+  color: #000000;
+  padding: 7px;
+  border-left: 6px solid #a1a4ae;
+  background-color: #d4d7e1;
+}
+
+.note::before
+{
+  content: 'Note: ';
+  font-weight: bold;
+  border: none;
+}
+
+ul,ol
+{
+  margin-left: 20pt;
+  font-size: 10pt;
+}
+
+ol
+{
+  list-style-type: decimal;
+}
+
+ol > ol
+{
+  margin-left: 12px;
+  border-left: none;
+  padding-left: 0;
+}
+
+ol > ol > li
+{
+  border-left: none;
+  padding-left: 6px;
+  margin-left: 0;
+}
+
+ol p
+{
+  margin-left: 0;
+}
+
+ul p
+{
+  margin-left: 0;
+}
+
+.clear-both
+{
+  clear:  both;
+}
+
+div.row
+{
+  display: block;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+div.row + * {
+  clear: both;
+}
+
+.float-right
+{
+  float: right;
+  display: block;
+}
+
+.float-left
+{
+  float: left;
+  display: block;
+}
+
+.rightHalf
+{
+  margin-left: 3pt;
+  float: right;
+  display: block;
+  width: 3.7in;
+}
+
+.leftHalf
+{
+  float: left;
+  display: block;
+  width: 3.7in;
+}
+
+.rightQuart
+{
+  margin-left: 3pt;
+  float: right;
+  display: block;
+  width: 1.875in;
+}
+
+.leftQuart
+{
+  float: left;
+  display: block;
+  width: 1.875in;
+}
+
+.rightThreeQuart
+{
+  margin-left: 3pt;
+  float: right;
+  display: block;
+  width: 5.625in;
+}
+
+.leftThreeQuart
+{
+  float: left;
+  display: block;
+  width: 5.625in;
+}
+
+.right200
+{
+  float: right;
+  clear: left;
+  display: block;
+  padding-left: 10pt;
+  width: 200pt;
+}
+
+.right100
+{
+  float: right;
+  clear: left;
+  display: block;
+  padding-left: 10pt;
+  width: 100pt;
+}
+
+img
+{
+  page-break-after: avoid;
+}
+
+.no-border /* Watch out. This is also applied to product icons in first page deco frames */
+{
+  border: none;
+}
+
+img.width100pct
+{
+  height: auto;
+  width: 7.5in;
+}
+
+img.width075pct
+{
+  height: auto;
+  width: 5.625in;
+}
+
+img.width066pct
+{
+  height: auto;
+  width: 4in;
+}
+
+img.width050pct
+{
+  height: auto;
+  width: 3.75in;
+}
+
+img.width0375pct
+{
+  height: auto;
+  width: 2.813in;
+}
+
+img.width025pct
+{
+  height: auto;
+  width: 1.875in;
+}
+
+img.width015pct
+{
+  height: auto;
+  width: 1.125in;
+}
+
+img.width013pct
+{
+  height: auto;
+  width: 0.975in;
+}
+
+
+
+img.inLineIcon
+{
+  height: 34px;
+  width: 34px;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+img.inLineIcon24by24
+{
+  width: 24px;
+  height: auto;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+img.inLineIcon20by20
+{
+  width: 20px;
+  height: auto;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+span.snippet-font
+{
+  font-family: 'Univers Next Pro Light';
+  font-weight: bold;
+}
+
+a
+{
+  text-decoration: underline;
+  color: #63abdd;
+}
+
+strong
+{
+  font-family: 'Univers Next Pro Light';
+  font-weight: bold;
+}

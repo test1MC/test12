@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Installing First Cdig"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"
+    ComputeToc="false"
+    conditions="TechNoteCond.install-Cdig"></TocEntry>
+  <TocEntry
+    Title="Installing First CLx"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    ComputeToc="false"
+    conditions="TechNoteCond.install-CLx"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Installing First Sa"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"
+    conditions="TechNoteCond.install-Sa"></TocEntry>
+  <TocEntry
+    Title="Installing First Fc"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"
+    conditions="TechNoteCond.install-Fc"></TocEntry>
+  <TocEntry
+    Title="Installing First Pearl"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"
+    conditions="TechNoteCond.install-Pearl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Installing First Classic"
+    Link="/Content/InstallationGuides/InstallGuide-FirstPage.htm"
+    BreakType="none"
+    PageType="first"
+    StartSection="false"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/install_guide.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    conditions="TechNoteCond.install-Classic"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="7, 8, or 8.1 Operating Systems"
+    Link="/Content/InstallationGuides/InstallGuide-Windows.htm"
+    BreakType="none"
+    StartSection="false"
+    PageType="continue"></TocEntry>
+  <TocEntry
+    Title="Image Studio Software Setup Wizard"
+    Link="/Content/InstallationGuides/InstallGuide-SetupWizard.htm"
+    BreakType="none"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Instrument Connect"
+    Link="/Content/InstallationGuides/InstallGuide-InstrumentConnection.htm"
+    StartSection="false"
+    BreakType="none"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Manual Connection"
+    Link="/Content/InstallationGuides/InstallManual_SaAndClassic.htm"
+    conditions="TechNoteCond.install-Classic,TechNoteCond.install-Sa"
+    BreakType="none"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Last Page"
+    Link="/Content/last-page.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    conditions="TechNoteCond.install-Sa,TechNoteCond.install-Classic"></TocEntry>
+  <TocEntry
+    Title="Last Page"
+    Link="/Content/last-page.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    conditions="TechNoteCond.install-Trilogy,TechNoteCond.install-Pearl,TechNoteCond.install-Fc,TechNoteCond.install-CLx,TechNoteCond.install-Cdig" />
+</CatapultToc>

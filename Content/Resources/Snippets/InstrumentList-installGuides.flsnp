@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="642">
+    <body>
+        <MadCap:snippetText src="Odyssey_noR_Classic_Imager.flsnp" MadCap:conditions="TechNoteCond.install-Classic,TechNoteCond.quickStart-Classic" />
+        <MadCap:snippetText src="C-DiGit_noR_Blot_Scanner.flsnp" MadCap:conditions="TechNoteCond.install-Cdig,TechNoteCond.quickStart-Cdig" />
+        <MadCap:snippetText src="PearlImager_generic.flsnp" MadCap:conditions="TechNoteCond.install-Pearl,TechNoteCond.quickStart-Pearl" />
+        <MadCap:snippetText src="Odyssey_noR_Fc_Imager.flsnp" MadCap:conditions="TechNoteCond.install-Fc,TechNoteCond.quickStart-Fc" />
+        <MadCap:snippetText src="Odyssey_noR_CLx_Imager.flsnp" MadCap:conditions="TechNoteCond.install-CLx,TechNoteCond.quickStart-CLx" />
+        <MadCap:snippetText src="Odyssey_noR_Sa_Imager.flsnp" MadCap:conditions="TechNoteCond.install-Sa,TechNoteCond.quickStart-Sa" />
+        <MadCap:snippetText src="Pearl_Trilogy_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Trilogy" />
+    </body>
+</html>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-Classic"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-CLx"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-Fc"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-Trilogy"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-Pearl"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.quickStart-Sa"
+    ComputeToc="false"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Cover_quickStart"
+    Link="/Content/QuickStartGuides/Cover_quickStart.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumberReset="continue"
+    ComputeToc="false"
+    conditions="TechNoteCond.quickStart-Cdig"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Install"
+    Link="/Content/QuickStartGuides/InstallIS_quickStart.htm"
+    BreakType="pageLayout"
+    PageType="right"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"></TocEntry>
+  <TocEntry
+    Title="Start"
+    Link="/Content/QuickStartGuides/StartIS_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Create a New Work Area"
+    Link="/Content/QuickStartGuides/CreateWorkArea_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Select Your Instrument Model"
+    Link="/Content/QuickStartGuides/SelectInstrument_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Acquire an Image"
+    Link="/Content/QuickStartGuides/AcquireImage_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Adjust Image Display"
+    Link="/Content/QuickStartGuides/AdjustDisplay_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Analyze Data"
+    Link="/Content/QuickStartGuides/DataAnalysis_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Export Data"
+    Link="/Content/QuickStartGuides/ExportData_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Export Image"
+    Link="/Content/QuickStartGuides/ExportPubAndPrint_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Export for Analysis"
+    Link="/Content/QuickStartGuides/ExportAnalysis_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Create a Report"
+    Link="/Content/QuickStartGuides/CreateReport_quickStart.htm"></TocEntry>
+  <TocEntry
+    Title="Last Page"
+    Link="/Content/last-page.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"></TocEntry>
+</CatapultToc>

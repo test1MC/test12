@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Admin Guide First"
+    Link="/Content/21CFR11/SysOverview_21CFR11_1.htm"
+    BreakType="none"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/guide_no_cover.flpgl"
+    PageType="first" />
+  <TocEntry
+    Title="Server Configuration"
+    Link="/Content/21CFR11/ServerConfiguration_21CFR11.htm"
+    BreakType="none"
+    StartSection="false"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Client Configuration"
+    Link="/Content/21CFR11/ClientConfig_21CFR11.htm"
+    BreakType="none"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Networking"
+    Link="/Content/21CFR11/Networking_21CFR12.htm"
+    BreakType="none"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Data Management"
+    Link="/Content/SystemMgmtTool/Backup_SysMgmt.htm"
+    BreakType="none"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Last Page"
+    Link="/Content/last-page.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"></TocEntry>
+</CatapultToc>

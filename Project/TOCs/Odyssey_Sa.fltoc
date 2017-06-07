@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="chapter"
+    PageType="title"
+    PageNumberReset="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Odyssey_Sa_Cover.flpgl" />
+  <TocEntry
+    Title="Front Matter"
+    Link="/Content/imaging_systems/odyssey_sa/Sa_Manual_14595.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl"
+    PageNumber="2"
+    PageNumberFormat="lower-roman" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/imaging_systems/odyssey_sa/Table of Contents.htm"
+    BreakType="chapter"
+    PageNumberReset="continue"
+    PageNumber="2"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl"
+    PageType="first" />
+  <TocEntry
+    Title="Chapter 1: Safety and Operational Information"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 1 Safety and Operational.htm"
+    BreakType="chapter"
+    PageType="first"
+    PageNumberReset="reset"
+    PageNumberFormat="decimal"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Safety Considerations"
+      Link="/Content/imaging_systems/odyssey_sa/Safety Considerations.htm" />
+    <TocEntry
+      Title="Placement in the Laboratory"
+      Link="/Content/imaging_systems/odyssey_sa/Placement in the Laboratory.htm"></TocEntry>
+    <TocEntry
+      Title="Moving the Instrument"
+      Link="/Content/MovingInstrument.htm" />
+    <TocEntry
+      Title="Electrical Considerations"
+      Link="/Content/imaging_systems/odyssey_sa/Electrical Considerations.htm" />
+    <TocEntry
+      Title="Routine Maintenance"
+      Link="/Content/imaging_systems/odyssey_sa/Routine Maintenance.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 2: Overview and General Description"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 2 Overview and General.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Back Panel Connectors"
+      Link="/Content/imaging_systems/odyssey_sa/Back Panel Connectors.htm" />
+    <TocEntry
+      Title="Hardware Description"
+      Link="/Content/imaging_systems/odyssey_sa/Hardware Description.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 3: Operation"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 3 Operation.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Scanning Microplates"
+      Link="/Content/imaging_systems/odyssey_sa/Scanning Microplates.htm" />
+    <TocEntry
+      Title="Scanning Membranes in the Membrane Carrier"
+      Link="/Content/imaging_systems/odyssey_sa/Scanning Membranes in the.htm" />
+    <TocEntry
+      Title="Scanning Gels in the Membrane Carrier"
+      Link="/Content/imaging_systems/odyssey_sa/Scanning Gels in the Membrane.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 4: Assembly"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 4 Assembling the.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Installing the Image Studio Software"
+      Link="/Content/imaging_systems/odyssey_sa/Installing the Image Studio.htm" />
+    <TocEntry
+      Title="Assembling the Odyssey Sa System"
+      Link="/Content/imaging_systems/odyssey_sa/Assembling the Odyssey Sa.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 5: Installing a BioTek®"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 5 Installing a BioTek.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/imaging_systems/odyssey_sa/Introduction.htm" />
+    <TocEntry
+      Title="Initial Odyssey®  Sa Setup"
+      Link="/Content/imaging_systems/odyssey_sa/Initial Odyssey Sa Setup.htm" />
+    <TocEntry
+      Title="Initial BioStack Setup"
+      Link="/Content/imaging_systems/odyssey_sa/Initial BioStack Setup.htm" />
+    <TocEntry
+      Title="Connecting Power and Communication Cables"
+      Link="/Content/imaging_systems/odyssey_sa/Connecting Power and Communication.htm" />
+    <TocEntry
+      Title="Leveling the Odyssey Sa Imager"
+      Link="/Content/imaging_systems/odyssey_sa/Leveling the Odyssey Sa Imager.htm" />
+    <TocEntry
+      Title="Installing the Locator Clamp"
+      Link="/Content/imaging_systems/odyssey_sa/Installing the Locator Clamp.htm" />
+    <TocEntry
+      Title="Leveling the BioStack™ Plate Stacker"
+      Link="/Content/imaging_systems/odyssey_sa/Leveling the BioStack Plate.htm" />
+    <TocEntry
+      Title="Connecting the BioStack Plate Stacker to the Locator"
+      Link="/Content/imaging_systems/odyssey_sa/Connecting the BioStack Plate.htm" />
+    <TocEntry
+      Title="BioStack X-Y Alignment"
+      Link="/Content/imaging_systems/odyssey_sa/BioStack X Y Alignment.htm" />
+    <TocEntry
+      Title="BioStack Z-Axis Training"
+      Link="/Content/imaging_systems/odyssey_sa/BioStack Z Axis Training.htm" />
+    <TocEntry
+      Title="Express Run Errors Related to the BioStack Plate Stacker"
+      Link="/Content/imaging_systems/odyssey_sa/Express Run Errors Related.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 6: Appendix"
+    Link="/Content/imaging_systems/odyssey_sa/Chapter 6 Appendix.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl" />
+</CatapultToc>

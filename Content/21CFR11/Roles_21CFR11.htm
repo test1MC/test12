@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1202" MadCap:lastWidth="712">
+    <head>
+        <link href="../Resources/TableStyles/longTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="Default.SysMgmtHelp">About </MadCap:conditionalText>User Roles</h1>
+        <p>A <MadCap:snippetText src="../Resources/Snippets/Role_21CFR11.flsnp" /> is a set of allowed actions. <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are operations performed by a user within <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" /> are assigned to users to control which <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> a user can perform.</p>
+        <p>Only the <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" /> can add or modify <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" />.</p>
+        <ul>
+            <li>The allowed actions for default <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" /> can be adjusted and custom roles can be added.</li>
+            <li>Roles can be assigned overlapping allowed actions.</li>
+            <li>
+                <p>Users can be assigned multiple roles.</p>
+                <p class="note">
+                    As long as an action is allowed for one of a user's multiple roles, the user may perform that action.</p>
+            </li>
+            <li>Users cannot approve their own work, even if a user is assigned a <MadCap:snippetText src="../Resources/Snippets/Role_21CFR11.flsnp" /> with the allowed actions to submit and approve.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Default roles and allowed actions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 75%;margin-left: 16px;mc-table-style: url('../Resources/TableStyles/longTable.css');" class="TableStyle-longTable" cellspacing="0">
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <tr class="TableStyle-longTable-Body-Subhead" MadCap:pattern="5">
+                        <td class="TableStyle-longTable-BodyE-Column1-Subhead">Role</td>
+                        <td class="TableStyle-longTable-BodyE-Column1-Subhead">Description</td>
+                        <td class="TableStyle-longTable-BodyD-Column1-Subhead">Actions Allowed By Default</td>
+                    </tr>
+                    <tbody>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Analyst</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Acquires images, edits an image's analysis data and associated data, then submits the image and data for approval.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">
+                                <ul class="fvPxTb">
+                                    <li class="fvPxTb">Acquire</li>
+                                    <li class="fvPxTb">Cancel</li>
+                                    <li class="fvPxTb">Create Image</li>
+                                    <li class="fvPxTb">Edit</li>
+                                    <li class="fvPxTb">Edit Rejected</li>
+                                    <li class="fvPxTb">Import Image</li>
+                                    <li class="fvPxTb">Submit for Approval</li>
+                                    <li class="fvPxTb">Edit Templates</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Supervisor</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Controls user access to Work Areas containing images and data. Decides if submitted images and data meet organizational standards.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">
+                                <ul class="fvPxTb">
+                                    <li class="fvPxTb">Approve</li>
+                                    <li class="fvPxTb">Reject Approved</li>
+                                    <li class="fvPxTb">Reject Edited</li>
+                                    <li class="fvPxTb">Create Work Area</li>
+                                    <li class="fvPxTb">Edit Templates</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">System Manager</td>
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">Defines user roles and groups of users, modifies users' account settings, and controls system security settings.</td>
+                            <td class="TableStyle-longTable-BodyA-Column1-Body1">
+                                <ul class="fvPxTb">
+                                    <li class="fvPxTb" style="list-style:none;">Edit System Configuration</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1041" MadCap:lastWidth="1030">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Estimate Combined Linear Range for Target and Total Protein</h1>
+        <ol>
+            <li>
+                <p>Plot signal intensity vs. sample loading for both the target and <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" /> (as shown in <MadCap:xref href="#linear-protocol-target-vs-TPS-LR" class="figure-x">Figure 1</MadCap:xref>).</p>
+            </li>
+            <li>
+                <p>Estimate the boundaries of the linear range of sample loading for the target and the total protein stain (shaded regions, <MadCap:xref href="#linear-protocol-target-vs-TPS-LR" class="figure-x">Figure 1</MadCap:xref>).</p>
+                <ol style="list-style:lower-alpha;">
+                    <li style="border:none;">
+                        <p>Estimate the low end of the linear range by selecting a level of sample loading that is above the level of membrane background (black dashed lines, <MadCap:xref href="#linear-protocol-target-vs-TPS-LR" class="figure-x">Figure 1</MadCap:xref>).</p>
+                    </li>
+                    <li style="border:none;">
+                        <p>Estimate the upper end of the linear range by selecting a level of sample loading that is below the region where band intensity begins to plateau due to saturation (red dashed lines, <MadCap:xref href="#linear-protocol-target-vs-TPS-LR" class="figure-x">Figure 1</MadCap:xref>).</p>
+                        <figure>
+                            <img class="no-border width100pct" src="../Resources/Images/revert-and-target-linear-ranges.eps" alt="" />
+                            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><a name="linear-protocol-target-vs-TPS-LR"></a><strong>Estimate the boundaries for the linear range of sample loading.</strong> The estimated lower end (black dashed lines) and upper end (red dashed lines) are indicated for the target protein (A) and total protein stain (B). Shaded regions indicate the range of sample loading that produces a linear signal response on each graph. Linear range boundaries may be different for the target and total protein stain.
+                              </figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Combine the linear ranges of sample loading to identify the available range where the target and total protein stain can both be detected with a linear signal response (<MadCap:xref href="#linear-protocol-appropriate-LR-target-TPS" class="figure-x">Figure 2</MadCap:xref>). Use a secondary y-axis to plot the 700 nm and 800 nm signals on the same graph.</p>
+            </li>
+            <li>
+                <p>For your experiments, choose a level of sample loading that falls in the middle of the combined linear range for the target protein and <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" /> (X, <MadCap:xref href="#linear-protocol-appropriate-LR-target-TPS" class="figure-x">Figure 2</MadCap:xref>). Avoid working near the boundaries of the combined range.</p>
+                <figure>
+                    <!-- FIXME: need to update graphs to have combined linear range that lines up w/points on graph? Or remove points? -->
+                    <img class="no-border" src="../Resources/Images/target-and-revert-combined-linear-range.eps" alt="" />
+                    <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><a name="linear-protocol-appropriate-LR-target-TPS"></a><strong>Determine the appropriate amount of sample to load.</strong> This combined graph indicates the appropriate range of sample loading for accurate detection of the target and total protein stain in a QWB experiment (X, center).
+                </figcaption>
+                </figure>
+            </li>
+            <p class="note">If the target protein is strongly upregulated or downregulated, you should examine the linear range of sample loading for both untreated and treated samples.</p>
+        </ol>
+    </body>
+</html>

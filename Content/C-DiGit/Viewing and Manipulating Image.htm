@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="644.6666" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: "><a name="_bookmark31"></a>Viewing and Manipulating Image Display Parameters</h1>
+        <p>The rightmost panel in the main window contains an area that has four tabbed panels that allow you to view and/or manipulate the selected images; Display, Profiles, Concentration, and Chart.</p>
+        <h2>Display</h2>
+        <p>The Display Panel allows you to edit the parameters that are used to display the selected image in the image view. Note that adjusting the display parameters will not alter quantification data.</p>
+        <div style="width: 396pt; height: 47pt;" class="video">
+            <p class="video"><a href="http://www.licor.com/bio/educational_resources/webinars_videos/player.html?id=207" class="video">Click here to watch a video that demonstrates how to choose and adjust the appearance of the image.</a></p>
+        </div>
+        <p>Click on the Features button in the Display panel to toggle all features (shapes, etc.) on the image on/off. Click on the Curves button to toggle between the Brightness/Contrast and Curves display controls (below left).</p>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200002E.jpg" class="width033pct" /> <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200002F.jpg" class="width033pct" /></p>
+        <p>
+            <img src="../Resources/Images/link3.png" class="width100pct" />
+        </p>
+        <p><a name="_bookmark32"></a>The x-axis of the histogram panel represents the raw pixel values. The panel has a bar graph displaying a histogram of the number of pixels with each raw value. The higher the bar at a given location on the x-axis, the more pixels that contain that particular intensity value. This histogram is shaded with the color map in use for that channel. Also shown in the panel is an adjustable curve that maps raw data to display data.</p>
+        <p>The adjustable curve overlaying the histogram represents how the raw data maps to the display data. Adjust any of the three dots on the line (Min, Max, or K Value) to optimize the displayed image. To view the numbers, hover the mouse over one of the three circles on the line. The Max and Min numbers are displayed. The middle circle also shows the K value, which is used to smoothly change between linear (K=0) and logarithmic (K=1) mapping of the data onto the color maps.</p>
+        <p>Moving the Max Point to the left causes more of the intensity values to be mapped to the brightest display values, making the bands brighter.</p>
+        <p>Moving the Min Point to the right shades more of the lower intensity values to lower display values, creating a visually cleaner background.</p>
+        <p>Increasing the K value reduces the contrast between the higher and lower intensity values, so less intense bands appear brighter while very bright bands are avoided.</p>
+        <h2>Adjusting the Parameters</h2>
+        <p>You can adjust the display parameters as described below.</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/rainbow.png" />
+                    </td>
+                    <td>
+                        <p><a name="_bookmark33"></a>Use the color buttons to change the channel’s display color.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/graybow.png" />
+                    </td>
+                    <td>
+                        <p> Use the gray scale buttons to display the channel in gray scale. This is useful for displaying the image for reports that will be published.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/zoom_zoom.png" />
+                    </td>
+                    <td>
+                        <p> Use the zoom buttons to zoom in or out on the range of pixel values.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/zoom_fit.png" />
+                    </td>
+                    <td>
+                        <p>Use the expand button to show the full histogram in full zoomed out view.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/C-DiGit_UserGuide_13448/0300004D.png" />
+                    </td>
+                    <td>
+                        <p> Use the Choose Display button to select the best display from six choices.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/C-DiGit_UserGuide_13448/0300004E.png" />
+                    </td>
+                    <td>
+                        <p> Use the Adjust Display button to open a dialog in which to set the min and max points of the display mapping.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Note:</b> The Choose Display and Adjust Display dialogs automatically open after a scan. Click the arrow (&gt;) in the Display group to open the Display Options dialog and disable the checkboxes to disable this feature.</p>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/02000030.jpg" />
+        </p>
+        <h2>Link LUTs Across Filtered Images</h2>
+        <p>The “Link LUTs Across Filtered Images” check box at the top of the Display Panel forces all images currently in the filtered Images Table to use the same curves as those applied to the display of the selected image. When the Image LUTs are linked, any changes that you make to the curves affect all images in the filtered view regardless of the view mode (single image or multi-image).</p>
+        <p><b>Note:</b> The checkbox is only enabled after a filter has been defined and applied to the Images Table. It is grayed out if no filter has been applied.</p>
+        <p><a name="_bookmark34"></a>The LUT values will differ depending on the instrument and acquisition settings used. Linking the LUT values of images from different instruments, or from the same instrument with different acquisition settings, will not provide accurate comparisons.</p>
+        <h2>Profiles</h2>
+        <p>The Profiles tab displays a lane, band, or shape profile. When a band or shape is selected, the profile is displayed corresponding to the band or shape.</p>
+        <p>
+            <img src="../Resources/Images/shape.png" class="width050pct" />
+        </p>
+        <ol class="paren">
+            <li>Select a single band or shape and click the Profiles tab. The profile panel is displayed.</li>
+            <li>The profile graphs map the intensity values of the selected shape(s), and show the location of the highest intensity pixel along both x and y axes (X Location and Y Location).</li>
+        </ol>
+        <h2>Concentration</h2>
+        <p>The Concentration tab allows you to view the concentration standards; the standards and concentrations are entered into columns on the Shapes table; the</p>
+        <p>concentration of all other features on the image is then calculated and displayed in the table. You can add concentration standards to any analysis.</p>
+        <div class="video">
+            <p class="video"><a href="http://www.licor.com/bio/educational_resources/webinars_videos/player.html?id=208" class="video">Click here to watch a video that demonstrates how to quantify data.</a>
+            </p>
+        </div>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/02000027.jpg" class="width088pct" />
+        </p>
+        <p>To assign concentration standards:</p>
+        <ol class="paren">
+            <li>Add the desired shapes to the image, if you have not already done so.</li>
+            <li>Click the Shapes tab at the bottom of the window to open the Shapes table.</li>
+            <li>Click a feature on the image to highlight the row in the table.</li>
+            <li>Double-click the Conc. Std. field in the row.</li>
+            <li>Type a number in this field to order the concentration standards. Note: The values of the standards must increase as the order increases.</li>
+            <li>Click the Concentration tab on the right side of the application window. The assigned concentration standard should appear in the list.</li>
+            <li>Repeat steps 3 through 5 to add all of the concentration standards to the list.</li>
+            <li>The calculated concentrations for the other features appear in the Shapes table in the Concentration column.</li>
+        </ol>
+        <h2><a name="_bookmark35"></a>Chart</h2>
+        <p>The Chart tab expands the window and allows you to plot the currently defined shapes on the image.</p>
+        <p>Click the Custom button to select a pre-defined chart template. You can also save the current settings as a user-defined template, or delete selected templates.</p>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/02000050.jpg" class="width088pct" />
+        </p>
+        <h3>Type</h3>
+        <p>Click the Type button to choose either a bar or scatter plot.</p>
+        <h3>Data</h3>
+        <p>Click the Data button to choose the data source, and define the variables to displayed on the X- and Y-axes.</p>
+        <h3>Options</h3>
+        <p>Click the Options button to scale the axes, if desired; values can be displayed in thousands, millions, or on a logarithmic scale.</p>
+        <h3>Labels</h3>
+        <p>Click Labels to add a chart title and/or Y-Axis and X-Axis labels.</p>
+        <h3>Color</h3>
+        <p>Click Color to choose the color scheme for the chart.</p>
+        <h3>Export</h3>
+        <p>Allows you to save, print, or copy the chart.</p>
+    </body>
+</html>

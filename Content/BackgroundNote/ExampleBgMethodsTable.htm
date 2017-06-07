@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="124" MadCap:lastWidth="612">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Examples</h1>
+        <p>The table below shows example images and explains which background method is recommended for each. The recommended method is also compared to other methods.</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+            <col style="width: 173px;" />
+            <col style="width: 218px;" />
+            <col />
+            <thead>
+                <tr style="height: 50px;">
+                    <td>
+                        <p class="tableHeading">Example</p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">Recommended Method</p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">Other Methods</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/SaltAndPepper-MedianBg.tif" class="width025pct" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell" style="text-align: left;">
+                            <img src="../Resources/Images/GreenCheck-300dpi-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /></p>
+                        <p class="tableText">Local background methods are appropriate, since only a few, widely spaced shapes need to be quantified. Use <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> to reduce the impact of spurious bright pixels around the shapes (see arrows).</p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/TheLaneAlsoRises.flsnp" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/QuestionMark-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /></p>
+                        <p class="tableText">
+                            <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> may be skewed by outlier bright pixels surrounding the shapes.</p>
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/X-icon-01.png" class="inLineIcon20by20" style="width: 18px;height: 18px;" /> <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> </p>
+                        <p class="tableText">The highly variable background means <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> is not the best choice.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/SegmentBg-example2.tif" class="width025pct" style="width: 162px;height: 158px;" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/GreenCheck-300dpi-icon-01.png" class="inLineIcon20by20" />
+                            <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /></p>
+                        <p class="tableText">The background does not contain spurious bright pixels, so <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> may be used. Be careful that the background border does not overlap a nearby shape (see <MadCap:xref href="Standard Image Studio Background Subtraction.htm" class="hypLinkAndPage"><span style="color: Blue;"><u>Standard Background Subtraction Methods</u></span> on page&#160;1</MadCap:xref> for how to adjust the background border).</p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/TheLaneAlsoRises.flsnp" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/QuestionMark-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /></p>
+                        <p class="tableText">The uniform background means <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> may be employed. However, local methods are preferable, because they sample background directly surrounding shapes.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/IS5.0-UserDefBg-main.tif" style="width: 145px; height: 171px;" class="width025pct" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/GreenCheck-300dpi-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /></p>
+                        <p class="tableText">
+                            <MadCap:snippetText src="../Resources/Snippets/Closely-spaced.flsnp" /> shapes might make it difficult to keep the background border from local background methods from overlapping an adjacent shape. The uniform background means the <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> method can be a solution.</p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/TheLaneAlsoRises.flsnp" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/QuestionMark-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /></p>
+                        <p class="tableText">The background border from local methods could overlap another shape.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/IS5.0_CloseBands_ChooseLaneBG.png" alt="" title="" class="width025pct" />
+                    </td>
+                    <td style="vertical-align: top; padding-left: 2pt;padding-right: 2pt;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/GreenCheck-300dpi-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/Lane_noIS.flsnp" /></p>
+                        <p class="tableText">The <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> method is ideal for subtracting background from many close together shapes in a lane.</p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/QuestionMark-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /></p>
+                        <p class="tableText">The background border from local methods could overlap another shape.</p>
+                        <p class="headInSameCell">
+                            <img src="../Resources/Images/QuestionMark-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /></p>
+                        <p class="tableText">
+                            <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> might not accurately represent background caused by smearing in the lane.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

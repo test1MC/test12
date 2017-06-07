@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="879" MadCap:lastWidth="879">
+    <body>
+        <p>
+            <img src="../Images/IS5.0-EditFileName-insertButton-dialog.png" alt="Image Studio 5.0 use the Insert button to insert values from the Images Table into an exported file name" class="width025pct no-border" />
+        </p>
+        <ol>
+            <li>Click the dropdown menu to the right of the <MadCap:snippetText src="Insert.flsnp" /> button to insert a column value from the <MadCap:snippetText src="ImagesTable.flsnp" />.</li>
+            <li>Click the desired value once to highlight it.</li>
+            <li>Click <MadCap:snippetText src="Insert.flsnp" />.</li>
+            <li>A variable representing the <MadCap:snippetText src="ImagesTable.flsnp" /> value is inserted into the <MadCap:snippetText src="FileNameField.flsnp" /> text field preceded by a <MadCap:snippetText src="Tilde_wSymbol.flsnp" />.</li>
+            <li>How the file name will appear after export is shown in the <MadCap:snippetText src="ExampleFileName_box.flsnp" /> at the bottom of the <MadCap:snippetText src="EditFileName.flsnp" /> dialog.</li>
+            <li>Multiple variables can be added to the file name.</li>
+            <li>To remove unwanted variables in the <MadCap:snippetText src="FileNameField.flsnp" /> box, place the cursor in the text field and manually delete the variable name <u>including</u> the tilde.</li>
+        </ol>
+    </body>
+</html>

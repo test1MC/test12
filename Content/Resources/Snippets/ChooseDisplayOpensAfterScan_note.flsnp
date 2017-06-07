@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>The <MadCap:snippetText src="Choose_Display.flsnp" /> and <MadCap:snippetText src="AdjustDisplay.flsnp" /> dialogs automatically open after a scan for each channel acquired. Click the arrow (<b>&gt;</b>) in the <MadCap:snippetText src="Display_group.flsnp" /> to open the <MadCap:snippetText src="DisplayOptions_dialog.flsnp" /> and remove the check marks to disable this feature.</body>
+</html>

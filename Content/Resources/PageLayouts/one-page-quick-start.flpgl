@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Right" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1.50in" PaddingRight="1.00in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame Flow="header" Anchors="" Right="-0.5in" Bottom="9.25in" X="-1in" Y="-0.75in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="0.5in" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#000000" TextAlign="center" VerticalAlign="bottom" Width="7.5in">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="page-num-top">
+                            <MadCap:conditionalText MadCap:conditions="Default.ddigit_quick_start">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Quick Start Guide</MadCap:conditionalText>
+                            <MadCap:conditionalText MadCap:conditions="TechNoteCond.ddigit-demo-quick-start">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Cleaning and Shipping - Page <MadCap:variable xhtml:name="System.PageNumber" /></MadCap:conditionalText>
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-1in" Y="0in" Right="-0.5in" Bottom="-0.5in" Width="7.5in" Height="9.5in">
+        </Frame>
+    </Page>
+    <Page Name="Copy of Right" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.00in" PaddingRight="1.50in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame Flow="header" Anchors="" Right="-1in" Bottom="9.25in" X="-0.5in" Y="-0.75in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="0.5in" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#000000" TextAlign="center" VerticalAlign="bottom" Width="7.5in">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="page-num-top">
+                            <MadCap:conditionalText MadCap:conditions="Default.ddigit_quick_start">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Quick Start Guide</MadCap:conditionalText>
+                            <MadCap:conditionalText MadCap:conditions="TechNoteCond.ddigit-demo-quick-start">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Cleaning and Shipping - Page <MadCap:variable xhtml:name="System.PageNumber" /></MadCap:conditionalText>
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-0.5in" Y="0in" Right="-1in" Bottom="-0.5in" Width="7.5in" Height="9.5in">
+        </Frame>
+    </Page>
+    <Page Name="First" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-1in" Y="24px" Right="-0.5in" Bottom="-0.5in" Width="7.5in" Height="9.25in">
+        </Frame>
+        <Frame X="-96px" Y="-72px" Width="721px" Height="86px" Flow="header" Right="-49px" Bottom="850px" BackgroundType="Solid" BackgroundColor="#007dc1" BackgroundColorAlt="#007dc1" BackgroundRepeat="no-repeat" BorderTopLeftRadius="7px" BorderTopRightRadius="7px" BorderBottomRightRadius="7px" BorderBottomLeftRadius="7px" Anchors="" PaddingLeft="24pt" PaddingTop="18pt">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="title-front">
+                            <MadCap:conditionalText MadCap:conditions="Default.ddigit_quick_start" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Quick Start</MadCap:conditionalText>
+                            <MadCap:conditionalText MadCap:conditions="TechNoteCond.ddigit-demo-quick-start" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                                <MadCap:snippetText xhtml:src="../Snippets/ddigit.flsnp" /> Cleaning and Shipping Instructions</MadCap:conditionalText>
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="523px" Y="-17px" Width="1.104167in" Height="0.25in" FlowIndex="5" Flow="decoration0" Right="-53px" Bottom="857px" Anchors="" BackgroundRepeat="no-repeat" BackgroundImage="../Images/licor-logo-white.eps" />
+    </Page>
+</PageStyles>

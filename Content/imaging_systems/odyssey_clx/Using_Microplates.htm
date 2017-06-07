@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="832" MadCap:lastWidth="577">
+    <head>&#160;</head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: ">Using Microplates</h1>
+        <p style="margin-bottom: 6pt;">Microplates that meet certain physical characteristics can be scanned directly on the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_CLx_Imager.flsnp" /> scanning surface. Proper selection of microplates significantly affects the results of your analysis as each plate has its own characteristics including well depth, plate autofluorescence, and well-to-well signal crossover. Some general considerations for microplate selection are provided here.</p>
+        <ul>
+            <li>Plate dimensions must be such that the distance from the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_CLx_Imager.flsnp" /> scanning surface to the target detection area of the plate is 4.0 mm or less.</li>
+            <li>In order to avoid well-to-well signal spread, black-walled, clear bottom plates should be used for assays that involve imaging of a liquid. Since the <MadCap:snippetText src="../../Resources/Snippets/InCellWestern_TM.flsnp" /> Assay uses detection at the well surface with no liquid present, both clear and black-walled plates can be used. Consult protocols in the Application Protocols manual or on the <MadCap:snippetText src="../../Resources/Snippets/LI-COR_R.flsnp" /> Bio Technical Resources Library (<MadCap:snippetText src="../../Resources/Snippets/supportSiteLink.flsnp" />) for specific recommendations.</li>
+            <li>Do not use plates with white walls because the autofluorescence from the white surface will create significant noise.</li>
+            <li>For an <MadCap:snippetText src="../../Resources/Snippets/InCellWestern_TM.flsnp" /> Assay requiring sterile plates for tissue culture growth, the following plates are recommended by LI&#8209;COR Biosciences.</li>
+        </ul>
+        <div class="NoNum">
+            <p style="margin-bottom: 2pt;">96-well format	Nunc® (P/N 161093) Clear</p>
+            <p style="margin-bottom: 2pt;">96-well format	Nunc (P/N 165305) Black</p>
+            <p style="margin-bottom: 2pt;">96-well format	Falcon™ (P/N 353075) Clear</p>
+            <p>96-well format	Falcon (P/N 353948) Black</p>
+            <p style="margin-bottom: 2pt;">384-well format	Nunc (P/N 164688) Clear</p>
+            <p style="margin-bottom: 2pt;">384-well format	Nunc (P/N 164730) Black</p>
+            <p style="margin-bottom: 2pt;">384-well format	Falcon (P/N 353961) Clear</p>
+            <p style="margin-bottom: 2pt;">384-well format	Falcon (P/N 353962) Black</p>
+            <p>&#160;</p>
+        </div>
+        <ul>
+            <li>Before plate scanning, clean the bottom plate surface with a moist, lint-free paper to remove any obstructions. Additionally, the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_CLx_Imager.flsnp" /> scanning surface should be thoroughly cleaned using the procedures described earlier in this chapter.</li>
+            <li>Protect plates from light before imaging to ensure highest sensitivity. When storing plates after imaging, protect plates from light at room temperature.</li>
+            <li>A <span class="_Override" style="font-weight: bold;">Focus Offset</span> of 3.0 mm should be entered in the scan parameters when using the plates specified above.</li>
+        </ul>
+        <p>Plates other than those recommended above may require lower or higher focus offsets for optimal resolution and detection. If alternative plates are used, an initial optimization scan will be necessary. Scan a plate containing experimental and control samples at 0.5, 1.0, 2.0, 3.0, and 4.0 mm focus offsets. Use the same intensity settings for each scan. After reviewing the collected scans, use the focus offset with the highest signal-to-noise ratio as the focus offset for experiments with the alternate plates.</p>
+        <ul>
+            <li>Select the Automatic Channel Intensities for a wide dynamic range. If using the Manual Channel Intensities mode, the <span class="_Override" style="font-weight: bold;">Intensity</span> scan parameter for both 700 and 800 nm channels should be set to 5 for initial scanning. If the image signal is saturated or too high, re-scan using a lower intensity setting (i.e. 2.5). Likewise, if the image signal is too low, re-scan using a higher intensity setting (i.e. 7.5).</li>
+            <li>For satisfactory images with minimal scan time, the <span class="_Override" style="font-weight: bold;">Quality</span> scan parameter should be lowest, with <span class="_Override" style="font-weight: bold;">Resolution</span> set to 169 µm. Higher scan quality and resolution may be used, but scan time will increase.</li>
+        </ul>
+    </body>
+</html>

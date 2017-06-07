@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1062" MadCap:lastWidth="1007">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="DownloadTheEmbeddedFirmware_etc.flsnp" /> <MadCap:snippetText src="Pearl_Imager.flsnp" MadCap:conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110,Default.Pearl_Int_134" /><MadCap:snippetText src="C-DiGit_noR_Blot_Scanner.flsnp" MadCap:conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019" /><MadCap:snippetText src="Odyssey_noR_Fc_Imager.flsnp" MadCap:conditions="Default.Fc" /><MadCap:snippetText src="Odyssey_noR_CLx_Imager.flsnp" MadCap:conditions="Default.CLx" />.</p>
+            </li>
+            <li>
+                <p>Reboot the <MadCap:snippetText src="Pearl_Imager.flsnp" MadCap:conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110,Default.Pearl_Int_134" /><MadCap:snippetText src="C-DiGit_noR_Blot_Scanner.flsnp" MadCap:conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019" /><MadCap:snippetText src="Odyssey_noR_Fc_Imager.flsnp" MadCap:conditions="Default.Fc" /><MadCap:snippetText src="Odyssey_noR_CLx_Imager.flsnp" MadCap:conditions="Default.CLx" />.</p>
+            </li>
+            <li>
+                <p>Start <MadCap:snippetText src="Image Studio.flsnp" /> and connect to the instrument.</p>
+                <p class="warning" MadCap:conditions="Default.Pearl_Int_131,Default.Pearl_Int_134,Default.Pearl_Int_127">Wait for <span class="snippet-font">Ready</span> to appear in the instrument status on the <MadCap:snippetText src="Acquire_tab.flsnp" /> before proceeding.</p>
+            </li>
+            <li>
+                <p>Click the <MadCap:snippetText src="Image_Studio_App_button.flsnp" /> <img src="../Images/ImageStudio32.png" class="inLineIcon24by24" />, point to <MadCap:snippetText src="Instrument.flsnp" />, and then click <span class="snippet-font">Update Software</span>.</p>
+                <p>The <MadCap:snippetText src="Update_Inst_Sfw.flsnp" /> dialog will open.</p>
+                <p MadCap:conditions="Default.Fc">
+                    <img class="no-thumb no-border" src="../Images/fc_update_dialog.png" />
+                </p>
+                <p MadCap:conditions="Default.Pearl_Int_1110,Default.Pearl_Int_131,Default.Pearl_Int_127,Default.Pearl_Int_134">
+                    <img src="../Images/Update_Inst_Sfw_dialog.png" class="no-thumb no-border" />
+                </p>
+                <p MadCap:conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019">
+                    <img src="../Images/Update_CDiG_Sfw_dialog.png" class="no-thumb no-border" style="width: 395px;height: 131px;" />
+                </p>
+                <p MadCap:conditions="Default.CLx">
+                    <img class="no-thumb no-border" src="../Images/Update_CLx_Sfw_dialog.png" />
+                </p>
+            </li>
+            <li>
+                <p>Browse to the embedded firmware you downloaded and then click <MadCap:snippetText src="Update.flsnp" />.</p>
+            </li>
+            <li>
+                <p>If you are prompted to confirm the update, check that the file name is correct and then click <MadCap:snippetText src="Yes.flsnp" />.</p>
+            </li>
+            <li>
+                <p>Your instrument will update and then reboot.</p>
+            </li>
+            <li>
+                <p>Once the instrument has rebooted, reconnect to the instrument using <MadCap:snippetText src="Image Studio no TM.flsnp" />.</p>
+            </li>
+        </ol>
+    </body>
+</html>

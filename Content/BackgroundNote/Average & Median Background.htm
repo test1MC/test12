@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="782" MadCap:lastWidth="612">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Average and Median Background Methods</h1>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> background methods will be discussed together, because they are the same except for using an average versus median.</p>
+        <h2>How the Average and Median Methods Calculate Bkgnd and Signal</h2>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" />: The <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> background method computes the average or median intensity of pixels in a border around a shape and subtracts that background from the shape. </p>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Signal.flsnp" />: The signal for each shape is calculated by finding the <MadCap:snippetText src="../Resources/Snippets/Total.flsnp" /> for a shape and subtracting the product of the <MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /> and the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />.</p>
+        <h2>Using Average and Median Background Methods</h2>
+        <div class="dFloRig_12ptPadTopLefBot">
+            <img src="../Resources/Images/ImageStudioCaptureTest-1271996.png" class="width0375pct" />
+            <p class="figure" style="width:2.4in" MadCap:autonum="&lt;b&gt;Figure 1&lt;/b&gt;">. <a name="DiagramOfBorderArea"></a>Diagram of the area around each band used to calculate background. The dialog box at center shows the region used to calculate background can be changed from All Sides (default) to Top/Bottom or Right/Left, and the border width can be adjusted from 1-5 pixels.</p>
+        </div>
+        <p>The area used to compute background is taken from a three pixel border around all sides of the shape by default. However, the border can be changed to the left and right or above and below the shape and the width can be adjusted from 1 - 5 pixels (<MadCap:xref href="#DiagramOfBorderArea" class="XreftoParanum">Figure 1</MadCap:xref>). The border may need to be adjusted to prevent it from overlapping a shape.</p>
+        <p>To change the border width and location:</p>
+        <ol>
+            <li>Ensure the <MadCap:snippetText src="../Resources/Snippets/Analysis tab.flsnp" /> is visible.</li>
+            <li>
+                <p>In the <MadCap:snippetText src="../Resources/Snippets/Background group.flsnp" />, click the <MadCap:snippetText src="../Resources/Snippets/Set_Background_Type.flsnp" /> list <img src="../Resources/Images/SetBackgroundAnalyze.gif" alt="Define Type icon" class="inLineIcon20by20" /> and select <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" />.</p>
+                <p>The <MadCap:snippetText src="../Resources/Snippets/Background.flsnp" /> dialog will open.</p>
+            </li>
+            <li>Change the desired settings.</li>
+            <li>Click <MadCap:snippetText src="../Resources/Snippets/OK.flsnp" />.</li>
+        </ol>
+    </body>
+</html>

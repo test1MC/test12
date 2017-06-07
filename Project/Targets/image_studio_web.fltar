@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Serve to web. Use &quot;image_studio_in_product&quot; target for integration with software"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/LI-COR_Bio.flskn"
+  GenerateWebSafeImages="true"
+  WebSafeFileExtension="png"
+  TOCChunkSize="30000"
+  MasterPage="/Content/MasterPages/LI-COR_Bio.flmsp"
+  Medium="non-print"
+  PreCompileScaledImages="false"
+  DefaultUrl="/Content/Introduction_help.htm"
+  DisableAutoSync="false"
+  MasterToc="/Project/TOCs/Image Studio.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/HelpBio.css"
+  OutputFile="index"
+  InsertMOTW="true"
+  ExcludeUnreferencedContent="true"
+  ConditionTagExpression="include[Default.21CFR11 or Default.CLx or Default.EmbeddedSfw or Default.Fc or Default.Sa or Default.WebHelp] exclude[Default.21CFR11AdminGuide or Default.BackgroundGuide or Default.CDiG_Int_1019 or Default.CDiG_Int_114 or Default.CDiG_Internal or Default.PaperCopy or Default.Pearl_Int_1110 or Default.Pearl_Int_127 or Default.Pearl_Int_131 or Default.Pearl_Internal or Default.SmallAnimal or Default.SysMgmtHelp or TechNoteCond.ICW or TechNoteCond.SmallAnimalImage or TechNoteCond.WesternAndMPXGuide] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="20036,20037,20038,20039,20041,20032,20033,20034,20035,20040"
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  MakeFileLowerCase="false"
+  EnableSitemap="false">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Utility.fldes" />
+  </Destinations>
+</CatapultTarget>

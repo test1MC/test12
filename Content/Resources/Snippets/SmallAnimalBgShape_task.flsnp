@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1054" MadCap:lastWidth="1054">
+    <body>
+        <ol>
+            <li>
+                <p>In the <MadCap:snippetText src="Shapes_group.flsnp" />, click <MadCap:snippetText src="Draw_Ellipse.flsnp" /> <img src="../Images/AddEllipse32.gif" class="inLineIcon24by24" />.</p>
+                <p>
+                    <MadCap:snippetText src="CursorBecomesCrossHair.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Use the <MadCap:snippetText src="cross-hair.flsnp" /> cursor to draw a background shape on the image by clicking and dragging to form the shape.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Best practices for where to place the background shape.</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="BestPlacementSmallAnimalBg.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p class="moreInfo" MadCap:conditions="Default.SmallAnimal">
+                    For best practices on where to place the background shape, see .</p>
+            </li>
+            <li>Once the shape has been drawn and while it is still selected (shown as a dashed line), click <MadCap:snippetText src="Assign_Shape.flsnp" /> <img src="../Images/AssignShape.gif" class="inLineIcon24by24" /> in the <MadCap:snippetText src="Background group.flsnp" />.</li>
+        </ol>
+    </body>
+</html>

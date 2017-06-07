@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[Manuals.cdigit-manual] exclude[Manuals.clx-manual or Manuals.ddigit-manual or Manuals.impulse-manual or Manuals.odyssey-manual or Manuals.pearl-accessories-manual or Manuals.sa-manual or Manuals.trilogy-manual] "
+  MasterToc="/Project/TOCs/C-DiGit.fltoc"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="10001,20041,20036,20037">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Author="LI-COR, Inc."
+    Subject=""
+    Keywords=""
+    Title="C-DiGit" />
+  <PDF
+    InitialMagnification="Fit"
+    PageLayout="OneColumn"
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

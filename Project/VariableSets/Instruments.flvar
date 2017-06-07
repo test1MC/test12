@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Name="MonYearDate" Comment="" Type="DateTime">MMMM yyyy</Variable>
+</CatapultVariableSet>

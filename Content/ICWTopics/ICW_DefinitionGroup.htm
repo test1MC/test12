@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2410" MadCap:lastWidth="651">
+    <head>&#160;</head>
+    <body>
+        <h2>Definition Group</h2>
+        <p>Define the ICW&#160;Analysis with the controls in this group. </p>
+        <p>The first button toggles between <MadCap:snippetText src="../Resources/Snippets/None.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/700_forChannel.flsnp" />, and <MadCap:snippetText src="../Resources/Snippets/800_forChannel.flsnp" />. </p>
+        <p>
+            <img src="../Images/image168.gif" class="width013pct" />
+        </p>
+        <p>Use the first button to select the channel used to normalize the results. The normalization channel often detects the total amount of protein while the other channel detects the protein of interest (e.g., phosphorylated protein). In this example, the amount of phosphorylated protein in the other channel is adjusted by the total amount of protein detected in the normalization channel. This method accounts for variation in protein amount per well, resulting in better data. </p>
+        <h3><a name="Well"></a>Well Types</h3>
+        <p>Click the <MadCap:snippetText src="../Resources/Snippets/Well_Types_button.flsnp" /> to open the <MadCap:snippetText src="../Resources/Snippets/Well_Types_dialog.flsnp" /> and assign each well as either <MadCap:snippetText src="../Resources/Snippets/Sample.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/100_Std.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/Background.flsnp" />, or <MadCap:snippetText src="../Resources/Snippets/None.flsnp" />. </p>
+        <p>
+            <img src="../Resources/Images/IS5.0-ICWWellTypes-dialog.png" alt="Image Studio 5.0 In-Cell Western Well Types dialog" class="width025pct no-border" />
+        </p>
+        <ol>
+            <li>Select the type of well to mark by clicking the name in the Well Legend. </li>
+            <li>Click the well to assign the selected well type to that well. </li>
+            <li>
+                <p>Make multiple well assignments by dragging through the desired wells.</p>
+                <p class="note">
+                    If more than one <MadCap:snippetText src="../Resources/Snippets/Background.flsnp" /> well is designated, all <MadCap:snippetText src="../Resources/Snippets/Background.flsnp" /> wells will be averaged for the ICW calculations. The same is true for <MadCap:snippetText src="../Resources/Snippets/100_Std.flsnp" /> wells. </p>
+            </li>
+        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>ICW calculation explanation...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/ICWCalculations.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Z-Factor Analysis...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/ZFactor_definition.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3>Linked Wells</h3>
+        <p>Click the <MadCap:snippetText src="../Resources/Snippets/Linked_Wells_button.flsnp" /> to open the <MadCap:snippetText src="../Resources/Snippets/Well_Links_dialog.flsnp" />. Select multiple rows or columns containing identical samples to average the response of these samples.</p>
+        <p>
+            <img src="../Resources/Images/IS5.0-ICWWellLinks-dialog.png" alt="Image Studio 5.0 In-Cell Western Analysis Well Links dialog" class="width025pct no-border" />
+        </p>
+        <p> For example, if rows A and B are identically loaded, link the rows and the response from each pair of wells will be averaged.</p>
+        <ol>
+            <li>Drag through the rows to select them. They will be highlighted green. </li>
+            <li>Select <MadCap:snippetText src="../Resources/Snippets/Link_rows.flsnp" />.</li>
+            <li>Click <MadCap:snippetText src="../Resources/Snippets/Create_Links.flsnp" />. The linked rows will be black. </li>
+        </ol>
+        <p>Each individual link (A01-B01, A02-B02, etc.) is listed in the <MadCap:snippetText src="../Resources/Snippets/Existing_Links.flsnp" /> list. The analysis will average the linked wells in the <MadCap:snippetText src="../Resources/Snippets/Existing_Links.flsnp" /> list and the averaged values will be used in ICW calculations rather than individual response values. </p>
+        <p>Individual wells can also be linked. </p>
+        <ol>
+            <li>Click individual wells to select them. Selected wells are highlighted green.</li>
+            <li>Select <MadCap:snippetText src="../Resources/Snippets/Independent_links.flsnp" />, and click <MadCap:snippetText src="../Resources/Snippets/Create_Link.flsnp" />. </li>
+        </ol>
+        <p>To dissolve a link, select the wells and click <MadCap:snippetText src="../Resources/Snippets/Unselect.flsnp" /> to change the well type from linked (green) to unlinked (white). Links can also be dissolved by clicking <MadCap:snippetText src="../Resources/Snippets/Remove_All.flsnp" /> to remove all current row links, or selecting links in the link list and clicking <MadCap:snippetText src="../Resources/Snippets/Remove_Selected.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/Shift_plus_Click.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Ctrl_plus_Click.flsnp" /> are available for multiple selections. </p>
+        <h3>Advanced ICW Definition</h3>
+        <ol>
+            <li>For more options, click the arrow at the 
+ bottom right of the <MadCap:snippetText src="../Resources/Snippets/Definition_group.flsnp" />.</li>
+            <p>
+                <img src="../Images/image164.gif" class="width013pct" />
+            </p>
+            <li>This opens the <MadCap:snippetText src="../Resources/Snippets/Expanded_ICW_Definition_dialog.flsnp" />.</li>
+            <p>
+                <img src="../Resources/Images/IS5.0-ExpandedICWDefinitions-dialog.png" alt="Image Studio 5.0 Expanded ICW Definition dialog" class="width013pct no-border" />
+            </p>
+            <li class="nb">Rows or columns can be analyzed individually. Only the background and 100% Standard well(s) in that row or column will be used in the analysis. </li>
+            <li>Select the channels for the ICW analysis. </li>
+            <li>Select the column to use in the ICW analysis for the response value, such as <MadCap:snippetText src="../Resources/Snippets/Total.flsnp" />. </li>
+        </ol>
+    </body>
+</html>

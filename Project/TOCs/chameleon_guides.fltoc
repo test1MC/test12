@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/ChameleonUsage/TOC.htm"
+    BreakType="chapter"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/ChameleonUsage/Chameleon-Introduction.htm"></TocEntry>
+  <TocEntry
+    Title="Start a Western or MPX™ Western Analysis"
+    Link="/Content/ChameleonUsage/StartWesternAnalysis.htm"></TocEntry>
+  <TocEntry
+    Title="Add Chameleon Protein Ladders"
+    Link="/Content/ChameleonUsage/IS40-EnterChameleonMarkerSizes.htm"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40"
+    StartSection="false">
+    <TocEntry
+      Title="Add Molecular Weight Values (Image Studio Software 4.0)"
+      Link="/Content/ChameleonUsage/AddMarkerWeights.htm"
+      conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40" />
+    <TocEntry
+      Title="Chameleon-MarkerSizesTable"
+      Link="/Content/ChameleonUsage/Chameleon-MarkerSizesTable.htm"
+      conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Add Chameleon Protein Ladders"
+    Link="/Content/ChameleonUsage/IS30-EnterChameleonMarkerSizes.htm"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS30"></TocEntry>
+  <TocEntry
+    Title="Chameleon-MarkerSizesTable"
+    Link="/Content/ChameleonUsage/Chameleon-MarkerSizesTable.htm"
+    conditions="TechNoteCond.ChameleonIS30"
+    StartSection="false" />
+  <TocEntry
+    Title="Size Bands Using Markers"
+    Link="/Content/ChameleonUsage/SizeBandsUsingMarkers-IS40.htm"
+    conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40"></TocEntry>
+  <TocEntry
+    Title="Size Bands Using Markers in Image Studio Software 3.0"
+    Link="/Content/ChameleonUsage/SizeBandsUsingMarkers-IS30.htm"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS30" />
+  <TocEntry
+    Title="Export Size Data - Duo Or Kit"
+    Link="/Content/ChameleonUsage/ExportSizeData-DuoOrKit.htm"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30"
+    ReplaceMergeNode="false"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Export Size Data for Chameleon 700 or 800"
+    Link="/Content/ChameleonUsage/ExportSizeData-700Or800.htm"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30" />
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    PageType="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl"
+    conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40"></TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions-IS30.htm"
+    conditions="TechNoteCond.ChameleonIS30"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="continue"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

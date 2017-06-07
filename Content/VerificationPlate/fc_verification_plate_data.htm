@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1397" MadCap:lastWidth="1023">
+    <head>
+    </head>
+    <body>
+        <h2 MadCap:conditions="TechNoteCond.PaperCopy">Data Analysis</h2>
+        <h1 MadCap:conditions="Default.WebHelp">Analyze <MadCap:snippetText src="../Resources/Snippets/Odyssey_Fc_R_Imager.flsnp" /> <MadCap:snippetText src="../Resources/Snippets/Verification_Plate.flsnp" /> Data (<MadCap:snippetText src="../Resources/Snippets/fc-vplate-pn.flsnp" />)</h1>
+        <p MadCap:conditions="Default.WebHelp">Copy data from <MadCap:snippetText src="../Resources/Snippets/verification_plate_lwr.flsnp" /> (<MadCap:snippetText src="../Resources/Snippets/fc-vplate-pn.flsnp" />) scans into the workbook provided below to quickly calculate 700 and 800 channel coefficients of variation.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="Default.WebHelp">Prepare data and export it from Image Studio.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>On the Analysis tab, ensure Grid is chosen in the Type group.</p>
+                    </li>
+                    <li>
+                        <p>Ensure the following columns are in the Grid Spots table in the order shown.</p>
+                        <p>
+                            <img class="width050pct" src="../Resources/Images/fc_verify_plate_table.tif" />
+                        </p>
+                        <p>Add any missing columns by clicking Columns <img src="../Resources/Images/ColumnsIcon.gif" class="inLineIcon"></img> above and to the right of the tables.</p>
+                    </li>
+                </ol>
+                <h2 class="center pgBrkBfr" MadCap:conditions="TechNoteCond.PaperCopy">Data Analysis <i>(continued)</i></h2>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>If you do not already have a Grid analysis template set up for analyzing verification plate images, set up the following template.</p>
+                        <p>
+                            <img class="width-5" src="../Resources/Images/fc_verification_grid_analysis.tif" />
+                        </p>
+                        <ol>
+                            <li>In the Grid group, set the number of Rows to 11 and the Columns to 13.</li>
+                            <li>
+                    In the Spot group, change the shape to Square.
+                </li>
+                            <li>
+                    Also in the Spot group, click Smaller <img src="../Resources/Images/DownArrow.gif" class="inLineIcon" /> until the Area value shown in the Grid Spots table is 256.
+                </li>
+                            <li>
+                    Adjust the Grid Boundary until it is drawn closely around the two fluorescent regions.
+                <ul><li>The middle three columns of spots should be on the dark background of the plate.</li><li>All other spots should be inside the fluorescent regions.</li></ul></li>
+                        </ol>
+                        <p class="note">You may need to redraw the Grid Boundary to get the boundary and spots placed correctly. Click Redraw Boundary <img src="../Resources/Images/WesternRedraw.gif" class="inLineIcon20by20" /> and then click and drag a new boundary.</p>
+                        <p>
+                            <img class="width-3" src="../Resources/Images/fc_verification_grid_boundary.tif" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Save the Grid Analysis settings as a template.</p>
+                        <ol>
+                            <li>
+                    In the Grid group, click Custom <img src="../Resources/Images/Templates.gif" class="inLineIcon" /> &gt; Save Current Template <img src="../Resources/Images/save_as.gif" class="inLineIcon" />.
+                </li>
+                            <li>
+                    Choose this template from the Template list the next time you need to analyze a verification plate. The settings in the Grid Analysis tab will be applied automatically.
+                </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>Assign background spots.</p>
+                        <ol>
+                            <li>
+                    Click and drag to select the middle three columns of spots.
+                </li>
+                            <li>
+                    On the Grid Analysis tab, select User Defined from the background list.
+                </li>
+                            <li>
+                    Click OK to dismiss the User Defined Background dialog.
+                </li>
+                            <li>
+                    In the background group, click Assign Wells.
+                </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>Export data. Click Report <img src="../Resources/Images/GridExport.gif" class="inLineIcon" /> &gt; Launch Spreadsheet <img src="../Resources/Images/FilterSingleSelectWArrow.gif" class="inLineIcon" /> above and to the right of the tables.</p>
+                    </li>
+                    <li MadCap:conditions="TechNoteCond.PaperCopy">
+                        <p>LI-COR provides an Excel<sup>®</sup> workbook for analyzing <MadCap:snippetText src="../Resources/Snippets/verification_plate_lwr.flsnp" /> data. The workbook and instructions are available at <a href="http://www.licor.com/ovp_fc">licor.com/ovp_fc</a>.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Default.WebHelp">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Download the workbook and analyze data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Ensure the data columns in the spreadsheet you exported from Image Studio are in the following order (as described above).</p>
+                        <p>
+                            <img src="../Resources/Images/fc-verification-plate-spreadsheet.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><a href="#">Download the workbook.</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Copy data from the spreadsheet you exported from Image Studio into the Data sheet of the workbook provided in step 2.</p>
+                        <p class="note">If "No" appears in the Column Name Match section of the Calculations sheet, the wrong columns are included or the columns are in the wrong order.</p>
+                    </li>
+                </ol>
+                <p>The CVs for well-to-well variation will be calculated and displayed in the Results sheet.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="Default.WebHelp">Interpret Results</h2>
+        <p MadCap:conditions="Default.WebHelp">Coefficients of variation are displayed in the Results sheet. The maximum variation for all locations should be less than X% for the 700 and 800 channel. The appropriate tables cells in the Results sheet will be highlighted yellow if CVs exceed X%.</p>
+        <p MadCap:conditions="Default.WebHelp">If you notice greater than X% variability, email <a href="mailto:regulatory@licor.com">regulatory@licor.com</a>.</p>
+        <p style="margin:6pt 0 10pt 0; padding:0; font-size: 6pt; color: #424242;" MadCap:conditions="TechNoteCond.PaperCopy">© <MadCap:variable name="General.year" /> LI-COR, Inc. LI-COR, Image Studio, and Odyssey are trademarks or registered trademarks of LI-COR, Inc. in the United States and other countries. All other trademarks belong to their respective owners. LI-COR is an ISO 9001 registered company.</p>
+        <p style="border-bottom:1px solid #ddd;margin:0; padding:0;" MadCap:conditions="TechNoteCond.PaperCopy">
+        </p>
+        <table style="width: 100%; font-size: 7pt;margin-top: 0;">
+            <col style="width: 125px;" />
+            <col style="width: 80%;" />
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;text-align: center;padding:0 2pt;" MadCap:conditions="TechNoteCond.PaperCopy">
+                        <img src="../Resources/Images/licor-logo-blue-cover.eps" style="width: 109px;height: 21px;" MadCap:conditions="TechNoteCond.PaperCopy" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p style="margin:0;" MadCap:conditions="TechNoteCond.PaperCopy">4647 Superior Street • Lincoln, NE 68504 • United States • Toll free: 800-645-4267 <br />Intl.: +1-402-467-0700 • <a style="color: #0000ff; text-decoration: underline;" href="mailto:regulatory@licor.com">regulatory@licor.com</a></p>
+                        <p style="margin-left:0; margin-top: 0; margin-bottom: 10pt;" MadCap:conditions="TechNoteCond.PaperCopy"><a style="color: #0000ff; text-decoration: underline;" href="http://www.licor.com/bio">www.licor.com/bio</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 7pt; text-align:right;margin-top:0;" MadCap:conditions="TechNoteCond.PaperCopy">Doc# 984-16285<br /><MadCap:variable name="General.mcom-date" /></p>
+    </body>
+</html>

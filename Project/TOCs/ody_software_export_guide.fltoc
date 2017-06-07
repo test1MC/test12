@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/Cover.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Table of Contents.htm"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Introduction.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Image File Types and Scan folders"
+    Link="/Content/ImageFileTypesAndQuality.htm"
+    BreakType="none"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="The JPEG File Type"
+      Link="/Content/TheJPEGFileType.htm"></TocEntry>
+    <TocEntry
+      Title="The TIFF File Type"
+      Link="/Content/TheTIFFFileType.htm">
+      <TocEntry
+        Title="16-bit Tiff Images"
+        Link="/Content/16BitTiffImages.htm"></TocEntry>
+      <TocEntry
+        Title="8-bit Tiff Images"
+        Link="/Content/8BitTiffImages.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="ScanFolders"
+      Link="/Content/ScanFolders.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Opening an Image for Export"
+    Link="/Content/OpeningAnImageForExport.htm" />
+  <TocEntry
+    Title="Exporting Images for Saving and Presenting"
+    Link="/Content/ExportingToShareOrSave.htm">
+    <TocEntry
+      Title="Export Image View"
+      Link="/Content/ExportImageView.htm" />
+    <TocEntry
+      Title="8-bit Gray Scale Tiff"
+      Link="/Content/8-bitGrayScaleTiff.htm" />
+    <TocEntry
+      Title="Colorize Files"
+      Link="/Content/ColorizeTiffFiles.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Exporting Images for Analysis or Technical Support"
+    Link="/Content/ExportingForAnalysisAndSupport.htm" />
+  <TocEntry
+    Title="Exporting Scan Folders For Analysis"
+    Link="/Content/ExportingFolders.htm"></TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

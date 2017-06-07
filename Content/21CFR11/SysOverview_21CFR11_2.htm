@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1574" MadCap:lastWidth="1196">
+    <head>
+    </head>
+    <body>
+        <h2 class="install">System Diagram</h2>
+        <p style="margin-left:0;" MadCap:conditions="Default.21CFR11AdminGuide">
+            <img src="../Resources/Images/21CFR11_SysArch_Diagram_sse.eps" style="width:400pt; height:auto;" />
+        </p>
+        <p MadCap:conditions="Default.WebHelp">
+            <img src="../Resources/Images/21CFR11_SysArch_Diagram_sse.png" title="System Architecture diagram" class="no-thumb" />
+        </p>
+        <h2 class="install">Server Description</h2>
+        <ul>
+            <li>Maintains images</li>
+            <li>Maintains image metadata</li>
+            <li>Maintains analysis data</li>
+            <li>Maintains user access information including passwords</li>
+            <li>Maintains user and sample logs</li>
+            <li>Notifies system manager about alerts</li>
+        </ul>
+        <h2 class="install">System Manager Tool Description</h2>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" /> is run through a browser connected to the server.</p>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" />:</p>
+        <ul>
+            <li>Adds and deactivates user accounts</li>
+            <li>Sets actions and roles</li>
+            <li>Sets user access</li>
+            <li>Sets password requirements and other configurations</li>
+            <li>Sets temporary passwords and resets passwords</li>
+            <li>Reviews user logs</li>
+        </ul>
+        <h2 class="install">Image Studio Client</h2>
+        <p>The client connects to the server for all data access. The server restricts access based on the configuration set in the <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" />.</p>
+        <ul>
+            <li>Used by <MadCap:snippetText src="../Resources/Snippets/Analyst_s.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Supervisor_s.flsnp" /></li>
+            <li>Collects images from the instrument</li>
+            <li>Analyzes images</li>
+            <li>Submit/Approve changes</li>
+        </ul>
+    </body>
+</html>

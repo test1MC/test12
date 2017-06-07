@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1003" MadCap:lastWidth="980">
+    <head>
+    </head>
+    <body>
+        <h1 class="step" MadCap:autonum="Step 1. ">Verify That HKP Is Detectable Within Same Linear Range as Target</h1>
+        <ol>
+            <li>
+                <p>Perform a Western blot with a serial dilution of sample (an 8-12 point, two-fold serial dilution is a good place to start).</p>
+                <p> Use a two-color Western blot protocol (see <a href="https://www.licor.com/bio/applications/quantitative_western_blots/workflows.html">licor.com/WesternWorkflow</a>).</p>
+                <p class="note">The dilution series should include samples with concentrations above and below the concentration you expect to use.</p>
+            </li>
+            <li>
+                <p>Quantify signal from the target and HKP loading control.</p>
+            </li>
+            <li>
+                <p>Export quantification data to a spreadsheet program.</p>
+            </li>
+            <li>
+                <p>Plot protein concentration vs signal for both the target and HKP.</p>
+            </li>
+            <li>
+                <p>Find a linear trendline for the target and HKP loading control that meets your requirements for correlation strength.</p>
+                <p class="note">You will probably need to iteratively exclude high and low points from each trendline until you find a range of data points that produces an appropriate linear range.</p>
+            </li>
+            <li>
+                <p>Determine the median concentration from the combined target and HKP linear range.</p>
+            </li>
+            <li>
+                <p>Based on the median concentration, select a sample concentration for your experiment that will allow your target and HKP to be detected within the same linear range (<MadCap:xref href="#hkp-normalization-trendline" class="figure-x">Figure 1</MadCap:xref>).</p>
+                <ul>
+                    <li>Under many circumstances, the median concentration will be a good place to start.</li>
+                    <li>If you hypothesize that your target will be strongly upregulated or down-regulated, you may need to start with a concentration above or below the median to ensure your target and HKP are within the same linear range for all your samples.</li>
+                </ul>
+				<figure>
+					<img class="no-border width075pct" src="../Resources/Images/normalization_trendline.eps" />
+					<figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><a name="hkp-normalization-trendline"></a>Choose a homogenate concentration that falls in the middle of the combined linear range for target detection and HKP detection.</figcaption>
+				</figure>
+            </li>
+        </ol>
+        <p class="warning">If the median concentration is outside the linear range for the target or HKP, find another HKP or use another normalization method (such as <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" />).</p>
+    </body>
+</html>

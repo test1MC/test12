@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Lock the D-DiGit Gel Scanner"
+    Link="/Content/imaging_systems/ddigit/prepare_ddigit_for_shipping.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/internal-2pg.flpgl" />
+  <TocEntry
+    Title="Packaging Procedure"
+    Link="/Content/imaging_systems/ddigit/demo/packaging_procedure.htm"
+    BreakType="none"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/internal-2pg.flpgl"></TocEntry>
+  <TocEntry
+    Title="Empty Last Page"
+    Link="/Content/empty_topic1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/footer_internal.flpgl" />
+</CatapultToc>

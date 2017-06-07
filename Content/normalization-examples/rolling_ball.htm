@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="647" MadCap:lastWidth="672">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">ImageJ Rolling Ball Background Subtraction</h1>
+        <p>Rolling ball can be applied to an entire image, although this practice is discouraged <MadCap:xref href="../Normalization/references.html#Quantify" class="inline">(<span style="color: #63abdd;" class="mcFormatColor"><u>25</u></span>)</MadCap:xref>.</p>
+        <p>To understand Rolling ball, imagine an image of a Western blot as a 3-dimensional histogram of pixel intensity (<MadCap:xref href="#rolling_ball_vs_blot" class="figure-x">Figure 1</MadCap:xref>). Shapes, areas of high pixel intensity, will be peaks on the histogram.</p>
+        <figure class="center">
+            <img src="../Resources/Images/bio0399_imagejRollingBall1_se01_6w_96.tif" class="width075pct no-border" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><a name="rolling_ball_vs_blot"></a>Pixel intensity histogram of a Western blot. In this schematic, the relationship between pixel intensity on a Western blot and peaks on a 3-dimensional surface plot can be seen.</figcaption>
+        </figure>
+        <p>Rolling ball identifies background in an image by traversing a ball along the bottom surface of the pixel intensity histogram. The highest point where the ball can fit underneath the surface is considered the threshold for background subtraction at that point (<MadCap:xref href="#inverted_world" class="figure-x">Figure 2</MadCap:xref>).</p>
+        <figure>
+            <img src="../Resources/Images/bio0399_imagejRollingBall3_se02.tif" class="width100pct no-border" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 2. &lt;/b&gt;"><a name="inverted_world"></a>Graphic showing a 3-dimensional representation of Rolling ball background subtraction. The plot from <MadCap:xref href="#rolling_ball_vs_blot" class="figure-x">Figure 1</MadCap:xref> has been inverted to display a rolling ball traversing a lane on the underside of the surface.</figcaption>
+        </figure>
+    </body>
+</html>

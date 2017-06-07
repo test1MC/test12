@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1222" MadCap:lastWidth="1222">
+    <body>
+        <ol>
+            <li><p><span class="snippet-font">Lane Center Found for Analysis</span></p><p>The <MadCap:snippetText src="Lane.flsnp" /> background subtraction procedure analyzes the middle 75% of a lane to compensate for variable shape width throughout the lane. The program uses the center lane line to establish the correct area to include in analysis. The lane line is first centered approximately by the user and then  optimally positioned by the software during band-finding (the software will find the exact middle of the lane, do not worry about getting the line exactly positioned).</p></li>
+            <li>
+                <p><span class="snippet-font">Average Pixel Intensity Computed</span></p>
+			<p>Next, a lane profile is created <MadCap:conditionalText MadCap:conditions="Default.WebHelp">(see image below)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide">(see <MadCap:xref href="#LaneBgProfileGraphic" class="XreftoParanum">Figure 1</MadCap:xref>)</MadCap:conditionalText>. The lane profile is the set of average pixel intensities across every row of pixels in the center 75% of the lane.</p>
+                <p>
+                    <img src="../Images/IS5.0-LaneProfileScreenCapt.png" class="width025pct" />
+                </p>
+            </li>
+            <p class="figure" style="margin-left: 13pt;" MadCap:conditions="Default.BackgroundGuide"><a name="LaneBgProfileGraphic"></a>. Representation of the lane profile calculation in <MadCap:snippetText src="Image Studio.flsnp" />. <MadCap:xref href="../../Background/ProfileTabToViewLaneProfile.htm" class="lwrSeeHypLnkAndPage">See <span style="color: Blue;"><u>Using the Profiles Tab to Inspect a Lane Profile</u></span> on page&#160;1</MadCap:xref> for how to display a lane profile.</p>
+            <li style="clear:both;">
+                <p><span class="snippet-font">A Background Curve Is Calculated</span></p>
+				<p>Background is then established by drawing a linear connection between local minima in the <MadCap:snippetText src="IntensityVsLocationGraph.flsnp" />, as long as the slope of the line is below a threshold value. Limiting the slope prevents the possibility of drawing lines through a significant portion of a signal peak. Minima that would create a slope that is too steep are skipped, and the next point that would create a line with a slope below the threshold value is used.</p>
+                <p class="note">
+                    <MadCap:snippetText src="ImageStudioSoftware_noTM.flsnp" /> will not seek local minima in shapes that have been added manually. Manually added shapes are skipped, because they have been designated as important by the user.</p>
+            </li>
+            <div class="dFloRig_12ptPadTopLefBot" MadCap:conditions="Default.BackgroundGuide">
+                <img src="../Images/LaneBckgAvgTopAndBottom-example.tif" class="width050pct" />
+                <p class="figure" style="width: 3in;">. An example <MadCap:snippetText src="Lane_noIS.flsnp" /> background calculation for shape B02 is shown using fictitious numbers.</p>
+            </div>
+            <li>
+                <p><span class="snippet-font">Background Subtracted</span></p>
+                <p>The background curve value at the top and bottom of a shape are averaged to find the background value. The background value is subtracted from the <MadCap:snippetText src="Total.flsnp" /> of the shape to find the <MadCap:snippetText src="Signal.flsnp" /> for the shape.</p>
+                <p MadCap:conditions="Default.WebHelp">
+                    <img src="../Images/LaneBckgAvgTopAndBottom-example.png" class="width025pct" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

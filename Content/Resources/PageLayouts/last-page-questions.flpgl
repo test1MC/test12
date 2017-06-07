@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="left">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.5in" Height="2.479167in" X="-48px" Y="705px" Right="-48px" Bottom="-79px" Anchors="" FlowIndex="2">
+        </Frame>
+        <Frame X="-48px" Y="647px" Width="720px" Height="84px" FlowIndex="1" Flow="body" Right="-48px" Bottom="133px" Anchors="" />
+        <Frame X="-48px" Y="-24px" Width="720px" Height="551px" FlowIndex="1" Flow="body" Right="-48px" Bottom="337px" />
+        <Frame X="-48px" Y="860px" Width="720px" Height="80px" Flow="footer" Right="-48px" Bottom="-76px" VerticalAlign="bottom" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: right;font-size: 9pt;font-family: 'Univers Next Pro Condensed';">
+                            <MadCap:snippetText xhtml:src="../Snippets/FooterDocNoAndDate.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-48px" Y="-72px" Width="7.5in" Height="0.3125in" Flow="header" Anchors="Right" Right="-48px" Bottom="906px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header">Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - <MadCap:snippetText xhtml:src="../Snippets/ExportingOdysseyFiles_cover.flsnp" MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/WesternAndMPXWestern_coverTitle.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/In-CellWesternAssay_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/WorkArea_Title.flsnp" MadCap:conditions="TechNoteCond.WorkArea,TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/IS-SoftwareExportGuide.flsnp" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-40.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Title_Bg_Subtraction_Guide.flsnp" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/SmallAnimals_coverTitle.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="right">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.5in" Height="2.479167in" X="-48px" Y="705px" Right="-48px" Bottom="-79px" Anchors="" FlowIndex="2">
+        </Frame>
+        <Frame X="-48px" Y="647px" Width="720px" Height="84px" FlowIndex="1" Flow="body" Right="-48px" Bottom="133px" Anchors="" />
+        <Frame X="-48px" Y="-24px" Width="720px" Height="551px" FlowIndex="1" Flow="body" Right="-48px" Bottom="337px" />
+        <Frame X="-48px" Y="860px" Width="720px" Height="80px" Flow="footer" Right="-48px" Bottom="-76px" VerticalAlign="bottom" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: right;font-size: 9pt;">
+                            <MadCap:snippetText xhtml:src="../Snippets/FooterDocNoAndDate.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-48px" Y="-72px" Width="7.5in" Height="0.3125in" Flow="header" Anchors="Right" Right="-48px" Bottom="906px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header" xhtml:style="text-align: right;">
+                            <MadCap:snippetText xhtml:src="../Snippets/SmallAnimals_coverTitle.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/IS-SoftwareExportGuide.flsnp" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-40.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/Title_Bg_Subtraction_Guide.flsnp" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WorkArea_Title.flsnp" MadCap:conditions="TechNoteCond.WorkArea,TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/In-CellWesternAssay_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WesternAndMPXWestern_coverTitle.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ExportingOdysseyFiles_cover.flsnp" MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

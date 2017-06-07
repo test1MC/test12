@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="112" MadCap:lastWidth="624">
+    <body>
+        <p class="note">When using the <MadCap:snippetText src="Average.flsnp" /> or <MadCap:snippetText src="Median.flsnp" /> background methods, do not allow the border region designated as background to overlap a feature being quantified or autofluorescence from a plate.</p>
+    </body>
+</html>

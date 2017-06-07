@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="824" MadCap:lastWidth="672">
+    <head>
+    </head>
+    <body>
+        <h1 class="requirement" MadCap:autonum="Requirement 1: ">ILC and Target Must be Detected Within Same Linear Range</h1>
+        <!--<p><strong>Linear range</strong> is the range over which the amount of target on the blot corresponds linearly to detected signal.</p>-->
+        <div class="wrap one">
+            <div>
+                <p>Linear range</p>
+                <p>The span of signal intensities that display a linear relationship between amount of protein on the membrane and signal intensity recorded by the detector.</p>
+            </div>
+        </div>
+        <p>Outside the linear range of sample protein loading, the relationship between the amount of protein and the measured signal is unknown. The measured signal for ILC and target will not vary to the same degree with sample loading, so the Core Normalization principle will not hold. Normalization accuracy could be affected.</p>
+        <p>The following are some factors that can cause signals to fall outside the linear range of the system.</p>
+        <h4>Signal saturation</h4>
+        <p>When signal intensity from a band is too bright for the detector to accurately record, signal saturation occurs. Saturated bands cannot be quantified, because the relationship between the amount of light recorded and the amount of protein in the corresponding band no longer holds.</p>
+        <p>Although saturation can occur on some digital systems, film is particularly prone to signal saturation. Film records signal through the use of silver grains that are activated in response to light. Saturation occurs on film when the finite number of silver grains in a region of the film have all been activated, meaning no more light can be detected.</p>
+        <p>In addition, film becomes progressively less responsive to light as it nears saturation. As more silver grains are activated by photons, it becomes statistically less likely that each new photon will strike a grain that has not already been activated (<MadCap:xref href="references.html#Laskey," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>9</u></span></MadCap:xref>, <MadCap:xref href="references.html#Baskin," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>). Photons that do not activate silver grains will not be recorded as signal.</p>
+        <h4>Low-intensity reciprocity failure</h4>
+        <p>Specific to film, this problem occurs when light is too dim to be recorded. At very low intensities of light, film is less responsive and is disproportionately insensitive. Although this property keeps background low, it also causes faint signals to be underrepresented <MadCap:xref href="references.html#Laskey," class="inline">(<span style="color: #63abdd;" class="mcFormatColor"><u>9</u></span>)</MadCap:xref>.</p>
+        <p>The light-sensitive silver grains in film must be impacted by multiple photons within a given time period, or the grains will revert to the unactivated state and will not be recorded as signal. This means that faint bands may not emit enough signal to be recorded on film, compromising the accuracy of the quantification and normalization.</p>
+        <!--The silver grains in the film that record light must be impacted by a minimum amount of photons before the light will be recorded.
+-->
+        <figure>
+            <img class="no-border width075pct" src="../Resources/Images/linear_range_toe_shoulder.eps" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;">The target protein and ILC must fall within the same linear range for accurate quantification and normalization. The <strong>Toe Region</strong> is characterized by poor detection sensitivity and higher coefficients of variation. Signals may not reflect sample concentration. <strong>Linear Range:</strong> Region where the target and ILC signals are dependent on sample concentration. Signals will accurately reflect biochemistry of samples. <strong>Shoulder Region:</strong> Signal saturation or membrane saturation or both may occur. In the shoulder region, signals do not reflect sample concentration and strong signals are underestimated, compromising quantification accuracy.</figcaption>
+        </figure>
+        <p>You must determine the range of sample loading that produces signals within the linear range of your system. For accurate normalization, work only within that range for sample loading.</p>
+    </body>
+</html>

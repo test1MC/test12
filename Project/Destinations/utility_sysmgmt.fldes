@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="New server for help after support site launch 5/18"
+  Host="52.4.79.188"
+  User="MyAccountId"
+  Password=""
+  Directory="21cfr11mgmt"
+  Port="22"
+  ViewUrl=""
+  Type="sftp"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ChangedOnly="false"
+  RemoveStale="true"></CatapultDestination>

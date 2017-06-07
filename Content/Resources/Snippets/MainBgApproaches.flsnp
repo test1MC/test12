@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="612" MadCap:lastWidth="612">
+    <body>
+        <p style="clear:both;">
+            <MadCap:snippetText src="Image Studio.flsnp" /> provides these background correction methods to accurately calculate background for each of the three scenarios above:</p>
+        <ol>
+            <li style="clear: both;">
+                <MadCap:snippetText src="User-defined.flsnp" />: If background varies little throughout an image, one or more shapes can be placed on the background of the image and assigned to represent background for each shape. For add-on <MadCap:snippetText src="Plate.flsnp" /> or <MadCap:snippetText src="Grid.flsnp" /> analysis types (available with the <MadCap:snippetText src="Grid_Analysis_Key.flsnp" />), wells or spots can be assigned as user-defined background shapes.</li>
+            <li style="clear: both;">
+                <MadCap:snippetText src="Average.flsnp" /> or <MadCap:snippetText src="Median.flsnp" />: If background varies widely between shapes, <MadCap:snippetText src="Average.flsnp" /> or <MadCap:snippetText src="Median.flsnp" /> can be used to subtract background around each shape.</li>
+            <li style="clear: both;">
+                <MadCap:snippetText src="Lane_noIS.flsnp" /> (<MadCap:snippetText src="AvailWithWesternStuff.flsnp" />): The <MadCap:snippetText src="Lane.flsnp" /> method corrects for background in lanes with many close together bands and lanes with smearing between bands.<MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide"> <MadCap:xref href="../../Background/LaneBGOverview.htm" class="lwrSeeHypLnkAndPage">See <span style="color: Blue;"><u>Lane Background Method</u></span> on page&#160;1</MadCap:xref> for more detail about how <MadCap:snippetText src="Lane_noIS.flsnp" /> background works. <MadCap:snippetText src="Lane_noIS.flsnp" /> can be confused with the <MadCap:snippetText src="Rolling_ball.flsnp" /> method from ImageJ, but the two methods are very different (the <MadCap:xref href="../../Background/LaneVsImageJRollingBall.htm" class="hypLinkSectionOnPage"><span style="color: Blue;"><u>Lane Method vs. Rolling Ball from ImageJ</u></span> section on page&#160;1</MadCap:xref> provides a comparison of <MadCap:snippetText src="Rolling_ball.flsnp" /> and <MadCap:snippetText src="Lane_noIS.flsnp" />).</MadCap:conditionalText></li>
+        </ol>
+        <p class="note">Background subtraction in <MadCap:snippetText src="ImageStudioSoftware_noTM.flsnp" /> does not affect the appearance of an image. See the Display Panel topic in the <MadCap:snippetText src="Image Studio.flsnp" /> Help for how to adjust image display.</p>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="822" MadCap:lastWidth="577">
+    <head>
+    </head>
+    <body>
+        <!-- FIXME: Unify this with the Revert Protcol! -->
+        <h1 MadCap:conditions="TechNoteCond.hkp-validation" MadCap:autonum="Chapter 1: ">HKP Quantification (800 nm image)</h1>
+        <p MadCap:conditions="TechNoteCond.hkp-validation">Use the Add Rectangle tool in Image Studio to quantify the HKP bands (800 nm channel). Loading indicator bands will also be analyzed in the 800 nm image.</p>
+        <h1 MadCap:conditions="TechNoteCond.revert-norm-protocol,TechNoteCond.linear-range-of-system" MadCap:autonum="Chapter 2: ">Target Protein Quantification (800 nm image)</h1>
+        <p MadCap:conditions="TechNoteCond.revert-norm-protocol,TechNoteCond.linear-range-of-system">Use the Add Rectangle tool in <MadCap:snippetText src="../Resources/Snippets/Image Studio no TM.flsnp" /> to quantify the target protein band in each lane (800 nm channel).</p>
+        <ol>
+            <li>
+                <p>Add shapes to bands.</p>
+                <!-- FIXME: local formatting -->
+                <ol style="list-style:lower-alpha;">
+                    <li style="border-left:none;">
+                        <p>In the Shape group on the Analysis tab, click Add Rectangle.</p>
+                        <p>
+                            <img src="../Resources/Images/add_rectangle.tif" style="width: 200px;height:auto;" />
+                        </p>
+                    </li>
+                    <li style="border-left:none;">
+                        <p>Click each band to be analyzed, and an appropriately sized shape will be added around the band.</p>
+                        <p class="pad-top20" MadCap:conditions="TechNoteCond.hkp-validation">
+                            <img class="no-border width050pct" src="../Resources/Images/hkp-valid-tubulin-demo.eps" />
+                        </p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/bg-subtract-more-info.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Export the quantification data for your <MadCap:conditionalText MadCap:conditions="TechNoteCond.hkp-validation">HKP and loading indicator</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="TechNoteCond.linear-range-of-system,TechNoteCond.revert-norm-protocol"> target</MadCap:conditionalText>.</p>
+                <ol style="list-style:lower-alpha;">
+                    <li style="border-left:none;">
+                        <p>Click Shapes to open the Shapes data table.</p>
+                        <p>
+                            <img src="../Resources/Images/shapes_table_report.tif" style="width: 275px;height: 30px;" />
+                        </p>
+                    </li>
+                    <li style="border-left:none;">
+                        <p>Select shape data, then copy and paste data into a spreadsheet.</p>
+                        <p class="note">All data fields will be exported, but “Signal” is the field of interest for analysis.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

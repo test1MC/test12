@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="33" MadCap:lastWidth="612">
+    <head>
+    </head>
+    <body>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110">Install Embedded Firmware for the <MadCap:snippetText src="Pearl_R_Imaging_System.flsnp" />s</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

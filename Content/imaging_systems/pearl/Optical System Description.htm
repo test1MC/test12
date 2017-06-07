@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="380" MadCap:lastWidth="576">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: ">Optical System Description</h1>
+        <p>Before image acquisition can be started, the imaging bed is typically locked in place inside the <MadCap:snippetText src="../../Resources/Snippets/Pearl_Imaging_System.flsnp" /> imaging drawer and the imaging drawer must be closed. An interlock prevents operation of the laser illumination modules while the imaging drawer is open. The user can start image acquisition via <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" />, or <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> can be configured to start an acquisition automatically each time the imaging drawer closes.</p>
+        <p>For fluorescent imaging, the <MadCap:snippetText src="../../Resources/Snippets/Pearl_Imaging_System.flsnp" /> has two laser modules that work in tandem to illuminate the imaging bed from opposite angles (<MadCap:xref href="#lasers" class="XreftoParanum">Figure 1&#8209;1</MadCap:xref>). Each laser module contains a 685 nm laser, a 785 nm laser, and an LED source that produces white light. Laser illumination at near-infrared wavelengths results in much deeper tissue penetration than white light (see <MadCap:xref href="Near Infrared Detection Advantages.htm#_bookmark12" class="H1PageRef"><b><i>Near-Infrared Detection Advantages</i></b>on page&#160;1</MadCap:xref>).</p>
+        <p>During image acquisition, similar sources from each laser module are turned on simultaneously, followed by image acquisition by the CCD detector. As each pair of similar sources are turned on and off, the CCD acquires all three images in less than 30 seconds. A single image acquisition consists of images for two fluorescent probes in the 700 and 800 nm channels, plus a white light image (assuming all channels are enabled).</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../../Resources/Images/CCD.png" class="width066pct" />
+                    </td>
+                    <td>
+                        <p class="figure" MadCap:autonum="Figure 1&#8209;1"><a name="lasers"></a>. Each laser module contains a 685 nm laser, a 785 nm laser, and an LED source that produces white light. Matched pairs of sources are sequentially turned on and off, and the CCD detector captures all three images in less than 30 seconds.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="rightHalf">
+            <p class="img">
+                <img src="../../Resources/Images/Dynamic_range.png" class="width050pct" />
+            </p>
+            <p class="figure" MadCap:autonum="Figure 1&#8209;2"><a name="range"></a>. To illustrate the wide dynamic range of the detection system, a series of tubes containing increasing concentrations of IRDye 800CW (0-10 µM) was imaged. Signal represents the total fluorescence for a region of interest minus background fluorescence for the region.</p>
+        </div>
+        <p>The quality of images from the <MadCap:snippetText src="../../Resources/Snippets/Pearl_R_Imaging_System.flsnp" /> is enhanced by a patented filtering system that dramatically reduces noise before detection by the CCD detector. Signal detection has also been optimized for <MadCap:snippetText src="../../Resources/Snippets/LI-COR_R.flsnp" /> <MadCap:snippetText src="../../Resources/Snippets/IRDye_R.flsnp" /> near-infrared dyes, which eliminates the need for filter selection by the user before imaging. The unique imaging methodology used in the Pearl Imager acquires images without saturated or underexposed pixels on the first attempt with no user adjustments.</p>
+        <p>Six logs (22 bits) of dynamic range are available for each image. Images of mice captured with the 800 nm channel have up to 4 logs of usable dynamic range (<MadCap:xref href="#range" class="XreftoParanum">Figure 1&#8209;2</MadCap:xref>). Images of excised tumors or organs can have up to 6 logs of dynamic range.</p>
+    </body>
+</html>

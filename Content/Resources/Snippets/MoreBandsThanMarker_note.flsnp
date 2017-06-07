@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="897" MadCap:lastWidth="897">
+    <body>
+        <p class="note">If you define more sizes 
+ than bands on a membrane, not all sizes in the marker are used. If you define fewer 
+ sizes than there are bands on a membrane, the bottom bands are not part of a standard.</p>
+    </body>
+</html>

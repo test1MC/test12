@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="PaperCopy"
+    BackgroundColor="#52ecf3" />
+  <ConditionTag
+    BackgroundColor="#1a551c"
+    Name="ElectronicPDF"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0f1ac0"
+    Name="RevisionTarget"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8fbc8b"
+    Name="ChameleonUsageNote"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#483d8b"
+    Name="ChameleonIS40"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008080"
+    Name="ChameleonIS30"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#4682b4"
+    Name="ChameleonIS30and40"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#9932cc"
+    Name="ExportGuide"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="Background"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#99ccff"
+    Name="WorkArea"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Survey"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#000066"
+    Name="NrmlLastPage"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ccff99"
+    Name="install-Cdig"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffcc00"
+    Name="install-Sa"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff18"
+    Name="install-Fc"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffccff"
+    Name="install-Pearl"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="install-CLx"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00cc"
+    Name="WesternAndMPXGuide"
+    Comment=""
+    OriginalName="WesternAndMPXGuide" />
+  <ConditionTag
+    BackgroundColor="#6666ff"
+    Name="ICW"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#336600"
+    Name="SmallAnimalImage"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffff00"
+    Name="install-Classic"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff99cc"
+    Name="install-Trilogy"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#a9a9a9"
+    Name="quickStart-Cdig"
+    Comment=""
+    OriginalName="quickStart-Cdig" />
+  <ConditionTag
+    BackgroundColor="#ffff00"
+    Name="quickStart-Classic"
+    Comment=""
+    OriginalName="quickStart-Classic" />
+  <ConditionTag
+    BackgroundColor="#3366cc"
+    Name="quickStart-CLx"
+    Comment=""
+    OriginalName="quickStart-CLx" />
+  <ConditionTag
+    BackgroundColor="#7fff00"
+    Name="quickStart-Fc"
+    Comment=""
+    OriginalName="quickStart-Fc" />
+  <ConditionTag
+    BackgroundColor="#ff69b4"
+    Name="quickStart-Pearl"
+    Comment=""
+    OriginalName="quickStart-Pearl" />
+  <ConditionTag
+    BackgroundColor="#ffcc00"
+    Name="quickStart-Sa"
+    Comment=""
+    OriginalName="quickStart-Sa" />
+  <ConditionTag
+    BackgroundColor="#ffccff"
+    Name="quickStart-Trilogy"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffcc33"
+    Name="WorkArea-IS5"
+    Comment=""
+    OriginalName="WorkArea-IS5" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="21CFR11_admin"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="trilogy_gasket_install"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="linear-range-of-system"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="hkp-validation"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="revert-norm-protocol"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="hkp-normalization"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="pan-protein-norm"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="pub_list"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="ddigit-demo-quick-start"
+    Comment="" />
+</CatapultConditionTagSet>

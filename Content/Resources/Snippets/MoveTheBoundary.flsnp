@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="246" MadCap:lastWidth="612">
+    <body>
+        <ol>
+            <li>Click the <MadCap:conditionalText MadCap:conditions="TechNoteCond.WesternAndMPXGuide">boundary </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="TechNoteCond.ICW"><MadCap:snippetText src="Grid_Border_noSnpFont.flsnp" /> </MadCap:conditionalText>to select it (the sides of the box will become dashed lines)</li>
+            <li>
+                <p>Move the pointer so it is within the boundary box.</p>
+                <p>The pointer will become a <MadCap:snippetText src="four-pointed cursor.flsnp" /> <img src="../Images/FourPointedCuror-icon-01.png" class="inLineIcon" style="width: 26px;height: 26px;" />.</p>
+            </li>
+            <li>Click and drag using the four-pointed cursor to move the <MadCap:snippetText src="boundary_box.flsnp" />.</li>
+            <li>Set the boundary box by clicking anywhere outside the box.</li>
+        </ol>
+        <p>Repeat the procedure until you are satisfied that all the <MadCap:conditionalText MadCap:conditions="TechNoteCond.WesternAndMPXGuide">shapes to be quantified are inside the box</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="TechNoteCond.ICW">wells are inside the box</MadCap:conditionalText>.</p>
+    </body>
+</html>

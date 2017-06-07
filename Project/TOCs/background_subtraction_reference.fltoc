@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/BackgroundNote/Table of Contents.htm"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Background Subtraction"
+    Link="/Content/BackgroundNote/Background on Background.htm"
+    BreakType="chapter"
+    StartSection="true"
+    PageNumberReset="continue"
+    ChapterNumberReset="continue"
+    ChapterNumber=""
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    VolumeNumberReset="continue"
+    VolumeNumber=""
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl">
+    <TocEntry
+      Title="Important Definitions"
+      Link="/Content/BackgroundNote/ImportantDefinitions.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+    <TocEntry
+      Title="Changing the Background Method"
+      Link="/Content/BackgroundNote/RequantifyBackground.htm">
+      <TocEntry
+        Title="How to Change the Background Method"
+        Link="/Content/BackgroundNote/HowToChangeBackgroundMethod.htm" />
+      <TocEntry
+        Title="Background Automatically Recalculated After Method Change"
+        Link="/Content/BackgroundNote/BackgroundAutomaticallyRecalculated.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Trim Background and Trim Signal"
+      Link="/Content/BackgroundNote/ChooseTrimSignal.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Choosing A Background Method"
+    Link="/Content/BackgroundNote/ChoosingAMethod.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    SectionNumber="1">
+    <TocEntry
+      Title="Recommended Methods for Blots and Gels"
+      Link="/Content/BackgroundNote/ChoosingMethodForBlotsAndGels.htm">
+      <TocEntry
+        Title="Standard Methods (Average, Median, and User-Defined)"
+        Link="/Content/BackgroundNote/StandardMethodsForBlotsAndGels.htm" />
+      <TocEntry
+        Title="Lane Background Available with the Western Analysis Key"
+        Link="/Content/BackgroundNote/WesternKeyBlotsAndGels.htm" />
+      <TocEntry
+        Title="Example Images for Background Subtraction"
+        Link="/Content/BackgroundNote/ExampleBgMethodsTable.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Recommended Methods for Analyzing Plates or Grids"
+      Link="/Content/BackgroundNote/ChoosingAddOnBgMethodTable.htm"></TocEntry>
+    <TocEntry
+      Title="When to Use None"
+      Link="/Content/BackgroundNote/ChooseNone.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Standard  Background Subtraction Methods"
+    Link="/Content/BackgroundNote/Standard Image Studio Background Subtraction.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumber="1"
+    SectionNumberReset="reset"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Average and Median Background Methods"
+      Link="/Content/BackgroundNote/Average &amp; Median Background.htm">
+      <TocEntry
+        Title="Preventing the Background Shape from Overlapping Bands"
+        Link="/Content/BackgroundNote/PreventingBgShapeOverlapBand.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="User Defined Background Method"
+      Link="/Content/BackgroundNote/User Defined Background.htm"
+      StartSection="true"
+      SectionNumberReset="reset"
+      SectionNumber="1"
+      PageNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Using the Profiles Tab"
+    Link="/Content/BackgroundNote/ProfilesTabIntro.htm">
+    <TocEntry
+      Title="Displaying Shape or Lane Profiles in the Profiles Tab"
+      Link="/Content/BackgroundNote/OpeningProfilesTab.htm" />
+    <TocEntry
+      Title="Use Profiles Tab To See If Shape Overlaps Multiple Bands"
+      Link="/Content/BackgroundNote/UseProfilesTabToSeeIfShapeOverlapsMultipleBands.htm"></TocEntry>
+    <TocEntry
+      Title="Using the Profiles Tab to Inspect a Lane Profile"
+      Link="/Content/BackgroundNote/ProfileTabToViewLaneProfile.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Background Subtraction In Add-On Analysis Types"
+    Link="/Content/BackgroundNote/BackgroundInAddOnAnalyses.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    SectionNumber="1">
+    <TocEntry
+      Title="Lane Background Method"
+      Link="/Content/BackgroundNote/LaneBGOverview.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Procedure"
+        Link="/Content/BackgroundNote/LaneBGProcedure.htm" />
+      <TocEntry
+        Title="Lane Method vs Rolling Ball from Image J"
+        Link="/Content/BackgroundNote/LaneVsImageJRollingBall.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Plate, Grid, and ICW Background Methods"
+      Link="/Content/BackgroundNote/Plate Background Overview.htm"
+      BreakType="none"
+      StartSection="true"
+      PageNumberReset="continue"
+      SectionNumberReset="reset"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      SectionNumber="1">
+      <TocEntry
+        Title="In-Cell Western™ Background Method"
+        Link="/Content/BackgroundNote/ICW-Background.htm"
+        StartSection="false"
+        SectionNumberReset="reset"
+        SectionNumber="1"
+        PageNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="In-Cell Western Background, Relative, and Percent Response"
+          Link="/Content/BackgroundNote/ICW-Bg-Rel-Res.htm"
+          StartSection="false"
+          SectionNumberReset="reset"
+          SectionNumber="1"
+          PageNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Use Trim Mean for ICW Analysis With Saturated Pixels"
+          Link="/Content/BackgroundNote/TrimMeanICWShortVersion.htm"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Plate Background Method"
+        Link="/Content/BackgroundNote/PlateBackground.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        SectionNumber="1"
+        PageNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Grid Analysis Background Methods"
+        Link="/Content/BackgroundNote/Grid Analysis Background.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        SectionNumber="1"
+        PageNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Plate and Grid Background Methods"
+        Link="/Content/BackgroundNote/Plate Array Background.htm"
+        StartSection="false"
+        SectionNumberReset="continue"
+        SectionNumber="1"
+        PageNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Small Animal and Organ Imaging"
+    Link="/Content/BackgroundNote/Small Animal and Organ Imaging.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    SectionNumber="1">
+    <TocEntry
+      Title="Small Animal Image Background"
+      Link="/Content/BackgroundNote/Small Animal Image Background.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Assigning a Background Shape"
+        Link="/Content/BackgroundNote/AssigningSmallAnimalImageBackground.htm"></TocEntry>
+      <TocEntry
+        Title="Defining the Region to be Quantified"
+        Link="/Content/BackgroundNote/DefiningSmallAnimalRegionOfInterest.htm"></TocEntry>
+      <TocEntry
+        Title="Background and Signal Calculation"
+        Link="/Content/BackgroundNote/SmallAnimalImageSignalAndBackgroundCalculation.htm" />
+      <TocEntry
+        Title="Best Practice for Where to Place the Background Shape"
+        Link="/Content/BackgroundNote/WhereToPlaceBGShapeSmallAnimalImages.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Organ Image Background Subtraction"
+      Link="/Content/BackgroundNote/Organ Image Background Subtraction.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl"
+    conditions="TechNoteCond.NrmlLastPage" />
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-Survey.htm"
+    BreakType="pageLayout"
+    PageType="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl"
+    conditions="TechNoteCond.Survey" />
+</CatapultToc>

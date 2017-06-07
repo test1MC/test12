@@ -1,0 +1,1429 @@
+/*<meta />*/
+
+body
+{
+	margin-left: 0;
+	font-family: 'Univers Next Pro Light';
+}
+
+/* LAYOUT */
+/* Colors purely for testing purposes */
+
+.wrap
+{
+	width: 576px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	mc-hyphenate: never;
+}
+
+.wrap div:first-child
+{
+	/* Needed to keep the first child div from pushing in from the left */
+	margin-left: 0;
+}
+
+.wrap div
+{
+	page-break-inside: avoid;
+	box-sizing: border-box;
+	float: left;
+	width: 32%;
+	/* Without a secondary class, defined below, divs in .wrap will consume one "column width". */
+	margin: 0 0 0 2%;
+}
+
+.wrap div p:first-child
+{
+	color: #fff;
+	text-align: center;
+	background-color: #0083cc;
+	margin: 0 0 5px 5px;
+}
+
+.wrap div p
+{
+	background-color: #e8f0f8;
+	padding: 5px;
+	color: #424242;
+}
+
+.wrap p
+{
+	margin: 5px 0 0 5px;
+}
+
+.wrap + p
+{
+	clear: both;
+}
+
+.one-two div:nth-child(2)
+{
+	/* class="wrap one-two" will cause the second div to consume two column widths */
+	width: 66%;
+}
+
+.two-one div:first-child
+{
+	/* class="wrap two-one" will cause the first div to consume two column widths */
+	width: 66%;
+}
+
+.one div
+{
+	padding: 0;
+	margin-left: 0;
+	width: 100%;
+}
+
+.clearfix::after
+{
+	/* Clearfix is a standard css hack. May be necessary if .wrap has background color */
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: auto;
+	line-height: 0;
+}
+
+.right
+{
+	float: right;
+	clear: left;
+	display: block;
+}
+
+.right025pct
+{
+	float: right;
+	clear: left;
+	display: block;
+	padding-bottom: -5pt;
+	padding-left: 12pt;
+	width: 1.56in;
+}
+
+.right050pct
+{
+	float: right;
+	clear: left;
+	display: block;
+	padding-bottom: -3pt;
+	padding-left: 12pt;
+	width: 3.125in;
+}
+
+.left025pct
+{
+	float: left;
+	clear: right;
+	display: block;
+	padding-bottom: -5pt;
+	padding-right: 12pt;
+	width: 1.56in;
+}
+
+.left050pct
+{
+	float: left;
+	clear: right;
+	display: block;
+	padding-bottom: -3pt;
+	padding-right: 12pt;
+	width: 3.125in;
+}
+
+.pgBrkBfr
+{
+	page-break-before: always;
+}
+
+/* Maybe get rid of pgBrkBfr eventually? */
+/* References */
+
+.reference	/* I don't know what this does or where it is used */
+{
+	page-break-before: always;
+}
+
+.listAside
+{
+	font-size: .9em;
+	margin-left: 4px;
+	font-style: italic;
+	color: #333;
+	border-left: none;
+}
+
+.orange
+{
+	color: #f96d3c;
+}
+
+.refnum
+{
+	font-size: 10pt;
+	margin-top: 10pt;
+	margin-bottom: 0;
+	mc-auto-number-format: '{n+}. ';
+}
+
+.pgBrkAft
+{
+	page-break-after: always;
+}
+
+.noTOC
+{
+	mc-heading-level: 0;
+}
+
+p.Header
+{
+	font-size: 11pt;
+	left: 0;
+	margin-bottom: 0;
+	margin-left: 0in;
+	margin-top: 0;
+}
+
+p.TOC1
+{
+	font-family: 'Univers Next Pro Light';
+	font-size: 10pt;
+	font-weight: bold;
+	color: #002D62;
+	mc-leader-offset: 20pt;
+	mc-auto-number-position: float-left;
+	mc-leader-format: '.';
+	padding-right: 20pt;
+	margin: 8pt 6pt 8pt 25pt;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+p.TOC2
+{
+	color: #002D62;
+	font-size: 10pt;
+	mc-leader-format: '.';
+	mc-leader-offset: 20pt;
+	margin: 6pt 6pt 6pt 44pt;
+	padding-top: 0;
+	padding-right: 20pt;
+	padding-bottom: 0;
+	mc-auto-number-position: none;
+}
+
+p.TOC3
+{
+	color: #002D62;
+	font-size: 10pt;
+	mc-leader-format: '.';
+	mc-leader-offset: 20pt;
+	margin: 3pt 6pt 3pt 56pt;
+	padding-top: 0;
+	padding-right: 20pt;
+	padding-bottom: 0;
+	mc-auto-number-position: float-left;
+}
+
+p.TOC4
+{
+	font-size: 12pt;
+	margin: 0 6pt 6pt 48pt;
+	padding-top: 0;
+	padding-right: 20pt;
+	padding-bottom: 0;
+	mc-heading-level: 0;
+	mc-leader-format: '.';
+	mc-leader-offset: 20pt;
+	mc-auto-number-position: float-left;
+}
+
+p.TOC5
+{
+	font-size: 12pt;
+	mc-heading-level: 0;
+}
+
+p.IndexHeading
+{
+	margin-top: 6pt;
+	margin-bottom: 3pt;
+	text-align: center;
+	font-size: 13pt;
+	font-family: 'Univers Next Pro Medium';
+}
+
+p.Index1
+{
+	font-family: 'Univers Next Pro Condensed';
+	margin-bottom: 0;
+	text-align: left;
+	margin-top: 0;
+	mc-multiline-indent: 11pt;
+}
+
+p.Index2
+{
+	margin-bottom: 0;
+	text-align: left;
+	margin-top: 0pt;
+	margin-left: 11pt;
+	mc-multiline-indent: 0;
+	font-family: 'Univers Next Pro Condensed';
+}
+
+p.Index3
+{
+	margin-bottom: 0;
+	text-align: left;
+	margin-top: 0pt;
+	margin-left: 20pt;
+	font-family: 'Univers Next Pro Condensed';
+}
+
+p.Index4
+{
+	font-family: 'Univers Next Pro Condensed';
+}
+
+MadCap|tocProxy
+{
+	margin-top: 0;
+	margin-bottom: 15pt;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 6pt;
+	border-bottom: solid 1pt #000000;
+}
+
+MadCap|indexProxy
+{
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 0;
+	border-top-color: #ffffff;
+	mc-column-count: 2;
+}
+
+/* Heading Classes */
+
+.requirement
+{
+	font-weight: bold;
+	mc-auto-number-format: 'CH:Requirement {n+}: ';
+	border: none;
+}
+
+.step
+{
+	font-weight: bold;
+	mc-auto-number-format: 'CS:Step {n+}. ';
+}
+
+h1
+{
+	font-size: 17pt;
+	font-weight: bold;
+	color: #007AC9;
+	mc-hyphenate: never;
+	page-break-before: avoid;
+	margin-top: 2em;
+	margin-bottom: 10pt;
+	mc-auto-number-format: 'GH:{R+}. ';
+	clear: both;
+	line-height: .25in;
+}
+
+h2
+{
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: normal;
+	mc-hyphenate: never;
+	color: #002D62;
+	page-break-before: avoid;
+	margin-top: 16pt;
+	margin-right: 0;
+	margin-bottom: 10pt;
+	clear: both;
+	line-height: .25in;
+}
+
+h3
+{
+	font-weight: 500;
+	color: #002f5f;
+	margin: 8pt 0;
+	font-size: 12pt;
+	mc-hyphenate: never;
+	clear: both;
+	line-height: .25in;
+}
+
+h4
+{
+	font-size: 11pt;
+	margin-top: 12pt;
+	font-weight: bold;
+	margin-right: 0pt;
+	margin-left: 0;
+	mc-heading-level: 0;
+	mc-hyphenate: never;
+	margin-bottom: 5pt;
+	clear: both;
+}
+
+h5
+{
+	mc-heading-level: 0;
+	font-size: 11pt;
+	margin-left: 0;
+}
+
+h6
+{
+	mc-heading-level: 0;
+}
+
+/* End Heading Classes */
+/* Paragraph Classes */
+
+p
+{
+	font-family: 'Univers Next Pro';
+	font-size: 11pt;
+	margin: 12pt 8pt 12pt 15pt;
+	mc-hyphenate: never;
+}
+
+p.readingList
+{
+	color: #002D62;
+	font-family: 'Univers Next Pro Light';
+	font-size: 11pt;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+p.readingList + p
+{
+	margin-top: 6pt;
+	font-size: 11pt;
+}
+
+table p
+{
+	font-family: 'Univers Next Pro Light';
+	margin-left: 0;
+}
+
+ol p
+{
+	margin: 4px;
+	color: #000000;
+}
+
+ul p
+{
+	margin-left: 0;
+}
+
+p.title-cover
+{
+	font-size: 36pt;
+	font-weight: bold;
+	color: #0275c8;
+	margin-bottom: 20pt;
+	margin-left: 0;
+}
+
+.page-num-top	/* applied to the title snippet paragraph at the top of each page */
+{
+	font-size: 12pt;
+	text-align: center;
+}
+
+p.plain
+{
+	font-size: 11pt;
+	font-family: 'Univers Next Pro Condensed';
+	margin-left: 0;
+	margin-right: 0;
+}
+
+strong
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+}
+
+p.FloRig_12ptPadTopLefBot
+{
+	float: right;
+	padding: 12pt 0 12pt 12pt;
+}
+
+p.quoteBox
+{
+	background-color: #EAEAEA;
+	padding: 10pt 10pt 3pt 10pt;
+	margin: 10pt 10pt 0 10pt;
+	text-align: center;
+	font-style: italic;
+}
+
+p.citeQuoteBox
+{
+	color: #424242;
+	line-height: 1.4em;
+	font-size: 10pt;
+	border-left: 2px solid #93b1cc;
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+
+p.lilCite
+{
+	font-size: 7.5pt;
+	background-color: #EAEAEA;
+	margin-left: 1.9in;
+	margin-bottom: 0in;
+	padding: 2pt 1pt 0pt 2pt;
+	text-align: right;
+	border-top-left-radius: 4px;
+}
+
+p.lilCiteBottom
+{
+	font-size: 7.5pt;
+	background-color: #EAEAEA;
+	margin-left: 1.9in;
+	margin-top: 0;
+	padding: 0 1pt 2pt 2pt;
+	text-align: right;
+	border-bottom-left-radius: 4px;
+}
+
+/* This class meant for captions in Tables that should NOT be numbered figures */
+
+p.Caption
+{
+	font-size: 10pt;
+	font-style: normal;
+	margin-top: 1pt;
+	display: block;
+	margin-bottom: 10pt;
+	margin-left: 0;
+	page-break-before: avoid;
+	text-align: left;
+}
+
+.CapBull
+{
+	font-size: 9pt;
+	page-break-before: avoid;
+	text-align: left;
+	vertical-align: top;
+	margin-left: -2pt;
+}
+
+.CapBull::before
+{
+	content: '\2022';
+	font-size: 9pt;
+}
+
+/* End Paragraph classes */
+
+sub
+{
+	font-size: .7em;
+	line-height: .9em;
+	vertical-align: text-bottom;
+	padding: 0;
+}
+
+th
+{
+	page-break-inside: avoid;
+}
+
+table
+{
+	margin-top: 8pt;
+	margin-bottom: 5pt;
+	border-spacing: 0;
+	margin-right: 0;
+	mc-caption-repeat: true;
+	mc-caption-continuation: ' (...continued)';
+	page-break-inside: avoid;
+}
+
+caption
+{
+	text-align: left;
+}
+
+MadCap|dropDownHead	/* Should make a decent sthyle for how d downs should appear in print. */
+{
+	font-size: 13pt;
+	margin-left: 36pt;
+	font-weight: bold;
+}
+
+MadCap|dropDownBody
+{
+	margin-left: 12pt;
+}
+
+MadCap|dropDownHotspot
+{
+	font-weight: bold;
+	padding-left: 36pt;
+	font-size: 11pt;
+}
+
+MadCap|xref
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+MadCap|footnotesBlock
+{
+	margin-top: 4pt;
+	padding-top: 4pt;
+	margin-left: -1in;
+	border-top-align: right;
+	border-top-length: 85%;
+}
+
+MadCap|listOfProxy
+{
+	padding-left: 0;
+}
+
+MadCap|equation
+{
+	font-weight: normal;
+	font-size: 11pt;
+	max-width: 5.5in;
+}
+
+.equation
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'CH:{chapnum}-{n+}';
+	margin-left: 0.25in;
+}
+
+.no-border
+{
+	border: none;
+}
+
+.front
+{
+	column-break-before: always;
+	margin: 0 20pt 10pt 0;
+	font-size: 9pt;
+	font-family: 'Univers Next Pro Condensed';
+	line-height: 10pt;
+}
+
+MadCap|footnoteBlock
+{
+	font-size: 8pt;
+	text-indent: -5pt;
+	margin-left: 0;
+	line-height: 10pt;
+}
+
+MadCap|footnote
+{
+	font-size: 8pt;
+	mc-footnote-position: page;
+	mc-footnote-format: '{n}';
+	line-height: 9pt;
+}
+
+MadCap|xref.XreftoParanum
+{
+	color: #000000;
+	mc-format: '{paranum}';
+	text-decoration: none;
+}
+
+MadCap|xref.See_HypLinkTopic
+{
+	mc-format: '{color black}See{/color} {color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.lwrCaseSee_HypLinkTopic
+{
+	mc-format: '{color black}see{/color} {color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.HypLinkTopic
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.ContextSensitive
+{
+	mc-format: '{paranum} {pageref}';
+}
+
+MadCap|xref.TOCPageNumber
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
+MadCap|xref.ParTextParNum
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
+MadCap|xref.lwr_see_partext_parnum
+{
+	color: inherit;
+	mc-format: 'see {quote}{paratext}{quote} {pageref}.';
+}
+
+MadCap|xref.See_partext_parnum
+{
+	color: inherit;
+	mc-format: 'See {quote}{paratext}{quote} {pageref}.';
+}
+
+MadCap|xref.seePageRef
+{
+	mc-format: '(see page {page})';
+}
+
+MadCap|xref.hypLinkAndPage
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color} {pageref}';
+}
+
+MadCap|xref.lwrSeeHypLnkAndPage
+{
+	mc-format: 'See {color blue}{u}{paratext}{/u}{/color} {pageref}';
+}
+
+MadCap|xref.hypLinkSectionOnPage
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color} section {pageref}';
+}
+
+/* Start Image Classes */
+
+img
+{
+	page-break-after: avoid;
+	border: solid 1px #000000;
+	border-radius: 3px;
+}
+
+img.width100pct
+{
+	height: auto;
+	width: 6.25in;
+}
+
+img.width075pct
+{
+	height: auto;
+	width: 4.625in;
+}
+
+img.width050pct
+{
+	height: auto;
+	width: 3.125in;
+}
+
+img.width0375pct
+{
+	height: auto;
+	width: 2.3425in;
+}
+
+img.width025pct
+{
+	height: auto;
+	width: 1.56in;
+}
+
+img.width013pct
+{
+	height: auto;
+	width: 0.75in;
+}
+
+img.inLineIcon
+{
+	height: 34px;
+	width: 34px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+img.inLineIcon24by24
+{
+	height: 24px;
+	width: 24px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+img.inLineIcon20by20
+{
+	height: 20px;
+	width: 20px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+/* End Image Classes */
+
+.pad-top5
+{
+	padding-top: 5px;
+}
+
+.pad-top10
+{
+	padding-top: 10px;
+}
+
+.pad-top15
+{
+	padding-top: 15px;
+}
+
+.pad-top20
+{
+	padding-top: 20px;
+}
+
+.clearboth
+{
+	clear: both;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.note
+{
+	page-break-inside: avoid;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-left: 6px solid #a1a4ae;
+	background-color: #d4d7e1;
+}
+
+.note::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'Note: ';
+	font-weight: bold;
+	border: none;
+}
+
+.moreInfo
+{
+	page-break-inside: avoid;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-left: 6px solid #a0b6c4;
+	background-color: #C8E4F5;
+}
+
+.moreInfo::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'More Info: ';
+	font-weight: bold;
+	border: none;
+}
+
+p.TitlePage2
+{
+	font-size: 24pt;
+	color: #002d62;
+	margin-bottom: 2pt;
+	margin-left: 0;
+	mc-hyphenate: never;
+	text-align: left;
+	line-height: 24pt;
+}
+
+/* Link stuff */
+
+a
+{
+	text-decoration: underline;
+	color: #63abdd;
+}
+
+table a
+{
+	font-size: 11px;
+}
+
+.figure	/* Replace */
+{
+	font-size: 10pt;
+	font-style: normal;
+	display: block;
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	margin-left: 0;
+	page-break-before: avoid;
+	mc-auto-number-format: 'GF:{b}Figure {n+}';
+}
+
+figure
+{
+	/* Started using this in normal hb 7/2016. */
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	margin: 12pt 8pt 12pt 15pt;
+}
+
+figcaption
+{
+	display: block;
+	font-size: 10pt;
+	font-style: normal;
+	margin-left: 0;
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	text-align: left;
+	mc-auto-number-format: 'GF:{b}Figure {n+}. {/b}';
+}
+
+.table
+{
+	display: block;
+	page-break-before: avoid;
+	mc-auto-number-format: 'CT:{b}Table {n+} ';
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	font-style: normal;
+	font-size: 10pt;
+	margin-left: 0;
+}
+
+caption.table
+{
+	font-style: normal;
+	font-family: 'Univers Next Pro Condensed';
+	page-break-after: avoid;
+	mc-auto-number-format: 'CT:{b}Table {chapnum}-{n+}';
+}
+
+td
+{
+	padding-left: 2pt;
+	padding-right: 2pt;
+}
+
+tr
+{
+	page-break-inside: avoid;
+}
+
+/* Beginning Span Classes */
+
+span.SeeIndex
+{
+	font-weight: bold;
+}
+
+span.SeeAlsoIndex
+{
+	font-weight: bold;
+}
+
+span.snippet-font
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+}
+
+span.hyperLink
+{
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+/* End Span Classes */
+/* List Stuff Here */
+
+ol,
+ul
+{
+	font-family: 'Univers Next Pro';
+	margin-left: 18pt;
+	font-size: 11pt;
+}
+
+ul li
+{
+	font-family: 'Univers Next Pro';
+	margin-top: 10pt;
+	margin-left: 13pt;
+	margin-bottom: 10pt;
+	padding-left: 3px;
+	border: none;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+ol ul
+{
+	list-style-type: circle;
+	margin-left: 0;
+}
+
+ol ul li
+{
+	margin-top: 5pt;
+}
+
+ul.no-bull
+{
+	list-style: none;
+}
+
+ul.fvPxTb
+{
+	margin-left: -3px;
+	text-align: left;
+	vertical-align: top;
+}
+
+li.fvPxTb
+{
+	font-size: 9pt;
+	padding-left: 8px;
+	/* Increase to decrease space between bullet and text */
+	text-align: left;
+	margin-left: 0;
+}
+
+li.nb
+{
+	list-style-image: none;
+	list-style-type: none;
+	display: block;
+	page-break-inside: never;
+	margin-left: 0;
+}
+
+li
+{
+	margin-top: 10pt;
+	margin-left: 13pt;
+	margin-bottom: 10pt;
+	padding-left: 3px;
+	border-left: 2px solid #ddd;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+ol > ol
+{
+	margin-left: 12px;
+	border-left: none;
+	padding-left: 0;
+}
+
+ol > ol > li
+{
+	border-left: none;
+	padding-left: 6px;
+	margin-left: 0;
+}
+
+.sub-list-upper-alpha
+{
+	margin-left: 36pt;
+	list-style: upper-alpha;
+}
+
+ol.outline
+{
+	list-style-type: upper-roman;
+}
+
+ol.outline > li
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+	border: none;
+	margin-left: 0;
+}
+
+ol.outline ol
+{
+	list-style-type: upper-alpha;
+}
+
+ol.outline ol ol
+{
+	list-style-type: decimal;
+}
+
+ol.outline ol ol ol
+{
+	list-style-type: lower-alpha;
+}
+
+/* End List Stuff */
+
+p.page
+{
+	font-size: 10pt;
+	font-weight: bold;
+	float: right;
+	margin-right: 15pt;
+	margin-bottom: 4pt;
+}
+
+/* Div classes */
+
+.quoteBox
+{
+	page-break-inside: avoid;
+	color: #424242;
+	line-height: 1.4em;
+	font-size: 10pt;
+	border-left: 2px solid #93b1cc;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 11px;
+}
+
+.quoteBox ol li
+{
+	border: none;
+}
+
+.quoteBox p
+{
+	color: inherit;
+	border: none;
+	padding-left: 10px;
+}
+
+div.13mLeft
+{
+	margin-left: 13pt;
+}
+
+div.dFloRig_8ptPadTopLefBot
+{
+	float: right;
+	padding: 8pt 0 8pt 8pt;
+}
+
+div.dFloLef_8ptPadTopRigBot
+{
+	float: left;
+	padding: 8pt 8pt 8pt 0;
+}
+
+div.dFloRig_12ptPadTopLefBot
+{
+	clear: both;
+	float: right;
+	margin-left: 12pt;
+	padding: 10px 0 10px 10px;
+}
+
+div.dFloLef_12ptPadTopRigBot
+{
+	float: left;
+	padding: 12pt 12pt 12pt 0;
+}
+
+div.dFloLef_12ptPadRigBot
+{
+	float: left;
+	padding: 0 12pt 12pt 0;
+}
+
+/* End div classes */
+/* Background Note */
+
+.tableHeading
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.headingInTable
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+.tableText
+{
+	font-size: 9pt;
+	text-align: left;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.headInSameCell
+{
+	font-size: 10pt;
+	margin-top: 2pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	text-align: left;
+}
+
+/* End Background Note Experimental Classes */
+/* Chameleon Usage Note Experimental Classes */
+
+.element
+{
+	text-align: center;
+}
+
+.rowSubTitle
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+	font-size: 10pt;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.rowSubTitle2
+{
+	margin: 0;
+	padding: 0;
+}
+
+.rowTitle
+{
+	font-size: 12pt;
+	font-family: 'Univers Next Pro Light';
+	margin: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-weight: bold;
+}
+
+img.videoIcon
+{
+	width: 18px;
+	height: 14px;
+	margin-bottom: -1pt;
+}
+
+/* End Chameleon Classes */
+/* Software Guide Classes */
+
+div.surveyBoxTop
+{
+	background-color: #0083cc;
+	margin: 1.5in 0 3pt 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 12pt;
+	color: #ffffff;
+	mc-hyphenate: never;
+}
+
+div.surveyBoxBottom
+{
+	background-color: #e8f0f8;
+	margin: 3pt 0 0 0;
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	font-size: 10pt;
+}
+
+div.surveyBoxLink
+{
+	font-size: 10pt;
+	color: #0000ff;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	text-decoration: underline;
+	background-color: #e8f0f8;
+}
+
+.warning
+{
+	page-break-inside: avoid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-left: 6px solid #e89999;
+	background-color: #FFCCCC;
+	padding: 20px;
+	color: #424242;
+}
+
+.warning::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'Important: ';
+	/* I know, I know. I wanted a warning style that doesn't say "warning", bc/that's alarmist */
+	font-weight: bold;
+}
+
+/* End Experimental Software Guide Classes */
+/* Admin Guide */
+
+.title-front	/* white title in deco frame */
+{
+	font-size: 20pt;
+	color: white;
+	text-align: left;
+	padding-left: 12px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	line-height: 1.2em;
+}
+
+.mainPoint
+{
+	font-style: italic;
+	background-repeat: no-repeat;
+	padding: 12px;
+}
+
+.gen-guide-cover__footer {
+	padding: 0;
+	margin: 0 0 12pt 0;
+}
+
+code
+{
+	font-size: .9 em;
+	font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+	padding: 2px 4px;
+	color: #222;
+	background-color: #ecf0f3;
+}
+
+.code
+{
+	font-size: .9em;
+	font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+	padding: 2px 4px;
+	color: #222;
+	background-color: #ecf0f3;
+}
+
+/* End Admin Guide */
+/* Mathml */
+
+MadCap|equation
+{
+	max-width: 5in;
+}
+
+MadCap|equation.inline
+{
+	mc-auto-number-class: none;
+	font-size: 0.9em;
+	vertical-align: top;
+}
+
+p.equation\
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'GE:{n+}';
+	margin-left: 1.25in;
+}
+
+p.equation0
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'GE:{n+}';
+	margin-left: 0in;
+}
+
+ol.numberedParentheses
+{
+	list-style-type: decimal;
+}
+
+ol.numberedParentheses > li::marker
+{
+	content: counter(numberedParentheses) ')';
+}
+
+MadCap|xref.inline
+{
+	color: inherit;
+	letter-spacing: 1px;
+	mc-format: '({color #63abdd}{u}{paranumonly}{/u}{/color})';
+	/* mc-format: '{color #63abdd}{sup}{u}{paranumonly}{/u}{/sup}{/color}'; */
+}
+
+MadCap|xref.inline_no_paren
+{
+	mc-format: '{color #63abdd}{u}{paranumonly}{/u}{/color}';
+}
+
+MadCap|xref.See_autonum_txt
+{
+	mc-format: 'See {quote}{paranumonly}{quote} on page {page}.';
+}
+
+MadCap|xref.step_no
+{
+	mc-format: 'step {paranumonly}';
+}
+
+MadCap|xref.figure-x
+{
+	mc-format: '{paranumonly}';
+}
+
+MadCap|xref.inline_sup
+{
+	mc-format: '{color #63abdd}{sup}{paranumonly}{/sup}{/color}';
+}
+
+MadCap|xref.inline_sup_list
+{
+	mc-format: '{color #63abdd}{sup}{paranumonly}{/sup}{/color}';
+}
+
+MadCap|xref.page_num
+{
+	mc-format: '{page}';
+}
+

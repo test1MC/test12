@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="684" MadCap:lastWidth="576">
+    <body>
+        <p>To export and share a log file with Technical Support:</p>
+        <ol class="paren">
+            <li>Click the <MadCap:snippetText src="ImageStudioAppButton.flsnp" />, point to <MadCap:snippetText src="Logs.flsnp" />, and then click <MadCap:snippetText src="Export.flsnp" />.</li>
+            <li class="NoNum" MadCap:conditions="Manuals.Odyssey_CLx">
+                <img src="../Images/CLx_LogExport_menu.tif" class="width050pct" MadCap:conditions="Manuals.clx-manual" />
+            </li>
+            <li class="NoNum" MadCap:conditions="Manuals.Odyssey_Fc">
+                <img src="../Images/Fc_LogExport_menu.tif" class="width050pct" MadCap:conditions="Manuals.odyssey-manual" />
+            </li>
+            <li class="NoNum" MadCap:conditions="Manuals.Odyssey_Sa">
+                <img src="../Images/Sa_ExportLogs_menu.tif" class="width050pct" MadCap:conditions="Manuals.sa-manual" />
+            </li>
+            <li class="NoNum" MadCap:conditions="Manuals.C-DiGit">
+                <img src="../Images/CDiGit_ExportLogs_menu.tif" class="width050pct" MadCap:conditions="Manuals.cdigit-manual" />
+            </li>
+            <li class="NoNum" MadCap:conditions="Manuals.impulse-manual,Manuals.trilogy-manual">
+                <img src="../Images/Pearl_ExportLogs_menu.tif" class="width050pct" MadCap:conditions="Manuals.impulse-manual,Manuals.trilogy-manual" />
+            </li>
+            <li class="NoNum">The <MadCap:snippetText src="ZipAppLogFiles.flsnp" /> dialog will open.</li>
+            <li>In the <MadCap:snippetText src="ZipAppLogFiles.flsnp" /> dialog, keep <MadCap:snippetText src="AllLogFiles.flsnp" /> selected (unless you need to save a smaller file due to email restrictions), and choose where to save the file.</li>
+            <li>Save the log file and email it to the address recommended by Technical Support.</li>
+        </ol>
+    </body>
+</html>

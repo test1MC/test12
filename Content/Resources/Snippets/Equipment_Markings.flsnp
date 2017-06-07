@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="144" MadCap:lastWidth="576">
+    <body>
+        <h1 class="front" MadCap:autonum="">Equipment Markings:</h1>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Images/Warn1.eps" />
+                    </td>
+                    <td>
+                        <p>The product is marked with this symbol when it is necessary for you to refer to the manual or accompanying documents in order to protect against damage to the product.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Images/Warn2.eps" />
+                    </td>
+                    <td>
+                        <p>The product is marked with this symbol when a hazardous voltage may be present.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

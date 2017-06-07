@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To enter values for user-editable columns in the <MadCap:snippetText src="ImagesTable.flsnp" />:</p>
+        <ol>
+            <li>
+                <p>Click <MadCap:snippetText src="Image_Table_Info.flsnp" /><![CDATA[ ]]><img src="../Images/ImageInformation.gif" alt="Image Table Info button" class="inLineIcon" /> in the <MadCap:snippetText src="Setup_group.flsnp" />.</p>
+                <p>The <MadCap:snippetText src="Image_Table_Information_dialog.flsnp" /> will open.</p>
+                <p>
+                    <img src="../Images/ImageTableInformation-dialog.png" alt="Image Table Information dialog" class="width013pct no-border" />
+                </p>
+            </li>
+            <li>In the <MadCap:snippetText src="Image_Table_Information_dialog.flsnp" />, enter values in any available field.</li>
+            <li>Click <MadCap:snippetText src="OK.flsnp" />. The values you entered will be saved to the <MadCap:snippetText src="ImagesTable.flsnp" /> for the acquisition.</li>
+        </ol>
+    </body>
+</html>

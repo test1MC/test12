@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/WesternAndMPX/TOC.htm"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Small Animal Image In-Cell Western Western and MPX Western Analysis Workflow"
+    Link="/Content/GenAnalysisGuideTopics/AnalysisWorkflow_concept.htm"
+    StartSection="false" />
+  <TocEntry
+    Title="Import the Western Small Animal In-Cell Western Analysis Key"
+    Link="/Content/GenAnalysisGuideTopics/ImportAKey_concept.htm">
+    <TocEntry
+      Title="ImportAKey_task"
+      Link="/Content/GenAnalysisGuideTopics/ImportAKey_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Import Example Images"
+    Link="/Content/GenAnalysisGuideTopics/ImportForTutorial.htm"></TocEntry>
+  <TocEntry
+    Title="Western or MPX Western Analysis"
+    Link="/Content/GenAnalysisGuideTopics/ApplyAnalysis.htm"></TocEntry>
+  <TocEntry
+    Title="Set the Background Shape"
+    Link="/Content/SmallAnimals/SetBgShape_concept.htm">
+    <TocEntry
+      Title="SetBgShape_task"
+      Link="/Content/SmallAnimals/SetBgShape_task.htm" />
+    <TocEntry
+      Title="Best Practice for Where to Place the Background Shape"
+      Link="/Content/BackgroundNote/WhereToPlaceBGShapeSmallAnimalImages.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Define the Region of Interest Using the Auto Shape Tool"
+    Link="/Content/SmallAnimals/DefineROI_concept.htm">
+    <TocEntry
+      Title="DefineROI_task"
+      Link="/Content/SmallAnimals/DefineROI_task.htm"></TocEntry>
+    <TocEntry
+      Title="Adjust the Region of Interest"
+      Link="/Content/SmallAnimals/AdjustROI_concept.htm" />
+    <TocEntry
+      Title="Adjust the Region of Interest"
+      Link="/Content/SmallAnimals/AdjustROI_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Review Data"
+    Link="/Content/Western/ReviewTableData_concept.htm">
+    <TocEntry
+      Title="TableMgmt_task"
+      Link="/Content/GenAnalysisGuideTopics/TableMgmt_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Export Data"
+    Link="/Content/GenAnalysisGuideTopics/Export_concept.htm">
+    <TocEntry
+      Title="Export_task"
+      Link="/Content/GenAnalysisGuideTopics/Export_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    PageType="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

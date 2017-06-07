@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1452" MadCap:lastWidth="1022">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Analyze <MadCap:conditionalText MadCap:conditions="Default.WebHelp">Odyssey Sa Verification Plate </MadCap:conditionalText>Data<MadCap:conditionalText MadCap:conditions="Default.WebHelp"> (<MadCap:snippetText src="../Resources/Snippets/vplate_pn.flsnp" />)</MadCap:conditionalText></h1>
+        <p MadCap:conditions="Default.WebHelp">Copy data from verification plate (<MadCap:snippetText src="../Resources/Snippets/vplate_pn.flsnp" />) scans into the workbook provided below to quickly calculate 700 and 800 channel coefficients of variation (CV).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="Default.WebHelp">Prepare data and export it from Image Studio</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Resources/Snippets/vplate_dataanlys_step1.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Ensure all the following columns are in the Plate Wells table in the order shown.</p>
+                        <p>
+                            <img src="../Resources/Images/sa_verify_plate_table.tif" style="width: 443px;height: 45px;" />
+                        </p>
+                        <p>Add missing columns using the procedure appropriate for your version of Image Studio.</p>
+                        <p><strong>Image Studio 4.x or 5.x:</strong> Click Columns <img src="../Resources/Images/ColumnsIcon.gif" class="inLineIcon" /> above and to the right of the tables.</p>
+                        <p><strong>Image Studio 3.x or earlier:</strong> On the Table tab, click Add/Remove Columns.</p>
+                    </li>
+                    <li>
+                        <p>On the Plate Analysis tab, ensure the following are set up correctly.</p>
+                        <p>
+                            <img src="../Resources/Images/plate_analysis_presets.tif" style="width: 189px;height: 64px;" />
+                        </p>
+                        <p><strong>Plate group:</strong> Choose the 96-Well Plate preset.</p>
+                        <p><strong>Well group:</strong> Click Larger/Smaller until the Area (in the Area column of the Plate Wells table) is 4765.</p>
+                    </li>
+                    <li>
+                        <p>Assign background wells.</p>
+                        <p>a. Click and drag to select the background wells (column 6).</p>
+                        <p>b. On the Plate Analysis tab, select User Defined from the Background list.</p>
+                        <p>c. Click OK to dismiss the User Defined Background dialog.</p>
+                        <p>d. In the Background group, click Assign Wells.</p>
+                    </li>
+                    <li>
+                        <p>Select images and choose data to export.</p>
+                        <p>a. In the Images table, select the images to be analyzed. Click Filter  &gt; Selection.</p>
+                        <p>b. In the Plate Wells table, clear the Display Current filter. Click Filter &gt; Display Current.</p>
+                    </li>
+                    <li>
+                        <p>Export Data.</p>
+                        <p><strong>Image Studio 4.x or 5.x:</strong> Click Report <img src="../Resources/Images/GridExport.gif" class="inLineIcon20by20" /> &gt; Launch Spreadsheet <img src="../Resources/Images/FilterSingleSelectWArrow.gif" class="inLineIcon20by20" /> above and to the right of the tables.</p>
+                        <p><strong>Image Studio 3.x or earlier:</strong> On the Table tab, click Launch Spreadsheet.</p>
+                    </li>
+                    <li MadCap:conditions="Default.PaperCopy">
+                        <p>LI-COR provides an Excel<sup>®</sup> workbook for analyzing <MadCap:snippetText src="../Resources/Snippets/verification_plate_lwr.flsnp" /> data. The workbook and instructions are available at <a href="www.licor.com/ovp_sa">www.licor.com/ovp_sa</a>.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Default.WebHelp">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Download the workbook and analyze data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Ensure the data columns in the spreadsheet you exported from Image Studio are in the following order (as described above).</p>
+                        <p>
+                            <img src="../Resources/Images/plate_wells_workbook.png" class="no-thumb" style="width: 755px;height: 36px;" />
+                        </p>
+                    </li>
+                    <li><a target="_blank" href="https://www.licor.com/documents/737rtc4gt0o03ujtplqbykq4eij2m92v" title="Download the verification plate analysis workbook">Download the workbook</a>.</li>
+                    <li>
+                        <p>Copy data from the spreadsheet you exported from Image Studio into the <span class="snippet-font">Data</span> sheet of the workbook provided in step 2.</p>
+                        <p class="note">If "No" appears in the <span class="snippet-font">Column Name Match</span> section of the <span class="snippet-font">Calculations</span> sheet, the wrong columns are included or the columns are in the wrong order.
+                        </p>
+                    </li>
+                </ol>
+                <p>The CVs for well-to-well variation will be calculated and displayed in the <span class="snippet-font">Results</span> sheet.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="Default.WebHelp">Interpret the Results</h2>
+        <p MadCap:conditions="Default.WebHelp">Coefficients of variation are displayed in the <span class="snippet-font">Results</span> sheet. The maximum variation for all locations should be  <u>less than 6%</u> for the 700 and 800 channel. The appropriate table cells in the <span class="snippet-font">Results</span> sheet will be highlight yellow if CVs exceed 6%.</p>
+        <p MadCap:conditions="Default.WebHelp">If you notice greater than 6% variability, email <a href="mailto:regulatory@licor.com">regulatory@licor.com</a>.</p>
+        <p style="margin:100px 0 10px 0; padding:0; font-size: 7pt; color: #424242;" MadCap:conditions="TechNoteCond.PaperCopy,Default.PaperCopy">© <MadCap:variable name="General.year" /> LI-COR, Inc. LI-COR, Image Studio, and Odyssey are trademarks or registered trademarks of LI-COR, Inc. in the United States and other countries. All other trademarks belong to their respective owners. LI-COR is an ISO 9001 registered company.</p>
+        <p style="border-bottom:1px solid #ddd;margin:0; padding:0;" MadCap:conditions="TechNoteCond.PaperCopy,Default.PaperCopy">
+        </p>
+        <table style="width: 100%; font-size: 7pt;margin-top: 3px;">
+            <col style="width: 125px;" MadCap:conditions="TechNoteCond.PaperCopy,Default.PaperCopy" />
+            <col style="width: 80%;" MadCap:conditions="TechNoteCond.PaperCopy,Default.PaperCopy" />
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;text-align: center;padding:0 2pt;">
+                        <img src="../Resources/Images/licor-logo-blue-cover.eps" style="width: 109px;height: 21px;" />
+                    </td>
+                    <td style="vertical-align: top;">
+                        <p style="margin:0;">4647 Superior Street • Lincoln, NE 68504 • United States • Toll free: 800-645-4267 <br />Intl.: +1-402-467-0700 • <a style="color: #0000ff; text-decoration: underline;" href="mailto:regulatory@licor.com">regulatory@licor.com</a></p>
+                        <p style="margin-left:0; margin-top: 0; margin-bottom: 10pt;"><a style="color: #0000ff; text-decoration: underline;" href="http://www.licor.com/bio">www.licor.com/bio</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 6pt; text-align:right;" MadCap:conditions="TechNoteCond.PaperCopy,Default.PaperCopy">Doc# 984-16005<br /><MadCap:variable name="General.mcom-date" /></p>
+    </body>
+</html>

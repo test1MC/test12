@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="642" MadCap:lastWidth="525">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Image Studio Lane Background (Western Analysis Key)</h1>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> background method, <MadCap:snippetText src="../Resources/Snippets/AvailWithWesternStuff.flsnp" />, subtracts background from shapes in a lane based on a profile of pixel intensity throughout the lane. The table below provides a basic overview of the <MadCap:snippetText src="../Resources/Snippets/Lane_noIS.flsnp" /> method (see <MadCap:xref href="LaneBGOverview.htm" class="hypLinkAndPage"><span style="color: Blue;"><u>Lane Background Method</u></span> on page&#160;1</MadCap:xref> for further details about how <MadCap:snippetText src="../Resources/Snippets/Lane_noIS.flsnp" /> background works).</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+            <col style="width: 95px;" class="TableStyle-Basic-Column-Column1" />
+            <col style="width: 141px;" class="TableStyle-Basic-Column-Column1" />
+            <col style="width: 181px;" class="TableStyle-Basic-Column-Column1" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr style="height: 49px;" class="TableStyle-Basic-Head-Header1">
+                    <td colspan="4" class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p class="headingInTable">Background Options for Analyzing Blots and Gels<br />(requires the Western Analysis Key)</p>
+                    </td>
+                </tr>
+                <tr style="height: 49px;" class="TableStyle-Basic-Head-Header1">
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Method</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Best Use Cases</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Method Comparison</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p class="tableHeading">Background Calculation</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <MadCap:snippetText src="../Resources/Snippets/Lane_noIS.flsnp" />
+                    </td>
+                    <td class="TableStyle-Basic-BodyB-Column1-Body1" style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb" style="text-align: left;">When <MadCap:snippetText src="../Resources/Snippets/Western_App.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/MPX_TM_Western_App.flsnp" />, or <MadCap:snippetText src="../Resources/Snippets/DNAGel_App.flsnp" /> applications are in use</li>
+                            <li class="fvPxTb">If there are many shapes and the shapes are close together</li>
+                            <li class="fvPxTb">In lanes with smearing between bands</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Could be better than local methods in cases where background shapes from local methods might overlap other shapes or there is smearing in a lane</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Background is calculated by drawing a linear connection between areas of minimum brightness between shapes in a lane and subtracting the noise beneath these lines</li>
+                        </ul>
+                        <p style="text-align: center;">
+                            <img src="../Resources/Images/LaneBg-forTable.tif" alt="" title="" class="width025pct" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

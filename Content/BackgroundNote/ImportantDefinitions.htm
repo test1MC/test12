@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="646" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <h1 style="page-break-before: always;" MadCap:autonum="I. ">Important Definitions</h1>
+        <p>The following definitions for <MadCap:snippetText src="../Resources/Snippets/Image Studio.flsnp" /> terminology are referenced in this document:</p>
+        <ul>
+            <li><b><MadCap:snippetText src="../Resources/Snippets/Area.flsnp" /><span class="snippet-font">:</span></b> Total number of pixels enclosed by a shape.</li>
+            <li><b><MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /><span class="snippet-font">:</span></b> Value designated for background subtraction. In most cases, this is the average or median pixel intensity of pixels in the region chosen as background. Lane background uses a different value.</li>
+            <li><span class="snippet-font">Pixel Intensity:</span> Number representing the brightness level of a pixel. Although the overall brightness of an image can be adjusted, the relationship between individual pixel intensities remains the same. A region of interest is comprised of an area with a high average pixel intensity.</li>
+            <li><b><MadCap:snippetText src="../Resources/Snippets/Signal.flsnp" />:</b> Sum of the pixel intensity values (<MadCap:snippetText src="../Resources/Snippets/Total.flsnp" />) for a shape minus the product of the <MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /> and the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/Signal.flsnp" /> = <MadCap:snippetText src="../Resources/Snippets/Total.flsnp" /> - (<MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /> x <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />). The <MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /> is multiplied by the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" /> to correct the <MadCap:snippetText src="../Resources/Snippets/Bkgnd.flsnp" /> value for the size of the shape being quantified, so the size of the shape does not need to be the same for each feature in an image.</li>
+            <li><b><MadCap:snippetText src="../Resources/Snippets/Total.flsnp" />:</b> Sum of the individual pixel intensities in an enclosed shape.</li>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/TrimBkgnd.flsnp" />
+            </li>
+            <li><span class="snippet-font">Trim Mean:</span> Sum of individual pixel intensities enclosed by a shape divided by the total number of pixels in the shape with the highest 5% and lowest 5% of pixels discarded.</li>
+            <li><b><MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" />:</b>  The quantity of the difference between the mean pixel intensity values in a shape (<MadCap:snippetText src="../Resources/Snippets/Trim_Mean.flsnp" />) and the <MadCap:snippetText src="../Resources/Snippets/Trim Bkgnd.flsnp" /> multiplied by the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />.  <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> = (<MadCap:snippetText src="../Resources/Snippets/Trim_Mean.flsnp" />- <MadCap:snippetText src="../Resources/Snippets/Trim Bkgnd.flsnp" />) x <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />. The pixel count from the highest 5% of pixels and the lowest 5% of pixels is subtracted from the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" />.</li>
+        </ul>
+    </body>
+</html>

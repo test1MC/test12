@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="33" MadCap:lastWidth="624">
+    <body><span class="snippet-font">Trim Bkgnd:</span> The average intensity of pixels defined as background with the highest 5% and lowest 5% of pixels discarded.</body>
+</html>

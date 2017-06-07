@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="830" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: ">Troubleshooting –Hardware Problems</h1>
+        <h2>System Requirements</h2>
+        <p>The C&#8209;DiGit Blot Scanner and Image Studio will run on Windows 7, 8 and 8.1, or on Mac OS 10.9 or 10.10.</p>
+        <h2>Cannot Connect to C&#8209;DiGit Blot Scanner</h2>
+        <ol class="paren">
+            <li>Install the <MadCap:snippetText src="../Resources/Snippets/Image Studio no TM.flsnp" /> before you try to connect the USB or Ethernet cable to the C&#8209;DiGit Blot Scanner.</li>
+            <li>If the Image Studio software does not automatically connect to the C&#8209;DiGit Blot Scanner, manually connect by clicking the Image Studio Application button, and choose Instrument-&gt;Connect.</li>
+        </ol>
+        <p><a name="_bookmark60"></a>In the event that the C&#8209;DiGit Blot Scanner is unable to connect to a computer, your IT department may need to make specific configurations active on the computer for communication to occur.</p>
+        <p>The C&#8209;DiGit Blot Scanner requires a network based connection between the instrument and the computer. The C&#8209;DiGit Blot Scanner uses IPv4 and IPv6 Link-</p>
+        <p>Local Addressing to automatically create an IP network without any user configuration or additional servers. For this addressing to occur properly, the following settings must be configured:</p>
+        <ol class="paren">
+            <li>Port 50000 must be open (Windows 7, 8, and 8.1).</li>
+            <li class="no_num">Communication port 50000 is utilized as the default port for the UPnP (Universal Plug and Play) protocol. This service is noted to hold this network port consistently open, listening for devices that support the technology. This port simplifies intelligent device connection to network environments. The network port 50000 makes it possible for devices physically connected to a single machine to be shared with other clients under the same network.</li>
+            <li>Port 5353 needs to be left open. This is required for Bonjour, mDNSResponder to auto discover instrument.</li>
+            <li>Firewall should not block any part of Image Studio or the Java software platform that is installed with Image Studio.</li>
+            <li>Firewall should not block port 50000.</li>
+            <li>IPv6 must be enabled (Windows 7, 8, and 8.1).</li>
+        </ol>
+        <h2>USB Cabling Problems</h2>
+        <p>If you are experiencing problems connecting to the C&#8209;DiGit Blot Scanner using the USB cable, note the following:</p>
+        <ul>
+            <li>The Image Studio installer for C&#8209;DiGit includes the required USB RNDIS driver.</li>
+            <li>Image Studio must be installed on Windows before the USB cable is connected between the C&#8209;DiGit and the computer.</li>
+            <li>After the Image Studio installation is complete, connect the USB cable between the PC and the instrument and power on the instrument. There should be a system notification that new hardware is found. Depending upon the system, this notification may take place immediately when the cable is plugged in or it may be a few minutes later.</li>
+            <li><a name="_bookmark61"></a>During the Windows new hardware installation, the system may give the user a choice between discovering drivers on the internet or from the local installation. If the computer is connected to the internet, pick the selection that looks for drivers on the internet. If the computer is not on the internet you may need to specify the location. If the drivers are not found automatically, choose ‘Install from a list or specific location’, and navigate to the <b>&lt;Program Files\Licor\Image Studio Digits\driver&gt;</b> folder.</li>
+            <li>After installing the driver, start Image Studio and attempt to connect.</li>
+        </ul>
+        <h2>Front Panel Warning Light Indicates an Error</h2>
+        <p>When the C&#8209;DiGit Blot Scanner is unable to complete a task requested by Image Studio Application Software, or a hardware failure is encountered, the red error indicator on the C&#8209;DiGit front panel (<MadCap:xref href="External Panelsand Controls.htm#front" class="XreftoParanum">Figure 1&#8209;1</MadCap:xref>) flashes and an audible alarm sounds. This error condition is automatically cleared after a few seconds and a message is displayed in the Image Studio Application Software status bar at the bottom of the main window (below) to explain the error. Click on the button to open the Status Message History dialog to view all diagnostic records.</p>
+        <p>
+            <img src="../Resources/Images/i_message.png" />
+        </p>
+        <p>The error message will instruct the user on any further required action.</p>
+        <h2>Resetting the Instrument</h2>
+        <p>In the event that the C&#8209;DiGit Blot Scanner becomes unresponsive, reset the instrument by switching the rear power switch off for a few seconds, then back on. This procedure cuts power to the instrument and should only be used when communication cannot be re-established by any other means. The C&#8209;DiGit Blot Scanner should resume normal operation after start up but may take several minutes.</p>
+    </body>
+</html>

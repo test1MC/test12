@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2017-04-13T16:01:36.2591024-05:00"
+  ProjectName="bio"
+  ProjectFolder="C:\Users\samuel.egel\code\bio\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/BioTechNote.css"
+  LastImport="2017-04-13T16:06:29.7040133-05:00">
+  <Files>
+    <Url
+      Source="../../../../Downloads/Bio-1000F_manual_5119a1_e_for_flare_import.docx"
+      AbsoluteSource="file:///C:/Users/samuel.egel/Downloads/Bio-1000F_manual_5119a1_e_for_flare_import.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/FCC Compliance Statement.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions_1.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions_2.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions_3.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions_4.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Safety Precautions.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Knowing about Your Gel scanner.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/System Requirements.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Taking a Closer Look.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Rear View.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Digitizing a Gel.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Scanning a Gel.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Excising or Observing a Gel.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Excising or Observing a Gel.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Knowing the MiBio Fluo Software.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Launching MiBio Fluo.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Main Control Panel.htm"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Image Capture Button.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Image Capture Button.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Light Up Button.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Light Up Button_1.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Light Up Button.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Bio-1000F_manual_5119a1_e_for_flare_import/Settings Button.png"
+      TimeStamp="4/13/2017 4:05:03 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Settings Button.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Care and Cleaning.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Maintenance.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Appendix.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../../Content/Bio-1000F_manual_5119a1_e_for_flare_import/Specifications.htm"
+      TimeStamp="4/13/2017 4:05:05 PM" />
+    <Url
+      Source="../TOCs/Bio-1000F_manual_5119a1_e_for_flare_import.fltoc"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Bio-1000F_manual_5119a1_e_for_flare_import.flmsp"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/BioTechNote_1.css"
+      TimeStamp="4/13/2017 4:05:04 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1" />
+    <Map
+      From="Heading 2"
+      To="h2" />
+    <Map
+      From="Heading 3"
+      To="h3" />
+    <Map
+      From="Heading 4"
+      To="h4" />
+    <Map
+      From="Heading 5"
+      To="h5" />
+    <Map
+      From="Body Text"
+      To="p" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Body Text" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Table Paragraph" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

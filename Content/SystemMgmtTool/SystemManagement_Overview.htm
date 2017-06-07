@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="203" MadCap:lastWidth="721">
+    <head>
+    </head>
+    <body>
+        <!--<div style="background-color:#ddd; padding:5px;text-align:center;">
+            <p style="margin-bottom:1px;">This is an offline version of the documentation.</p>
+            <p style="margin-top:1px;">View the latest version <a href="http://www.licor.com/bio/help/21cfr11mgmt/">here</a>.</p>
+        </div>-->
+        <p MadCap:conditions="Default.PaperCopy" class="print-title">Image Studio<sup>™</sup> Software 21 CFR Part 11</p>
+        <h2 style="color:#424242;text-align:center;" MadCap:conditions="Default.PaperCopy">System Management Tool Guide</h2>
+        <p style="font-size:.9em;text-align:center;" MadCap:conditions="Default.PaperCopy">The latest version of these instructions is available here <a href="https://www.licor.com/bio/help/21cfr11mgmt/">https://www.licor.com/bio/help/21cfr11mgmt/.</a></p>
+        <MadCap:tocProxy MadCap:conditions="Default.PaperCopy" />
+        <h1>System Management Overview</h1>
+        <p><span class="snippet-font">The <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" /> is used to administer <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> Software.</span>
+        </p>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" /> is housed on the server and controls the <MadCap:snippetText src="../Resources/Snippets/Server_Host.flsnp" />. The <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" /> is accessed through a browser, and access is password protected. Only designated <MadCap:snippetText src="../Resources/Snippets/System_Managers.flsnp" /> should be allowed access to the <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" />.</p>
+        <h2>System Manager Setup</h2>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" /> is a role within the <MadCap:snippetText src="../Resources/Snippets/customer_organization.flsnp" /> responsible for the administration of <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/LI-COR.flsnp" /> recommends the following policies for your organization's <MadCap:snippetText src="../Resources/Snippets/System_Managers.flsnp" />.</p>
+        <ul>
+            <li>
+                <p>Assign more than one <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" />.</p>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/System_Managers.flsnp" /> should be the organizational representatives responsible for maintaining the PostgreSQL<sup>®</sup> System Master Password for the Image Studio PostgreSQL database. Having multiple <MadCap:snippetText src="../Resources/Snippets/System_Managers.flsnp" /> reduces the likelihood that the master password will be lost and provides redundancy in case one <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" /> forgets his/her account password.</p>
+                <p class="warning">
+                    <MadCap:snippetText src="../Resources/Snippets/LI-COR.flsnp" /> is not responsible for maintaining the PostgreSQL System Master Password. However, <MadCap:snippetText src="../Resources/Snippets/LI-COR.flsnp" /> does provide a service to reset <span class="snippet-font">System Managers'</span> <u>account passwords</u> if all <MadCap:snippetText src="../Resources/Snippets/System_Managers.flsnp" /> have been locked out of the system. Contact technical support for details.</p>
+            </li>
+            <li>Configure <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" /> roles so that they cannot save changes in the client.</li>
+        </ul>
+        <h2>System Manager Responsibilities</h2>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" /> responsibilities include:</p>
+        <ul>
+            <li>
+                <p>Maintaining the master password to the PostgreSQL database where <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> data are stored.</p>
+                <p>
+                    <MadCap:xref href="Backup_SysMgmt.htm" class="See_HypLinkTopic">See "Data Management" on page 1</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>Configuring system security settings.</p>
+                <p>
+                    <MadCap:xref href="SystemSettings_SysMgmt.htm" class="See_HypLinkTopic">See "Security Settings" on page 1</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>Configuring which <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are allowed and settings for allowed <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" />.</p>
+                <p>Each <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" /> may require a comment, password, and/or an electronic signature. <MadCap:xref href="../21CFR11/Actions_21CFR11.htm" class="See_HypLinkTopic">See "About Actions" on page 1</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>Defining <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> allowed for each user group (called <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" />).</p>
+                <p>
+                    <MadCap:xref href="../21CFR11/Roles_21CFR11.htm" class="See_HypLinkTopic">See "About User Roles" on page 1</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>Adding or deactivating users.</p>
+                <p>
+                    <MadCap:xref href="AddUser_SysMgmt.htm" class="See_HypLinkTopic">See "Add User" on page 1</MadCap:xref> or <MadCap:xref href="DeactivateUser_SysMgmt.htm" class="lwr_case_see_page">see "Deactivate User" on page 1</MadCap:xref>.</p>
+            </li>
+        </ul>
+    </body>
+</html>

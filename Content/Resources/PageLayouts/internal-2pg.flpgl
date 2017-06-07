@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-97px" Y="-50px" Width="721px" Height="41px" Flow="header" Right="-48px" Bottom="873px" BackgroundType="Solid" BackgroundRepeat="no-repeat" BorderTopLeftRadius="0px" BorderTopRightRadius="0px" BorderBottomRightRadius="0px" BorderBottomLeftRadius="0px" Anchors="" PaddingLeft="24pt" PaddingTop="0" VerticalAlign="top" BorderBottomStyle="solid" BorderBottomWidth="1px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: center;font-size: 22pt;margin-top: 0;"><MadCap:variable xhtml:name="internal.title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-1in" Y="-0.02083333in" Right="-0.5in" Bottom="-0.5in" Width="7.5in" Height="9.520833in">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-95px" Y="-48px" Width="719px" Height="28px" Flow="header" Right="-48px" Bottom="884px" BorderBottomStyle="solid" BorderBottomWidth="1px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: center;"><MadCap:variable xhtml:name="internal.title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="1px" Width="720px" Height="850px" Flow="body" Right="-48px" Bottom="13px" />
+        <Frame X="-96px" Y="861px" Width="719px" Height="51px" Flow="footer" Right="-47px" Bottom="-48px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#cccccc" Anchors="" PaddingLeft="0px" PaddingRight="0px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%; font-size: 7pt;margin-top: 3px;">
+                            <xhtml:col xhtml:style="width: 125px;" />
+                            <xhtml:col xhtml:style="width: 80%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="vertical-align: top;text-align: center;padding:0 2pt;">
+                                        <xhtml:img xhtml:src="../Images/licor-logo-blue-cover.eps" xhtml:style="width: 109px;height: 21px;" xhtml:class="no-border" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="vertical-align: top;text-align: right;">
+                                        <xhtml:p xhtml:style="font-size: 7pt;text-align: right;">Doc# <MadCap:variable xhtml:name="internal.part_number" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><xhtml:br /><MadCap:variable xhtml:name="General.mcom-date" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

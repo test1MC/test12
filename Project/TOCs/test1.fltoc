@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Test Firmware Pages">
+    <TocEntry
+      Title="CLx"
+      Link="/Content/Embedded/clx__embedded.htm"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Pearl Embedded Firmware Information"
+      Link="/Content/Embedded/Pearl_embedded.htm"
+      BreakType="pageLayout"
+      PageType="first"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/guide_no_cover.flpgl"></TocEntry>
+    <TocEntry
+      Title="Odyssey Classic Imager Embedded Firmware"
+      Link="/Content/Embedded/classic_embedded.htm" />
+  </TocEntry>
+</CatapultToc>

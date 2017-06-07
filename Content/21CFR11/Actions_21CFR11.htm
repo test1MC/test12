@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="885" MadCap:lastWidth="720">
+    <head>
+        <link href="../Resources/TableStyles/longTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="Default.SysMgmtHelp">About </MadCap:conditionalText>Actions</h1>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are software operations performed by users within the system. <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are assigned to <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" /> by the <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/Roles_21CFR11.flsnp" /> are assigned to users to control which actions users may perform. Many actions are used to change the status of an image (<MadCap:xref href="ImageStatus_21CFR11.htm" class="lwrCaseSee_HypLinkTopic">see "Image Status" on page 1</MadCap:xref>).</p>
+        <p class="note">
+            All <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are recorded in the <MadCap:snippetText src="../Resources/Snippets/ImageLog.flsnp" /> no matter how the system is configured.</p>
+        <p>Depending on the system configuration (set up by the <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" />), users may need to do the following to complete an action:</p>
+        <ul>
+            <li>Enter password</li>
+            <li>Enter comment</li>
+            <li>Provide electronic signature</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Complete list of actions and descriptions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="mc-table-style: url('../Resources/TableStyles/longTable.css');" class="TableStyle-longTable" cellspacing="0">
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-longTable-Body-Subhead" MadCap:pattern="5">
+                            <td class="TableStyle-longTable-BodyE-Column1-Subhead">Action Name</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Subhead">Action Description</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Acquire</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Use Image Studio to obtain an image from a LI-COR instrument.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Cancel</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Terminate the Acquire process. The partially acquired image will have a Canceled status and cannot be analyzed or edited.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Create Image</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Rotate, adjust contrast, or otherwise transform image data. Some options may affect quantification results.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Import Image</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Add an image from outside Image Studio to the current Work Area.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Edit</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Analyze an image or modify its descriptive text.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Submit for Approval</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Stop the editing process and offer an image with its associated data for review. The image will be in the Waiting for Approval status until approved or rejected by a Supervisor.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Resume Edit</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Continue editing an image's analysis data or descriptive text for an image with the Waiting for Approval status.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Approve</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Designate that an image and its associated data meet organizational standards. Users may never approve their own submissions.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">
+                                <MadCap:snippetText src="../Resources/Snippets/RejectEdited_action_21CFR11.flsnp" />
+                            </td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Designate that an image and/or its associated data do not meet organizational standards.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Edit Rejected</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Change an image's status from Rejected to Editing and resume editing an image's analysis data or descriptive text.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Deactivate</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Remove image from normal display.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Deactivate Rejected</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Remove a rejected image from normal display and prevent further edits to the image.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Reactivate</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Transition an image and its associated data from inactive to available for display and edit.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Reject Approved</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Designate the image and its information which is Approved as Rejected.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Create Work Area</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">Name a space in which to store images, analysis data, software settings, and log records.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Edit Templates</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">Modify certain settings and the layout of shapes or wells that can be used as a template to start an image analysis.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyB-Column1-Body2">Edit System Configuration</td>
+                            <td class="TableStyle-longTable-BodyA-Column1-Body2">Modify security settings (e.g. password length), modify which actions are allowed (e.g. Acquire), and control Users' access to the system.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

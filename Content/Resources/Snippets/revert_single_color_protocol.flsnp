@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="306" MadCap:lastWidth="672">
+    <body>
+        <p>
+            <p>After transfer is complete, stain membrane with <MadCap:snippetText src="revert_tps.flsnp" /> using the Single-Color Western Blot protocol:</p>
+            <p class="moreInfo" MadCap:conditions="TechNoteCond.hkp-validation,TechNoteCond.linear-range-of-system">For more information about the REVERT protocol, see <a href="http://www.licor.com/revert">licor.com/revert</a>.</p>
+            <ol style="list-style:lower-alpha;">
+                <li style="border-left:none;">
+                    <p>Add methanol to the stain reagents as indicated on each bottle.</p>
+                </li>
+                <li style="border-left:none;">
+                    <p>Rinse membrane in water, and incubate in 5 mL of REVERT Total Protein Stain solution for 5 minutes, with gentle shaking.</p>
+                </li>
+                <li style="border-left:none;">
+                    <p>Decant Total Protein Stain solution thoroughly. Rinse membrane twice with Wash solution.</p>
+                    <p class="listAside">REVERT Wash solution (P/N 926-11012): 6.7% (v/v) Glacial Acetic Acid, 30% (v/v) Methanol, in water.</p>
+                </li>
+            </ol>
+        </p>
+    </body>
+</html>

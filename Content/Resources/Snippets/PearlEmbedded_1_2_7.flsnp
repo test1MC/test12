@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="920" MadCap:lastWidth="920">
+    <head>
+    </head>
+    <body>
+        <p><a href="https://licor.box.com/shared/static/m6trijv4hrmqnk1ms1fk.bin" title="Download Pearl embedded firmware version 1.2.7" alt="Download Pearl embedded firmware version 1.2.7" MadCap:conditions="Default.PaperCopy"><span>1.2.7</span></a>
+            <MadCap:conditionalText MadCap:conditions="Default.WebHelp">1.2.7</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Default.Pearl_Int_1110,Default.Pearl_Int_131,Default.Pearl_Int_127">1.2.7</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

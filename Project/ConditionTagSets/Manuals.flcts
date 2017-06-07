@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="clx-manual"
+    BackgroundColor="Blue"
+    OriginalName="clx-manual" />
+  <ConditionTag
+    Comment=""
+    Name="impulse-manual"
+    BackgroundColor="Red"
+    OriginalName="Pearl_manual" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="cdigit-manual"
+    Comment=""
+    OriginalName="cdigit-manual" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="sa-manual"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="trilogy-manual"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="odyssey-manual"
+    Comment=""
+    OriginalName="odyssey-manual" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="pearl-accessories-manual"
+    Comment=""
+    OriginalName="Pearl_Acc" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="ddigit-manual"
+    Comment="" />
+</CatapultConditionTagSet>

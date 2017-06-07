@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1153" MadCap:lastWidth="1153">
+    <body>
+        <p><span class="snippet-font">ICW Relative</span> — After background subtraction, all wells designated as Sample or 100% Standard in a channel are divided by the intensity value of the well with the highest response. This well is given a value of 1.0, and the relative intensity values of the other wells will generally be between 0.0 and 1.0.</p>
+        <p class="note">Negative relative intensities indicate the original intensity value was lower than the average background when the background was subtracted. </p>
+        <p>If a normalization channel is selected, the intensity value of each well in the other channel is divided by the relative intensity value of the corresponding well in the normalization channel. </p>
+    </body>
+</html>

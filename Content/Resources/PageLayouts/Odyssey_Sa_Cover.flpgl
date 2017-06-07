@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Title" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="title" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1.00in" PaddingBottom="1in">
+        <Frame X="-8px" Y="-44px" Width="544px" Height="952px" Flow="decoration" Right="40px" Bottom="-44px" BackgroundImage="../Images/Sa_cover.eps" BackgroundRepeat="stretch" />
+    </Page>
+</PageStyles>

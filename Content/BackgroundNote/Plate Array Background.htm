@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="829" MadCap:lastWidth="612">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Plate and Grid Array Background Methods</h1>
+        <p>  
+			The <MadCap:snippetText src="../Resources/Snippets/Plate Array.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Grid Array.flsnp" /> applications offer a background method specific to <MadCap:snippetText src="../Resources/Snippets/Array.flsnp" /> calculations called <MadCap:snippetText src="../Resources/Snippets/Array Background.flsnp" />. <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" />, and <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> methods can also be used, but the application specific considerations below should be noted.</p>
+        <h2>Array Background</h2>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/Array.flsnp" /> background method allows the same spots to be designated as background in each sub-grid of an array. </p>
+        <p>Background spots are specified using the <MadCap:snippetText src="../Resources/Snippets/Advanced_Array_Definition_dialog.flsnp" /> that can be opened by switching the background method to <MadCap:snippetText src="../Resources/Snippets/Array.flsnp" /> or by clicking the small arrow at the bottom right edge of the <MadCap:snippetText src="../Resources/Snippets/Spot_Layout_group.flsnp" /> in the <MadCap:snippetText src="../Resources/Snippets/Plate Array.flsnp" /> Analysis tab. This arrow is in the <MadCap:snippetText src="../Resources/Snippets/Array.flsnp" /> group for the <MadCap:snippetText src="../Resources/Snippets/Grid Array.flsnp" /> application. See <MadCap:xref href="#AdvancedArrayDefinition-FromArrayBackground" class="XreftoParanum">Figure 1</MadCap:xref> and <MadCap:xref href="#AdvancedArrayDefinition-FromSpotLayout" class="ContextSensitive">Figure 2 on page&#160;1</MadCap:xref>.</p>
+        <table style="border-left-style: solid;border-left-width: 0px;border-left-color: ;border-right-style: solid;border-right-width: 0px;border-right-color: ;border-top-style: solid;border-top-width: 0px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: ; page-break-inside: avoid;">
+            <col style="width: 318px;" />
+            <col style="width: 248px;" />
+            <tbody>
+                <tr style="height: 183px;">
+                    <td class="noBorder" style="padding-top: 0; vertical-align: bottom;">
+                        <img src="../Resources/Images/IS4.0-ArrayBgDefinition.tif" alt="Array Definition Dialog Corresponds to Cells in Array - Tiff" title="" class="width0375pct" style="margin-left: 13pt;" />
+                    </td>
+                    <td class="noBorder" style="padding-top: 0; vertical-align: bottom;">
+                        <img src="../Resources/Images/IS4.0-ArrayDefinitionFromSpotLayout.tif" alt="Advanced Array Definition from Spot Layout - Tiff" title="" class="width025pct" style="margin-left: 13pt;" />
+                    </td>
+                </tr>
+                <tr style="height: 98px;">
+                    <td class="noBorder" style="padding-top: 0; padding-bottom: 0; vertical-align: top;">
+                        <p class="figure" style="width:260px; vertical-align:top; padding-top:0; margin-top: 0; margin-left: 13pt;" MadCap:autonum="&lt;b&gt;Figure 1&lt;/b&gt;">. <a name="AdvancedArrayDefinition-FromArrayBackground"></a> The <b>Advanced Array Definition</b> opened by changing the background method to <b>Array</b>. Black cells in this dialog designate background wells in every <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> of the array.				</p>
+                    </td>
+                    <td class="noBorder" style="padding-top: 0; padding-bottom: 0; vertical-align: top;">
+                        <p class="figure" style="margin-left: 13pt;" MadCap:autonum="&lt;b&gt;Figure 2&lt;/b&gt;">.<a name="AdvancedArrayDefinition-FromSpotLayout"></a> The <b>Advanced Array Definition</b> menu with additional options can be opened by clicking the small arrow at the bottom right edge of either the <b>Spot Layout</b> group for the <b>Plate Array</b> application or the <b>Array</b> group for the <b>Grid Array</b> application.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p><span class="snippet-font">Bkgnd Calculation:</span> Background spots in each <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> are used to determine background for that <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" />. The average pixel intensity of each background spot will be calculated, and the background spots will be averaged to find the background value.
+		</p>
+        <p><span class="snippet-font">Signal:</span> The signal for each spot in a <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> will be calculated by taking the <MadCap:snippetText src="../Resources/Snippets/Total.flsnp" /> for that spot and subtracting the product of the background from the background spots in that <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> and the <MadCap:snippetText src="../Resources/Snippets/Area.flsnp" /> of the spot being quantified.</p>
+        <h3>User-Defined Background for Plate and Grid Array Applications</h3>
+        <p>Any choice of spots can be designated as background with the <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> background method. <MadCap:xref href="User Defined Background.htm" class="lwrSeeHypLnkAndPage">See <span style="color: Blue;"><u>User-Defined Background Method</u></span> on page&#160;1</MadCap:xref> for general information.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/BackgroundCalculation-SpotNotWell.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Signal-SpotNotWell.flsnp" />
+        <h2>Average and Median Background for the Plate and Grid Array Applications</h2>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> background methods use space surrounding a feature as background. <MadCap:xref href="Average &amp; Median Background.htm" class="lwrSeeHypLnkAndPage">See <span style="color: Blue;"><u>Average and Median Background Methods</u></span> on page&#160;1</MadCap:xref> for general information on these methods.</p>
+        <p><span class="snippet-font">Bkgnd Calculation:</span> The average or median pixel intensity of a border region surrounding each spot will be used as the background subtracted from that spot.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Signal-SpotNotWell.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Background Regions Not Overlap Feature.flsnp" />
+        <table style="width: 612px;" cellspacing="1">
+            <col style="width: 307px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td class="noBorder">
+                        <img src="../Resources/Images/WellShapeOverlappingPlateFluorescence.tif" alt="" title="" class="width025pct" style="margin-left: 13pt;" />
+                    </td>
+                    <td class="noBorder">
+                        <img src="../Resources/Images/WellShapeNOTOverlappingPlateFluorescence.tif" alt="" title="" class="width025pct" style="margin-left: 13pt;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="noBorder">
+                        <p class="figure" style="width:280px; margin-left: 13pt;" MadCap:autonum="&lt;b&gt;Figure 3&lt;/b&gt;">. These shapes incorporate the bright region surrounding a spot.</p>
+                    </td>
+                    <td class="noBorder">
+                        <p class="figure" style="margin-left: 13pt;" MadCap:autonum="&lt;b&gt;Figure 4&lt;/b&gt;">. These shapes are completely inside the spot.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <p>
+            <MadCap:xref href="PreventingBgShapeOverlapBand.htm#WhenToUseAverageOrMedian" class="lwrSeeHypLnkAndPage">See <span style="color: Blue;" class="mcFormatColor"><u>Preventing the Local Background Border from Overlapping Bands</u></span> on page&#160;1</MadCap:xref> for what to do when background overlaps another shape.</p> -->
+    </body>
+</html>

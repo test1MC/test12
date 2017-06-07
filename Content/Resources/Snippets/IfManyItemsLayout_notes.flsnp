@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="608" MadCap:lastWidth="608">
+    <head>
+    </head>
+    <body>
+        <p class="note">
+            If many items have been added to a layout, it may be necessary to use the <MadCap:snippetText src="Page_Up.flsnp" /> or <MadCap:snippetText src="Page_Down.flsnp" /> buttons below the <MadCap:snippetText src="Layout_Preview.flsnp" /> to see where items appear in the layout.</p>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Use the <MadCap:snippetText src="Normalize_group.flsnp" /> to specify 
+ the normalization Channel to use for band normalization. Normalization 
+ is useful for using one channel to correct for loading variation between 
+ lanes. (See <a href="../../Band_Normalization.htm">Band Normalization</a> for 
+ more information.)</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li>Click the <MadCap:snippetText src="Channels_button.flsnp" /> 
+ in the <MadCap:snippetText src="Normalize_group.flsnp" /> to display the channels.</li>
+            <li>Select the channel to use for band normalization.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="General Cover"
+    Link="/Content/gen-guide-cover.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/gen_guide.flpgl"
+    AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/ChameleonUsage/TOC.htm"
+    BreakType="none"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/normalization-examples/normalization_intro_brief.htm"></TocEntry>
+  <TocEntry
+    Title="What You Will Learn from Good Normalizations Gone Bad"
+    Link="/Content/normalization-examples/normalization_gngb_expectations.htm"></TocEntry>
+  <TocEntry
+    Title="Normalization Basics"
+    Link="/Content/normalization-examples/normalization_basics_brief.htm"></TocEntry>
+  <TocEntry
+    Title="Normalization Requirements"
+    Link="/Content/normalization-examples/normalization_reqs_brief.htm"></TocEntry>
+  <TocEntry
+    Title="Experimental Design"
+    Link="/Content/normalization-examples/normalization_design.htm">
+    <TocEntry
+      Title="REVERT Total Protein Predictive of Sample Concentration"
+      Link="/Content/normalization-examples/revert_correlated_bca.htm" />
+    <TocEntry
+      Title="Estimate Total Protein Concentration"
+      Link="/Content/normalization-examples/measure_commercial_lysate_concentration.htm"></TocEntry>
+    <TocEntry
+      Title="Replicates for Statistical Analysis"
+      Link="/Content/normalization-examples/replicate_intro.htm">
+      <TocEntry
+        Title="Sample Loading"
+        Link="/Content/normalization-examples/sample_loading_example.htm" />
+      <TocEntry
+        Title="Membrane Transfer"
+        Link="/Content/normalization-examples/membrane_transfer.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Stripping and Reprobing"
+      Link="/Content/normalization-examples/stripping_and_reprobing.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Housekeeping Proteins"
+    Link="/Content/normalization-examples/house_keeping_protein_brief.htm">
+    <TocEntry
+      Title="Verify That HKP Expression Is Not Affected by Treatment"
+      Link="/Content/normalization-examples/verify_housekeeping_protein_stability.htm" />
+    <TocEntry
+      Title="HKP May Not Be Detectable Within Linear Range of Target"
+      Link="/Content/normalization-examples/housekeeping_protein_linearity_considerations.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Get the Most from REVERT Total Protein Stain"
+    Link="/Content/normalization-examples/revert_brief.htm">
+    <TocEntry
+      Title="REVERT Total Protein Stain Questions"
+      Link="/Content/normalization-examples/revert_total_protein_stain_questions.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Detection Method"
+    Link="/Content/normalization-examples/detection_method.htm">
+    <TocEntry
+      Title="Linear Range"
+      Link="/Content/normalization-examples/normalization_linear_range_brief.htm" />
+    <TocEntry
+      Title="Detection Method Linear Range"
+      Link="/Content/normalization-examples/detection_method_linear_range.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Software Analysis"
+    Link="/Content/normalization-examples/software_analysis.htm">
+    <TocEntry
+      Title="Define ROI"
+      Link="/Content/normalization-examples/define_roi.htm">
+      <TocEntry
+        Title="Profiles Tab"
+        Link="/Content/normalization-examples/profiles_tab.htm" />
+      <TocEntry
+        Title="Using the Profiles Tab"
+        Link="/Content/Background/use_profiles_tab.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Background Subtraction"
+      Link="/Content/normalization-examples/background_subtraction_brief.htm">
+      <TocEntry
+        Title="Image Studio Lane vs ImageJ Rolling Ball"
+        Link="/Content/normalization-examples/lane_vs_rollingball.htm" />
+      <TocEntry
+        Title="Image Studio Lane Background Subtraction"
+        Link="/Content/normalization-examples/lane_brief.htm" />
+      <TocEntry
+        Title="ImageJ Rolling Ball Background Subtraction"
+        Link="/Content/normalization-examples/rolling_ball.htm" />
+      <TocEntry
+        Title="Differences between Rolling Ball and Lane"
+        Link="/Content/normalization-examples/lane_vs_rollingball_differences.htm"></TocEntry>
+      <TocEntry
+        Title="ImageJ Manual Background"
+        Link="/Content/normalization-examples/imagej_manual_background.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Image Format"
+      Link="/Content/normalization-examples/image_format.htm" />
+    <TocEntry
+      Title="Data Loss from Scanning"
+      Link="/Content/ImportTopics/data_loss_from_scanning.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Summary"
+    Link="/Content/normalization-examples/summary.htm"></TocEntry>
+  <TocEntry
+    Title="Further Reading"
+    Link="/Content/protocols/technical-resources.htm">
+    <TocEntry
+      Title="References"
+      Link="/Content/Normalization/references.html"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+</CatapultToc>

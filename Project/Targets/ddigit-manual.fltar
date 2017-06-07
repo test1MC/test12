@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/ddigit_manual.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/LI-COR_Manual.css"
+  ConditionTagExpression="include[Manuals.ddigit-manual] exclude[Default.ddigit_quick_start or Manuals.cdigit-manual or Manuals.clx-manual or Manuals.impulse-manual or Manuals.odyssey-manual or Manuals.pearl-accessories-manual or Manuals.sa-manual or Manuals.trilogy-manual] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="10001,20036,20037,20041"
+  OutputFile="ddigit_manual">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <DocumentProperties
+    Title="Odyssey Fc Manual"
+    Author="LI-COR, Inc." />
+  <PDF
+    DownsampleImages="false"
+    ShowUsedBookmarks="false"
+    PageLayout="OneColumn"
+    InitialMagnification="100"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

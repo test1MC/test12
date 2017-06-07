@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="163" MadCap:lastWidth="612">
+    <body>
+        <p class="note">Add-on Analysis Applications require a specific software key. These applications are: <MadCap:snippetText src="Western_App.flsnp" />, <MadCap:snippetText src="MPX_TM_Western_App.flsnp" />, <MadCap:snippetText src="DNAGel_App.flsnp" />, <MadCap:snippetText src="NewSnippet.flsnp" />, <MadCap:snippetText src="Plate Array.flsnp" />, <MadCap:snippetText src="Grid.flsnp" />, <MadCap:snippetText src="Grid Array.flsnp" />, <MadCap:snippetText src="InCellWestern.flsnp" />, and <MadCap:snippetText src="SmallAnimalImage_App.flsnp" />. Please visit <a href="http://www.licor.com/AnalysisKeys"><span class="hyperLink"> www.licor.com/AnalysisKeys</span></a> for more information on key availability.</p>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="This empty topic has a long title"
+    Link="/Content/empty_topic1.htm">
+    <TocEntry
+      Title="Empty Topic"
+      Link="/Content/empty_topic1.htm" />
+  </TocEntry>
+</CatapultToc>

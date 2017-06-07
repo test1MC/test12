@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/WorkArea/Table of Contents.htm"
+    BreakType="none"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Work Area Definition"
+    Link="/Content/WorkArea/Work Area Definition.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="AvoidMove"
+    Link="/Content/WorkArea/BeCautious.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="WARenameOrMove"
+      Link="/Content/WorkArea/IfWorkAreaWasRenamedOrMoved.htm"></TocEntry>
+    <TocEntry
+      Title="AcqFolderMoved"
+      Link="/Content/WorkArea/IfAcquisitionFolderWasRenamedOrMoved.htm"
+      StartSection="false"
+      SectionNumberReset="continue"
+      SectionNumber=""
+      PageNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      conditions="TechNoteCond.WorkArea" />
+  </TocEntry>
+  <TocEntry
+    Title="Creating a Work Area"
+    Link="/Content/WorkArea/Creating a Work Area.htm"
+    StartSection="true"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    PageNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="none"
+    AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="One  Per User"
+    Link="/Content/WorkArea/OneWorkAreaPerUser.htm"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    StartSection="true"
+    PageNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="none"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl">
+    <TocEntry
+      Title="File Management"
+      Link="/Content/WorkArea/FileManagementAdvantages.htm"
+      StartSection="false"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false" />
+    <TocEntry
+      Title="Sort And View Advantages"
+      Link="/Content/WorkArea/SortAndViewAdvantages1.htm"
+      StartSection="false"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Switching the Active"
+    Link="/Content/WorkArea/SwitchingTheActiveWorkArea.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Import Work Area Settings"
+    Link="/Content/WorkArea/ImportSettings_WorkArea.htm"
+    conditions="TechNoteCond.WorkArea-IS5" />
+  <TocEntry
+    Title="Removing Unused Work Areas"
+    Link="/Content/WorkArea/RemovingUnusedWorkAreas.htm"
+    BreakType="none"
+    StartSection="true"
+    PageNumberReset="continue"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Adding Work Areas Back to the List"
+    Link="/Content/WorkArea/AddingWorkAreasBackToList.htm"
+    StartSection="true"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    PageNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="none" />
+  <TocEntry
+    Title="When to Add Another"
+    Link="/Content/WorkArea/WhenToAddAnotherWorkArea.htm"
+    BreakType="none"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    StartSection="true"
+    PageNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Other Considerations"
+    Link="/Content/WorkArea/OtherConsiderations.htm"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    StartSection="true"
+    PageNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="none"
+    AutoEndOnLeftPage="disabled">
+    <TocEntry
+      Title="IPManual"
+      Link="/Content/WorkArea/IPAddressEnteredManually.htm"
+      SectionNumberReset="reset"
+      SectionNumber="1"
+      StartSection="false"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="CantCreateWA"
+      Link="/Content/WorkArea/NestedWorkAreasOwnTopic.htm"
+      StartSection="true"
+      SectionNumberReset="reset"
+      SectionNumber="1"
+      PageNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/WorkArea/FurtherQuestionsNOFooter.htm"
+    conditions="TechNoteCond.PaperCopy"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="BlankPage"
+    Link="/Content/WorkArea/BlankPage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"
+    AutoEndOnLeftPage="disabled"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.PaperCopy"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="LastPageNoFurtherQuestions"
+    Link="/Content/WorkArea/LastPageNoFurtherQuestions.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    PageType="continue"
+    PageNumberReset="continue"
+    conditions="TechNoteCond.PaperCopy"
+    AutoEndOnLeftPage="disabled"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    conditions="TechNoteCond.ElectronicPDF"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

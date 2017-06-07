@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.ChameleonIS30">Export the data to a spreadsheet by clicking the <span class="snippet-font">Table</span> tab and clicking <span class="snippet-font">Export File</span> <img src="../Images/ExportTable32.gif" alt="Export File Icon IS 3.0" class="inLineIcon20by20" /> or <MadCap:snippetText src="Launch_Spreadsheet.flsnp" /> <img src="../Images/table.gif" alt="Launch Spreadsheet Icon IS 3.0" class="inLineIcon20by20" /> in the <span class="snippet-font">Data</span> group.</MadCap:conditionalText>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Public Destination"
+  Host="web2"
+  User="MyAccountId"
+  Password=""
+  Directory="imagestudio50"
+  Port="22"
+  ViewUrl=""
+  Type="sftp"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  UploadLogFile="true"
+  RemoveStale="true"
+  ChangedOnly="false"></CatapultDestination>

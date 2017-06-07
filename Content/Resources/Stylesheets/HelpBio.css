@@ -1,0 +1,762 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+	*
+	{
+		margin: 0;
+	}
+
+	html
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		font-family: 'Roboto', sans-serif;
+		line-height: 1.4em;
+		height: 100%;
+	}
+
+	.snippet-font
+	{
+		font-weight: 500;
+	}
+
+	.code
+	{
+		font-family: 'Courier New';
+		font-size: 12px;
+	}
+
+	.codeIndent
+	{
+		font-family: 'Courier New';
+		font-size: 12px;
+		margin-left: 20px;
+	}
+
+	.source-footer
+	{
+		margin-top: 100px;
+	}
+
+	/* "grid system", such that it is */
+
+	div.dFloRig_8ptPadTopLefBot
+	{
+		float: right;
+		padding: 8pt 0 8pt 8pt;
+	}
+
+	div.dFloLef_8ptPadTopRigBot
+	{
+		float: left;
+		padding: 8pt 8pt 8pt 0;
+	}
+
+	div.dFloRig_12ptPadTopLefBot
+	{
+		clear: both;
+		float: right;
+		margin-left: 12pt;
+		padding: 10px 0 10px 10px;
+	}
+
+	div.dFloLef_12ptPadTopRigBot
+	{
+		float: left;
+		padding: 12pt 12pt 12pt 0;
+	}
+
+	div.dFloLef_12ptPadRigBot
+	{
+		float: left;
+		padding: 0 12pt 12pt 0;
+	}
+
+	div.leftHalf
+	{
+		float: left;
+		width: 30%;
+		padding-top: 10px;
+		padding-left: 20px;
+	}
+
+	div.introBloc
+	{
+		max-width: 745px;
+		background-color: #CACEDA;
+		font-size: .9em;
+		margin-top: 16px;
+		margin-bottom: 0px;
+		margin-left: 20px;
+		padding: 18px 10px 6px 10px;
+		page-break-after: avoid;
+	}
+
+	/* End of "grid" */
+	/* Heading Classes */
+
+	h1
+	{
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		margin-left: 16px;
+		color: #444444;
+		font-size: 2em;
+		line-height: 2em;
+		clear: both;
+	}
+
+	h2
+	{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 16px;
+		font-weight: normal;
+		line-height: 1.4em;
+		color: #0c72b8;
+		font-size: 1.65em;
+		clear: both;
+	}
+
+	h3
+	{
+		font-weight: normal;
+		color: #0c72b8;
+		font-size: 1.5em;
+		margin-left: 16px;
+		margin-bottom: 10px;
+		clear: both;
+		padding-top: 6px;
+		width: 745px;
+	}
+
+	h4
+	{
+		color: #444444;
+		margin: 0;
+		font-size: 1.25em;
+		margin-top: 5px;
+		margin-left: 16px;
+	}
+
+	/* End Heading Classes */
+	/* Non-Print Image / Images Classes */
+
+	img
+	{
+		page-break-after: avoid;
+		mc-thumbnail-max-height: 100px;
+		mc-thumbnail: popup;
+		border: solid 1px #000000;
+		border-radius: 3px;
+	}
+
+	.no-border
+	{
+		border: none;
+	}
+
+	img.width100pct
+	{
+		height: auto;
+		width: 600px;
+	}
+
+	img.width075pct
+	{
+		height: auto;
+		width: 444px;
+	}
+
+	img.width075BorderNoThumb
+	{
+		height: auto;
+		width: 444px;
+		mc-thumbnail: none;
+	}
+
+	img.width050pct
+	{
+		height: auto;
+		width: 300px;
+	}
+
+	img.width0375pct
+	{
+		height: auto;
+		width: 224.88px;
+	}
+
+	img.width025pct
+	{
+		height: auto;
+		width: 149.76px;
+	}
+
+	img.width013pct
+	{
+		height: auto;
+		width: 72px;
+	}
+
+	img.inLineIcon
+	{
+		height: 20px;
+		width: 20px;
+		margin-bottom: -3pt;
+		mc-thumbnail: none;
+		border: none;
+	}
+
+	img.inLineIcon20by20
+	{
+		height: 20px;
+		width: 20px;
+		margin-bottom: -3pt;
+		mc-thumbnail: none;
+		border: none;
+	}
+
+	img.inLineIcon24by24
+	{
+		height: 24px;
+		width: 24px;
+		margin-bottom: -3pt;
+		mc-thumbnail: none;
+		border: none;
+	}
+
+	img.no-thumb
+	{
+		mc-thumbnail: none;
+	}
+
+	/* End Image Classes */
+	/* Generic Classes */
+
+	.note
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 20px;
+		border-left: 6px solid #a1a4ae;
+		background-color: #d4d7e1;
+		color: #000000;
+		max-width: 750px;
+	}
+
+	.note::before
+	{
+		content: 'Note: ';
+		font-weight: bold;
+		border: none;
+	}
+
+	.important
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 20px;
+		background: #e8f0f8;
+		border: 1px solid #37aee3;
+		border-radius: 5px;
+		max-width: 750px;
+	}
+
+	.important::before
+	{
+		content: 'Important: ';
+		font-weight: bold;
+	}
+
+	.moreInfo
+	{
+		color: #000000;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 16px;
+		border-left: 6px solid #a0b6c4;
+		padding: 20px;
+		background-color: #C8E4F5;
+	}
+
+	.moreInfo::before
+	{
+		content: 'More Info: ';
+		font-weight: bold;
+		border: none;
+	}
+
+	.warning
+	{
+		color: #000000;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 16px;
+		background-color: #f9eced;
+		padding: 20px;
+		max-width: 750px;
+	}
+
+	.warning::before
+	{
+		content: 'Important: '; /* I know, I know. I wanted a warning style that doesn't say "warning", bc/that's alarmist */
+		font-weight: bold;
+	}
+
+	.seeAlso
+	{
+		color: white;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 4px;
+		background: gray;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		max-width: 750px;
+	}
+
+	.seeAlso::before
+	{
+		content: 'See Also ';
+	}
+
+	.listAside
+	{
+		margin-left: 4px;
+		font-style: italic;
+		color: #333;
+		border-left: none;
+	}
+
+	/* End Generic Classes */
+
+	sub
+	{
+		font-size: 70%;
+		line-height: 90%;
+		vertical-align: text-bottom;
+	}
+
+	ul
+	{
+		list-style-type: disc;
+		margin-top: 8px;
+		margin-bottom: 4px;
+		margin-left: 0;
+		max-width: 560px;
+		font-size: 14px;
+	}
+
+	ul li
+	{
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	li.nb
+	{
+		list-style-image: none;
+		list-style-type: none;
+		margin-bottom: 1px;
+		display: block;
+	}
+
+	div.wrapper
+	{
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -120px;
+	}
+
+	.footer,
+	.push
+	{
+		height: 120px;
+	}
+
+	caption
+	{
+		line-height: 15px;
+		font-size: 12px;
+		text-align: left;
+	}
+
+	/* Paragraph Classes */
+
+	p.ExampleHead
+	{
+		margin-left: 0;
+		font-size: .9em;
+		font-weight: bold;
+		margin-bottom: 0px;
+		margin-top: 16px;
+		padding: 18px 10px 6px 10px;
+		page-break-after: avoid;
+	}
+
+	p.lilCite
+	{
+		background-color: #EAEAEA;
+		margin-left: 1.9in;
+		margin-bottom: 0in;
+		padding: 2pt 1pt 0pt 2pt;
+		font-size: 7.5pt;
+		text-align: right;
+		border-top-left-radius: 4px;
+	}
+
+	p.lilCiteBottom
+	{
+		font-size: 7.5pt;
+		background-color: #EAEAEA;
+		margin-top: 0;
+		margin-left: 1.9in;
+		padding: 0 1pt 2pt 2pt;
+		text-align: right;
+		border-bottom-left-radius: 4px;
+	}
+
+	p.quoteBox
+	{
+		background-color: #EAEAEA;
+		padding: 10pt 10pt 3pt 10pt;
+		margin: 10pt 10pt 0 10pt;
+		text-align: center;
+		font-style: italic;
+	}
+
+	p.citeQuoteBox
+	{
+		background-color: #EAEAEA;
+		padding: 3pt 10pt 10pt 10pt;
+		margin: 0 10pt 10pt 10pt;
+		text-align: right;
+		font-size: 10pt;
+	}
+
+	p
+	{
+		font-size: 14px;
+		margin-left: 16px;
+		margin-bottom: 8px;
+		max-width: 750px;
+	}
+
+	/* End Paragraph Classes */
+
+	div.footer
+	{
+		border-top: 2px solid #d0e2f3;
+		margin-left: -1px;
+	}
+
+	a.footer
+	{
+		color: #dddddd;
+	}
+
+	a.footer:hover
+	{
+		text-decoration: underline;
+	}
+
+	a.footer:link
+	{
+		text-decoration: none;
+	}
+
+	a.footer:visited
+	{
+		text-decoration: none;
+	}
+
+	table
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	a.MCBreadcrumbsLink:hover
+	{
+		color: #444444;
+		text-decoration: underline;
+	}
+
+	a.MCBreadcrumbsLink
+	{
+		text-decoration: none;
+		color: #999999;
+	}
+
+	MadCap|breadcrumbsProxy
+	{
+		font-size: 10px;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		border-bottom-width: 0px;
+		border-bottom-style: none;
+		text-align: right;
+		color: #999999;
+		mc-breadcrumbs-prefix: 'Image Studio Help > ';
+	}
+
+	MadCap|xref
+	{
+		color: #000000;
+	}
+
+	MadCap|xref.TOCPageNumber
+	{
+		color: #1175bc;
+		mc-format: '{paratext}';
+	}
+
+	MadCap|xref.ConceptPageNumber
+	{
+		color: #1175bc;
+	}
+
+	MadCap|xref:visited
+	{
+		color: #800080;
+	}
+
+	MadCap|xref.See_HypLinkTopic
+	{
+		mc-format: '{color black}See{/color} {color blue}{u}{paratext}{/u}{/color}';
+		text-decoration: none;
+	}
+
+	MadCap|xref.lwrCaseSee_HypLinkTopic
+	{
+		mc-format: 'see {color blue}{u}{paratext}{/u}{/color}';
+		text-decoration: none;
+		border-bottom-width: 0px;
+		border-top-width: 0px;
+	}
+
+	MadCap|xref.HypLinkTopic
+	{
+		mc-format: '{color blue}{u}{paratext}{/u}{/color}';
+	}
+
+	MadCap|equation
+	{
+		font-size: 15px;
+	}
+
+	a
+	{
+		color: #3499d0;
+		text-decoration: none;
+	}
+
+	a:visited
+	{
+		color: purple;
+		text-decoration: underline;
+	}
+
+	a:hover
+	{
+		text-decoration: underline;
+		color: #522398;
+	}
+
+	/* Chameleon Usage Note Experimental Classes */
+
+	.element
+	{
+		text-align: center;
+	}
+
+	.rowTitle
+	{
+		font-size: 12pt;
+		font-weight: bold;
+		margin: 0;
+		padding-top: 0;
+		padding-right: 0;
+	}
+
+	.rowSubTitle
+	{
+		font-weight: bold;
+		font-size: 10pt;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.rowSubTitle2
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	img.videoIcon
+	{
+		width: 18px;
+		height: 14px;
+		margin-bottom: -1pt;
+	}
+
+	/* End Chameleon Experimental Classes */
+
+	div.surveyBoxTop
+	{
+		font-size: 12pt;
+		color: #ffffff;
+		background-color: #0083cc;
+		text-align: left;
+		margin-left: 10pt;
+		margin-right: 10pt;
+		padding: 5px;
+		mc-hyphenate: never;
+		max-width: 750px;
+	}
+
+	div.surveyBoxBottom
+	{
+		font-size: 10pt;
+		background-color: #e8f0f8;
+		margin-right: 10pt;
+		margin-bottom: 15pt;
+		margin-left: 10pt;
+		border-top: 2px solid #fff;
+		padding: 5px;
+		text-align: left;
+		max-width: 750px;
+	}
+
+	.tableHeading
+	{
+		font-size: 12pt;
+		font-weight: bold;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	.headingInTable
+	{
+		font-size: 12pt;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.tableText
+	{
+		font-size: 9pt;
+		text-align: left;
+		margin: 0;
+		padding: 2px 0px;
+	}
+
+	.headInSameCell
+	{
+		font-size: 10pt;
+		text-align: left;
+		margin-top: 2pt;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	ul.fvPxTb
+	{
+		margin-left: 12px;
+		text-align: left;
+		vertical-align: top;
+		padding-left: 0;
+	}
+
+	li.fvPxTb
+	{
+		font-size: 9pt;
+		padding-left: 8px;
+		/* Increase to decrease space between bullet and text */
+		text-align: left;
+		margin-left: 1px;
+	}
+
+	li.fvPxTbCv
+	{
+		font-size: 9pt;
+		padding-left: 0;
+		text-align: left;
+		margin-left: -6px;
+	}
+
+	ol
+	{
+		margin: 0;
+		max-width: 750px;
+	}
+
+	li
+	{
+		margin-bottom: 8px;
+		font-size: 14px;
+	}
+
+	ol > ol
+	{
+		margin-left: 12px;
+		border-left: none;
+		padding-left: 0;
+	}
+
+	ol > ol > li
+	{
+		border-left: none;
+		padding-left: 6px;
+		margin-left: 0;
+	}
+
+	ol p
+	{
+		margin-left: 0;
+	}
+
+	ul p
+	{
+		margin-left: 0;
+	}
+
+	MadCap|dropDown
+	{
+		mc-open-image: url('../Images/minus-hide-blue.png');
+		mc-closed-image: url('../Images/plus-expand-blue.png');
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: 2px dotted #63abdd;
+	}
+
+	MadCap|dropDownHead
+	{
+		padding-left: 0px;
+		margin-left: 16px;
+		padding-bottom: 3px;
+	}
+
+.footer,
+.push
+{
+	height: 120px;
+}
+
+.inList	/* Still used for tables :( Don't delete; fix later. */
+{
+	margin-left: 0;
+}

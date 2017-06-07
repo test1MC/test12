@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="General Cover"
+    Link="/Content/gen-guide-cover.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/gen_guide.flpgl"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/ChameleonUsage/TOC.htm"
+    BreakType="none"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/protocols/introduction.htm">
+    <TocEntry
+      Title="Housekeeping Protein Validation Intro"
+      Link="/Content/housekeeping-protein-validation/hkp-validation-introduction.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Key Factors for Success"
+    Link="/Content/protocols/key-points.htm"></TocEntry>
+  <TocEntry
+    Title="Required Reagents"
+    Link="/Content/protocols/required-reagents.htm"></TocEntry>
+  <TocEntry
+    Title="Protocol"
+    Link="/Content/housekeeping-protein-validation/protocol.htm"></TocEntry>
+  <TocEntry
+    Title="Quantification"
+    Link="/Content/protocols/quantification.htm">
+    <TocEntry
+      Title="Total Protein Quantification (700 nm image)"
+      Link="/Content/housekeeping-protein-validation/total-protein-quantification.htm"></TocEntry>
+    <TocEntry
+      Title="HKP Quantification (800 nm image)"
+      Link="/Content/housekeeping-protein-validation/hkp-quantification.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Calculations"
+    Link="/Content/housekeeping-protein-validation/calculations.htm"></TocEntry>
+  <TocEntry
+    Title="hkp-validation-data"
+    Link="/Content/housekeeping-protein-validation/hkp-validation-data.htm"></TocEntry>
+  <TocEntry
+    Title="Data Interpretation"
+    Link="/Content/housekeeping-protein-validation/next-steps.htm"></TocEntry>
+  <TocEntry
+    Title="Further Reading"
+    Link="/Content/protocols/technical-resources.htm" />
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+</CatapultToc>

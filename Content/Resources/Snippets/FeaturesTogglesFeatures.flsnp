@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Click <MadCap:snippetText src="Features.flsnp" /> at the top left corner of the <MadCap:snippetText src="Display_panel.flsnp" /> to toggle between displaying and hiding all features on the image. Features include Bands, Lanes, Wells, Spots, Annotations, and more. Select specific features to display or hide on the <MadCap:snippetText src="ShowGroup.flsnp" /> in each <MadCap:snippetText src="AnalysisTab.flsnp" />.</body>
+</html>

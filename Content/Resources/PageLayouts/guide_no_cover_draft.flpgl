@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="First" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="repeat-y" BackgroundType="Solid" BackgroundImage="../Images/draft-watermark.eps">
+        <Frame X="-100px" Y="-48px" Width="724px" Height="114px" Flow="header" Right="-48px" Bottom="798px" Anchors="" BorderTopLeftRadius="0px" BorderTopRightRadius="0px" BorderBottomRightRadius="0px" BorderBottomLeftRadius="0px" BackgroundRepeat="no-repeat" BackgroundImage="none" BackgroundType="Solid" BackgroundColor="#007dc1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="title-front">
+                            <MadCap:conditionalText MadCap:conditions="Default.CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_CLx_R_Imager.flsnp" /></MadCap:conditionalText>
+                            <MadCap:snippetText xhtml:src="../Snippets/21CFR11_AdminGuide_title.flsnp" MadCap:conditions="Default.21CFR11AdminGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/EmbeddedFirmwareInternalTitle.flsnp" MadCap:conditions="Default.CDiG_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/PearlFirmwareInternalTitle.flsnp" MadCap:conditions="Default.Pearl_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/InstFirmwarePearl_title.flsnp" MadCap:conditions="Default.Pearl_Int_1110,Default.Pearl_Int_131,Default.Pearl_Int_127" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/CDiG_InstFirmware_title.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:conditionalText MadCap:conditions="Default.Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_Fc_R_Imager.flsnp" /></MadCap:conditionalText>
+                            <MadCap:snippetText xhtml:src="../Snippets/pearl_int_134_title.flsnp" MadCap:conditions="Default.Pearl_Int_134" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:conditionalText MadCap:conditions="Default.complianceGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Image Studio™ Software 21 CFR Part 11 Compliance Guide</MadCap:conditionalText>
+                            <MadCap:snippetText xhtml:src="../Snippets/pearl_door_gasket_title.flsnp" MadCap:conditions="TechNoteCond.trilogy_gasket_install" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="102px" Width="721px" Height="811px" FlowIndex="1" Flow="body" Right="-49px" Bottom="-49px" />
+        <Frame X="519px" Y="37px" Width="1.104167in" Height="0.25in" FlowIndex="5" Flow="decoration2" Right="-49px" Bottom="803px" Anchors="" BackgroundRepeat="no-repeat" BackgroundImage="../Images/licor-logo-white.eps" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="repeat-y" BackgroundImage="../Images/draft-watermark.eps">
+        <Frame X="-96px" Y="-72px" Width="720px" Height="48px" Flow="header" Right="-48px" Bottom="888px" Anchors="" BorderTopLeftRadius="0px" BorderTopRightRadius="0px" BorderBottomRightRadius="0px" BorderBottomLeftRadius="0px" BackgroundRepeat="no-repeat" BackgroundImage="none" BackgroundType="Solid" BackgroundColor="#ffffff" TextAlign="center" VerticalAlign="middle" BorderBottomStyle="solid" BorderBottomWidth="1px" PaddingLeft="3px" PaddingRight="3px" PaddingTop="3px" PaddingBottom="3px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.21CFR11AdminGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/21CFR11_AdminGuide_title.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.CDiG_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/EmbeddedFirmwareInternalTitle.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.Pearl_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/PearlFirmwareInternalTitle.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110,Default.Pearl_Int_134" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Install Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Pearl_R_Imaging_System.flsnp" />s - <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Install Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/C-DiGit_R_Blot_Scanner.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="TechNoteCond.trilogy_gasket_install" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/pearl_door_gasket_title.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="page-num-top" MadCap:conditions="Default.complianceGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/IS21CFR11.flsnp" /> Compliance Guide - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_Fc_R_Imager.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_CLx_R_Imager.flsnp" /> - Page <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="0px" Width="720px" Height="912px" FlowIndex="1" Flow="body" Right="-48px" Bottom="-48px" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="repeat-y" BackgroundImage="../Images/draft-watermark.eps">
+        <Frame X="-96px" Y="-72px" Width="720px" Height="48px" Flow="header" Right="-48px" Bottom="888px" Anchors="" BorderTopLeftRadius="0px" BorderTopRightRadius="0px" BorderBottomRightRadius="0px" BorderBottomLeftRadius="0px" BackgroundRepeat="no-repeat" BackgroundImage="none" BackgroundType="Solid" BackgroundColor="#ffffff" TextAlign="center" VerticalAlign="middle" BorderBottomStyle="solid" BorderBottomWidth="1px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="padding-bottom: 12px;">
+                            <MadCap:conditionalText MadCap:conditions="Default.CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_CLx_R_Imager.flsnp" /></MadCap:conditionalText>
+                            <MadCap:snippetText xhtml:src="../Snippets/21CFR11_AdminGuide_title.flsnp" MadCap:conditions="Default.21CFR11AdminGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/EmbeddedFirmwareInternalTitle.flsnp" MadCap:conditions="Default.CDiG_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/PearlFirmwareInternalTitle.flsnp" MadCap:conditions="Default.Pearl_Internal" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:conditionalText MadCap:conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110,Default.Pearl_Int_134" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Install Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Pearl_R_Imaging_System.flsnp" />s</MadCap:conditionalText>
+                            <MadCap:conditionalText MadCap:conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Install Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/C-DiGit_R_Blot_Scanner.flsnp" /></MadCap:conditionalText>
+                            <MadCap:conditionalText MadCap:conditions="Default.Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Upgrade Embedded Firmware for the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_Fc_R_Imager.flsnp" /> </MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Default.complianceGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><MadCap:snippetText xhtml:src="../Snippets/IS21CFR11.flsnp" /> Compliance Guide</MadCap:conditionalText><MadCap:snippetText xhtml:src="../Snippets/pearl_door_gasket_title.flsnp" MadCap:conditions="TechNoteCond.trilogy_gasket_install" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="0px" Width="720px" Height="912px" FlowIndex="1" Flow="body" Right="-48px" Bottom="-48px" />
+    </Page>
+</PageStyles>

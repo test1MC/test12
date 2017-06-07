@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <span class="snippet-font">Start</span> — Starts the image acquisition using the currently displayed parameter values. The status of the acquisition is displayed in the <MadCap:snippetText src="Status_group.flsnp" />. It also shows the channel being acquired, and the acquisition is listed in the <MadCap:snippetText src="ImagesTable.flsnp" />.</body>
+</html>

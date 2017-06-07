@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>The <MadCap:snippetText src="Average.flsnp" /> or <MadCap:snippetText src="Median.flsnp" /> background method computes the average or median intensity of pixels in a border around a shape and subtracts that background from the shape.</body>
+</html>

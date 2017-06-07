@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Destination for testing Image Studio 5.0 Web Help"
+  Host="web4"
+  User="MyAccountId"
+  Password=""
+  Directory="classic_1"
+  Port="22"
+  ViewUrl=""
+  Type="sftp"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ChangedOnly="false"></CatapultDestination>

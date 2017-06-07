@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1286" MadCap:lastWidth="1286">
+    <body>
+        <ol>
+            <li>
+                <p>Click <MadCap:snippetText src="Images.flsnp" /> <img src="../Images/DisplayImage.gif" class="inLineIcon24by24" /> to open the <MadCap:snippetText src="ImagesTable.flsnp" /> and look for the <MadCap:snippetText src="ImageStatus_column_21CFR11.flsnp" />.</p>
+                <p>Columns can be reordered, so the <MadCap:snippetText src="ImageStatus_column_21CFR11.flsnp" /> may not appear in the same location as shown below.</p>
+                <p>
+                    <img src="../Images/ImageStatus_column.png" class="width025pct" />
+                </p>
+            </li>
+            <li>
+                <p>If the <MadCap:snippetText src="ImageStatus_column_21CFR11.flsnp" /> is not visible, add it to the <MadCap:snippetText src="ImagesTable.flsnp" />.</p>
+                <p>Click <MadCap:snippetText src="Columns.flsnp" /> <img src="../Images/ReviewExpress.gif" class="inLineIcon24by24" /> at the top right of the <MadCap:snippetText src="ImagesTable.flsnp" />, select the Image Status check box in the <MadCap:snippetText src="ImageColumns_dialog.flsnp" />, and then click <MadCap:snippetText src="Save.flsnp" />.</p>
+            </li>
+        </ol>
+    </body>
+</html>

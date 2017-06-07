@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="C-DiGit Embedded Firmware Information"
+    Link="/Content/Embedded/C-DiGit_embedded.htm"
+    StartSection="false"
+    ComputeToc="false"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/guide_no_cover.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    conditions="Default.CDiG_Int_114,Default.CDiG_Int_1019"
+    BreakType="pageLayout"
+    StartSection="false" />
+</CatapultToc>

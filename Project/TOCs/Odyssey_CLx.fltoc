@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Odyssey_CLx_Cover.flpgl"></TocEntry>
+  <TocEntry
+    Title="FrontMatter"
+    Link="/Content/imaging_systems/odyssey_clx/Front_Matter.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl"
+    PageNumberFormat="lower-roman"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumber="2"></TocEntry>
+  <TocEntry
+    Title="CLx-TOC1"
+    Link="/Content/imaging_systems/odyssey_clx/CLx-TOC1.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
+  <TocEntry
+    Title="Chapter 1"
+    Link="/Content/imaging_systems/odyssey_clx/Chapter1.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="decimal"
+    PageNumber="1"
+    PageType="first">
+    <TocEntry
+      Title="Safety Considerations"
+      Link="/Content/imaging_systems/odyssey_clx/Safety_Considerations.htm"
+      BreakType="none"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Laser Safety"
+        Link="/Content/imaging_systems/odyssey_clx/Laser_Safety.htm" />
+      <TocEntry
+        Title="Safety Interlocks"
+        Link="/Content/imaging_systems/odyssey_clx/Safety-Interlocks.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Placement in the Laboratory"
+      Link="/Content/imaging_systems/odyssey_clx/PlacementInTheLaboratory.htm">
+      <TocEntry
+        Title="Ambient Laboratory Conditions"
+        Link="/Content/imaging_systems/odyssey_clx/Ambient_Laboratory_Condi.htm" />
+      <TocEntry
+        Title="Instrument Ventilation"
+        Link="/Content/imaging_systems/odyssey_clx/Ventilation.htm" />
+      <TocEntry
+        Title="Space Requirements"
+        Link="/Content/imaging_systems/odyssey_clx/Space_Requirements.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Moving the Instrument"
+      Link="/Content/MovingInstrument.htm" />
+    <TocEntry
+      Title="Chemical Safety"
+      Link="/Content/imaging_systems/odyssey_clx/Chemical_Safety.htm" />
+    <TocEntry
+      Title="Electrical Considerations"
+      Link="/Content/imaging_systems/odyssey_clx/Electrical_Consideration.htm">
+      <TocEntry
+        Title="Power Cords"
+        Link="/Content/imaging_systems/odyssey_clx/Power_Cords.htm" />
+      <TocEntry
+        Title="Power Switch"
+        Link="/Content/imaging_systems/odyssey_clx/Power_Switch.htm" />
+      <TocEntry
+        Title="Fuse Information"
+        Link="/Content/imaging_systems/odyssey_clx/Fuse.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Routine Maintenance"
+      Link="/Content/imaging_systems/odyssey_clx/Routine_Maintenance.htm" />
+    <TocEntry
+      Title="Networking Cables"
+      Link="/Content/imaging_systems/odyssey_clx/Networking.htm"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 2"
+    Link="/Content/imaging_systems/odyssey_clx/Chapter2.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    PageType="first">
+    <TocEntry
+      Title="External Panels and Controls"
+      Link="/Content/imaging_systems/odyssey_clx/External_Panels.htm">
+      <TocEntry
+        Title="Front Panel and Scanning Surface"
+        Link="/Content/imaging_systems/odyssey_clx/Front_Panel.htm" />
+      <TocEntry
+        Title="Rear Panel"
+        Link="/Content/imaging_systems/odyssey_clx/Rear_Panel.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Scanning Surface"
+      Link="/Content/imaging_systems/odyssey_clx/Scanning_Surface.htm">
+      <TocEntry
+        Title="General Description of Scanning"
+        Link="/Content/imaging_systems/odyssey_clx/General_Description.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Continuous Operation"
+      Link="/Content/imaging_systems/odyssey_clx/Continuous_Operation.htm" />
+    <TocEntry
+      Title="Disconnecting the Power"
+      Link="/Content/imaging_systems/odyssey_clx/Disconnecting_the_Power.htm" />
+    <TocEntry
+      Title="Optical System Description"
+      Link="/Content/imaging_systems/odyssey_clx/Optical_System_Descript.htm" />
+    <TocEntry
+      Title="Computer Connections and Networking"
+      Link="/Content/imaging_systems/odyssey_clx/Computer_Connections_and.htm" />
+    <TocEntry
+      Title="Image Studio Software Overview"
+      Link="/Content/imaging_systems/odyssey_clx/Image_Studio_Software.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 3"
+    Link="/Content/imaging_systems/odyssey_clx/Chapter3.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    PageType="first">
+    <TocEntry
+      Title="Before You Begin"
+      Link="/Content/imaging_systems/odyssey_clx/Before_You_Begin.htm" />
+    <TocEntry
+      Title="Cleaning the Scanning Surface"
+      Link="/Content/imaging_systems/odyssey_clx/Cleaning_the_Scanning_Su.htm" />
+    <TocEntry
+      Title="Using Membranes"
+      Link="/Content/imaging_systems/odyssey_clx/Using_Membranes.htm" />
+    <TocEntry
+      Title="Using Gels"
+      Link="/Content/imaging_systems/odyssey_clx/Using_Gels.htm" />
+    <TocEntry
+      Title="Using Microplates"
+      Link="/Content/imaging_systems/odyssey_clx/Using_Microplates.htm" />
+    <TocEntry
+      Title="Using the MousePOD Accessory"
+      Link="/Content/imaging_systems/odyssey_clx/Using_the_MousePOD_Acces.htm" />
+    <TocEntry
+      Title="Positioning Membranes and Gels"
+      Link="/Content/imaging_systems/odyssey_clx/Positioning_Membranes.htm" />
+    <TocEntry
+      Title="Positioning Microplates"
+      Link="/Content/imaging_systems/odyssey_clx/Positioning_Microplates.htm" />
+    <TocEntry
+      Title="Obtaining Technical Support"
+      Link="/Content/imaging_systems/odyssey_clx/Obtaining_Support.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 4"
+    Link="/Content/imaging_systems/odyssey_clx/Chapter4.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    AutoEndOnLeftPage="enabled">
+    <TocEntry
+      Title="Specifications"
+      Link="/Content/imaging_systems/odyssey_clx/Specifications.htm" />
+    <TocEntry
+      Title="Operating Specifications"
+      Link="/Content/imaging_systems/odyssey_clx/Operating_Specs.htm" />
+    <TocEntry
+      Title="Obtain Embedded Source Code"
+      Link="/Content/manual_resources/obtain_sources.htm" />
+  </TocEntry>
+</CatapultToc>

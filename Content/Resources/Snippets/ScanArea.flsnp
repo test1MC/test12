@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="879" MadCap:lastWidth="879">
+    <body>
+        <p>The <MadCap:snippetText src="Display_Image_in_Scan_Area_list.flsnp" /> contains options for which image to display in the scan grid.</p>
+        <p>
+            <img src="../../Images/CLx-ScanArea.gif" class="width013pct" />
+        </p>
+        <p>There are three choices in the list:</p>
+        <ul>
+            <li><span class="snippet-font">No Image </span>— Do not display an image in the scan grid</li>
+            <li><span class="snippet-font">Current Image</span> — Display the current image from the image table in the scan grid</li>
+            <li><span class="snippet-font">Last Acquired</span> — Display the last acquired image in the scan grid</li>
+        </ul>
+        <p>Use the other controls in the <MadCap:snippetText src="Scan_Area_group.flsnp" /> to determine the area(s) of the scan bed to image</p>
+        <ul>
+            <li><span class="snippet-font"><MadCap:keyword term="Draw new scan area" />Draw New</span> — Draw the scan area by clicking the image at the upper left point and dragging the mouse to the lower right point of area to scan. Click and drag (move) the scan area rectangle for further refinement. Any previously existing scan regions are replaced by this scan area.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Acquire Image:Split scan area into regions" />Split</span> — Split selected scan areas into multiple regions. The selected scan areas are split and evenly spaced in a row/column format. Multiple selected scan areas can optionally be merged into one area before splitting.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Acquire Image:Add new scan area" />Add </span>— Add a new scan area by clicking the image at the upper left point and dragging the mouse to the lower right point of the new area to scan. Click and drag (move) the scan area rectangle for further refinement.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Acquire Image:Copy scan area" />Copy</span>— Copies selected scan areas. A new scan area is created and selected that can be moved or resized. </li>
+            <li><span class="snippet-font"><MadCap:keyword term="Acquire Image:Scan area location" />Scan Area Location</span> — Displays the X, Y, Width and Height controls for the selected scan area.The Acquire Image View cursor location is also displayed.</li>
+        </ul>
+    </body>
+</html>

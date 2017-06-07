@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="734" MadCap:lastWidth="734">
+    <body>
+        <ol>
+            <li>
+                <p>Click the small arrow at the bottom right of the <MadCap:snippetText src="ShowGroup.flsnp" /> in the <MadCap:snippetText src="Analysis tab.flsnp" />.</p>
+                <p>The <MadCap:snippetText src="ImageViewShowOptions.flsnp" /> dialog will open <MadCap:conditionalText MadCap:conditions="Default.WebHelp">(see below)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide">(<MadCap:xref href="#ImageViewShowOptions" class="XreftoParanum">Figure 1</MadCap:xref>)</MadCap:conditionalText>.</p>
+                <p MadCap:conditions="Default.WebHelp">
+                    <img src="../Images/ImageViewShowOptions.png" class="width013pct no-border" />
+                </p>
+            </li>
+            <li>In the <MadCap:snippetText src="ImageViewShowOptions.flsnp" /> dialog, change the <MadCap:snippetText src="DisplayShapeQVal.flsnp" /> to <MadCap:snippetText src="Total.flsnp" />.</li>
+            <li>
+                <p>Click <MadCap:snippetText src="OK.flsnp" />.</p>
+            </li>
+        </ol>
+        <p>The displayed quantification value will be changed to <MadCap:snippetText src="None.flsnp" /> in all images.</p>
+    </body>
+</html>

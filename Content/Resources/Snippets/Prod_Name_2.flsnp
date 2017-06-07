@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="41" MadCap:lastWidth="576">
+    <head>
+    </head>
+    <body>
+        <MadCap:conditionalText MadCap:conditions="Manuals.ddigit-manual">Gel Scanner</MadCap:conditionalText><span MadCap:conditions="Manuals.clx-manual">CLx</span><span MadCap:conditions="Manuals.impulse-manual">Impulse </span><span MadCap:conditions="Manuals.cdigit-manual">Blot Scanner</span><span MadCap:conditions="Manuals.sa-manual">Sa</span><span MadCap:conditions="Manuals.trilogy-manual,Manuals.impulse-manual">Imaging</span><span MadCap:conditions="Manuals.odyssey-manual">Fc</span> <MadCap:conditionalText MadCap:conditions="Manuals.clx-manual,Manuals.odyssey-manual,Manuals.sa-manual">Imager</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Manuals.trilogy-manual,Manuals.impulse-manual">System</MadCap:conditionalText></body>
+</html>

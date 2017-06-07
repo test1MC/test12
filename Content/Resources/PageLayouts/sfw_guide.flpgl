@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Left" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="38px" Y="0in" Right="38px" Bottom="-48px" Width="6.5in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+        <Frame X="14px" Y="-72px" Width="7in" Height="0.3125in" Flow="header" Anchors="Right" Right="14px" Bottom="858px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header">Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - <MadCap:snippetText xhtml:src="../Snippets/normalization_handbook_title.flsnp" MadCap:conditions="Default.app_note" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/ExportingOdysseyFiles_cover.flsnp" MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:conditionalText MadCap:conditions="Default.OdyBrowser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Odyssey<xhtml:sup>®</xhtml:sup> Application Software Browser Interface</MadCap:conditionalText><MadCap:snippetText xhtml:src="../Snippets/In-CellWesternAssay_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/WesternAndMPXWestern_coverTitle.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/WorkArea_Title.flsnp" MadCap:conditions="TechNoteCond.WorkArea,TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/IS-SoftwareExportGuide.flsnp" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-40.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Title_Bg_Subtraction_Guide.flsnp" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/SmallAnimals_coverTitle.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="empty" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+    </Page>
+    <Page Name="Right" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="50px" Y="0in" Right="38px" Bottom="-48px" Width="6.375in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+        <Frame X="14px" Y="-72px" Width="7in" Height="0.3125in" Flow="header" Anchors="Right" Right="14px" Bottom="858px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header" xhtml:style="text-align: right;">
+                            <MadCap:snippetText xhtml:src="../Snippets/SmallAnimals_coverTitle.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/IS-SoftwareExportGuide.flsnp" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsageTitle-40.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/Title_Bg_Subtraction_Guide.flsnp" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WorkArea_Title.flsnp" MadCap:conditions="TechNoteCond.WorkArea,TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WesternAndMPXWestern_coverTitle.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/In-CellWesternAssay_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:conditionalText MadCap:conditions="Default.OdyBrowser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Odyssey<xhtml:sup>®</xhtml:sup> Application Software Browser Interface</MadCap:conditionalText>
+                            <MadCap:snippetText xhtml:src="../Snippets/ExportingOdysseyFiles_cover.flsnp" MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/normalization_handbook_title.flsnp" MadCap:conditions="Default.app_note" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="First" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="330px" Y="780px" Width="370px" Height="94px" Flow="footer" Right="0px" Bottom="-10px" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.WorkArea" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published June 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published February 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p xhtml:style="margin-top: 0;" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.OdyBrowser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.app_note" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2016. <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> The most recent version of this Technical Note is posted at <MadCap:snippetText xhtml:src="../Snippets/LICORBioSupportSite.flsnp" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="14px" Y="300px" Width="337px" Height="217px" FlowIndex="1" Flow="body" Right="349px" Bottom="347px" />
+        <Frame X="15px" Y="15px" Width="671px" Height="69px" Flow="header" Right="14px" Bottom="780px" Anchors="" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#0275c8" TextAlign="left">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="title-cover" xhtml:style="padding-bottom: 16px;">Technical Note</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="14px" Y="96px" Width="672px" Height="147px" Flow="decoration0" Right="14px" Bottom="621px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="TitlePage2" xhtml:style="color: #002d62;">
+                            <MadCap:snippetText xhtml:src="../Snippets/IS-SoftwareExportGuide.flsnp" MadCap:conditions="TechNoteCond.ExportGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsage40_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS40" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ChameleonUsage30_coverTitle.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/CoverTitle_BackgroundGuide.flsnp" MadCap:conditions="TechNoteCond.Background" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WorkArea_Title.flsnp" MadCap:conditions="TechNoteCond.WorkArea,TechNoteCond.WorkArea-IS5" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/WesternAndMPXWestern_coverTitle.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/SmallAnimals_coverTitle.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/InCellAnalysis_coverTitleOnly.flsnp" MadCap:conditions="TechNoteCond.ICW" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                            <MadCap:snippetText xhtml:src="../Snippets/ExportingOdysseyFiles_cover.flsnp" MadCap:conditions="Default.OdyExport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="TitlePage2" MadCap:conditions="Default.OdyBrowser" xhtml:style="color: #002d62;line-height: 28pt;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/OdyBrowserInt_title.flsnp" MadCap:conditions="Default.OdyBrowser" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="TitlePage2" MadCap:conditions="Default.app_note" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/normalization_handbook_title.flsnp" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="14px" Y="780px" Width="187px" Height="37px" FlowIndex="3" Flow="decoration1" Right="499px" Bottom="47px" BackgroundImage="../Images/licor-logo-blue-cover.eps" Anchors="" />
+        <Frame X="350px" Y="300px" Width="364px" Height="365px" FlowIndex="4" Flow="decoration2" Right="-14px" Bottom="199px" BackgroundImage="../Images/Arrow_Right_93B1CC.eps" Anchors="" />
+    </Page>
+</PageStyles>

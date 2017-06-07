@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/C-DiGit_Cover.flpgl" />
+  <TocEntry
+    Title="Notes on Safety"
+    Link="/Content/C-DiGit/C-DiGit_UserGuide_13448.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumber="2"
+    PageNumberFormat="lower-roman"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl"
+    PageType="left" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/C-DiGit/Table of Contents.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/C-DiGit/Introduction.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumberFormat="decimal"
+    StartSection="false"
+    PageNumber="1"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="What’s in the Box"
+      Link="/Content/C-DiGit/Whats in the Box.htm" />
+    <TocEntry
+      Title="Placement in the Laboratory"
+      Link="/Content/C-DiGit/Placement in the Laboratory.htm" />
+    <TocEntry
+      Title="Safety Considerations"
+      Link="/Content/C-DiGit/Safety Considerations.htm"></TocEntry>
+    <TocEntry
+      Title="External Panelsand Controls"
+      Link="/Content/C-DiGit/External Panelsand Controls.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Quick Start Tutorial"
+    Link="/Content/C-DiGit/Quick Start Tutorial.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl" />
+  <TocEntry
+    Title="Scanning Membranes"
+    Link="/Content/C-DiGit/Scanning Membranes.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Placing the Membrane on the C-DiGit Blot Scanner Scanning Surface"
+      Link="/Content/C-DiGit/Placing the Membrane on the.htm" />
+    <TocEntry
+      Title="Using Blocking Buffer"
+      Link="/Content/C-DiGit/Using Blocking Buffer.htm" />
+    <TocEntry
+      Title="Primaryand Secondary Antibodies"
+      Link="/Content/C-DiGit/Primaryand Secondary Antibodies.htm" />
+    <TocEntry
+      Title="Washing Buffer"
+      Link="/Content/C-DiGit/Washing Buffer.htm" />
+    <TocEntry
+      Title="Substrates"
+      Link="/Content/C-DiGit/Substrates.htm" />
+    <TocEntry
+      Title="Imaging"
+      Link="/Content/C-DiGit/Imaging.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Computer Connections &amp; Networking"
+    Link="/Content/C-DiGit/Computer Connections Networking.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Direct Connection Via USBCable"
+      Link="/Content/C-DiGit/Direct Connection Via USBCable.htm" />
+    <TocEntry
+      Title="Direct Connection Via Ethernet Cable"
+      Link="/Content/C-DiGit/Direct Connection Via Ethernet.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Maintenance &amp; Troubleshooting"
+    Link="/Content/C-DiGit/Maintenance Troubleshooting.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Troubleshooting –Hardware Problems"
+      Link="/Content/C-DiGit/Troubleshooting Hardware Problems.htm" />
+    <TocEntry
+      Title="Troubleshooting –Chemistry Problems"
+      Link="/Content/C-DiGit/Troubleshooting Chemistry.htm" />
+    <TocEntry
+      Title="Troubleshooting –Image Studio Problems"
+      Link="/Content/C-DiGit/Troubleshooting Image Studio.htm" />
+    <TocEntry
+      Title="Obtaining Technical Support"
+      Link="/Content/C-DiGit/Obtaining Technical Support.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Specifications"
+    Link="/Content/C-DiGit/Specifications.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl" />
+  <TocEntry
+    Title="Training Video Links"
+    Link="/Content/C-DiGit/Training Video Links.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="first"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"></TocEntry>
+  <TocEntry
+    Title="Obtain Embedded Source Code"
+    Link="/Content/manual_resources/obtain_sources.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+</CatapultToc>

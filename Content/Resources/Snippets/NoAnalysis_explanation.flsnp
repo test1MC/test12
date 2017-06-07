@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetText src="No_Analysis.flsnp" />: To analyze data manually, select <MadCap:snippetText src="No_Analysis.flsnp" /> from the <MadCap:snippetText src="Analysis_Type_list.flsnp" />. When the acquisition completes, click the <MadCap:snippetText src="AnalysisTab.flsnp" /> and choose an Analysis Type from the <MadCap:snippetText src="Analysis_Type_list.flsnp" /> in the <MadCap:snippetText src="Type_group.flsnp" />. Select <MadCap:snippetText src="Manual.flsnp" /> if you want to manually add shapes (the <MadCap:snippetText src="Lane.flsnp" /> background method is unavailable when using a <MadCap:snippetText src="Manual.flsnp" /> analysis).</body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="625" MadCap:lastWidth="720">
+    <head>
+        <link href="../Fonts/Roboto-Regular.ttf" rel="font" />
+        <link href="../Fonts/Roboto-Medium.ttf" rel="font" />
+        <link href="../Fonts/Roboto-MediumItalic.ttf" rel="font" />
+        <link href="../Fonts/Roboto-Bold.ttf" rel="font" />
+    </head>
+    <body>
+        <div class="top">
+            <MadCap:breadcrumbsProxy />
+            <p MadCap:conditions="Default.SysMgmtHelp">Image Studio™ Software System Management Tool</p>
+        </div>
+        <div class="menu">
+            <MadCap:menuProxy data-mc-skin="/Project/Skins/Menu.flskn" style="mc-toc-depth: 3;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" mc-linked-toc="/Project/Advanced/Browse Sequences/Top Nav.flbrs" />
+        </div>
+        <div class="main">
+            <MadCap:bodyProxy />
+            <div class="push">
+            </div>
+        </div>
+        <div class="foot">
+            <div class="welcome_1">
+                <p class="footer">Product Information:</p>
+                <ul class="foot-list">
+                    <li class="foot-list" MadCap:conditions="Default.SysMgmtHelp">Image Studio System Management Tool</li>
+                    <li class="foot-list" MadCap:conditions="Default.SysMgmtHelp">Document # 977-15768</li>
+                    <li class="foot-list">Help updated on: <MadCap:variable name="System.ShortDate" /></li>
+                </ul>
+                <!--<p class="footer" style="margin-top: 40px;">© 2015 LI-COR, Inc.</p>-->
+            </div>
+            <div class="welcome_2">
+            </div>
+            <div class="welcome_3">
+                <p class="footer">Contact Us:</p>
+                <ul class="foot-list">
+                    <li class="foot-list"><a class="footer" href="mailto:biohelp@licor.com" title="Email LI-COR support" alt="Email LI-COR support">biohelp@licor.com</a>
+                    </li>
+                    <li class="foot-list"><a class="footer" href="http://www.licor.com/bio" title="Go to the LI-COR website" target="_blank" alt="Go to the LI-COR website">www.licor.com/bio</a>
+                    </li>
+                    <li class="foot-list">US: 1-800-645-4260</li>
+                </ul>
+            </div>
+        </div>
+        <div style="clear:both;margin-top:100px;">
+            <p style="font-size:12px;">© <MadCap:variable name="General.year" /> LI-COR, Inc. LI-COR, Odyssey, C-DiGit, and Image Studio are trademarks or registered trademarks of LI-COR, Inc. in the United States and other countries. All other trademarks belong to their respective owners. LI-COR is an ISO 9001 registered company.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="824" MadCap:lastWidth="642">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1 ">Analyze Data</h1>
+        <h3>Add and Manipulate Shapes Manually</h3>
+        <p>
+            <img src="../Resources/Images/Analysis_tab.tif" class="width100pct" />
+        </p>
+        <ol>
+            <li>
+                <p>Click the <MadCap:snippetText src="../Resources/Snippets/Analysis tab.flsnp" /> (Figure 10).</p>
+            </li>
+            <li>
+                <p>If you want to analyze only one channel, you can deselect the channel you are not interested in analyzing. Click the 700 channel’s Don’t Show Channel thumbnail in the Image LUTs, leaving only the 800 channel displayed (Figure 11).</p>
+                <p>
+                    <img src="../Resources/Images/DontShowChannel_button.tif" alt="Dont Show Channel Button on Display tab (right side of Image Studio Window)" class="width025pct" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40,TechNoteCond.quickStart-Classic,TechNoteCond.quickStart-CLx,TechNoteCond.quickStart-Fc,TechNoteCond.quickStart-Pearl,TechNoteCond.quickStart-Sa,TechNoteCond.quickStart-Trilogy,TechNoteCond.quickStart-Cdig" />
+                </p>
+            </li>
+            <li>
+                <p>Click Add Rectangle to add a rectangle to the image or Add Ellipse  to add an ellipse (Figure 12). (Alternatively, to manually draw a shape, choose Draw Rectangle or Draw Ellipse).</p>
+                <p>
+                    <img src="../Resources/Images/Shapes_group.tif" class="width0375pct" />
+                </p>
+            </li>
+            <li>
+                <p>Click in the center of a feature to place a rectangle or ellipse around it.</p>
+                <p class="note">If adding multiple shapes, do so in a logical order, as the data are sorted by an ID number that is generated sequentially). After adding all of the desired shapes, click Select or press the Esc key on your keyboard to return the cursor to the selection tool.</p>
+            </li>
+            <li>
+                <p>To move or resize a shape, click once on the shape to select. Dotted lines indicate the shape is selected.</p>
+                <ol>
+                    <li>
+                        <p>To move the shape, drag the four-pointed cursor within the selection shape (Figure 13).</p>
+                        <p>
+                            <img src="../Resources/Images/selectManualShape.tif" class="width075pct" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>To resize the shape, hover over any corner or side of the shape. Drag the yellow dotted line to resize (Figure 14).</p>
+                        <p>
+                            <img src="../Resources/Images/resizeSelectedShape.tif" class="width075pct" />
+                        </p>
+                    </li>
+                </ol>
+                <h3>Subtract Background</h3>
+                <div class="dFloRig_12ptPadTopLefBot">
+                    <img src="../Resources/Images/DefineType_dropdown.tif" />
+                </div>
+                <ol>
+                    <li>
+                        <p>Click the first button in the Background group and select Median from the drop-down menu to subtract the median value of pixels in the background segment (Figure 15).</p>
+                        <p style="clear: both;">&#160;</p>
+                    </li>
+                    <div class="dFloRig_12ptPadTopLefBot">
+                        <img src="../Resources/Images/Background_dialog.tif" />
+                    </div>
+                    <li>
+                        <p>Set the Border Width to 3 in the Background dialog and select the segments to be used for the background calculation (Figure 16).</p>
+                        <p class="note">When choosing which segments to use, select the segments that best represent the actual background of the image.</p>
+                    </li>
+                    <li style="clear:both;">Click <MadCap:snippetText src="../Resources/Snippets/Save.flsnp" />.</li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

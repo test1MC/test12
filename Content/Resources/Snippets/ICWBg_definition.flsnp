@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>The average pixel intensity of each background well will be calculated, and the background wells will be averaged to find the background value to be subtracted from wells designated <MadCap:snippetText src="Sample.flsnp" /> and <MadCap:snippetText src="100_per_Standard.flsnp" />.</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="852" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: "><a name="_bookmark20"></a>Assembling the Odyssey Sa System</h1>
+        <p>Since this chapter is not an installation guide, it is assumed the computer is setup according to the manufacturer’s instructions. Use the Windows® control panels to make sure the <b>Date and Time</b> control panel is set accurately, and that the <b>Power Options</b> control panel has all power management options set to <b>Never</b>. Set the network configuration to ‘Obtain an IP address automatically.’</p>
+        <ol class="paren">
+            <li>Start with both the computer and instrument turned off.</li>
+            <li>Connect the included Cat. 5 RJ45 cable to the network port on the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" />. The network port is identified in Chapter 2.</li>
+            <li class="NoNum"><b>Note:</b> Use only the networking cables provided with the Odyssey Sa Imager.</li>
+            <li>Connect the other end of the Cat. 5 RJ45 cable to the network port on the computer.</li>
+            <li>Turn on the computer and the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_R_Sa_Imager.flsnp" />, and wait for their start-up procedures to be completed.</li>
+            <li class="NoNum"><b>Note:</b> Make sure the networking cable is connected to the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" /> and computer before turning on the power to either one.</li>
+            <li>Start <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> on your computer. When <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> starts, it goes through an auto-discovery process that finds the Odyssey Sa instrument (can take several minutes).</li>
+            <li>To confirm that <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> can communicate with the Odyssey Sa Imager, check that the buttons on the Acquire ribbon are active and the status submenu in the ribbon says <b>Ready</b>.</li>
+            <li class="NoNum">
+                <img src="../../Resources/Images/AppButton_Sa_scannerList.tif" class="width066pct" />
+            </li>
+            <li class="NoNum">The instrument will be listed by serial number if connected. Select it and click OK . If it’s not listed, click on Auto Discover to run the autodiscovery process again. It may take several minutes for the Odyssey Sa Imager to establish its IP address on startup.</li>
+            <li class="NoNum">
+                <img src="../../Resources/Images/Sa_Manual_14595/0300000D.png" class="width066pct" />
+            </li>
+            <li>Open the Application menu, hover over Instrument, and click Connect. In the Scanner Login window, choose your scanner, enter the name and password of an account with Administrator access rights, and click OK.</li>
+            <li class="NoNum">
+                <img src="../../Resources/Images/Sa_Manual_14595/0300000E.png" class="width033pct" />
+            </li>
+        </ol>
+        <p><a name="_bookmark21"></a>If you cannot connect to the instrument, see <MadCap:xref href="#_bookmark23" class="TOCPageNumber">"Reset to Automatic IP Addressing" on page&#160;1</MadCap:xref>.</p>
+        <p>The default administrator account shipped with the Odyssey Sa instrument is named “admin” and the password is also “admin” (case sensitive). If you can log in using the default admin/admin account, you are successfully connected and will be able to create new user (control) accounts.</p>
+        <p>For best security, change the password for the “admin” account and keep a record of the new password in a safe place.</p>
+        <h2>Adding Users</h2>
+        <p>User account information is stored on the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" /> rather than on the computer. If you do not have a user account, you will need to create one.</p>
+        <ol class="paren" MadCap:continue="true">
+            <li>Open the Application menu, hover over Instrument, hover over Management, and click Administration.</li>
+            <li>Click Manage Users to set up a new user account.</li>
+            <li><a name="_bookmark22"></a>Close the System Administration window when you are through adding user accounts.</li>
+        </ol>
+        <p>Setup is now complete.</p>
+        <h2>Configuring Automatic IP Addressing</h2>
+        <p>The Odyssey Sa Infrared Imaging System can be set to an automatic or manual IP address in the Image Studio software in the System Administration window (see step 7 above). Click <b>Edit Network Config...</b></p>
+        <p>
+            <img src="../../Resources/Images/config.png" class="width050pct" />
+        </p>
+        <p>In this dialog set the network configuration to either Automatic or Manual. In most cases, use Automatic addressing for the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_R_Sa_Imager.flsnp" />.</p>
+        <p>
+            <img src="../../Resources/Images/config_auto.png" class="width033pct" />
+        </p>
+        <h2><a name="_bookmark23"></a>Reset to Automatic IP Addressing</h2>
+        <p>If you cannot connect to your Odyssey Sa Imager, it is possible that it is configured to an unknown manual address. It is necessary, in this case, to reset the network configuration to automatic addressing by following the steps below.</p>
+        <ol class="paren">
+            <li>Start with both the computer and instrument turned off.</li>
+            <li>Make sure the included Cat. 5 RJ45 cable is connected to the network port on the Odyssey Sa instrument. The network port is identified in Chapter 2.</li>
+            <li class="NoNum"><b>Note:</b> Use only the networking cables provided with the Odyssey Sa Imager.</li>
+            <li>Make sure the other end of the Cat. 5 RJ45 cable is connected to the network port on the computer.</li>
+            <li>Turn on the computer.</li>
+            <li>Press the power button on the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" />. It will start blinking to show that the instrument is booting.</li>
+            <li>Press and hold the eject button during the boot process when the green scanning status light is blinking. Make sure the eject button is depressed at the end of the four times that the green scanning status light blinks.</li>
+            <li class="NoNum">The networking is now configured to automatic addressing and you can release the eject button.</li>
+            <li>Start <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> on your computer.</li>
+        </ol>
+        <p>The <MadCap:snippetText src="../../Resources/Snippets/Image Studio no TM.flsnp" /> goes through an autodiscovery process and will now be able to find the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" /> (can take several minutes).</p>
+    </body>
+</html>

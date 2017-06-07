@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="note">
+            The header will always remain at the top of the page, even if its position is changed in the <MadCap:snippetText src="Current_Layout_Items_column.flsnp" />.</p>
+    </body>
+</html>

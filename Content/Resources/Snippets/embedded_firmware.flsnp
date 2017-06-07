@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1209" MadCap:lastWidth="1209">
+    <body>
+        <p>
+            <MadCap:popup>
+                <MadCap:popupHead>embedded firmware</MadCap:popupHead>
+                <MadCap:popupBody>Embedded firmware is software that controls the internal workings of your instrument. <span class="snippet-font">Except for rare occasions where embedded firmware may need to be upgraded, you do not need to worry about embedded firmware.</span></MadCap:popupBody>
+            </MadCap:popup>
+        </p>
+    </body>
+</html>

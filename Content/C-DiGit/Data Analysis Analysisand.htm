@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="846" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: "><a name="_bookmark42"></a>Data Analysis(Analysis and Annotation Ribbons)</h1>
+        <h2>Add and Manipulate Shapes Manually</h2>
+        <ol class="paren">
+            <li>Click the Analysis tab to open the Analysis ribbon.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/analysis.png" class="width088pct" />
+            </li>
+            <li>Click Add Rectangle to add a rectangle to the image or Add Ellipse to add an ellipse. Click in the center of a feature to place the rectangle or ellipse around it. After adding the desired shapes, click Select or press the Esc key on your keyboard to return the cursor to the selection tool.</li>
+            <li>To move or resize a shape, select the shape by clicking on it once. Dotted lines indicate the shape is selected.<ul><ol class="let"><li>To move the shape, drag the four-pointed cursor within the selection shape.</li><li class="NoNum"><img src="../Resources/Images/4890_shape.png" class="width050pct" /></li><li>To resize the shape, hover over any corner or side of the shape. Drag the double-sided arrow to resize.</li><li class="NoNum"><b>Note:</b> To activate the double-sided arrow, the cursor must be on the selection tool (click Select in the Analysis group or press the Esc key on the keyboard).</li><li class="NoNum"><img src="../Resources/Images/4890_shape2.png" class="width050pct" /></li><li><a name="_bookmark43"></a>To view the shapes and labels on the image, enable the Shapes and Labels check boxes in the Show group. Disable the check marks to remove the shapes and labels from the image.</li><li>To edit the label, click the Shapes tab at the bottom of the screen to view the Shapes Table. Under the Name column, double-click on the cell for the selected shape and edit the text. Press Enter, and the new text will appear on the image. To change the location of the label, click the small arrow on the Show group to open the Image View Labels menu.</li></ol></ul></li>
+            <li class="NoNum"><b>Note:</b> You must press Enter or click on another cell in the Table to save the change to the Table cell before savi0ng the acquisition.</li>
+            <li class="NoNum"><b>Note:</b> Select Draw Rectangle, Draw Ellipse, or Draw Freehand to manually draw shapes. Drag the mouse to create the shape. The resulting shape can be moved or resized in the same way that an auto shape is moved or resized.</li>
+        </ol>
+        <ol class="paren" MadCap:continue="true">
+            <li>To quickly add shapes, use the Add Selection tool.<ol class="let"><li>Drag a rectangle around the shapes to select them. Dotted lines indicate the shapes are selected.</li><li>Click Add Selection in the Shape group.</li><li>Click the image to add the shapes to the image.</li><li>To move the shapes, drag the four-pointed cursor that appears within either shape. The selected shapes move together.</li></ol></li>
+        </ol>
+        <p><b>Note:</b> You can also rotate shapes by selecting them, pressing the Ctrl key, and scrolling with the mouse, or by clicking the Rotate button in the Edit group of the Analysis tab.</p>
+        <h2>Profiles Tab</h2>
+        <ol class="paren">
+            <li>After creating at least one shape on an image, select a shape with the selection arrow until it changes to a dashed line.</li>
+            <li>On the right side of the screen, click the Profiles tab to view two graphs of the pixels within a selected shape. The top graph is a cross section of the pixel intensities from top to bottom. The bottom graph is a cross section of the pixel intensities from left to right.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/shape2.png" class="width050pct" />
+            </li>
+            <li><a name="_bookmark44"></a>Adjust the size of the selected shape by dragging the arrows on the corners of the shape. Notice how the graph changes.</li>
+        </ol>
+        <p><b>Note:</b> The small black marks (circled in red above) indicate the boundaries of the shape. Move the shape around the band so that the small black marks are close to the edges of the peak to capture the entire signal for that band.</p>
+        <h2>Auto Adjust</h2>
+        <p>The software moves selected shapes to fully enclose areas of fluorescence near the shapes.</p>
+        <ol class="paren">
+            <li>Drag a rectangle around the shapes to select them. Dotted lines indicate the shapes are selected.</li>
+            <li>Click <b>Adjust</b> and the shapes will move slightly to better enclose nearby areas of fluorescence.</li>
+        </ol>
+        <h2>Subtract the Background</h2>
+        <p>Subtract the background of the blot or gel from the shapes to obtain consistent data. The software will not calculate Signal for the shapes if a background method is not selected.</p>
+        <div style="width: 396pt; height: 47pt;" class="video">
+            <p class="video"><a href="http://www.licor.com/bio/educational_resources/webinars_videos/player.html?id=209" class="video">Click here to watch a video that demonstrates how to set the background subtraction method.</a></p>
+        </div>
+        <ol class="paren">
+            <li><a name="_bookmark45"></a>Click the first button in the Background group and select Median from the drop- down menu to subtract the median value of the pixels in the background segment. This method is useful if the pixel intensities in the background segment are not uniform.</li>
+            <li class="NoNum"><b>Note:</b> Select Average for the Background Method to subtract the average value of the pixels in the background segment.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/avg1.png" /> <img src="../Resources/Images/avg2.png" /></li>
+            <li>In the Background dialog set the Border Width to 3 and select Right/Left to select the segments on the left and right sides of the shape.</li>
+            <li>Click Save.</li>
+        </ol>
+        <p><b>Note:</b> The black line under the curves in the Profiles window delineates the background that will be subtracted.</p>
+        <h2>Subtract a User-Defined Background</h2>
+        <p>A region of the image can be chosen for the background.</p>
+        <ol class="paren">
+            <li>Click the first button in the Background group and select <b>User-Defined</b> from the drop-down menu.</li>
+            <li>Using what you’ve learned from Add and Manipulate Shapes Manually in this section, place a shape on the image in the region that you have chosen as the background.</li>
+            <li>Select the shape by clicking on it with the selection arrow until the shape outline toggles to a dashed line.</li>
+            <li>Click <b>Assign Shape</b> in the Background group.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/shape3.png" />
+            </li>
+        </ol>
+        <h2><a name="_bookmark46"></a>Show</h2>
+        <p>In the Show group, enable all check boxes, indicating all items will appear on the image. To specify the location of the labels, click on the arrow at bottom right to open the Image View Labels menu.</p>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200006A.jpg" /> <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200006B.jpg" /></p>
+        <h2>Annotate the Image</h2>
+        <p>Click the <b>Annotation</b> tab to open the Annotation ribbon.</p>
+        <p>
+            <img src="../Resources/Images/annotate.png" class="width100pct" />
+        </p>
+        <div style="width: 396pt; height: 47pt;" class="video">
+            <p class="video"><a href="http://www.licor.com/bio/educational_resources/webinars_videos/player.html?id=211" class="video">Click here to watch a video that demonstrates how to annotate images.</a></p>
+        </div>
+        <p>Click <b>Add Text</b> in the Text group and then click on the image. Type the desired text in the <i>Text:</i> box. Click OK to add the text to the image.</p>
+        <p>
+            <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200006D.jpg" />
+        </p>
+        <p>Click <b>Add Arrow</b> in the Text group and click on the image to add an arrow to the image. Click Select or press the Esc key on the keyboard to toggle the cursor back to the selection tool. Click the text or arrow that was added to the image with the selection tool. A dashed box appears around the text or arrow. Use the tools in the Font group to change the appearance of the text or arrow.</p>
+        <p>
+            <img src="../Resources/Images/4890_shape3.png" class="width075pct" />
+        </p>
+        <p>Click <b>Rotate CW</b> or <b>Rotate CCW</b> in the Text group to rotate the text or arrow. Click <b>Edit</b> in the Text group to view the Text Properties menu for the selected item. Insert different text or add a border to the text with this menu. If the selected item is an arrow, click and drag the sides of the dashed box to change the size of the arrow.</p>
+    </body>
+</html>

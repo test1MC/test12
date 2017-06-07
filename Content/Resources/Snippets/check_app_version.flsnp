@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1139" MadCap:lastWidth="1139">
+    <body>
+        <p><span class="snippet-font">Check Software Version</span>
+        </p>
+        <ol>
+            <li>Start <MadCap:snippetText src="Image Studio no TM.flsnp" />.</li>
+            <li>Click the <MadCap:snippetText src="Help.flsnp" />&#160;<img src="../Images/Help.gif" class="inLineIcon" />&#160;icon in the upper right corner of the window.</li>
+            <li>
+                <p>In the <MadCap:snippetText src="Help.flsnp" /> window, click <MadCap:snippetText src="AboutImageStudio.flsnp" /> in the table of contents on the left.</p>
+                <p>The Image Studio version will be displayed at the top of the page.</p>
+                <p>
+                    <img src="../Images/IS_About_Page_Version.png" class="width025pct" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

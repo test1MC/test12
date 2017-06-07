@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="887" MadCap:lastWidth="720">
+    <head>
+        <link href="../Resources/TableStyles/longTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Image Status</h1>
+        <p>The Image Status is the current state of an image in the <MadCap:snippetText src="../Resources/Snippets/IS_21CFRPart11_Module.flsnp" /> <a href="Workflow_Overview_21CFR11.htm">workflow</a> (<MadCap:xref href="Workflow_Overview_21CFR11.htm" class="on_page">see page 1</MadCap:xref>), and it determines which <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> may be performed on an image. An <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" />  must be performed to change the Image Status. To change an image's status, you must have the correct <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" /> allowed for your <MadCap:snippetText src="../Resources/Snippets/Role_21CFR11.flsnp" />.</p>
+        <p class="note">
+            When an <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" /> is performed on an image, the Image Status changes and the change is recorded in the <MadCap:xref href="ExportImageLog_21CFR11.htm" class="HypLinkTopic">"Image Log"</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.PaperCopy"> (<MadCap:xref href="ExportImageLog_21CFR11.htm" class="on_page">see page 1</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Image statuses and descriptions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="mc-table-style: url('../Resources/TableStyles/longTable.css');" class="TableStyle-longTable" cellspacing="0">
+                    <col class="TableStyle-longTable-Column-Column1" style="width: 96px;" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <tr class="TableStyle-longTable-Body-Subhead" MadCap:pattern="5">
+                        <td class="TableStyle-longTable-BodyE-Column1-Subhead">Status Name</td>
+                        <td class="TableStyle-longTable-BodyE-Column1-Subhead">Status Description</td>
+                        <td class="TableStyle-longTable-BodyD-Column1-Subhead">Associated Actions</td>
+                    </tr>
+                    <tbody>
+                        <tr class="TableStyle-longTable-Body-Body1" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Acquiring</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">An image in the process of being acquired by a LI-COR instrument has the <span class="snippet-font">Acquiring</span> status. After an image is acquired, the status is automatically changed to <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" />. If you are assigned a role that is allowed the <MadCap:snippetText src="../Resources/Snippets/Acquire_action_21CFR11.flsnp" /> action but not the <MadCap:snippetText src="../Resources/Snippets/Edit_21CFR11.flsnp" /> action, you will be allowed to acquire images but not edit or analyze them.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">
+                                <MadCap:snippetText src="../Resources/Snippets/Acquire_action_21CFR11.flsnp" />: Allows you to perform an image acquisition using <MadCap:snippetText src="../Resources/Snippets/Image_Studio_Software_cover.flsnp" /> and a LI-COR instrument.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Canceled</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">When the process of acquiring an image on a LI-COR instrument is canceled, the image has the <MadCap:snippetText src="../Resources/Snippets/Canceled_status_21CFR11.flsnp" /> status. A partially acquired image with the <MadCap:snippetText src="../Resources/Snippets/Canceled_status_21CFR11.flsnp" /> status cannot be analyzed or edited. Images cannot be removed from the <MadCap:snippetText src="../Resources/Snippets/Canceled_status_21CFR11.flsnp" /> status. The acquire process must be restarted.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">
+                                <MadCap:snippetText src="../Resources/Snippets/Cancel_action_21CFR11.flsnp" />: The <MadCap:snippetText src="../Resources/Snippets/Cancel_action_21CFR11.flsnp" /> action must be allowed for your role to cancel an image acquisition that has already started.</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Editing</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">The <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status allows changes to an image analysis to be saved. A user must have a role with the <MadCap:snippetText src="../Resources/Snippets/Edit_21CFR11.flsnp" /> action allowed to save changes to an image analysis.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">
+                                <p class="inList" style="margin-top:0;">
+                                    <MadCap:snippetText src="../Resources/Snippets/SubmitForApproval_action_21CFR11.flsnp" />: Moves the image to the <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/ResumeEdit_action_21CFR11.flsnp" />: Moves the image from the <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status back to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/EditRejected_Action_21CFR11.flsnp" />: Moves the image from the <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status back to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Waiting for Approval</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">The <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status designates that the image needs to be approved or rejected.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">
+                                <p class="inList" style="margin-top:0;">
+                                    <MadCap:snippetText src="../Resources/Snippets/Approve_action_21CFR11.flsnp" />: Moves the image to the <MadCap:snippetText src="../Resources/Snippets/Approved_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/RejectEdited_action_21CFR11.flsnp" />: Moves the image to the <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/ResumeEdit_action_21CFR11.flsnp" />: Moves the image from the <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status back to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">Rejected</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">The <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status designates that an image analysis does not meet organizational standards. Images cannot be edited or analyzed while in the <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body1">
+                                <p class="inList" style="margin-top:0;">
+                                    <MadCap:snippetText src="../Resources/Snippets/RejectEdited_action_21CFR11.flsnp" />: Moves an image from the <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status to the <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/EditRejected_Action_21CFR11.flsnp" />: Moves an image from the <MadCap:snippetText src="../Resources/Snippets/Rejected_status_21CFR11.flsnp" /> status back to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">Approved</td>
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">The <MadCap:snippetText src="../Resources/Snippets/Approved_status_21CFR11.flsnp" /> status designates that an image analysis meets organizational standards. Images cannot be edited or analyzed while in the <MadCap:snippetText src="../Resources/Snippets/Approved_status_21CFR11.flsnp" /> status.</td>
+                            <td class="TableStyle-longTable-BodyD-Column1-Body2">
+                                <p class="inList" style="margin-top:0;">
+                                    <MadCap:snippetText src="../Resources/Snippets/Approve_action_21CFR11.flsnp" />: Moves an image from the <MadCap:snippetText src="../Resources/Snippets/WaitingForApproval_status_21CFR11.flsnp" /> status to the <MadCap:snippetText src="../Resources/Snippets/Approved_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/RejectApproved_action_21CFR11.flsnp" />: Moves an image from the <MadCap:snippetText src="../Resources/Snippets/Approved_status_21CFR11.flsnp" /> status back to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1" MadCap:conditions="">
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">Inactive</td>
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">Inactive images are removed from normal view.</td>
+                            <td class="TableStyle-longTable-BodyA-Column1-Body1">
+                                <p class="inList" style="margin-top:0;">
+                                    <MadCap:snippetText src="../Resources/Snippets/Deactivate_action_21CFR11.flsnp" />: Moves the image to the <MadCap:snippetText src="../Resources/Snippets/Inactive_status_21CFR11.flsnp" /> status.</p>
+                                <p class="inList">
+                                    <MadCap:snippetText src="../Resources/Snippets/Reactivate_action_21CFR11.flsnp" />: Moves the image from the <MadCap:snippetText src="../Resources/Snippets/Inactive_status_21CFR11.flsnp" /> status to the <MadCap:snippetText src="../Resources/Snippets/Editing_21CFR11.flsnp" /> status.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Temporary: below table is for Sys. Mgmt. -->
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

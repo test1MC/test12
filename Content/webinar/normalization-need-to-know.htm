@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://madcapsoftwcom/Schemas/Madxsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="163" MadCap:lastWidth="1008" d1p1:lastBlockDepth="7" d1p1:lastHeight="4326" d1p1:lastWidth="1192" xmlns:d1p1="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p style="margin-bottom:0;margin-top:0;padding-top:0;"><strong>Speaker:</strong> Amy Geschwender, PhD, Principal Scientist, LI-COR Biosciences</p>
+        <p style="margin-top:3px;margin-bottom:0;padding-top:0;"><strong>Date:</strong>&#160;September 20, 2016</p>
+        <p style="margin-top:3px;"><strong>Webinar Recording:</strong> <a href="www.licor.com/NormalizeWebinar1">licor.com/NormalizeWebinar1</a></p>
+        <div style="background-color: #C8E4F5;margin-top: 20px;margin-bottom: 20px;padding: 20px;">
+            <h3>Register for our upcoming webinar on October 11, 2016:</h3>
+            <p style="margin-bottom:0;margin-top:0;padding-top:0;"><strong>Title:</strong> Normalization Methods for Quantitative Analysis of Western Blots</p>
+            <p style="margin-top:3px;margin-bottom:0;padding-top:0;"><strong>Speaker:</strong> Steve Shiflett, MS, Product Manager</p>
+            <p style="margin-top:3px;"><strong>Register here:</strong> <a href="http://www.licor.com/RegisterNormWebinar">licor.com/RegisterNormWebinar</a></p>
+            <p>Get practical, expert advice on how to normalize. Learn how to use different normalization methods to generate high-quality data suitable for quantitative comparisons.</p>
+        </div>
+        <ol class="outline">
+            <li>Western blot (WB) normalization corrects for unavoidable variability between samples on the blot</li>
+            <ol>
+                <li>More consistent, more accurate quantitative analysis and results</li>
+                <li>Important to understand how WB normalization works and its impact on data analysis and coefficient of variation (CV)</li>
+            </ol>
+            <li>Standards for quantitative WB analysis have changed</li>
+            <ol>
+                <li>NIH concerns about variability, rigor, and reproducibility (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Implemen3" title="View reference" alt="View reference" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>1</u></span></MadCap:xref> - <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w5" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>3</u></span></MadCap:xref>)</li>
+                <ol>
+                    <li>Know how methods work, where variability and error arise</li>
+                    <li>Provide enough detail for readers, reviewers to see how data were collected and analyzed</li>
+                </ol>
+                <li>New reporting standards for quantitative WB analysis (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w6" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>) ask authors to clearly explain:</li>
+                <div class="quoteBox">
+                    <ol>
+                        <li>How quantitative WB data were obtained</li>
+                        <li>Whether signal intensity has a linear relationship with antigen loading</li>
+                        <li>How protein loading was normalized among lanes</li>
+                        <p>-- <i>The Journal of Biological Chemistry</i>, Instructions for Authors <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w7" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span>)</MadCap:xref></p>
+                    </ol>
+                </div>
+                <li>Be prepared for more rigorous publication standards regarding WB normalization</li>
+                <ol>
+                    <li>Know the attributes of an accurate internal loading control</li>
+                    <li>Understand sources of variability in WB normalization</li>
+                    <li>Impact of normalization methods on data analysis and CV</li>
+                </ol>
+            </ol>
+            <li>Normalization basics</li>
+            <ol>
+                <li>WB normalization mathematically corrects for unavoidable sample-to-sample and lane-to-lane variability by comparing the target to an internal loading control <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                <li>Internal loading control (ILC) is an endogenous indicator of sample concentration and/or cell number</li>
+                <ol>
+                    <li>Present in all samples and not affected by experimental conditions</li>
+                    <li>Enables relative comparison of target protein levels across the blot</li>
+                </ol>
+                <li>Ensures that changes in band intensity reflect actual biological change in samples</li>
+                <li>Confirms that changes are not caused by variability in sample prep, gel loading, or transfer</li>
+            </ol>
+            <li>Commonly used internal loading controls</li>
+            <ol>
+                <li>Internal reference protein <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Janes" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>7</u></span>)</MadCap:xref></li>
+                <ol>
+                    <li>Single, indirect indicator of sample concentration</li>
+                    <li>Housekeeping protein (HKP) is frequently used</li>
+                    <li>Unrelated endogenous protein that is stably expressed in all samples</li>
+                </ol>
+                <li>Total protein staining (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Total2" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>8</u></span></MadCap:xref>-<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Consider" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>)</li>
+                <ol>
+                    <li>Uses all sample proteins in each lane as direct readout of sample concentration</li>
+                    <li>Membrane staining generally performed after transfer</li>
+                    <li>Covalent labeling methods sometimes used (Bio-Rad Stain-Free™, Amersham™ WB System) (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Taylor" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>11</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Stain-fr" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>12</u></span></MadCap:xref>)</li>
+                </ol>
+                <li>Post-translational modifications (PTM)</li>
+                <ol>
+                    <li>Use target protein as its own internal loading control</li>
+                    <li>Pan/phospho analysis commonly performed (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar2" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w8" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Quantita" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>13</u></span></MadCap:xref>)</li>
+                    <li>Combine modification-specific Ab with pan-Ab that recognizes target protein regardless of its modification state</li>
+                    <li>Analyze phosphorylation, glycosylation, ubiquitination, acetylation, and other PTMs <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Ubiquiti" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>14</u></span>)</MadCap:xref></li>
+                </ol>
+            </ol>
+            <li>Plan ahead for accurate WB normalization</li>
+            <ol>
+                <li>Consider normalization strategy before beginning the experiment</li>
+                <li>Choose method that is appropriate for experimental context and data analysis</li>
+                <li>Manage WB variability for increased accuracy</li>
+                <ol>
+                    <li>Experimental design (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Janes" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>7</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Consider2" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>)</li>
+                    <ol>
+                        <li>Limit inherent variability of samples and methods</li>
+                        <li>Minimize amount of correction needed</li>
+                        <li>Detect changes more reliably, with smaller error bars and lower CVs</li>
+                    </ol>
+                    <li>WB normalization <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <ol>
+                        <li>Use appropriate ILC that is accurate indicator of sample concentration</li>
+                        <li>Correct for unavoidable variation</li>
+                    </ol>
+                </ol>
+                <li>No single normalization method or ILC will always be “best”</li>
+                <ol>
+                    <li>ILC must be appropriate for:</li>
+                    <ol>
+                        <li>Context and biology of experiment</li>
+                        <li>Sources of variability in that specific experimental system</li>
+                    </ol>
+                    <li>Choice of ILC determines how accurately you can correct for variability</li>
+                </ol>
+                <li>The Core Principle of Normalization</li>
+                <ol>
+                    <li>Target and ILC signals must vary to the same degree with sample concentration <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <ol>
+                        <li>Proportional relationship</li>
+                        <li>Consistent target-to-control ratio in all experimental samples</li>
+                    </ol>
+                    <li>Attributes of accurate, effective ILC <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <ol>
+                        <li>Signal intensity is proportional to sample concentration</li>
+                        <li>Signal intensity is proportional to abundance of the control</li>
+                        <li>ILC corrects for variation at all stages of WB process</li>
+                        <li>ILC is compatible with immunodetection of target proteins</li>
+                    </ol>
+                </ol>
+            </ol>
+            <li>Using a housekeeping protein for WB normalization</li>
+            <ol>
+                <li>Actin, tubulin, or GAPDH typically used</li>
+                <li>Is signal intensity proportional to sample concentration?</li>
+                <ol>
+                    <li>ILC expression must be constant across all samples</li>
+                    <li>ILC expression must be unaffected by experimental conditions</li>
+                    <li>Vulnerable to biological variability in expression of ILC, because a single indicator is used <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <li>HKP changes the hypothesis <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <ol>
+                        <li>Original question: what is level of target protein, relative to sample concentration?</li>
+                        <li>New question: what is level of target protein, relative to concentration of HKP?</li>
+                    </ol>
+                </ol>
+                <li>HKP expression may be affected by experimental conditions and biological factors</li>
+                <ol>
+                    <li>
+                        <p>New recommendations from Journal of Biological Chemistry (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar3" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w9" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>)</p>
+                        <div class="quoteBox">
+                            <p>“‘House-keeping’ proteins should not be used for normalization without evidence that experimental manipulations do not affect their expression.”
+                        </p>
+                            <p>- <i>The Journal of Biological Chemistry</i>, Instructions for Authors <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w7" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"> (<span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span>)</MadCap:xref></p>
+                        </div>
+                    </li>
+                    <li>Example: α-tubulin and GAPDH expression affected by increasing cell density in culture <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Housekee2" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>15</u></span>)</MadCap:xref></li>
+                    <li>Example: Actin and tubulin are not stably expressed during rat retinal development <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Avoiding" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>16</u></span>)</MadCap:xref></li>
+                    <li>HKP may increase mean CV of normalized data <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Degasper" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>17</u></span>)</MadCap:xref></li>
+                    <ol>
+                        <li>Sensitive to biological variability</li>
+                        <li>Higher CV may cause false negatives (small but genuine changes in level of target protein that are overlooked) <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Degasper" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>17</u></span>)</MadCap:xref></li>
+                    </ol>
+                </ol>
+                <li>Is signal intensity proportional to abundance of control? <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                <ol>
+                    <li>HKP and other abundant proteins generally produce strong bands</li>
+                    <li>Signal saturation occurs when a strong band exceeds capacity of the detector to record it</li>
+                    <li>High-intensity signals are not proportional to abundance</li>
+                    <li>Intensity of strong bands is underestimated, particularly with film</li>
+                </ol>
+                <li>Strong HKP bands often affected by signal saturation (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Janes" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>7</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Consider3" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>-<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Stain-fr2" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>12</u></span></MadCap:xref>)</li>
+                <ol>
+                    <li>Saturated bands = lost, irretrievable data</li>
+                    <li>Data loss alters quantitative analysis</li>
+                </ol>
+                <li>Summary: HKP can be used for WB normalization if appropriately validated</li>
+                <ol>
+                    <li>Confirm that HKP is stably expressed in relevant samples and experimental conditions (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar4" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w10" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>)</li>
+                    <li>Confirm that both HKP and target are detected within linear range of assay, with no saturation (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Janes" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>7</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Consider4" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Taylor" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>11</u></span></MadCap:xref>)</li>
+                </ol>
+            </ol>
+            <li>Using total protein staining for WB normalization</li>
+            <ol>
+                <li>Total protein staining after membrane transfer (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Total3" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>8</u></span></MadCap:xref>-<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Consider5" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>10</u></span></MadCap:xref>)</li>
+                <ol>
+                    <li>
+                        <p>New recommendations: Journal of Biological Chemistry (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar5" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w11" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>)</p>
+                        <div class="quoteBox">
+                            <p>“Normalization of signal intensity to total protein loading (assessed by staining membranes using Coomassie blue, Ponceau S or other protein stains) is preferred.”</p>
+                            <p>- <i>The Journal of Biological Chemistry</i>, Instructions for Authors <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w7" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span>)</MadCap:xref></p>
+                        </div>
+                    </li>
+                    <li>Total sample protein used as direct indicator of sample concentration <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Aldridge" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>6</u></span>)</MadCap:xref></li>
+                    <li>Monitors protein transfer across entire blot, at all molecular weights</li>
+                    <li>Workflow for REVERT™ Total Protein Stain and near-infrared (NIR) fluorescence imaging</li>
+                    <ol>
+                        <li>Use NIR fluorescent membrane stain to detect and quantify total sample protein (700 nm)</li>
+                        <li>Perform NIR fluorescent WB detection after total protein staining (800 nm)</li>
+                    </ol>
+                </ol>
+                <li>Is signal intensity proportional to sample concentration?</li>
+                <ol>
+                    <li>Impact of biological variability greatly reduced, because many reference points are used</li>
+                    <li>Reduces mean CV of normalized data <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Degasper" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>17</u></span>)</MadCap:xref></li>
+                </ol>
+                <li>Is signal intensity proportional to abundance of control?</li>
+                <ol>
+                    <li>Validate linear range of detection for protein stain and sample loading</li>
+                    <li>Re-validation not needed for other antibodies or experimental conditions</li>
+                    <li>Total protein staining has wider linear range than HKP detection</li>
+                </ol>
+                <li>Summary: Total protein staining of the membrane is a useful method for WB normalization</li>
+                <ol>
+                    <li>Direct, relevant measure of sample proteins on the blot</li>
+                    <li>Reduced impact of biological variability</li>
+                    <li>Emerging as new “gold standard” for WB normalization</li>
+                </ol>
+                <li>Covalent pre-labeling of total sample protein</li>
+                <ol>
+                    <li>Bio-Rad Stain-Free™ technology (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Taylor" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>11</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Stain-fr3" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>12</u></span></MadCap:xref>)</li>
+                    <ol>
+                        <li>Tryptophan residues in sample proteins labeled with fluorescent tag by UV crosslinking</li>
+                        <li>If epitope contains Trp, Stain-Free™ modification will interfere with antibody recognition <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Evaluati" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>18</u></span>)</MadCap:xref></li>
+                        <li>Labeling interference alters quantitative analysis, particularly for monoclonal antibodies</li>
+                        <li>May cause significant loss of signal (&gt;75%) <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Evaluati" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>18</u></span>)</MadCap:xref></li>
+                    </ol>
+                    <li>Amersham™ WB System</li>
+                    <ol>
+                        <li>Sample proteins labeled with Cy5 reactive dye prior to electrophoresis</li>
+                        <li>Primary amines are labeled (N terminus and lysine residues)</li>
+                    </ol>
+                    <li>Summary: Covalent labeling is a source of variability</li>
+                    <ol>
+                        <li>Labeling is amino acid-dependent and may be inconsistent</li>
+                        <li>May affect immunodetection of target proteins</li>
+                    </ol>
+                </ol>
+            </ol>
+            <li>Post-translational modifications (PTM) and pan/phospho analysis</li>
+            <ol>
+                <li>
+                    <p>New recommendations: Journal of Biological Chemistry (<MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Transpar6" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w12" class="inline_no_paren" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"><span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span></MadCap:xref>)</p>
+                    <div class="quoteBox">
+                        <p>“Signals obtained using antibodies specific for phosphorylated epitopes should be normalized to the total protein level of the target protein.”</p>
+                        <p>- <i>The Journal of Biological Chemistry</i>, Instructions for Authors <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#http://w7" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"> (<span style="color: #63abdd;" class="mcFormatColor"><u>5</u></span>)</MadCap:xref></p>
+                    </div>
+                </li>
+                <li>Analysis combines phospho-Ab and pan-Ab <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Quantita3" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>13</u></span>)</MadCap:xref></li>
+                <li>Monitor relative changes in level of modified protein across the blot <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Ubiquiti2" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>14</u></span>)</MadCap:xref></li>
+                <li>Avoids variability introduced by stripping and re-probing of blots <MadCap:xref href="../Normalization/references-pdi-webinar-1.html#Janes" class="inline" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">(<span style="color: #63abdd;" class="mcFormatColor"><u>7</u></span>)</MadCap:xref></li>
+            </ol>
+            <li>Summary: Several valid methods for WB normalization</li>
+            <ol>
+                <li>Understand how each method works</li>
+                <li>Choose method that fits context and biology of experiment</li>
+                <li>Control for WB variability accurately and effectively</li>
+                <li>Ensure that data are rigorous enough to meet publication and funding needs in the future</li>
+            </ol>
+        </ol>
+    </body>
+</html>

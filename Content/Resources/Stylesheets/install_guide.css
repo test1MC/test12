@@ -1,0 +1,257 @@
+﻿  /* install guide css. some associated files: install_guide.flpgl and install_guides.fltoc */
+
+  body
+  {
+    margin-left: 0;
+    font-family: 'Univers Next Pro';
+  }
+
+.page-num-top /* applied to the title snippet paragraph at the top of each page */
+{
+  font-size: 12pt;
+  text-align: center;
+}
+
+.header-icon-p /* applied to the paragraphs containing instrument icons in the header deco frame */
+{
+  margin-top: .12em;
+  margin-left: .12em;
+  margin-bottom: 1.12em;
+}
+
+.header-icon-img /* applied to, you guessed it, the header icon IMAGE */
+{
+  border: none;
+  width: 54px;
+  height: 54px;
+}
+
+.title-front /* big white title in deco frame */
+{
+  font-size: 17pt;
+  color: white;
+  text-align: left;
+  padding-left: 1.5in;
+  padding-top: 12px;
+  padding-bottom: 3px;
+  line-height: .25in;
+}
+
+.subtitle /* applied to the dumb subtitle "Image Studio Software X.x.x ..." on the first page */
+{
+  font-weight: bold;
+  color: #0093CB;
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+.front
+{
+  column-break-before: always;
+  margin: 0 20pt 10pt 0;
+  font-size: 9pt;
+  font-family: 'Univers Next Pro Condensed';
+  line-height: 10pt;
+}
+
+h1
+{
+  mc-auto-number-format: '';
+  color: 0093CB;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 13pt;
+  margin-left: 0;
+  margin-top: 6pt;
+  margin-bottom: 0;
+}
+
+h2
+{
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12pt;
+  margin-left: 0;
+  margin-top: 6pt;
+}
+
+h2::after
+{
+  content: ':';
+}
+
+p
+{
+  font-size: 11pt;
+  margin: 12pt 8pt 12pt 15pt;
+  mc-hyphenate: never;
+}
+
+.note
+{
+  font-style: italic;
+}
+
+.note::before
+{
+  font-family: Univers Next Pro Light;
+  content: 'Note: ';
+  font-weight: bold;
+}
+
+ol
+{
+  list-style-type: decimal;
+}
+
+li
+{
+  margin-top: 1.2em;
+}
+
+ol > li::marker
+{
+  content: counter(numberedParentheses) ')';
+}
+
+ol > ol
+{
+  margin-left: 12px;
+  border-left: none;
+  padding-left: 0;
+}
+
+ol > ol > li
+{
+  border-left: none;
+  padding-left: 6px;
+  margin-left: 0;
+}
+
+ol p
+{
+  margin-left: 0;
+}
+
+ul p
+{
+  margin-left: 0;
+}
+
+div.dFloRig_8ptPadTopLefBot
+{
+  float: right;
+  padding: 8pt 0 8pt 8pt;
+}
+
+div.dFloLef_8ptPadTopRigBot
+{
+  float: left;
+  padding: 8pt 8pt 8pt 0;
+}
+
+div.dFloRig_12ptPadTopLefBot
+{
+  clear: both;
+  float: right;
+  margin-left: 12pt;
+  padding: 10px 0 10px 10px;
+}
+
+div.dFloLef_12ptPadTopRigBot
+{
+  float: left;
+  padding: 12pt 12pt 12pt 0;
+}
+
+div.dFloLef_12ptPadRigBot
+{
+  float: left;
+  padding: 0 12pt 12pt 0;
+}
+
+img
+{
+  page-break-after: avoid;
+  border: solid 1px #000000;
+  border-radius: 3px;
+}
+
+.no-border /* Watch out. This is also applied to product icons in first page deco frames */
+{
+  border: none;
+}
+
+img.width100pct
+{
+  height: auto;
+  width: 6.25in;
+}
+
+img.width075pct
+{
+  height: auto;
+  width: 4.625in;
+}
+
+img.width050pct
+{
+  height: auto;
+  width: 3.125in;
+}
+
+img.width0375pct
+{
+  height: auto;
+  width: 2.3425in;
+}
+
+img.width025pct
+{
+  height: auto;
+  width: 1.56in;
+}
+
+img.width013pct
+{
+  height: auto;
+  width: 0.75in;
+}
+
+img.inLineIcon
+{
+  height: 34px;
+  width: 34px;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+img.inLineIcon24by24
+{
+  height: 24px;
+  width: 24px;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+img.inLineIcon20by20
+{
+  height: 20px;
+  width: 20px;
+  margin-bottom: -3pt;
+  border: none;
+}
+
+span.snippet-font
+{
+  font-family: 'Univers Next Pro Light';
+  font-weight: bold;
+}
+
+a
+{
+  text-decoration: underline;
+  color: #63abdd;
+}

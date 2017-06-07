@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>First, pixel intensities in all wells designated as Background in each channel   are averaged, and the average is subtracted from the pixel intensities of all wells in that channel. Then, the relative intensity values are found by dividing all wells by the intensity value of the well with the highest response. The intensity values from the sample channel are divided by the relative intensity values from the corresponding wells in the normalization channel. </p>
+        <p>The Z-factor calculation uses these values in the following equation:</p>
+        <p>
+            <img src="../../Images/image176.gif" style="border-left-style: solid;border-left-width: 1px;border-left-color: ;border-right-style: solid;border-right-width: 1px;border-right-color: ;border-top-style: solid;border-top-width: 1px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: ;" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[Manuals.clx-manual] exclude[Manuals.cdigit-manual or Manuals.ddigit-manual or Manuals.impulse-manual or Manuals.odyssey-manual or Manuals.pearl-accessories-manual or Manuals.sa-manual or Manuals.trilogy-manual] "
+  MasterToc="/Project/TOCs/Odyssey_CLx.fltoc"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="10001,20041,20036,20037"
+  MasterStylesheet="/Content/Resources/Stylesheets/LI-COR_Manual.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Author="LI-COR Biosciences"
+    Subject="CLx Operator's Manual"
+    Keywords="LI-COR Biosciences, CLx Operator's Manual, CLx Instructions Manual, CLx, CLx Instrument Manual"
+    Title="Odyssey CLx Operator's Manual" />
+  <PDF
+    InitialMagnification="100"
+    PageLayout="OneColumn"
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

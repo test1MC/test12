@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="13" MadCap:lastHeight="1434" MadCap:lastWidth="4.294967E+09">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Background Subtraction for Blots and Gels</h1>
+        <p>This page provides a quick look at background subtraction options for blot and gel analyses. You can refer to the <a target="_blank" href="https://licor.box.com/s/ad8b9e19wl7cq7b1opiulynxkadlvjm6">background subtraction guide</a> for complete information.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Background subtraction options (average, median, user-defined, and lane)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <thead>
+                        <tr style="height: 49px; text-align:center;" class="TableStyle-Basic-Head-Header1">
+                            <td colspan="4" class="TableStyle-Basic-HeadD-Column1-Header1" style="text-align: center; font-weight:bold;">
+                        Background Options for Analyzing Blots and Gels<br />(available without additional keys)
+                    </td>
+                        </tr>
+                        <tr style="height: 50px;" class="TableStyle-Basic-Head-Header1">
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Method</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Best Use Cases</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Method Comparison</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadD-Column1-Header1">
+                                <p class="tableHeading">Background Calculation</p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="height: 277px;" class="TableStyle-Basic-Body-Body1">
+                            <td class="TableStyle-Basic-BodyE-Column1-Body1" style="vertical-align: top;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;"><span class="snippet-font">Average or Median (Local Methods)</span>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyE-Column1-Body1">
+                                <ul>
+                                    <li>
+                                        <p>If only a few shapes need to be quantified, adding the shapes individually and using local background methods can work well.</p>
+                                    </li>
+                                    <li>
+                                        <p>Choose <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> instead of <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> to reduce the impact of outlier pixel intensities in the background.</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyE-Column1-Body1">
+                                <ul>
+                                    <li>
+                                        <p>If shapes are in a lane containing many nonspecific bands <u>and</u> the background is uniform around the shapes, local methods may produce better results than the <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> method.</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyD-Column1-Body1">
+                                <ul>
+                                    <li>
+                                        <p>The <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> background method computes the average or median intensity of pixels in a border around a shape and subtracts that background from the shape. The width and position of the border can be adjusted.</p>
+                                    </li>
+                                    <p>
+                                        <img src="../Resources/Images/AvgAndMed-cropForTable.png" alt="" title="" class="no-thumb" MadCap:conditions="Default.WebHelp" style="width: 279px;height: 230px;" />
+                                    </p>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Basic-Body-Body1">
+                            <td class="TableStyle-Basic-BodyB-Column1-Body1" style="vertical-align: top;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;">
+                                <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" />
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                                <ul>
+                                    <li>Background must be fairly uniform throughout an image.</li>
+                                    <li>Use when <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> is not available and <MadCap:snippetText src="../Resources/Snippets/lwr-closely-spaced.flsnp" /> shapes will make it difficult to use local methods without having background border overlap shapes.</li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                                <ul>
+                                    <li>Use when the background is uniform throughout the image and bands are so close the background border from local methods might overlap a band.</li>
+                                    <li>Background is often not uniform enough for <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> to accurately represent background for every shape in an image.</li>
+                                </ul>
+                            </td>
+                            <td class="TableStyle-Basic-BodyA-Column1-Body1">
+                                <ul>
+                                    <li>The <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> background method finds the average pixel intensity within a shape or shapes placed by the user to calculate background. When multiple shapes are used, the average pixel intensity in each will be averaged together to find the background.
+                            </li>
+                                    <p>
+                                        <img src="../Resources/Images/UserDefinedEx-forTable.png" alt="" title="" class="no-thumb" MadCap:conditions="Default.WebHelp" />
+                                    </p>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <table style="mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <col class="TableStyle-Basic-Column-Column1" />
+                    <thead>
+                        <tr style="height: 49px; text-align:center;" class="TableStyle-Basic-Head-Header1">
+                            <td colspan="4" class="TableStyle-Basic-HeadD-Column1-Header1" style="text-align: center; font-weight: bold;">Background Options for Analyzing Blots and Gels<br />(requires Western Analysis Key)
+                    </td>
+                        </tr>
+                        <tr style="height: 49px;" class="TableStyle-Basic-Head-Header1">
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Method</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Best Use Cases</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                                <p class="tableHeading">Method Comparison</p>
+                            </td>
+                            <td class="TableStyle-Basic-HeadD-Column1-Header1">
+                                <p class="tableHeading">Calculation</p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Basic-Body-Body1">
+                            <td class="TableStyle-Basic-BodyB-Column1-Body1" style="vertical-align: top;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;">
+                                <MadCap:snippetText src="../Resources/Snippets/Lane_noIS.flsnp" />
+                            </td>
+                            <td class="TableStyle-Basic-BodyB-Column1-Body1" style="vertical-align: top;">
+                                <ul>
+                                    <li>
+                                        <p>When <MadCap:snippetText src="../Resources/Snippets/Western_App.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/MPX_TM_Western_App.flsnp" />, or <MadCap:snippetText src="../Resources/Snippets/DNAGel_App.flsnp" /> applications are in use</p>
+                                    </li>
+                                    <li>
+                                        <p>If there are many shapes and the shapes are close together</p>
+                                    </li>
+                                    <li>
+                                        <p>In lanes with smearing between bands</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                                <ul>
+                                    <li>
+                                        <p>Could be better than local methods in cases where background shapes from local methods might overlap other shapes or there is smearing in a lane</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td style="vertical-align: top;" class="TableStyle-Basic-BodyA-Column1-Body1">
+                                <ul>
+                                    <li>
+                                        <p>Background is calculated by drawing a linear connection between areas of minimum brightness between shapes in a lane and subtracting the noise beneath these lines</p>
+                                        <p>
+                                            <img src="../Resources/Images/LaneBg-forTable.png" alt="" title="" MadCap:conditions="Default.WebHelp" style="width: 252px; height: 193px;" class="no-thumb" />
+                                        </p>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Default.WebHelp">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Examples</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/ExampleBgMethodsTable.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

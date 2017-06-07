@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Pearl Embedded Firmware Information"
+    Link="/Content/Embedded/Pearl_embedded.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/guide_no_cover.flpgl"></TocEntry>
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    conditions="Default.Pearl_Int_127,Default.Pearl_Int_131,Default.Pearl_Int_1110,Default.Pearl_Int_134"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl" />
+</CatapultToc>

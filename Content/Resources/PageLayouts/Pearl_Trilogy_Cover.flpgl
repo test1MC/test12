@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Title" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="title" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1.00in" PaddingBottom="1in">
+        <Frame X="-115px" Y="-34px" Width="775px" Height="971px" Flow="decoration" Right="-84px" Bottom="-73px" BackgroundImage="../Images/Pearl_Trilogy_Op_Man_Cover-01.tif" Anchors="" BackgroundRepeat="repeat" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="empty" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Name="Empty">
+    </Page>
+</PageStyles>

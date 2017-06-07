@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="First" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-144px" Y="-96px" Width="816px" Height="1055px" Flow="body" Right="-96px" Bottom="-95px" Anchors="" BackgroundImage="../Images/quick_start_cover.eps" />
+        <Frame X="-96px" Y="242px" Width="720px" Height="305px" Flow="header" Right="-48px" Bottom="317px" VerticalAlign="middle" TextAlign="center" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>Version 5.0</xhtml:p>
+                        <xhtml:p xhtml:style="font-family: 'Univers Next Pro Condensed';font-weight: bold;font-size: 24pt;"><xhtml:span xhtml:style="font-weight: normal;">Quick Start Guide</xhtml:span>
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="subtitle">For the <MadCap:snippetText xhtml:src="../Snippets/Odyssey_noR_CLx_Imager.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="144px" Y="0px" Width="240px" Height="240px" Flow="decoration0" Right="192px" Bottom="624px" BackgroundImage="../Images/ImageStudio5-icon.eps" BackgroundRepeat="stretch" />
+        <Frame X="-27px" Y="768px" Width="96px" Height="96px" Flow="decoration1" Right="507px" Bottom="0px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Sa" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Sa.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Pearl" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Pearl.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Trilogy" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Pearl.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Classic" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Odyssey.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Clx.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Fc.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.quickStart-Cdig" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product_icon_cdigit.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="377px" Y="817px" Width="228px" Height="47px" Flow="decoration2" Right="-29px" Bottom="0px" BackgroundImage="../Images/licor-logo-white.eps" BackgroundRepeat="stretch" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame X="-25px" Y="-67px" Width="7in" Height="0.5in" Flow="header" Anchors="Right" Right="-71px" Bottom="883px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header" xhtml:style="text-align: center;">
+                            <MadCap:snippetText xhtml:src="../Snippets/Image_Studio_TM_Software.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> 5.0 Quick Start Guide, <MadCap:snippetText xhtml:src="../Snippets/Odyssey_R_Classic.flsnp" MadCap:conditions="TechNoteCond.quickStart-Classic" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/C-DiGit_R_Blot_Scanner.flsnp" MadCap:conditions="TechNoteCond.quickStart-Cdig" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_CLx_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_Fc_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_Sa_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Sa" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Pearl_Impulse_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Pearl" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Pearl_R_Trilogy_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Trilogy" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-25px" Y="0.3020833in" Right="-72px" Bottom="-29px" Width="7.010417in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame X="-25px" Y="-67px" Width="7in" Height="0.5in" Flow="header" Anchors="Right" Right="-71px" Bottom="883px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header" xhtml:style="text-align: center;">
+                            <MadCap:snippetText xhtml:src="../Snippets/Image_Studio_TM_Software.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> 5.0 Quick Start Guide, <MadCap:snippetText xhtml:src="../Snippets/Odyssey_R_Classic.flsnp" MadCap:conditions="TechNoteCond.quickStart-Classic" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/C-DiGit_R_Blot_Scanner.flsnp" MadCap:conditions="TechNoteCond.quickStart-Cdig" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_CLx_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_Fc_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Odyssey_Sa_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Sa" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Pearl_Impulse_R_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Pearl" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><MadCap:snippetText xhtml:src="../Snippets/Pearl_R_Trilogy_Imager.flsnp" MadCap:conditions="TechNoteCond.quickStart-Trilogy" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-25px" Y="0.3020833in" Right="-72px" Bottom="-29px" Width="7.010417in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+    </Page>
+</PageStyles>

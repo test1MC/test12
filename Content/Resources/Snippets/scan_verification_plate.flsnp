@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="569" MadCap:lastWidth="1107">
+    <body>
+        <h2>Position the Plate</h2>
+        <p>Ensure the instrument's scan bed is clean, dry, and free of any residue or dust.</p>
+        <ol>
+            <li>
+                <p>Place the alignment guide (<MadCap:snippetText src="alignment_guide_pn.flsnp" />) in the front left corner of the instrument.</p>
+            </li>
+            <li>
+                <p>Place the <MadCap:snippetText src="verification_plate_lwr.flsnp" /> with the stainless steel section down, the text facing up, and the left/bottom sides of the verification plate contacting the alignment guide.</p>
+                <p style="margin-top:0px;">Repeat the scan in the other three corners using the alignment guide to align the plate in each corner. Do not rotate the plate.</p>
+                <p MadCap:conditions="Default.CLx">
+                    <img src="../Images/align_verification_plate.tif" style="width:1.75in;height:auto;" />
+                    <br />
+                </p>
+            </li>
+        </ol>
+        <h2>Begin Scan</h2>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="vplate_beginscan1.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Connect to the instrument.</p>
+            </li>
+            <li>
+                <p>On the Acquire tab, ensure the following settings are chosen.</p>
+                <p>
+                    <img src="../Images/acquire_presets_verify_plate.png" style="width: 365px;height: 63px;" />
+                </p>
+                <p><strong>Setup group:</strong> Choose the Plate preset.</p>
+                <p><strong>Channels group:</strong> Deselect Auto and set intensity for both channels to 4.</p>
+                <p><strong>Scan Controls group:</strong> Set the resolution to 169 µm, quality to Lowest, focus offset to 3.0mm, and enable Flip Image.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="click_start_icon.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

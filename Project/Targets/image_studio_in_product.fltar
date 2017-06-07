@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Use this for product integration. Use &quot;image_studio_web&quot; to publish help to web"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  GenerateWebSafeImages="false"
+  WebSafeFileExtension="png"
+  TOCChunkSize="30000"
+  MasterPage="/Content/MasterPages/LI-COR_Bio.flmsp"
+  Medium="non-print"
+  PreCompileScaledImages="false"
+  DefaultUrl="/Content/Introduction_help.htm"
+  DisableAutoSync="false"
+  MasterToc="/Project/TOCs/Image Studio.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/HelpBio.css"
+  OutputFile="Image_Studio"
+  InsertMOTW="true"
+  ExcludeUnreferencedContent="true"
+  ConditionTagExpression="include[Default.21CFR11 or Default.CLx or Default.Fc or Default.Sa or Default.WebHelp] exclude[Default.21CFR11AdminGuide or Default.BackgroundGuide or Default.CDiG_Int_1019 or Default.CDiG_Int_114 or Default.CDiG_Internal or Default.EmbeddedSfw or Default.PaperCopy or Default.SmallAnimal or Default.SysMgmtHelp] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="10056,20036,20037,20041"
+  BrowseSequence="/Project/Advanced/Image Studio.flbrs"
+  Skin="/Project/Skins/LI-COR_Bio.flskn">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Web4.fldes" />
+  </Destinations>
+</CatapultTarget>

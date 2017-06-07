@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay Profile="C:\Users\Thad.Miller.LICOR\Documents\My Profiles\MyProfile.capro" ProfileHash="c9688ed4f1c493eb5efd6dde177e88cb" ScreenRectangle="1005,267,1,926">
+        <OriginalImage ComputedWidth="1" ComputedHeight="1034" PaddingTop="0" Type="Image" ShapeTimeSpan="10000">SUkqAPIBAACAMhyPV/wKCQZ/smBwmFwqCMpyw+Iv9lxOKwSLv9mOaCRuOxx/s2QSJ7P9nOaSs5zymVv9ny2XyWYv9oOiSzWbzZ/tGdTySz5/tJ0yWhSVpul7v+j0mlv9qOqk0+o1B/tWqVak1h/tZ10muUlr11/2GwWJsWZ2Ph/ti0v9s2232ptW1tO25XZ/tu8Xq1Xx/ty8Nx3Wpu4N/4XCYZvO58v/F41vO/Gt/JP/KZPKuDMvDGuDOP9w5/Q41xZ/S6R441x6l/6t9a1469ybF/uR5a9y7d/7ncbpzb7fPPXufhP/ia90cXk8h6a90vR9v/n9Hpv91dDrdh1PXouvuP/vdF2d/x+J7dF2+d/+n0ep3e57Px/u57/J3/V//f7fh4fx8PkeL/n/AMAQEeUDQMfL5HnBR/wY+R6Hyfp/wjCbmwmep9QxDR/wzCZ7Q5EEJnufcRxKf8SQmfETxXFUTwVCcFH8f8ZH+fR+RnG8ZxLHZ+x7GZ+R8f8gyBIUfRnI5/ySf0mH/JkZn/KMpSnKkqytK8sSzLUty5LsvS/MEwzFMcyTLM0zzRNM1TXNk2zdN84TjOU5zpOs7TvPE8z1Pc+T7P0/0BQNBUHQlC0NQ9EUTRVF0ZRtHUfSFI0lSdKUrS1L0xTNNU3TlOzMgIAAEAD+AAQAAQAAAAAAAAAAAQQAAQAAAAEAAAABAQQAAQAAAJ4DAAACAQMABAAAALgCAAADAQMAAQAAAAUAAAAGAQMAAQAAAAIAAAARAQQAAQAAAAgAAAAVAQMAAQAAAAQAAAAWAQQAAQAAAJ4DAAAXAQQAAQAAAOkBAAAaAQUAAQAAAMACAAAbAQUAAQAAAMgCAAAcAQMAAQAAAAEAAAAoAQMAAQAAAAIAAAA9AQMAAQAAAAIAAABSAQMAAQAAAAIAAAAAAAAACAAIAAgACAAAdwEA6AMAAAB3AQDoAwAA</OriginalImage>
+        <Shapes>
+            <Shape Type="Polyline" Coordinates="0,-98,0,-3" ArrowHeads="none" LineColor="#ffffff" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" LineWidth="0" ShapeTimeSpan="10000" />
+        </Shapes>
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <Variables />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

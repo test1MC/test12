@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="566" MadCap:lastWidth="672">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Verify That HKP Expression Is Not Affected by Treatment</h1>
+        <p>Before using a housekeeping protein for normalization, you must validate that its expression is constant across all samples and is unaffected by your specific experimental context and conditions. Empirical validation is becoming more common in the literature, and may be required by some publishers. New submission guidelines for Western blot data from the <i>Journal of Biological Chemistry</i> “strongly caution against the use of housekeeping proteins for normalization, unless there is a clear demonstration that expression of the housekeeping protein is unaffected by the experimental treatments” <MadCap:xref href="../Normalization/references.html#http://w5" class="inline">(<span style="color: #63abdd;" class="mcFormatColor"><u>1</u></span>)</MadCap:xref>.</p>
+        <h2>HKP levels can be affected by experimental manipulations</h2>
+        <p>
+            <MadCap:xref href="#fig-hkp-levels-vary" class="figure-x">Figure 1</MadCap:xref> demonstrates the possible impact on data analysis and interpretation if an HKP with variable expression is used for Western blot normalization. Bcl-2 levels were examined in Jurkat cells, before and after treatment with etoposide, a topoisomerase inhibitor. Levels of Bcl-2 and tubulin (HKP used as ILC) were analyzed by multiplex fluorescent Western blotting. Bcl-2 signals were then normalized to either tubulin or <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" />.</p>
+        <p>Before normalization, raw Bcl-2 signals indicated a 15% decrease in abundance of Bcl-2 after etoposide treatment (<MadCap:xref href="#fig-hkp-levels-vary" class="figure-x">Figure 1</MadCap:xref>). Normalization to total protein staining resulted in a 19% measured decrease in Bcl-2. However, normalization to tubulin yielded a very different result: a small decrease of only 2% in Bcl-2 expression that may not be statistically significant. Validation experiments revealed that tubulin expression was affected by this experimental treatment (tubulin level was 16% lower in etoposide-treated samples than untreated samples). This experiment indicates that an HKP with variable expression can alter the interpretation of experimental results, potentially concealing biologically relevant differences between samples.</p>
+        <figure>
+            <img class="no-border width100pct" src="../Resources/Images/oli_vs_hkp.tif" alt="" style="width: 472px;height: 328px;" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><strong><a name="fig-hkp-levels-vary"></a>Data analysis and interpretation are altered when HKP expression is affected by the experiment.</strong> Bcl-2 expression was analyzed in Jurkat cells before and after treatment with etoposide, using multiplex fluorescent Western blot methods. Tubulin was detected on the same blot as an internal loading control; reduced expression of this HKP was observed in etoposide-treated samples (data not shown). Bcl-2 signals were normalized to either tubulin or REVERT Total Protein Stain. Normalization with REVERT staining indicated a 19% decrease in Bcl-2 after etoposide treatment (blue bar). Using tubulin for normalization produced a different result, detecting only a 2% decrease in Bcl-2 expression. Variable HKP expression in this experiment significantly affected the interpretation of the results.</figcaption>
+			 </figure>
+            <h2>Treatment Conditions Known to Affect HKP Expression</h2>
+            <p>Many treatment conditions can affect HKP expression (<MadCap:xref href="../Normalization/references.html#Gomes" class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>4</u></span></MadCap:xref> - <MadCap:xref href="../Normalization/references.html#Barber" class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>15</u></span></MadCap:xref>), including:</p>
+            <ul>
+                <li>Experimental manipulation (such as temperature, cell confluence, or drug treatments)</li>
+                <li>Tissue type</li>
+                <li>Cell line</li>
+                <li>Age of culture</li>
+                <li>Disease or injury state</li>
+            </ul>
+            <h2>Odyssey Loading Indicator</h2>
+            <p>The Odyssey Loading Indicator (OLI), a 28 kDa recombinant protein directly labeled with near-infrared fluorescent dyes, can be used as part of the process to determine if the HKP is stably expressed. Since OLI is exogenous, it is unaffected by up or down regulation caused by experimental treatment. When you detect OLI and the HKP simultaneously, the difference in their respective signals can be used as part of the process to determine if the HKP is stably expressed or not.</p>
+            <p class="note">Accurate normalization relies on an internal loading control, an endogenous protein used as an indicator of sample concentration. Since the OLI is an exogenous protein, it functions as an external loading control, and cannot be used for normalization.</p>
+    </body>
+</html>

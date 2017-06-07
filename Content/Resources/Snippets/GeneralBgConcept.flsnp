@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Background is noise in an image that can affect signal quantification. Background must be subtracted to accurately calculate signal from the shape(s) of interest, especially if background values vary throughout an image. The best method for background correction depends on the image and its background consistency.</p>
+        <p>
+            <MadCap:snippetText src="Image Studio.flsnp" /> provides a variety of background subtraction methods to address numerous conditions found in wide ranging biological imaging applications.</p>
+    </body>
+</html>

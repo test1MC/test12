@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Front Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/manual_cover.flpgl"></TocEntry>
+  <TocEntry
+    Title="Front Matter"
+    Link="/Content/imaging_systems/ddigit/front_matter.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/manual_resources/TOC.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl"></TocEntry>
+  <TocEntry
+    Title="Chapter 1"
+    Link="/Content/imaging_systems/ddigit/Chapter1.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="decimal"
+    PageNumber="1"
+    PageType="first">
+    <TocEntry
+      Title="About the D-DiGit Gel Scanner"
+      Link="/Content/imaging_systems/ddigit/ddigit_gel_scanner_overview.htm" />
+    <TocEntry
+      Title="Safety Information">
+      <TocEntry
+        Title="FCC Compliance Statement"
+        Link="/Content/imaging_systems/ddigit/fcc_compliance_statement.htm"></TocEntry>
+      <TocEntry
+        Title="Safety Precautions"
+        Link="/Content/imaging_systems/ddigit/safety_precautions.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installation"
+      Link="/Content/imaging_systems/ddigit/initial_setup.htm">
+      <TocEntry
+        Title="Unpack the D-DiGit"
+        Link="/Content/imaging_systems/ddigit/unpack_ddigit.htm"
+        BreakType="none"
+        PageType="first"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/one-page-quick-start.flpgl"
+        ComputeToc="false"
+        AutoEndOnLeftPage="disabled"></TocEntry>
+      <TocEntry
+        Title="Computer Requirements"
+        Link="/Content/imaging_systems/ddigit/ddigit_image_acquisition_software_system_requirements.htm" />
+      <TocEntry
+        Title="Install D-DiGit Image Acquisition Software"
+        Link="/Content/imaging_systems/ddigit/install_ddigit_software.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/one-page-quick-start.flpgl"></TocEntry>
+      <TocEntry
+        Title="Unlock Scanner"
+        Link="/Content/imaging_systems/ddigit/unlock_ddigit.htm"></TocEntry>
+      <TocEntry
+        Title="Connect Power and USB Cables"
+        Link="/Content/imaging_systems/ddigit/connect_ddigit.htm" />
+      <TocEntry
+        Title="Turn on the D-DiGit Scanner"
+        Link="/Content/imaging_systems/ddigit/power_on_ddigit.htm"></TocEntry>
+      <TocEntry
+        Title="Start D-DiGit Image Acquisition Software"
+        Link="/Content/imaging_systems/ddigit/launch_ddigit_software.htm"></TocEntry>
+      <TocEntry
+        Title="D-DiGit Image Acquisition Software Overview"
+        Link="/Content/imaging_systems/ddigit/ddigit_software_overview.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 2"
+    Link="/Content/imaging_systems/odyssey_clx/Chapter2.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    PageType="first">
+    <TocEntry
+      Title="Scan Surface and Lid"
+      Link="/Content/imaging_systems/ddigit/front_panel_scan_surface.htm" />
+    <TocEntry
+      Title="Rear Panel"
+      Link="/Content/imaging_systems/ddigit/rear_panel.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 3"
+    Link="/Content/imaging_systems/ddigit/Chapter3.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Scan a Gel"
+      Link="/Content/imaging_systems/ddigit/image_gel.htm">
+      <TocEntry
+        Title="Position Gel"
+        Link="/Content/imaging_systems/ddigit/position_gel_on_scan_surface.htm" />
+      <TocEntry
+        Title="Scan a Gel"
+        Link="/Content/imaging_systems/ddigit/scan_gel.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Excising or Observing a Gel"
+      Link="/Content/imaging_systems/ddigit/excising_or_observing_gel.htm" />
+    <TocEntry
+      Title="Modify D-DiGit Image Acquisition Software Settings"
+      Link="/Content/imaging_systems/ddigit/use_ddigit_image_acquisition_software.htm">
+      <TocEntry
+        Title="Image Folder"
+        Link="/Content/imaging_systems/ddigit/image_folder.htm"></TocEntry>
+      <TocEntry
+        Title="Gray Mode Options"
+        Link="/Content/imaging_systems/ddigit/gray_mode.htm"></TocEntry>
+      <TocEntry
+        Title="Image Resolution"
+        Link="/Content/imaging_systems/ddigit/image_resolution.htm"></TocEntry>
+      <TocEntry
+        Title="Image Name"
+        Link="/Content/imaging_systems/ddigit/image_name.htm" />
+      <TocEntry
+        Title="Image Format"
+        Link="/Content/imaging_systems/ddigit/image_format.htm" />
+      <TocEntry
+        Title="Warning Messages"
+        Link="/Content/imaging_systems/ddigit/show_warning_messages.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Prepare Scanner for Shipment"
+      Link="/Content/imaging_systems/ddigit/prepare_ddigit_for_shipping.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 4"
+    Link="/Content/imaging_systems/ddigit/maintenance.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Care and Cleaning"
+      Link="/Content/imaging_systems/ddigit/care_and_cleaning.htm"
+      BreakType="none"
+      PageType="first"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Chapter 5"
+    Link="/Content/imaging_systems/ddigit/Chapter5.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Troubleshooting"
+      Link="/Content/imaging_systems/ddigit/troubleshooting.htm"></TocEntry>
+    <TocEntry
+      Title="Specifications"
+      Link="/Content/imaging_systems/ddigit/specifications.htm" />
+  </TocEntry>
+</CatapultToc>

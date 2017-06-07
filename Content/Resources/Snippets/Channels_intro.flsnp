@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="760" MadCap:lastWidth="760">
+    <body>
+        <p>Options in the <MadCap:snippetText src="Channels_group.flsnp" /> allow you to select the channel(s) to image and control the scan intensity. Each channel contains an image produced by a specific detection wavelength. Acquisition channels can be viewed overlaid or individually.</p>
+    </body>
+</html>

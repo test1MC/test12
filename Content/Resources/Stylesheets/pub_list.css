@@ -1,0 +1,1345 @@
+/*<meta />*/
+
+body
+{
+	margin-left: 0;
+	font-family: 'Univers Next Pro Light';
+}
+
+/* Margins */
+.mt0 { margin-top: 0px; }
+
+.mt1 { margin-top: 1px; }
+
+.mt2 { margin-top: 2px; }
+
+.mt3 { margin-top: 3px; }
+
+.mt4 { margin-top: 4px; }
+
+.mt5 { margin-top: 5px; }
+
+.mt10 { margin-top: 10px; }
+
+.mt15 { margin-top: 15px; }
+
+.mt20 { margin-top: 20px; }
+
+.mt25 { margin-top: 25px; }
+
+.mt30 { margin-top: 30px; }
+
+.mt35 { margin-top: 35px; }
+
+.mt40 { margin-top: 40px; }
+
+.mt50 { margin-top: 50px; }
+
+.mr0 { margin-right: 0px; }
+
+.mr1 { margin-right: 1px; }
+
+.mr2 { margin-right: 2px; }
+
+.mr3 { margin-right: 3px; }
+
+.mr4 { margin-right: 4px; }
+
+.mr5 { margin-right: 5px; }
+
+.mr10 { margin-right: 10px; }
+
+.mr15 { margin-right: 15px; }
+
+.mr17 { margin-right: 17px; }
+
+.mr18 { margin-right: 18px; }
+
+.mr20 { margin-right: 20px; }
+
+.mr25 { margin-right: 25px; }
+
+.mr30 { margin-right: 30px; }
+
+.mr35 { margin-right: 35px; }
+
+.mr40 { margin-right: 40px; }
+
+.mr50 { margin-right: 50px; }
+
+.mb0 { margin-bottom: 0px; }
+
+.mb1 { margin-bottom: 1px; }
+
+.mb2 { margin-bottom: 2px; }
+
+.mb3 { margin-bottom: 3px; }
+
+.mb4 { margin-bottom: 4px; }
+
+.mb5 { margin-bottom: 5px; }
+
+.mb10 { margin-bottom: 10px; }
+
+.mb15 { margin-bottom: 15px; }
+
+.mb20 { margin-bottom: 20px; }
+
+.mb25 { margin-bottom: 25px; }
+
+.mb30 { margin-bottom: 30px; }
+
+.mb35 { margin-bottom: 35px; }
+
+.mb40 { margin-bottom: 40px; }
+
+.mb50 { margin-bottom: 50px; }
+
+.ml0 { margin-left: 0px; }
+
+.ml1 { margin-left: 1px; }
+
+.ml2 { margin-left: 2px; }
+
+.ml3 { margin-left: 3px; }
+
+.ml4 { margin-left: 4px; }
+
+.ml5 { margin-left: 5px; }
+
+.ml10 { margin-left: 10px; }
+
+.ml15 { margin-left: 15px; }
+
+.ml17 { margin-left: 17px; }
+
+.ml18 { margin-left: 18px; }
+
+.ml20 { margin-left: 20px; }
+
+.ml25 { margin-left: 25px; }
+
+.ml30 { margin-left: 30px; }
+
+.ml35 { margin-left: 35px; }
+
+.ml40 { margin-left: 40px; }
+
+.ml50 { margin-left: 50px; }
+
+/* Special Classes */
+
+.header-icon-p /* applied to the paragraphs containing instrument icons in the header deco frame */
+{
+  margin-top: .12em;
+  margin-left: .12em;
+  margin-bottom: 1.12em;
+}
+
+.header-icon-img /* applied to, you guessed it, the header icon IMAGE */
+{
+  border: none;
+  width: 116px;
+  height: 116px;
+}
+
+.journo {
+	page-break-inside: avoid;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.journo p {
+	font-size: 9pt;
+	margin-top: 2pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-left: 0;
+	line-height: 1.1em;
+}
+
+.journo p:first-child{
+	margin-top: 6pt;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.journo p:nth-child(2){
+	margin-top: 2pt;
+	font-size: 8pt;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.quote
+{
+	font-family: 'Univers Next Pro Medium';
+	font-style: italic;
+	line-height: 2em;
+	color: #0077c6;
+}
+
+.quote::before::after
+{
+	content: "\0022";
+}
+
+.right
+{
+	float: right;
+	clear: left;
+	display: block;
+}
+
+.right025pct
+{
+	float: right;
+	clear: left;
+	display: block;
+	padding-bottom: -5pt;
+	padding-left: 12pt;
+	width: 1.56in;
+}
+
+.right050pct
+{
+	float: right;
+	clear: left;
+	display: block;
+	padding-bottom: -3pt;
+	padding-left: 12pt;
+	width: 3.125in;
+}
+
+.left025pct
+{
+	float: left;
+	clear: right;
+	display: block;
+	padding-bottom: -5pt;
+	padding-right: 12pt;
+	width: 1.56in;
+}
+
+.left050pct
+{
+	float: left;
+	clear: right;
+	display: block;
+	padding-bottom: -3pt;
+	padding-right: 12pt;
+	width: 3.125in;
+}
+
+.pgBrkBfr
+{
+	page-break-before: always;
+}
+
+.listAside
+{
+	font-size: .9em;
+	margin-left: 4px;
+	font-style: italic;
+	color: #333;
+	border-left: none;
+}
+
+/* Decorations */
+
+.line_thin-thick_blue
+{
+	background: blue;
+}
+
+.line_thin-thick_blue::before
+{
+	content: url('../Images/left-line_thin-thick_blue.png');
+}
+
+.orange
+{
+	color: #f96d3c;
+}
+
+.refnum
+{
+	font-size: 10pt;
+	margin-top: 10pt;
+	margin-bottom: 0;
+	mc-auto-number-format: '{n+}. ';
+}
+
+.pgBrkAft
+{
+	page-break-after: always;
+}
+
+.heading-level-0
+{
+	mc-heading-level: 0;
+}
+
+.heading-level-1
+{
+	mc-heading-level: 1;
+}
+
+.heading-level-2
+{
+	mc-heading-level: 2;
+}
+
+p.Header
+{
+	font-size: 11pt;
+	left: 0;
+	margin-bottom: 0;
+	margin-left: 0in;
+	margin-top: 0;
+}
+
+p.TOC1
+{
+	font-family: 'Univers Next Pro';
+	font-weight: normal;
+	font-size: 10pt;
+	mc-leader-offset: 18pt;
+	mc-auto-number-position: float-left;
+	mc-leader-format: '.';
+	margin-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+p.TOC2
+{
+	font-size: 8pt;
+	mc-leader-format: '.';
+	mc-leader-offset: 18pt;
+	margin-left: 20pt;
+	padding-top: 0;
+	padding-bottom: 0;
+	mc-auto-number-position: none;
+}
+
+p.TOC3
+{
+	color: #002D62;
+	font-size: 10pt;
+	mc-leader-format: '.';
+	mc-leader-offset: 20pt;
+	margin: 3pt 6pt 3pt 56pt;
+	padding-top: 0;
+	padding-right: 20pt;
+	padding-bottom: 0;
+	mc-auto-number-position: float-left;
+}
+
+p.TOC4
+{
+	font-size: 12pt;
+	margin: 0 6pt 6pt 48pt;
+	padding-top: 0;
+	padding-right: 20pt;
+	padding-bottom: 0;
+	mc-heading-level: 0;
+	mc-leader-format: '.';
+	mc-leader-offset: 20pt;
+	mc-auto-number-position: float-left;
+}
+
+p.TOC5
+{
+	font-size: 12pt;
+	mc-heading-level: 0;
+}
+
+MadCap|tocProxy
+{
+	border:  none;
+	margin:  0;
+	padding:  0;
+}
+
+/* Heading Classes */
+
+.requirement
+{
+	font-weight: bold;
+	mc-auto-number-format: 'CH:Requirement {n+}: ';
+	border: none;
+}
+
+.step
+{
+	font-weight: bold;
+	mc-auto-number-format: 'CS:Step {n+}. ';
+}
+
+h1
+{
+	mc-heading-level: 1;
+	font-size: 16pt;
+	font-weight: 700;
+	font-style: italic;
+	color: #f96d3c;
+	mc-hyphenate: never;
+	margin-top: 2em;
+	margin-bottom: 10pt;
+	clear: both;
+	line-height: 1.2em;
+}
+
+h2
+{
+	mc-heading-level: 1;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14pt;
+	mc-hyphenate: never;
+	color: #0077c6;
+	margin-top: 16pt;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	clear: both;
+	line-height: 1.2em;
+}
+
+/* End Heading Classes */
+/* Paragraph Classes */
+
+p
+{
+	font-family: 'Univers Next Pro';
+	font-size: 11pt;
+	margin: 12pt 8pt 12pt 15pt;
+	mc-hyphenate: never;
+}
+
+p.readingList
+{
+	color: #002D62;
+	font-family: 'Univers Next Pro Light';
+	font-size: 11pt;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+p.readingList + p
+{
+	margin-top: 6pt;
+	font-size: 11pt;
+}
+
+table p
+{
+	font-family: 'Univers Next Pro Light';
+	margin-left: 0;
+}
+
+ol p
+{
+	margin: 4px;
+	color: #000000;
+}
+
+ul p
+{
+	margin-left: 0;
+}
+
+p.title-cover
+{
+	font-size: 36pt;
+	font-weight: bold;
+	color: #0275c8;
+	margin-bottom: 20pt;
+	margin-left: 0;
+}
+
+.page-num-top	/* applied to the title snippet paragraph at the top of each page */
+{
+	font-size: 12pt;
+	text-align: center;
+}
+
+p.plain
+{
+	font-size: 11pt;
+	font-family: 'Univers Next Pro Condensed';
+	margin-left: 0;
+	margin-right: 0;
+}
+
+strong
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+}
+
+p.FloRig_12ptPadTopLefBot
+{
+	float: right;
+	padding: 12pt 0 12pt 12pt;
+}
+
+/* This class meant for captions in Tables that should NOT be numbered figures */
+
+p.Caption
+{
+	font-size: 10pt;
+	font-style: normal;
+	margin-top: 1pt;
+	display: block;
+	margin-bottom: 10pt;
+	margin-left: 0;
+	page-break-before: avoid;
+	text-align: left;
+}
+
+.CapBull
+{
+	font-size: 9pt;
+	page-break-before: avoid;
+	text-align: left;
+	vertical-align: top;
+	margin-left: -2pt;
+}
+
+.CapBull::before
+{
+	content: '\2022';
+	font-size: 9pt;
+}
+
+/* End Paragraph classes */
+
+sub
+{
+	font-size: .7em;
+	line-height: .9em;
+	vertical-align: text-bottom;
+	padding: 0;
+}
+
+th
+{
+	page-break-inside: avoid;
+}
+
+table
+{
+	margin-top: 8pt;
+	margin-bottom: 5pt;
+	border-spacing: 0;
+	margin-right: 0;
+	mc-caption-repeat: true;
+	mc-caption-continuation: ' (...continued)';
+	page-break-inside: avoid;
+}
+
+caption
+{
+	text-align: left;
+}
+
+MadCap|dropDownHead	/* Should make a decent sthyle for how d downs should appear in print. */
+{
+	font-size: 13pt;
+	margin-left: 36pt;
+	font-weight: bold;
+}
+
+MadCap|dropDownBody
+{
+	margin-left: 12pt;
+}
+
+MadCap|dropDownHotspot
+{
+	font-weight: bold;
+	padding-left: 36pt;
+	font-size: 11pt;
+}
+
+MadCap|xref
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+MadCap|footnotesBlock
+{
+	margin-top: 4pt;
+	padding-top: 4pt;
+	margin-left: -1in;
+	border-top-align: right;
+	border-top-length: 85%;
+}
+
+MadCap|listOfProxy
+{
+	padding-left: 0;
+}
+
+MadCap|equation
+{
+	font-weight: normal;
+	font-size: 11pt;
+	max-width: 5.5in;
+}
+
+.equation
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'CH:{chapnum}-{n+}';
+	margin-left: 0.25in;
+}
+
+.no-border
+{
+	border: none;
+}
+
+.front
+{
+	column-break-before: always;
+	margin: 0 20pt 10pt 0;
+	font-size: 9pt;
+	font-family: 'Univers Next Pro Condensed';
+	line-height: 10pt;
+}
+
+MadCap|footnoteBlock
+{
+	font-size: 8pt;
+	text-indent: -5pt;
+	margin-left: 0;
+	line-height: 10pt;
+}
+
+MadCap|footnote
+{
+	font-size: 8pt;
+	mc-footnote-position: page;
+	mc-footnote-format: '{n}';
+	line-height: 9pt;
+}
+
+MadCap|xref.XreftoParanum
+{
+	color: #000000;
+	mc-format: '{paranum}';
+	text-decoration: none;
+}
+
+MadCap|xref.See_HypLinkTopic
+{
+	mc-format: '{color black}See{/color} {color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.lwrCaseSee_HypLinkTopic
+{
+	mc-format: '{color black}see{/color} {color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.HypLinkTopic
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color}';
+}
+
+MadCap|xref.ContextSensitive
+{
+	mc-format: '{paranum} {pageref}';
+}
+
+MadCap|xref.TOCPageNumber
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
+MadCap|xref.ParTextParNum
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
+MadCap|xref.lwr_see_partext_parnum
+{
+	color: inherit;
+	mc-format: 'see {quote}{paratext}{quote} {pageref}.';
+}
+
+MadCap|xref.See_partext_parnum
+{
+	color: inherit;
+	mc-format: 'See {quote}{paratext}{quote} {pageref}.';
+}
+
+MadCap|xref.seePageRef
+{
+	mc-format: '(see page {page})';
+}
+
+MadCap|xref.hypLinkAndPage
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color} {pageref}';
+}
+
+MadCap|xref.lwrSeeHypLnkAndPage
+{
+	mc-format: 'See {color blue}{u}{paratext}{/u}{/color} {pageref}';
+}
+
+MadCap|xref.hypLinkSectionOnPage
+{
+	mc-format: '{color blue}{u}{paratext}{/u}{/color} section {pageref}';
+}
+
+/* Start Image Classes */
+
+img
+{
+	page-break-after: avoid;
+	border: solid 1px #000000;
+	border-radius: 3px;
+}
+
+img.width100pct
+{
+	height: auto;
+	width: 6.25in;
+}
+
+img.width075pct
+{
+	height: auto;
+	width: 4.625in;
+}
+
+img.width050pct
+{
+	height: auto;
+	width: 3.125in;
+}
+
+img.width0375pct
+{
+	height: auto;
+	width: 2.3425in;
+}
+
+img.width025pct
+{
+	height: auto;
+	width: 1.56in;
+}
+
+img.width013pct
+{
+	height: auto;
+	width: 0.75in;
+}
+
+img.inLineIcon
+{
+	height: 34px;
+	width: 34px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+img.inLineIcon24by24
+{
+	height: 24px;
+	width: 24px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+img.inLineIcon20by20
+{
+	height: 20px;
+	width: 20px;
+	margin-bottom: -3pt;
+	border: none;
+}
+
+/* End Image Classes */
+
+.pad-top5
+{
+	padding-top: 5px;
+}
+
+.pad-top10
+{
+	padding-top: 10px;
+}
+
+.pad-top15
+{
+	padding-top: 15px;
+}
+
+.pad-top20
+{
+	padding-top: 20px;
+}
+
+.clearboth
+{
+	clear: both;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.note
+{
+	page-break-inside: avoid;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-left: 6px solid #a1a4ae;
+	background-color: #d4d7e1;
+}
+
+.note::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'Note: ';
+	font-weight: bold;
+	border: none;
+}
+
+.moreInfo
+{
+	page-break-inside: avoid;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-left: 6px solid #a0b6c4;
+	background-color: #C8E4F5;
+}
+
+.moreInfo::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'More Info: ';
+	font-weight: bold;
+	border: none;
+}
+
+p.TitlePage2
+{
+	font-size: 24pt;
+	color: #002d62;
+	margin-bottom: 2pt;
+	margin-left: 0;
+	mc-hyphenate: never;
+	text-align: left;
+	line-height: 24pt;
+}
+
+/* Link stuff */
+
+a
+{
+	text-decoration: underline;
+	color: #63abdd;
+}
+
+table a
+{
+	font-size: 11px;
+}
+
+.figure	/* Replace */
+{
+	font-size: 10pt;
+	font-style: normal;
+	display: block;
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	margin-left: 0;
+	page-break-before: avoid;
+	mc-auto-number-format: 'GF:{b}Figure {n+}';
+}
+
+figure
+{
+	/* Started using this in normal hb 7/2016. */
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	margin: 12pt 8pt 12pt 15pt;
+}
+
+figcaption
+{
+	display: block;
+	font-size: 10pt;
+	font-style: normal;
+	margin-left: 0;
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	text-align: left;
+	mc-auto-number-format: 'GF:{b}Figure {n+}. {/b}';
+}
+
+.table
+{
+	display: block;
+	page-break-before: avoid;
+	mc-auto-number-format: 'CT:{b}Table {n+} ';
+	margin-top: 1pt;
+	margin-bottom: 10pt;
+	font-style: normal;
+	font-size: 10pt;
+	margin-left: 0;
+}
+
+caption.table
+{
+	font-style: normal;
+	font-family: 'Univers Next Pro Condensed';
+	page-break-after: avoid;
+	mc-auto-number-format: 'CT:{b}Table {chapnum}-{n+}';
+}
+
+td
+{
+	padding-left: 2pt;
+	padding-right: 2pt;
+}
+
+tr
+{
+	page-break-inside: avoid;
+}
+
+/* Beginning Span Classes */
+
+span.SeeIndex
+{
+	font-weight: bold;
+}
+
+span.SeeAlsoIndex
+{
+	font-weight: bold;
+}
+
+span.snippet-font
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+}
+
+span.hyperLink
+{
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+/* End Span Classes */
+/* List Stuff Here */
+
+ol,
+ul
+{
+	font-family: 'Univers Next Pro';
+	margin-left: 18pt;
+	font-size: 11pt;
+}
+
+ul li
+{
+	font-family: 'Univers Next Pro';
+	margin-top: 10pt;
+	margin-left: 13pt;
+	margin-bottom: 10pt;
+	padding-left: 3px;
+	border: none;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+ol ul
+{
+	list-style-type: circle;
+	margin-left: 0;
+}
+
+ol ul li
+{
+	margin-top: 5pt;
+}
+
+ul.no-bull
+{
+	list-style: none;
+}
+
+ul.fvPxTb
+{
+	margin-left: -3px;
+	text-align: left;
+	vertical-align: top;
+}
+
+li.fvPxTb
+{
+	font-size: 9pt;
+	padding-left: 8px;
+	/* Increase to decrease space between bullet and text */
+	text-align: left;
+	margin-left: 0;
+}
+
+li.nb
+{
+	list-style-image: none;
+	list-style-type: none;
+	display: block;
+	page-break-inside: never;
+	margin-left: 0;
+}
+
+li
+{
+	margin-top: 10pt;
+	margin-left: 13pt;
+	margin-bottom: 10pt;
+	padding-left: 3px;
+	border-left: 2px solid #ddd;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+ol > ol
+{
+	margin-left: 12px;
+	border-left: none;
+	padding-left: 0;
+}
+
+ol > ol > li
+{
+	border-left: none;
+	padding-left: 6px;
+	margin-left: 0;
+}
+
+.sub-list-upper-alpha
+{
+	margin-left: 36pt;
+	list-style: upper-alpha;
+}
+
+ol.outline
+{
+	list-style-type: upper-roman;
+}
+
+ol.outline > li
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+	border: none;
+	margin-left: 0;
+}
+
+ol.outline ol
+{
+	list-style-type: upper-alpha;
+}
+
+ol.outline ol ol
+{
+	list-style-type: decimal;
+}
+
+ol.outline ol ol ol
+{
+	list-style-type: lower-alpha;
+}
+
+/* End List Stuff */
+
+p.page
+{
+	font-size: 10pt;
+	font-weight: bold;
+	float: right;
+	margin-right: 15pt;
+	margin-bottom: 4pt;
+}
+
+/* Div classes */
+
+div.13mLeft
+{
+	margin-left: 13pt;
+}
+
+div.dFloRig_8ptPadTopLefBot
+{
+	float: right;
+	padding: 8pt 0 8pt 8pt;
+}
+
+div.dFloLef_8ptPadTopRigBot
+{
+	float: left;
+	padding: 8pt 8pt 8pt 0;
+}
+
+div.dFloRig_12ptPadTopLefBot
+{
+	clear: both;
+	float: right;
+	margin-left: 12pt;
+	padding: 10px 0 10px 10px;
+}
+
+div.dFloLef_12ptPadTopRigBot
+{
+	float: left;
+	padding: 12pt 12pt 12pt 0;
+}
+
+div.dFloLef_12ptPadRigBot
+{
+	float: left;
+	padding: 0 12pt 12pt 0;
+}
+
+/* End div classes */
+/* Background Note */
+
+.tableHeading
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.headingInTable
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+.tableText
+{
+	font-size: 9pt;
+	text-align: left;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.headInSameCell
+{
+	font-size: 10pt;
+	margin-top: 2pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	text-align: left;
+}
+
+/* End Background Note Experimental Classes */
+
+/* Software Guide Classes */
+
+div.surveyBoxTop
+{
+	background-color: #0083cc;
+	margin: 1.5in 0 3pt 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 12pt;
+	color: #ffffff;
+	mc-hyphenate: never;
+}
+
+div.surveyBoxBottom
+{
+	background-color: #e8f0f8;
+	margin: 3pt 0 0 0;
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	font-size: 10pt;
+}
+
+div.surveyBoxLink
+{
+	font-size: 10pt;
+	color: #0000ff;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	text-decoration: underline;
+	background-color: #e8f0f8;
+}
+
+.warning
+{
+	page-break-inside: avoid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-left: 6px solid #e89999;
+	background-color: #FFCCCC;
+	padding: 20px;
+	color: #424242;
+}
+
+.warning::before
+{
+	font-family: 'Univers Next Pro Light';
+	content: 'Important: ';
+	font-weight: bold;
+}
+
+/* End Experimental Software Guide Classes */
+/* Admin Guide */
+
+.title-front	/* white title in deco frame */
+{
+	font-size: 20pt;
+	color: white;
+	text-align: left;
+	padding-left: 12px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	line-height: 1.2em;
+}
+
+.mainPoint
+{
+	font-style: italic;
+	background-repeat: no-repeat;
+	padding: 12px;
+}
+
+small
+{
+	font-size: 10pt;
+}
+
+code
+{
+	font-size: .9 em;
+	font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+	padding: 2px 4px;
+	color: #222;
+	background-color: #ecf0f3;
+}
+
+.code
+{
+	font-size: .9em;
+	font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+	padding: 2px 4px;
+	color: #222;
+	background-color: #ecf0f3;
+}
+
+/* End Admin Guide */
+/* Mathml */
+
+MadCap|equation
+{
+	max-width: 5in;
+}
+
+MadCap|equation.inline
+{
+	mc-auto-number-class: none;
+	font-size: 0.9em;
+	vertical-align: top;
+}
+
+p.equation
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'GE:{n+}';
+	margin-left: 1.25in;
+}
+
+p.equation0
+{
+	mc-auto-number-class: right;
+	mc-auto-number-format: 'GE:{n+}';
+	margin-left: 0in;
+}
+
+ol.numberedParentheses
+{
+	list-style-type: decimal;
+}
+
+ol.numberedParentheses > li::marker
+{
+	content: counter(numberedParentheses) ')';
+}
+
+MadCap|xref.inline
+{
+	color: inherit;
+	letter-spacing: 1px;
+	mc-format: '({color #63abdd}{u}{paranumonly}{/u}{/color})';
+	/* mc-format: '{color #63abdd}{sup}{u}{paranumonly}{/u}{/sup}{/color}'; */
+}
+
+MadCap|xref.inline_no_paren
+{
+	mc-format: '{color #63abdd}{u}{paranumonly}{/u}{/color}';
+}
+
+MadCap|xref.See_autonum_txt
+{
+	mc-format: 'See {quote}{paranumonly}{quote} on page {page}.';
+}
+
+MadCap|xref.step_no
+{
+	mc-format: 'step {paranumonly}';
+}
+
+MadCap|xref.figure-x
+{
+	mc-format: '{paranumonly}';
+}
+
+MadCap|xref.inline_sup
+{
+	mc-format: '{color #63abdd}{sup}{paranumonly}{/sup}{/color}';
+}
+
+MadCap|xref.inline_sup_list
+{
+	mc-format: '{color #63abdd}{sup}{paranumonly}{/sup}{/color}';
+}
+
+MadCap|xref.page_num
+{
+	mc-format: '{page}';
+}
+

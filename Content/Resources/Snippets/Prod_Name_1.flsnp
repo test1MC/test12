@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="20" MadCap:lastWidth="576">
+    <head>
+    </head>
+    <body>
+        <MadCap:conditionalText MadCap:conditions="Manuals.ddigit-manual">D-DiGit™ </MadCap:conditionalText><span MadCap:conditions="Manuals.impulse-manual,Manuals.trilogy-manual">Pearl<sup>®</sup><![CDATA[  ]]></span><span MadCap:conditions="Manuals.clx-manual,Manuals.sa-manual,Manuals.odyssey-manual">Odyssey<sup>®</sup></span><span MadCap:conditions="Manuals.cdigit-manual">C-DiGit<sup>®</sup></span>
+    </body>
+</html>

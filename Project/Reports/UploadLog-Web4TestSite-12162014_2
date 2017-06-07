@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultUploadLog>
+  <Destination
+    Name="Web4">
+    <Uploaded
+      Source="Resources/Scripts/require.config.js" />
+    <Uploaded
+      Source="Data/Search_Chunk9.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk9.js" />
+    <Uploaded
+      Source="Data/Search_Chunk8.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk8.js" />
+    <Uploaded
+      Source="Data/Search_Chunk26.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk26.js" />
+    <Uploaded
+      Source="Data/Search_Chunk25.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk25.js" />
+    <Uploaded
+      Source="Data/Search_Chunk16.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk16.js" />
+    <Uploaded
+      Source="Data/Search_Chunk13.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk13.js" />
+    <Uploaded
+      Source="Data/Search_Chunk12.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk12.js" />
+    <Uploaded
+      Source="Data/Search_Chunk11.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk11.js" />
+    <Uploaded
+      Source="Data/Search_Chunk10.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk10.js" />
+    <Uploaded
+      Source="Data/Search_Chunk1.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk1.js" />
+    <Uploaded
+      Source="Data/Search.xml" />
+    <Uploaded
+      Source="Data/Search.js" />
+    <Uploaded
+      Source="Data/HelpSystem.xml" />
+    <Uploaded
+      Source="Data/HelpSystem.js" />
+    <Uploaded
+      Source="Content/ImportTopics/ImportOverview.htm" />
+    <Uploaded
+      Source="Content/ExportTopics/ExportOverview.htm" />
+    <Uploaded
+      Source="Content/CopyImagesTopics/Copy_Images.htm" />
+    <Uploaded
+      Source="Content/Work_Area.htm" />
+    <Uploaded
+      Source="Image_Studio.mcwebhelp" />
+    <Removed>
+      <Url
+        Source="Content/Resources/Images/FocusPosition_dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/ProfilesTab_singleShape_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image174_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LocalBg-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WorkArea_Images_AcqFolder-01_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/WorkAreaFileStructureMultipleUsers_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WesternAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WesternAnalysis-SelectMarkerLanesSet-list_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WesternAnalysis-MarkerLane-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WesternAnalysis-DeleteMarkerLaneSet-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/WesternAnalysis-AdjustingLanes-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/UserDefinedEx-forTable_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/SegmentBg-example2_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/SaltAndPepper-MedianBg_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/NestedWorkAreaDiagram-04_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LanesGroup-WesternAnalysisTab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LaneBg-forTable_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LaneBckgAvgTopAndBottom-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/Lane-Chart3BgSubtracted-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBookTab_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBookTab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBookName-dialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBookLayoutEditor-example_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBookLayoutEditor-dialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/LabBkEx-LICORHeader_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0_CloseBands_ChooseLaneBG_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-WesternLanesTableEx_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-WesternLaneColumnsDialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-WesternLabBookExample_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-WesternBandsTableEx_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-WesternBandsColumnsDialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-UserDefBg-main_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SingleImageViewExport-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SingleImagePerPageLabBook_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SetActiveWorkArea_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SetActiveWorkArea-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SelectedImagesExport_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-SaveCurrentTemp-PlateArrayAnalysis_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-RotateOrFlipOptions_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ReduceNoiseOptions_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-PrintMenuOptions_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-PlateArrayAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-PlateArray-TemplateName-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-PlateAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-MPXWesternAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-MovieProperties-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-LanesGroup-UpDownArrows_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-LaneProfileScreenCapt_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportWorkAreaSettings_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportPearlImages-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportOtherLICORImages-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportOdysseyImagesFromSelectedScanFolders-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportLICORImages-OdyAeriusHighlights_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ImportImageStudioZipFile_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ICWWellTypesZFactor-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ICWWellTypes-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ICWWellLinks-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-GridArrayAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-GridAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-FreeRotateOptions_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ExportToZipFile-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ExportToAnotherWorkArea-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ExportSelectedImages-dialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ExportCurrentImgDigMedia-explanation-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ExpandedICWDefinitions-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-EditMarkerInfo-RemoveStuff-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-EditFileName-justDialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-EditFileName-insertButton-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-EditFileName-dialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-EditFileName-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-DNAGelAnalysis-tab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-DeleteGridPlateTemplate-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-CropToNewImage_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ColorBarExample_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-ColorBar-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-AppButtonPreferences-ImageDisplay_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-AppButtonPreferences-General_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-AdvancedGridDefinition-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS5.0-AdvancedArrayDefinition-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS4.0-ViewAndFilter-02202014_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS4.0-SetActiveWorkAreaList-01292014_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS4.0-ChooseMarker-list_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/IS4.0-ArrayBgDefinition_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/ImageViewShowOptions_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/ImageTableInformation-dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/HeaderOptionsWLabBkHeaderDialog_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Resources/Images/GridAnalysis_SelMulShapes_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/FontList_AnnotationTab_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/Filter_menu_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/Filter_column_menu_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/ExportColorBar-ShowGroupAndDialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/DisplayTab_BothChannels_example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/DefineChannelFilter_dialog_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/Capture1_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/BckgRegions-AandB-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/AvgAndMed-cropForTable_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/AutoIconUnSelected-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/AutoIconSelected-example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/ArrayDefinition_example_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/AddWorkAreaBack_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Resources/Images/046_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/ShowGroup_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/ShapesTableExport_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Sa_Express_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Sa_Express_Acquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Sa_Acquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Sa_Acquire1_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Pearl_camera_options_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Pearltimeseries_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/PearlAcquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Odyssey_Acquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/IS5.0-ImportThirdPartyImagesMenu_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/IS5.0-ApplicationButton_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image8b_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image77_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image76_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image61_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image55_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image54_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image53_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image52_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image4_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image49_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image46_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image44_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image39_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image2_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image21_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image210_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image208_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image207_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image202_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Images/image202_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image1_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image19_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image199_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image197_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image194_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Images/image191_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image18_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image181_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image177_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image176_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image171_thumb_0_36.jpg" />
+      <Url
+        Source="Content/Images/image168_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image167_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image165_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image164_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image162_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image145_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image140_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image138_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image130_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/image120_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Fc_Acquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Fc-ChannelsGroup_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Fc-CameraGroup_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/ExpressRun_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/Crop-2_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLx_Acquire_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLxClassic-Channels_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLx-Scanner_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLx-ScanControls_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLx-ScanArea_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CLx-Channels_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/ChooseDisplay_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/CDiGit_Acquire2_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/BandsGroup_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/autodisplay_thumb_0_100.jpg" />
+      <Url
+        Source="Content/Images/AdjustDisplay_thumb_0_100.jpg" />
+    </Removed>
+  </Destination>
+</CatapultUploadLog>

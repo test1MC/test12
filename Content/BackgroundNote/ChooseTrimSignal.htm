@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="574" MadCap:lastWidth="612">
+    <head>
+    </head>
+    <body>
+        <h1 class="pgBrkBfr" MadCap:autonum="I. ">Trim Background and Trim Signal</h1>
+        <p class="warning">
+            <MadCap:snippetText src="../Resources/Snippets/WARNING_colon.flsnp" /> Saturated pixels may lead to unreliable quantification results. A small amount of saturation in a shape can be disregarded, but too much saturation means the blot should be imaged again (for an <MadCap:snippetText src="../Resources/Snippets/Odyssey_R_ImagingSystem.flsnp" />, image again at a lower scan intensity).</p>
+        <div class="dFloRig_12ptPadTopLefBot">
+            <img src="../Resources/Images/SomeSaturationMainPic-2.tif" alt="" title="" class="width025pct">
+            </img>
+            <p style="width: 160px;" class="figure" MadCap:autonum="&lt;b&gt;Figure 1&lt;/b&gt;"><a name="BlueSaturatedPixels"></a>. The bright blue regions represent saturated pixels.</p>
+        </div>
+        <p><span class="snippet-font">Trim Background</span> (<MadCap:snippetText src="../Resources/Snippets/Trim Bkgnd.flsnp" />) and <span class="snippet-font">Trim Signal</span> are used<br />to remove outlier pixels - pixels that are very dark or very bright - from calculations. This is useful if a shape contains saturated pixels (denoted in blue when the image is viewed in grayscale, see <MadCap:xref href="#BlueSaturatedPixels" class="XreftoParanum">Figure 1</MadCap:xref>).</p>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> and <span class="snippet-font">Trim Background</span> will remove saturated pixels from calculations, as long as 5% or fewer pixels within a shape are saturated. If 5% or greater of pixels in a shape are saturated, the <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> value will display <span class="snippet-font">Infinity</span> in the <MadCap:snippetText src="../Resources/Snippets/Signal.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> column of the <MadCap:snippetText src="../Resources/Snippets/Shapes Table.flsnp" />.</p>
+        <p>To view <MadCap:snippetText src="../Resources/Snippets/Trim Bkgnd.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> values, add the <MadCap:snippetText src="../Resources/Snippets/Trim Bkgnd.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> column to a table (add columns using the <MadCap:snippetText src="../Resources/Snippets/Columns.flsnp" /> <img src="../Resources/Images/ColumnsIcon.gif" class="inLineIcon20by20" /> button above and to the right of the table view). </p>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Trim Signal.flsnp" /> cannot be used when the <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> background method is chosen.</p>
+    </body>
+</html>

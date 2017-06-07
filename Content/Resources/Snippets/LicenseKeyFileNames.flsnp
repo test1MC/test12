@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetText src="WesternAnalysisKeyLicense_filename.flsnp" MadCap:conditions="TechNoteCond.WesternAndMPXGuide" /> <MadCap:snippetText src="InCellWesternAnalysisKey_filename.flsnp" MadCap:conditions="TechNoteCond.ICW" /> <MadCap:snippetText src="SmallAnimalImageAnalysis_filename.flsnp" MadCap:conditions="TechNoteCond.SmallAnimalImage" /></body>
+</html>

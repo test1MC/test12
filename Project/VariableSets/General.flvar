@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet conditions="">
+    <Variable Name="year" Comment="" Type="DateTime" LastUpdated="2016-01-06T10:33:38.4847792-06:00">yyy</Variable>
+    <Variable Name="mcom-date" Comment="" Type="DateTime" LastUpdated="2016-01-27T13:26:10.3213793-06:00">MM/yy</Variable>
+</CatapultVariableSet>

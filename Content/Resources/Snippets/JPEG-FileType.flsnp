@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="329" MadCap:lastWidth="612">
+    <body>
+        <h1 MadCap:autonum="I. ">JPEG File Type</h1>
+        <p>When a <MadCap:snippetText src="JPEG.flsnp" /> image is exported, an algorithm creates an image that appears like the original but is "compressed" to use less file space. The smaller file size makes <MadCap:snippetText src="JPEG.flsnp" /> images useful for web pages, presentation software, and general printing (<i>e.g.</i> a lab notebook).</p>
+        <p class="note">Do <u>not</u> quantify JPEG images. The image data have been altered in the export process.</p>
+        <p class="note"><MadCap:snippetText src="Image Studio no TM.flsnp" /> uses a moderate <MadCap:snippetText src="JPEG.flsnp" /> compression that may cause a "halo" to appear around bands.</p>
+    </body>
+</html>

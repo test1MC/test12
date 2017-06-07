@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="981" MadCap:lastWidth="904">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">User-Defined Background for Plate and Grid Analysis</h1>
+        <p>Spots or wells must be designated for background subtraction. Any choice of spots/wells can be designated.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Designated spots/wells as background...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Ensure a <MadCap:snippetText src="../Resources/Snippets/Plate.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/Plate_Array.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/Grid.flsnp" />, or <MadCap:snippetText src="../Resources/Snippets/Grid_Array_b.flsnp" /> analysis is applied to the image and that the spots/wells are <u>inside</u> the spots/wells in the image.</li>
+                    <li>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Ensure the correct channel(s) for background subtraction are showing.</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <MadCap:snippetBlock src="../Resources/Snippets/DisplayChannelBriefExplanation.flsnp" />
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                    <li>
+                        <p>Choose <MadCap:snippetText src="../Resources/Snippets/User-Defined.flsnp" /> from the <MadCap:snippetText src="../Resources/Snippets/Background group.flsnp" /> in the application specific analysis tab.</p>
+                        <p>Dismiss the dialog warning that no background shape has been assigned.</p>
+                    </li>
+                    <li>
+                        <p>Click the first spot/well to be assigned as background. Multiple background spots/wells can be selected by:</p>
+                        <ul style="list-style-type: square;">
+                            <li>Using <MadCap:snippetText src="../Resources/Snippets/Ctrl_plus_Click.flsnp" /> to select additional spots/wells</li>
+                            <li>
+                                <p>Clicking and dragging a box around spots/wells to be selected</p>
+                                <p>
+                                    <img src="../Resources/Images/GridAnalysis_SelMulShapes.png" />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Click <img src="../Resources/Images/AssignShape.gif" class="inLineIcon24by24" /> <MadCap:snippetText src="../Resources/Snippets/Assign.flsnp" /> and all selected wells/spots will be used to calculate background.</li>
+                </ol>
+                <p>To remove spots/wells from the background calculation, select the spots/wells to be removed and click <img src="../Resources/Images/RemoveBackground.gif" class="inLineIcon24by24" /><MadCap:snippetText src="../Resources/Snippets/Unassign.flsnp" />.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How background and signal are calculated...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/BackgroundCalculation-SpotNotWell.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Signal-SpotNotWell.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

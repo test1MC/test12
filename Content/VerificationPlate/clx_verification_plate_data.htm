@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1333" MadCap:lastWidth="1160">
+    <head>
+    </head>
+    <body>
+        <h1>Analyze Odyssey CLx Verification Plate Data (<MadCap:snippetText src="../Resources/Snippets/vplate_pn.flsnp" />)</h1>
+        <p>Copy data from verification plate (<MadCap:snippetText src="../Resources/Snippets/vplate_pn.flsnp" />) scans into the workbook provided below to quickly calculate 700 and 800 channel coefficients of variation (CV).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Prepare data and export it from Image Studio</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/prepare_export_verif_data.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Download the workbook and analyze data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Ensure the data columns in the spreadsheet you exported from Image Studio are in the following order (as described above).</p>
+                        <p>
+                            <img src="../Resources/Images/plate_wells_workbook.png" class="no-thumb" style="width: 755px;height: 36px;" />
+                        </p>
+                    </li>
+                    <li><a href="https://licor.box.com/shared/static/r8xvm5yevhyss3aup1izfgqlqferfs7k.xlsx" title="Download the verification plate analysis workbook" alt="Download the verification plate analysis workbook">Download the workbook</a>.</li>
+                    <li>
+                        <p>Copy data from the spreadsheet you exported from Image Studio into the <span class="snippet-font">Data</span> sheet of the workbook provided in step 2.</p>
+                        <p class="note">If "No" appears in the <span class="snippet-font">Column Name Match</span> section of the <span class="snippet-font">Calculations</span> sheet, the wrong columns are included or the columns are in the wrong order.
+                        </p>
+                    </li>
+                </ol>
+                <p>The CVs for well-to-well variation will be calculated and displayed in the <span class="snippet-font">Results</span> sheet.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Interpret the Results</h2>
+        <p>Coefficients of variation are displayed in the <span class="snippet-font">Results</span> sheet. The maximum variation for all locations should be  <u>less than 5%</u> for the 700 and 800 channel. The appropriate table cells in the <span class="snippet-font">Results</span> sheet will be highlight red if CVs exceed 5%.</p>
+        <p>If you notice greater than 5% variability, email <a href="mailto:regulatory@licor.com">regulatory@licor.com</a>.</p>
+    </body>
+</html>

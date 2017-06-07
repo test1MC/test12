@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="829" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: "><a name="_bookmark9"></a>Hardware Description</h1>
+        <h2>Scanning and Detection Hardware</h2>
+        <p>The Odyssey Sa Imager uses two solid-state <b>diode lasers</b> to simultaneously provide light excitation at 685 and 785 nm. <b>Collimating lenses</b>, <b>optical bandpass filters</b>, and a <b>focusing lens</b> focus and tune the laser beams to produce an excitation spot on the target detection area of the microplate. The microscope electronics modulate the laser beams to discriminate the infrared (IR) dye signal fluorescence from background fluorescence. The scanner detection optics focus on the excitation spot and collect light from the fluorescing IR dyes.</p>
+        <p>After collection by the <b>microscope objective</b>, the light is passed to a <b>dichroic mirror</b>. The mirror splits the light and essentially sorts the fluorescent signals by transmitting the light from one IR dye and reflecting light from the other IR dye. The transmitted and reflected lights travel two independent paths through optics designed to remove scattered and stray light. The light is ultimately focused onto one of two <b>avalanche photodiodes</b> that converts the light to an electrical signal for processing by the microscope detection electronics.</p>
+        <p>In the microscope electronics, the signal is amplified, filtered, and finally converted to a digital value by an analog-to-digital converter. The digital signal is demodulated, filtered again, and coordinated with the microscope position by a <b>Digital Signal Processor</b> (DSP) to produce the image file.</p>
+        <p>The entire compact laser/microscope assembly travels on a platform that moves beneath the microplate along both the X- and Y-axis. The microscope can also be adjusted along the Z-axis to change the height of the microscope’s focal point. Changing the focus height</p>
+        <p>makes it possible for the instrument to accommodate variations in the height of the target detection area for different brands of microplates. The focus height can be varied from 1.71 to 3.95 mm.</p>
+        <h2><a name="_bookmark10"></a>Odyssey Sa Server and Server Software</h2>
+        <p>The <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" /> contains a server that controls scanning, data storage, and communication with <MadCap:snippetText src="../../Resources/Snippets/Image_Studio_TM_Sfw.flsnp" />. The Odyssey Sa server has a pre-installed copy of Odyssey Sa Server software. This software is periodically updated with new releases that are posted on LI&#8209;COR Biosciences’ web site. Users will be contacted with download instructions when new releases are available.</p>
+        <p>The Odyssey Sa server communicates with the computer via TCP/IP in a stand-alone configuration. When a scan is started from the Image Studio software, scan parameters are sent to the Odyssey Sa server, which starts the scan, collects the data, stores the data in its internal hard disk, and sends a copy of the scanned images to Image Studio software for analysis and storage on a hard disk in the computer.</p>
+        <p><b>Note:</b> <i>The Odyssey Sa Imager should be used for temporary storage only;</i> when the hard disk is full, the oldest files are overwritten to make space.</p>
+        <p>Files on the internal hard disk are stored in scan groups. Scan groups are like folders, but access is restricted to users that have been given permission to use the scan group. The Odyssey Sa Imager uses password protected user accounts to establish the access rights for each user.</p>
+    </body>
+</html>

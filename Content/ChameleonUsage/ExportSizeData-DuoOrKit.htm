@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="837" MadCap:lastWidth="612">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Export Size Data for Chameleon Duo or Chameleon Kit</h1>
+        <p>Use this procedure to export data if <MadCap:snippetText src="../Resources/Snippets/Product_Chameleon_Duo.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Product_Chameleon_Kit.flsnp" /> markers were used. Data will be exported to a .xls file or opened using a spreadsheet program.</p>
+        <p class="note">Size data from the 700 and 800 channels must be exported separately.</p>
+        <p>Begin by filtering out 800 channel data and exporting 700 channel data.</p>
+        <ol start="1">
+            <div class="dFloRig_12ptPadTopLefBot">
+                <img src="../Resources/Images/turnOff800ChannelExample.tif" alt="Turn Off 800 Channel in Display tab IS 3.0" class="width025pct" MadCap:conditions="TechNoteCond.ChameleonIS30" />
+                <img src="../Resources/Images/DontShowChannel_button.tif" alt="Dont Show Channel Button on Display tab (right side of Image Studio Window)" class="width025pct" MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40" />
+            </div>
+            <li>
+                <p>Turn off 800 channel visibility by clicking the <MadCap:snippetText src="../Resources/Snippets/DontShowChannel_button.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS40" /><MadCap:snippetText src="../Resources/Snippets/DontShowChannel_button_IS30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" /><MadCap:conditionalText MadCap:conditions="TechNoteCond.ChameleonIS30and40"><span class="snippet-font">Don't Show Channel</span> button</MadCap:conditionalText> in the 800 channel section of the <MadCap:snippetText src="../Resources/Snippets/DisplayTab.flsnp" />.</p>
+            </li>
+            <li style="clear:both;">In the <MadCap:snippetText src="../Resources/Snippets/Marker_Lanes_group.flsnp" />, check to ensure the correct 700 marker set is chosen.</li>
+            <div class="dFloRig_12ptPadTopLefBot">
+                <img src="../Resources/Images/Clear800ChannelColumn-30and40.tif" alt="Clear 800 Channel Check box in menu that opens after right clicking on the Channel heading in the Western Bands Table" class="width025pct" />
+            </div>
+            <li>In the <span class="snippet-font">Western Bands Table</span>, right click the <MadCap:snippetText src="../Resources/Snippets/Chanel.flsnp" /> column header, and click to disable the 800 channel check box.</li>
+            <li style="clear: both;">Click <MadCap:snippetText src="../Resources/Snippets/OK.flsnp" />.</li>
+            <li style="clear: both;">
+                <MadCap:snippetText src="../Resources/Snippets/ExportTheDataToASpreadsheet.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS40" />
+                <MadCap:snippetText src="../Resources/Snippets/ExportTheDataByClicking-IS30.flsnp" />
+            </li>
+            <p MadCap:conditions="TechNoteCond.ChameleonIS30and40,TechNoteCond.ChameleonIS40">
+                <img src="../Resources/Images/ReportOptions-menu.tif" alt="Report Options: Launch Spreadsheet or Save As" class="width0375pct" />
+            </p>
+            <p MadCap:conditions="TechNoteCond.ChameleonIS30">
+                <img src="../Resources/Images/TableTab.tif" alt="Image Studio 3.0 Table Tab" class="width075pct" />
+            </p>
+            <li style="clear: both;">
+                <MadCap:snippetText src="../Resources/Snippets/ClickSaveAsToSaveToXLS.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40" />
+                <MadCap:snippetText src="../Resources/Snippets/ClickExportFile-IS30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" />
+            </li>
+        </ol>
+        <p>To export 800 channel data, repeat the above procedure but with 700 channel visibility turned off (using the <MadCap:snippetText src="../Resources/Snippets/DontShowChannel_button.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40" /><MadCap:snippetText src="../Resources/Snippets/DontShowChannel_button_IS30.flsnp" MadCap:conditions="TechNoteCond.ChameleonIS30" />) and 700 channel data filtered out (right click the <MadCap:snippetText src="../Resources/Snippets/Chanel.flsnp" /> column header and disable the 700 channel check box). </p>
+    </body>
+</html>

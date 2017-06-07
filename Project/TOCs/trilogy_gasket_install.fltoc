@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Light Leakage"
+    Link="/Content/imaging_systems/pearl/door_gasket/trilogy_gasket_intro.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/guide_no_cover.flpgl" />
+  <TocEntry
+    Title="Test for Light Leakage Before Installing Gasket"
+    Link="/Content/imaging_systems/pearl/door_gasket/test_before_gasket_install.htm" />
+  <TocEntry
+    Title="Door Gasket Kit Items"
+    Link="/Content/imaging_systems/pearl/door_gasket/trilogy_gasket_kit_items.htm" />
+  <TocEntry
+    Title="Door Gasket Installation"
+    Link="/Content/imaging_systems/pearl/door_gasket/door_gasket_installation.htm" />
+  <TocEntry
+    Title="Test After Gasket Installation"
+    Link="/Content/imaging_systems/pearl/door_gasket/test_after_gasket_installation.htm" />
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"></TocEntry>
+</CatapultToc>

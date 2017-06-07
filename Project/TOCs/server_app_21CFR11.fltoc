@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Introduction">
+    <TocEntry
+      Title="System Management"
+      Link="/Content/SystemMgmtTool/SystemManagement_Overview.htm" />
+    <TocEntry
+      Title="Controls"
+      Link="/Content/21CFR11/RolesAndActions_Overview_21CFR11.htm"></TocEntry>
+    <TocEntry
+      Title="About This Documentation"
+      Link="/Content/SystemMgmtTool/Trademarks_SysMgmt.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="System Configuration">
+    <TocEntry
+      Title="System Overview"
+      Link="/Content/21CFR11/SysOverview_21CFR11_1.htm"></TocEntry>
+    <TocEntry
+      Title="Server Configuration"
+      Link="/Content/21CFR11/ServerConfiguration_21CFR11.htm"></TocEntry>
+    <TocEntry
+      Title="Client Configuration"
+      Link="/Content/21CFR11/ClientConfig_21CFR11.htm"></TocEntry>
+    <TocEntry
+      Title="Network Configuration"
+      Link="/Content/21CFR11/Networking_21CFR12.htm" />
+    <TocEntry
+      Title="Data Management"
+      Link="/Content/SystemMgmtTool/Backup_SysMgmt.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Security Settings">
+    <TocEntry
+      Title="About Settings"
+      Link="/Content/SystemMgmtTool/SystemSettings_SysMgmt.htm"></TocEntry>
+    <TocEntry
+      Title="Default Settings"
+      Link="/Content/SystemMgmtTool/DefaultConfiguration_SysMgmt.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="User Controls">
+    <TocEntry
+      Title="Users">
+      <TocEntry
+        Title="About Users"
+        Link="/Content/SystemMgmtTool/AboutUsers_SysMgmt.htm" />
+      <TocEntry
+        Title="Add User"
+        Link="/Content/SystemMgmtTool/AddUser_SysMgmt.htm" />
+      <TocEntry
+        Title="Set Temporary Password"
+        Link="/Content/SystemMgmtTool/SetPassword_SysMgmt.htm" />
+      <TocEntry
+        Title="Deactivate User"
+        Link="/Content/SystemMgmtTool/DeactivateUser_SysMgmt.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Groups">
+      <TocEntry
+        Title="About Groups"
+        Link="/Content/21CFR11/Groups_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Manage Groups"
+        Link="/Content/SystemMgmtTool/ManageGroups_SysMgmt.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Roles">
+      <TocEntry
+        Title="About Roles"
+        Link="/Content/21CFR11/Roles_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Manage Roles"
+        Link="/Content/SystemMgmtTool/ManageRoles_SysMgmt.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Actions">
+      <TocEntry
+        Title="About Actions"
+        Link="/Content/21CFR11/Actions_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Manage Actions"
+        Link="/Content/SystemMgmtTool/ManageActions_SysMgmt.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Work Areas"
+      Link="/Content/SystemMgmtTool/WorkAreaMgmt_SysMgmt.htm" />
+    <TocEntry
+      Title="Image Status"
+      Link="/Content/21CFR11/ImageStatus_21CFR11.htm"></TocEntry>
+    <TocEntry
+      Title="Workflow"
+      Link="/Content/21CFR11/Workflow_Overview_21CFR11.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Logs and Notifications">
+    <TocEntry
+      Title="Log Types"
+      Link="/Content/SystemMgmtTool/LogTypes_SysMgmt.htm" />
+    <TocEntry
+      Title="User Log"
+      Link="/Content/SystemMgmtTool/UserLog_SysMgmt.htm" />
+    <TocEntry
+      Title="Notifications"
+      Link="/Content/SystemMgmtTool/UserLog_Notifications_SysMgmt.htm" />
+    <TocEntry
+      Title="Image Log"
+      Link="/Content/21CFR11/ExportImageLog_21CFR11.htm" />
+  </TocEntry>
+</CatapultToc>

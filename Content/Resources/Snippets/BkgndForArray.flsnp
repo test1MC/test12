@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <span class="snippet-font">Bkgnd Calculation:</span> Background spots in each <MadCap:snippetText src="sub-grid.flsnp" /> are used to determine background for that <MadCap:snippetText src="sub-grid.flsnp" />. The average pixel intensity of each background spot will be calculated, and the background spots will be averaged to find the background value.
+		</p>
+    </body>
+</html>

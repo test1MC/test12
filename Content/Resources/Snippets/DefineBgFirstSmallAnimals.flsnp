@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The <MadCap:snippetText src="SmallAnimalImage_App.flsnp" /> application requires a user-defined background shape to be placed and assigned prior to defining the region to be quantified.</p>
+    </body>
+</html>

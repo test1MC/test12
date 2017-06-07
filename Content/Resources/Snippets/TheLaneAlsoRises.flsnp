@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1315" MadCap:lastWidth="1315">
+    <body>
+        <p class="headInSameCell">
+            <img src="../Images/GreenCheck-300dpi-icon-01.png" class="inLineIcon20by20" /> <MadCap:snippetText src="Lane_noIS.flsnp" /></p>
+        <p class="tableText">The <MadCap:snippetText src="Lane.flsnp" /> method will work, if available.</p>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>Select the box next to the desired resolution (in dots per inch) for the exported image. The chosen resolution will remain the same even if the image size is modified in the Size section of the dialog.</li>
+            <li>Use 150 dpi for digital media and 300 or 600 for print.</li>
+        </ul>
+    </body>
+</html>

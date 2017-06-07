@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetText src="Odyssey_CLx_Imager.flsnp" MadCap:conditions="Manuals.clx-manual" />
+        <MadCap:snippetText src="Pearl_Imager.flsnp" MadCap:conditions="Manuals.impulse-manual,Manuals.trilogy-manual" />
+        <MadCap:snippetText src="Odyssey_Sa_Imager.flsnp" MadCap:conditions="Manuals.sa-manual" />
+        <MadCap:snippetText src="Odyssey_Fc_Imager.flsnp" MadCap:conditions="Manuals.odyssey-manual" />
+    </body>
+</html>

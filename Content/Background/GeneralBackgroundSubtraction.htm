@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="1260" MadCap:lastWidth="547">
+    <head>
+    </head>
+    <body>
+        <h1>General Background Subtraction Concepts</h1>
+        <MadCap:snippetBlock src="../Resources/Snippets/GeneralBgConcept.flsnp" />
+        <p>Background consistency in an image will generally fall into one of three categories:</p>
+        <ol>
+            <li>
+                Background around shapes in an image can be nearly uniform <MadCap:conditionalText MadCap:conditions="Default.WebHelp">(see image below)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide">(A in <MadCap:xref href="#BackgroundRegionsExample" class="XreftoParanum">Figure 1</MadCap:xref>)</MadCap:conditionalText>.
+            </li>
+            <li>
+                Background around shapes can be different around each shape <MadCap:conditionalText MadCap:conditions="Default.WebHelp">(see image below)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide">(C in <MadCap:xref href="#BackgroundRegionsExample" class="XreftoParanum">Figure 1</MadCap:xref>)</MadCap:conditionalText>.
+            </li>
+            <li>
+                <p>
+                Background around shapes in a lane can vary within the lane <MadCap:conditionalText MadCap:conditions="Default.WebHelp">(see image below)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.BackgroundGuide">(B in <MadCap:xref href="#BackgroundRegionsExample" class="XreftoParanum">Figure 1</MadCap:xref>)</MadCap:conditionalText>.</p>
+                <div>
+                    <img src="../Resources/Images/BckgRegions-AandB-example.png" class="width013pct" />
+                    <p style="margin-left: 0;">
+                        <MadCap:snippetText src="../Resources/Snippets/ManyFormsBg_caption.flsnp" />
+                    </p>
+                    <p style="margin-left: 0;" class="figure" MadCap:conditions="Default.BackgroundGuide"><a name="BackgroundRegionsExample"></a>. <MadCap:snippetText src="../Resources/Snippets/ManyFormsBg_caption.flsnp" /><![CDATA[
+            ]]></p>
+                </div>
+            </li>
+        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Approach taken to subtract background under each of these conditions in <MadCap:snippetText src="../Resources/Snippets/Image_Studio_Software_cover.flsnp" />...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/MainBgApproaches.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

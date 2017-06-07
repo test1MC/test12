@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="16" MadCap:lastWidth="642">
+    <body>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-Cdig,TechNoteCond.quickStart-Cdig">C-DiGit</MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-Classic,TechNoteCond.quickStart-Classic">Odyssey</MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-CLx,TechNoteCond.quickStart-CLx">Odyssey CLx</MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-Fc,TechNoteCond.quickStart-Fc">Odyssey Fc</MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-Sa,TechNoteCond.quickStart-Sa">Odyssey Sa</MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="TechNoteCond.install-Pearl,TechNoteCond.quickStart-Trilogy,TechNoteCond.quickStart-Pearl">Pearl</MadCap:conditionalText>
+    </body>
+</html>

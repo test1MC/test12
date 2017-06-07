@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Use the <MadCap:keyword term="Scan Preset button" /><MadCap:snippetText src="Scan_Preset_list.flsnp" /><![CDATA[ ]]><img src="../Images/AdjustSettings.gif" alt="Scan Preset button" class="inLineIcon" /> in the <MadCap:snippetText src="Setup_group.flsnp" /> to save the current settings as a scan preset, to select a previously saved scan preset, or to delete a selected scan preset. A scan preset determines the Analysis Type, Channels to use, Channel Intensity settings, Resolution, Quality, and Scan Area settings.</p>
+        <ul>
+            <li>Click <MadCap:snippetText src="Save_Current_Scan_Preset.flsnp" /> to save the current scan settings as a scan preset. You can enter a name for the scan preset and it will be saved in the <MadCap:snippetText src="Scan_Preset.flsnp" /> list.</li>
+            <li>Choose a previously saved scan preset from the <MadCap:snippetText src="Scan_Preset.flsnp" /> list by clicking its name.</li>
+            <li>To delete a scan preset, click <MadCap:snippetText src="Delete_Scan_Preset.flsnp" /> from the <MadCap:snippetText src="Scan_Preset.flsnp" /> list. The <MadCap:snippetText src="Delete_Scan_Presets_dialog.flsnp" /> will open so you can choose which scan preset(s) should be deleted.</li>
+        </ul>
+    </body>
+</html>

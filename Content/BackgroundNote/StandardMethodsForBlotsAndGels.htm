@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="804" MadCap:lastWidth="525">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Standard Methods (Average, Median, and User-Defined)</h1>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+            <col style="width: 95px;" class="TableStyle-Basic-Column-Column1" />
+            <col style="width: 141px;" class="TableStyle-Basic-Column-Column1" />
+            <col style="width: 149px;" class="TableStyle-Basic-Column-Column1" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr style="height: 49px;" class="TableStyle-Basic-Head-Header1">
+                    <td colspan="4" class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p class="headingInTable"> Background Options for Analyzing Blots and Gels<br />(available without additional keys)</p>
+                    </td>
+                </tr>
+                <tr style="height: 50px;" class="TableStyle-Basic-Head-Header1">
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Method</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Best Use Cases</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p class="tableHeading">Method Comparison</p>
+                    </td>
+                    <td class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p class="tableHeading">Background Calculation</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 277px;" class="TableStyle-Basic-Body-Body1">
+                    <td class="TableStyle-Basic-BodyE-Column1-Body1"><span class="snippet-font">Local<br />Methods (Average or Median)</span>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">If only a few shapes need to be quantified, adding the shapes individually and using local background methods can work well.</li>
+                            <li class="fvPxTb">Choose <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> instead of <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> to reduce the impact of outlier pixel intensities in the background.</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">If shapes are in a lane containing many nonspecific bands <u>and</u> the background is uniform around the shapes, local methods may produce better results than the <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> method.</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">The <MadCap:snippetText src="../Resources/Snippets/Average.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Median.flsnp" /> background method computes the average or median intensity of pixels in a border around a shape and subtracts that background from the shape. The width and position of the border can be adjusted.</li>
+                            <p style="text-align: center;">
+                                <img src="../Resources/Images/AvgAndMed-cropForTable.tif" alt="" title="" class="width025pct" />
+                            </p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" />
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Background must be fairly uniform throughout an image.</li>
+                            <li class="fvPxTb">Use when <MadCap:snippetText src="../Resources/Snippets/Lane.flsnp" /> is not available and <MadCap:snippetText src="../Resources/Snippets/lwr-closely-spaced.flsnp" /> shapes will make it difficult to use local methods without having background border overlap shapes.</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Use when the background is uniform throughout the image and bands are so close the background border from local methods might overlap a band.</li>
+                            <li class="fvPxTb">Background is often not uniform enough for <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> to accurately represent background for every shape in an image.</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">The <MadCap:snippetText src="../Resources/Snippets/User-defined.flsnp" /> background method finds the average pixel intensity within a shape or shapes placed by the user to calculate background. When multiple shapes are used, the average pixel intensity in each will be averaged together to find the background.
+                            </li>
+                            <p style="text-align: center;">
+                                <img src="../Resources/Images/UserDefinedEx-forTable.tif" alt="" title="" class="width025pct" />
+                            </p>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

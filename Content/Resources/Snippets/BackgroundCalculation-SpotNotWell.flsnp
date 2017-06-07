@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="46" MadCap:lastWidth="624">
+    <body>
+        <p><span class="snippet-font">Bkgnd Calculation:</span> The average pixel intensity of each background spot will be calculated, and the background spots will be averaged to find the background value.
+		</p>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1423" MadCap:lastWidth="1080">
+    <head>&#160;</head>
+    <body>
+        <h1>Concentration</h1>
+        <p>Use this option to assign features as concentration standards that will be used to calculate unknown concentrations of other features.</p>
+        <p>A relationship between concentration standards (added to a table) and a measured quantification value (chosen in the <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> panel) will be determined and used to assess unknown concentrations.</p>
+        <p>To assign concentration standards and determine unknown concentrations:</p>
+        <ol>
+            <li>
+                <p>Click the <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> tab at the right side of the window to display the <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> panel. <img src="Images/image171.gif" class="width013pct" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Choose the desired interpolation method, quantification value, and channel in the Concentration panel...</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul style="list-style-type: square;">
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="Resources/Snippets/InterpolationMethod_list.flsnp" /> - Choose the interpolation type used to calculate a relationship between the concentration standard values you enter and the measured signal.</p>
+                                <p><span class="snippet-font">Linear</span> - A linear relationship, y = mx + b, will be determined between the entered concentration standards and the quantification value chosen in the <MadCap:snippetText src="Resources/Snippets/Column_gridsheet.flsnp" /> list, then used to calculate unknown concentrations.</p>
+                                <p><span class="snippet-font">Log</span> - A logarithmic relationship, y = ln(x), will be determined between the entered concentration standards and the quantification value chosen in the <MadCap:snippetText src="Resources/Snippets/Column_gridsheet.flsnp" /> list, then used to calculate unknown concentrations.</p>
+                                <p><span class="snippet-font">Reciprocal fit</span> - An inverse relationship, y = 1/x, will be determined between the entered concentration standards and the quantification value chosen in the <MadCap:snippetText src="Resources/Snippets/Column_gridsheet.flsnp" /> list, then used to calculate unknown concentrations.</p>
+                                <p><span class="snippet-font">Exponential</span> - An exponential relationship, y = x^n, will be determined between the entered concentration standards and the quantification value chosen in the <MadCap:snippetText src="Resources/Snippets/Column_gridsheet.flsnp" /> list, then used to calculate unknown concentrations.</p>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="Resources/Snippets/Column_gridsheet.flsnp" /> - Choose the quantification value that <MadCap:snippetText src="Resources/Snippets/Image Studio no TM.flsnp" /> will use to determine the relationship between entered concentration standards and measured signal. <MadCap:xref href="Calculation_Descriptions.htm" class="See_HypLinkTopic"><span style="color: Black;">See</span><span style="color: Blue;"><u>Calculation Descriptions</u></span></MadCap:xref> for more detail about each quantification value. This value will appear in the <MadCap:snippetText src="Resources/Snippets/Chart_panel.flsnp" /> table next to the concentration standard values.</li>
+                            <li><span class="snippet-font">Channel</span> - Choose the channel that contains the concentration standards you would like to appear in the <MadCap:snippetText src="Resources/Snippets/Chart_panel.flsnp" /> table next to the concentration value.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <p>Click the tab at the top of the <MadCap:snippetText src="Resources/Snippets/Table_section.flsnp" /> to open the table with the features to be assigned as Concentration Standards. In the example below, the <MadCap:snippetText src="Resources/Snippets/PlateWells_table.flsnp" /> is selected.</p>
+                <p>
+                    <img src="Images/image174.gif" class="width025pct" />
+                </p>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Add the Conc. Std. and Concentration columns to the table...</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Click <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /><img src="Resources/Images/ReviewExpress.gif" class="inLineIcon24by24" /> at the top right of the <MadCap:snippetText src="Resources/Snippets/Table_section.flsnp" /> to open the <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /> dialog.</li>
+                            <li>
+                                <p>Check the boxes next to <MadCap:snippetText src="Resources/Snippets/Conc.flsnp" /> and <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" />.</p>
+                                <p>
+                                    <img src="Images/image173.gif" class="no-thumb" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>Click <MadCap:snippetText src="Resources/Snippets/Save.flsnp" />.</p>
+                                <p>The <MadCap:snippetText src="Resources/Snippets/Conc.flsnp" /> and <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> columns will be added to the far right of the table.</p>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>Click a concentration standard feature or select its row in the table.</li>
+            <p class="note">
+                Concentration standards can only be added to one channel at a time. Check that the highlighted row is in the correct channel. </p>
+            <li>
+                <p>Double click the <MadCap:snippetText src="Resources/Snippets/Conc.flsnp" /> field in the selected row.</p>
+            </li>
+            <li>
+                <p>Enter the concentration value for this feature.</p>
+                <p>The assigned concentration standard will appear in the <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> panel table.</p>
+                <p class="note">Ensure the values of the entered standards increase or decrease consistently with the quantification value chosen in the <MadCap:snippetText src="Resources/Snippets/Concentration.flsnp" /> panel. </p>
+            </li>
+            <li>Repeat steps 4 through 6 to add all of the concentration standards to the list.</li>
+            <li>The calculated concentrations for the other features appear in the table in the Concentration column.</li>
+        </ol>
+    </body>
+</html>

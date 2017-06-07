@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-95px" Y="-34px" Width="721px" Height="86px" Flow="header" Right="-50px" Bottom="812px" BackgroundType="Solid" BackgroundRepeat="no-repeat" BorderTopLeftRadius="7px" BorderTopRightRadius="7px" BorderBottomRightRadius="7px" BorderBottomLeftRadius="7px" Anchors="" PaddingLeft="24pt" PaddingTop="0" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: center;font-size: 22pt;margin-top: 0;">Service Safety Form</xhtml:p>
+                        <xhtml:p xhtml:style="text-align: center;">Biotechnology Product Line</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-1in" Y="0.9791667in" Right="-0.5in" Bottom="2.625in" Width="7.5in" Height="5.395833in">
+        </Frame>
+        <Frame X="-96px" Y="668px" Width="719px" Height="256px" Flow="footer" Right="-47px" Bottom="-60px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/AddressBlock.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        <xhtml:p xhtml:style="text-align: right;font-size: 7pt;margin-top: 2pt;margin-bottom: 2pt;"><MadCap:variable xhtml:name="General.mcom-date" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:style="text-align: right;font-size: 7pt;margin-top: 2pt;margin-bottom: 2pt;">Doc # 985-12960</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="531" MadCap:lastWidth="578">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>Express Run Errors Related to the BioStack Plate Stacker</h2>
+        <p>If there is a problem during an express run, you should check the log file and read the log for any error messages. Messages about the BioStack Plate Stacker usually begin with “Scanner reported the following error” appended with a message from the BioStack Plate Stacker that may be difficult to interpret.</p>
+        <p>The most common problems are jams or failure to pick-up or place plates properly. Jams are commonly caused by non-standard plates, leaving a plate top on, or by barcode labels that may come loose and stick to something. If the instruments have been moved out of alignment, you may also get errors if the BioStack Plate Stacker can’t pickup a plate or if it drops the plate incorrectly on the <MadCap:snippetText src="../../Resources/Snippets/Odyssey_Sa_Imager.flsnp" /> plate carrier.</p>
+        <p>In general, the software remedy for jams and other errors is to start the express run again. If you are using express run templates, you can re-stack the plates, exclude the plates that have already been successfully scanned and start the express run again. If you were running an express run that was not saved as a tempate, you will need to define a new express run for the plates remaining in the input stack.</p>
+        <p>In general, you will have the least difficulty with jams and other problems related to the BioStack Plate Stacker if you use the recommended plates (Chapter 3) and don’t mix different types of plates in the input stack.</p>
+        <p>Another category of errors that can occur are communication errors between the Odyssey Sa Imager and the BioStack™ Plate Stacker. These errors are generally caused by unplugging the USB cable and later plugging it back in. Communication is not always immediately established. The remedy is to turn off both instruments, turn on the BioStack Plate Stacker, and then turn on the Odyssey Sa Imager after the BioStack Plate Stacker has finished its startup routine.</p>
+    </body>
+</html>

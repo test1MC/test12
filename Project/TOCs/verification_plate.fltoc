@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="clx"
+    Link="/Content/VerificationPlate/vplate_clx.htm"
+    conditions="Default.CLx"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Odyssey Sa Verification Plate"
+    conditions="Default.Sa">
+    <TocEntry
+      Title="Sa Verification Plate Scan"
+      Link="/Content/VerificationPlate/sa_verification_plate_scan.htm" />
+    <TocEntry
+      Title="Analyze Odyssey Sa Verification Plate Data"
+      Link="/Content/VerificationPlate/sa_verification_plate_data.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Odyssey Fc Verification Plate"
+    conditions="Default.Fc">
+    <TocEntry
+      Title="Fc Verification Plate Scan"
+      Link="/Content/VerificationPlate/fc_verification_plate_scan.htm"
+      StartSection="false"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="Analyze Odyssey Fc Verification Plate Data"
+      Link="/Content/VerificationPlate/fc_verification_plate_data.htm" />
+  </TocEntry>
+</CatapultToc>

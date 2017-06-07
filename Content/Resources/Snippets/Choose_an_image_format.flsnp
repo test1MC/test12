@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                Select the box next to the desired format for the exported image.</li>
+            <li>The <MadCap:snippetText src="TIFF.flsnp" /> format is better for print publications. The <MadCap:snippetText src="PNG.flsnp" /> and <MadCap:snippetText src="JPEG.flsnp" /> formats use less file space and are convenient for digital media applications.</li>
+        </ul>
+        <p>
+            <MadCap:xref href="../../ImageFormats.htm" class="See_HypLinkTopic"><span style="color: Black;">See </span><span style="color: Blue;"><u>Image Formats</u></span>
+            </MadCap:xref> to learn about <MadCap:snippetText src="TIFF.flsnp" />, <MadCap:snippetText src="JPEG.flsnp" />, and <MadCap:snippetText src="PNG.flsnp" /> image formats and their uses.</p>
+    </body>
+</html>

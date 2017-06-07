@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="624">
+    <body>
+        The <MadCap:snippetText src="Lane.flsnp" /> background method works by drawing a linear connection between areas of minimum brightness between shapes in a lane and subtracting the background noise that falls beneath the lines.
+    </body>
+</html>

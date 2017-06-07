@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="840" MadCap:lastWidth="612">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <!-- Broken link removed: <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" /> -->
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Using the Profiles Tab To See If a Shape Overlaps Multiple Bands</h1>
+        <p>Only one peak should appear in the shape profile if only one band is enclosed by the shape (and the shape's background border). </p>
+        <p>In <MadCap:xref href="#Shape8NoOverlapOn2" class="ContextSensitive">Figure 1 on page&#160;1</MadCap:xref>, the background border width is set to 2 pixels and only one band is enclosed by Shape 1, so one peak appears in the <MadCap:snippetText src="../Resources/Snippets/ProfilesTab.flsnp" />. When the background border for Shape 1 is increased to 5 pixels (see <MadCap:xref href="#Shape8DoesOverlap" class="XreftoParanum">"Figure 5"</MadCap:xref>), the border can be seen to overlap another shape and an extra peak begins to appear in the <MadCap:snippetText src="../Resources/Snippets/ProfilesTab.flsnp" />.</p>
+        <table style="border-left-style: solid;border-left-width: 1px;border-left-color: ;border-right-style: solid;border-right-width: 1px;border-right-color: ;border-top-style: solid;border-top-width: 1px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: ;page-break-inside: avoid;mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+            <col style="width: 215px;" />
+            <col style="width: 200px;" />
+            <col />
+            <tbody>
+                <tr style="height: 38px;">
+                    <td>
+                        <p class="tableHeading">Acceptable: One Profile Peak
+                        </p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">NOT Acceptable: Two Profile Peaks</p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">Acceptable: One Profile Peak</p>
+                    </td>
+                </tr>
+                <tr style="height: 200px;">
+                    <td style="text-align: left;">
+                        <img src="../Resources/Images/ProfileWithBackground-NOT-OverlappingAnotherShape.tif" alt="" title="" class="width025pct" />
+                    </td>
+                    <td style="text-align: left;">
+                        <img src="../Resources/Images/ProfileWithBackgroundOverlappingAnotherShape.tif" alt="" title="" class="width025pct" />
+                    </td>
+                    <td style="text-align: left;">
+                        <img src="../Resources/Images/ProfileTabTwoPeaks.tif" alt="" title="" class="width025pct" />
+                    </td>
+                </tr>
+                <tr style="height: 122px;">
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="Caption">The <MadCap:snippetText src="../Resources/Snippets/ProfilesTab.flsnp" /> for Shape 1 contains only one peak.</p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="Caption">An extra peak is visible above the main peak for Shape 1, because the background border width has been set to 5 instead of 2.</p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="Caption">Although two "humps" are visible at the top of the peak, only one band is being represented. The additional peak probably comes from an area of lower optical density near the center of Shape 2.</p>
+                    </td>
+                </tr>
+                <tr style="height: 39px;">
+                    <td style="text-align: left;">
+                        <p class="tableHeading">Shape 1
+                        </p>
+                        <img src="../Resources/Images/Shape-NOT-OverlappingAnotherShape.tif" alt="" title="" style="width: 179px;height: 25px;" />
+                    </td>
+                    <td style="text-align: left;">
+                        <p class="tableHeading">Shape 1</p>
+                        <img src="../Resources/Images/ShapeOverlappingAnotherShape.tif" alt="" title="" style="width: 180px;height: 25px;" />
+                    </td>
+                    <td style="text-align: left;">
+                        <p class="tableHeading">Shape 2</p>
+                        <img src="../Resources/Images/ShapeWithTwoProfilePeaks.tif" alt="" title="" style="width: 176px;height: 25px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="figure" MadCap:autonum="&lt;b&gt;Figure 1&lt;/b&gt;"><a name="Shape8NoOverlapOn2"></a>. The background border for Shape 1 is set to 2 pixels and does not overlap other shapes.</p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="figure" style="vertical-align: top;" MadCap:autonum="&lt;b&gt;Figure 2&lt;/b&gt;"><a name="Shape8DoesOverlap"></a>. The background border for Shape 1 is set to 5 instead of 2 and now overlaps another shape. </p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p class="figure" MadCap:autonum="&lt;b&gt;Figure 3&lt;/b&gt;"><a name="Shape5TwoHumps"></a>. The border width for Shape 2 has been set to 5, but no other bands are being overlapped.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Multiple "humps" may exist at the top of a peak (see <MadCap:xref href="#Shape5TwoHumps" class="XreftoParanum">Figure 3</MadCap:xref>). Carefully examine the <MadCap:snippetText src="../Resources/Snippets/ProfilesTab.flsnp" /> in conjunction with the background border surrounding the shape to ensure multiple "humps" are from the same band and not different bands. For Shape 2, a less dense area inside the band is causing two peaks to appear in the <MadCap:snippetText src="../Resources/Snippets/ProfilesTab.flsnp" />.</p>
+    </body>
+</html>

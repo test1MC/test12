@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">MadCap Software</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="MarcomDate"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2015-10-08T14:39:10.4274373-05:00">MM/yy</Variable>
+  <Variable
+    Name="year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-05-18T09:22:37.3036716-05:00"
+    EvaluatedDefinition="yyy">yyy</Variable>
+</CatapultVariableSet>

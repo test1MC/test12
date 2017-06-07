@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="780.6666" MadCap:lastWidth="576">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/LI-COR_Manual.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="Chapter 1: ">Import</h1>
+        <p>The <b>Import</b> menu has choices for importing images and acquisitions from the C&#8209;DiGit Blot Scanner application, as well as from Odyssey® or Pearl® images.</p>
+        <p>You can import acquisitions created by Image Studio, Odyssey® or Pearl® software, or import other TIFF files for analysis.</p>
+        <div class="video">
+            <p class="video"><a href="http://www.licor.com/bio/educational_resources/webinars_videos/player.html?id=214" class="video">Click here to watch a video that demonstrates how to import images.</a>
+            </p>
+        </div>
+        <ol class="paren">
+            <li>Open the <b>Application</b> menu and choose <b>Import</b> to display the choices.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200003A.jpg" class="width050pct" />
+            </li>
+        </ol>
+        <h2><a name="_bookmark20"></a>Image Studio</h2>
+        <p><b>Image Studio</b> copies an image acquisitions folder, ZIP file, or Work Area created in Image Studio to the current default images folder. The entire folder is copied, including images, analysis files, and other text files. This is useful if you have previously transferred data to a different location for archiving or you are transferring data from another Work Area.</p>
+        <ol class="paren">
+            <li>Choose Image Studio from the Import submenu, and then click Acquisition Folder (or Zip File or Work Area). The Import Acquisitions dialog (below) is displayed.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200003B.jpg" class="width050pct" />
+            </li>
+            <li><a name="_bookmark21"></a>Navigate to a source folder, zip file, or Work Area and select it. Multiple folders can be selected.</li>
+            <li>Click <b>Open</b>. The entire folder is copied to the current default directory and the original folder is left in place.</li>
+            <li class="NoNum"><b>Note:</b> Images cannot be imported from the current Work Area. Be sure to select a folder outside the current Work Area.</li>
+        </ol>
+        <h2>Odyssey</h2>
+        <p>Odyssey imports one or more images, scan folders, or projects created with the Odyssey Infrared Imaging System Software into the current default directory. The import creates a new folder with appropriate files. This does not import analysis data.</p>
+        <ol class="paren">
+            <li>Choose <b>Odyssey</b> from the Import submenu, and then click <b>TIFF Files</b>, <b>Scan Folder</b>, or <b>Project</b>. The <i>Import Odyssey Image(s)</i> dialog is displayed.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200003C.jpg" class="width050pct" />
+            </li>
+            <li><a name="_bookmark22"></a>Navigate to a source folder and select images, scan folders, or projects to be imported into the default folder on the file system.</li>
+            <li>Select the image(s) to import (when TIFF Files is selected) and click Open. You can select one or more folders that contain several TIF files from multiple channels. Note: The files must be the same size and resolution.</li>
+            <li class="NoNum">You can also select an individual TIF file, or select two TIF files of the same image in different channels. Note: Do not select multiple TIF files that are not of the same image.</li>
+            <li>The new TIF files are converted upon import. The original TIF files are not changed. The “Name” field inherits the Odyssey “acquisition Name” if a folder is imported. The Image ID field for the new image is assigned a new unique Image ID.</li>
+        </ol>
+        <h2>Pearl</h2>
+        <p><b>Pearl</b> imports one or more TIF files or Work Folders created in Pearl Software.</p>
+        <ol class="paren">
+            <li>Choose <b>Pearl</b> from the <b>Import</b> submenu, and then click Acquisition Folder or Work Area. The <i>Import Acquisition(s)</i> dialog (below) is displayed.</li>
+            <li class="NoNum">
+                <img src="../Resources/Images/C-DiGit_UserGuide_13448/0200003D.jpg" class="width050pct" />
+            </li>
+            <li><a name="_bookmark23"></a>Navigate to a source folder and select images to be imported into the default folder on the file system. Click <b>Open</b>.</li>
+            <li>The “Name” field inherits the Pearl ImageID if a folder is imported. The Image ID field for the new image is the same as the imported ImageID of the folder or Pearl Images.</li>
+        </ol>
+        <h2>Other Image</h2>
+        <ol class="paren">
+            <li>Move the mouse over Other Image to see the options Files and Folder. Click Files to import .tif, .jpg, or .png files. Click Folder to import a folder containing image files.</li>
+            <li>Navigate to a source folder and select the file or folder containing files to be imported. Click Open.</li>
+            <li class="NoNum"><b>Note:</b> If the file cannot be imported, an error message will appear at the bottom of the Image Studio window. If the data are inverted during import, Data Inverted During Import appears in the Image Modifications column.</li>
+            <li>The imported file(s) appears in the Images Table.</li>
+        </ol>
+    </body>
+</html>

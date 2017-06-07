@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="pns"
+    Comment=""
+    EvaluatedDefinition="PROBE_QS_1_PN">PROBE_QS_1_PN</Variable>
+  <Variable
+    Name="pns"
+    Comment=""
+    EvaluatedDefinition="PROBE_QS_2_PN">PROBE_QS_2_PN</Variable>
+  <Variable
+    Name="pns"
+    Comment=""
+    EvaluatedDefinition="PROBE_QS_3_PN">PROBE_QS_3_PN</Variable>
+  <Variable
+    Name="name"
+    Comment=""
+    EvaluatedDefinition="Optical Probe Labeling Quick Start Guide">Optical Probe Labeling Quick Start Guide</Variable>
+  <Variable
+    Name="name"
+    Comment=""
+    EvaluatedDefinition="In Vivo Validation Quick Start Guide">In Vivo Validation Quick Start Guide</Variable>
+  <Variable
+    Name="name"
+    Comment=""
+    EvaluatedDefinition="Ex Vivo Imaging Quick Start Guide">Ex Vivo Imaging Quick Start Guide</Variable>
+</CatapultVariableSet>

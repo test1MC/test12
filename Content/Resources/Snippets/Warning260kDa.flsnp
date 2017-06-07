@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="146" MadCap:lastWidth="612">
+    <body>
+        <p class="note">The <MadCap:snippetText src="Product_Chameleon_Duo.flsnp" />, <MadCap:snippetText src="Product_Chameleon700.flsnp" />, <MadCap:snippetText src="Product_Chameleon800.flsnp" />, and <MadCap:snippetText src="Product_Chameleon_Kit.flsnp" /> have a visible 260 kDa band. The band does not appear in the 700 nm channel for <MadCap:snippetText src="Product_Chameleon700.flsnp" />, so DO NOT include this value when adding weights to the <MadCap:snippetText src="Product_Chameleon700.flsnp" /> marker set.</p>
+    </body>
+</html>

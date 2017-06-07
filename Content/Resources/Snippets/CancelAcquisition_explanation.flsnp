@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetText src="Cancel.flsnp" /> — Cancels the current acquisition. All existing and pending channel images are discarded.</body>
+</html>

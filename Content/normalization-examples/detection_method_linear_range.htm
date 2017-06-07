@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="843" MadCap:lastWidth="672">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Detection Method Linear Range</h1>
+        <p>The linear range of your imaging system is a key factor in determining if your loading control and target can be detected in the same linear range. Film has an extremely narrow linear range. Due to the physical basis of how film records signal, film is disproportionately insensitive to signal at both high (<MadCap:xref href="../Normalization/references.html#Laskey," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>18</u></span></MadCap:xref>, <MadCap:xref href="../Normalization/references.html#Baskin," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>19</u></span></MadCap:xref>) and low intensities of light <MadCap:xref href="../Normalization/references.html#Laskey," class="inline">(<span style="color: #63abdd;" class="mcFormatColor"><u>18</u></span>)</MadCap:xref>. Even some CCD imagers are prone to signal saturation.</p>
+        <p>This section provides a comparison of several detection systems, and shows an example of saturation on film.</p>
+        <h2>Detection Method Comparison</h2>
+        <figure>
+            <img src="../Resources/Images/bio0199_LinearDynamicRangeGraphic_no_caption.eps" alt="" class="no-border" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><strong>A wide linear range is important for quantitative Western blotting.</strong> Near-infrared fluorescence imaging on a <MadCap:snippetText src="../Resources/Snippets/LI-COR_R.flsnp" /> Odyssey Imager (A) showed the widest linear range when compared to chemiluminescence detection on film (B) and chemiluminescence detection on a conventional CCD imaging system (C). Bands that produce signal outside the linear range of your system should never be quantified.
+          </figcaption>
+        </figure>
+        <h2>Film Saturation</h2>
+        <p>Although saturation can occur on some digital systems, film is particularly prone to saturation. Film records signal through the use of silver grains that are activated in response to light. Saturation occurs on film when the finite number of silver grains in a region of the film have all been activated, meaning no more light can be detected.</p>
+        <p>In addition, film becomes progressively less responsive to light as it nears saturation. As more silver grains are activated by photons, it becomes statistically less likely that each new photon will strike a grain that has not already been activated (<MadCap:xref href="../Normalization/references.html#Laskey," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>18</u></span></MadCap:xref> - <MadCap:xref href="../Normalization/references.html#Baskin," class="inline_no_paren"><span style="color: #63abdd;" class="mcFormatColor"><u>19</u></span></MadCap:xref>). Photons that do not activate silver grains will not be recorded as signal.</p>
+        <figure>
+            <img src="../Resources/Images/saturation-demo-5min-on-film.PNG" alt="" class="width100pct no-border" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 2. &lt;/b&gt;"><strong>Strong bands become saturated and underestimate protein abundance.</strong> Target protein was detected in serial dilutions of NIH-3T3 cell lysate, using chemiluminescent substrate and 5-min film exposure. Strong signals (box) display saturation because they fall outside the linear range of detection. Band intensity can no longer increase proportionately to indicate protein abundance. As a result, the signal intensity of the saturated bands appears similar. High-intensity data points should not be used as controls for normalization.</figcaption>
+        </figure>
+    </body>
+</html>

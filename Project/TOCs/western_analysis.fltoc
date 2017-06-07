@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="BioTechNoteCover"
+    Link="/Content/BioTechNoteCover.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/WesternAndMPX/TOC.htm"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/sfw_guide.flpgl"></TocEntry>
+  <TocEntry
+    Title="Small Animal Image In-Cell Western Western and MPX Western Analysis Workflow"
+    Link="/Content/GenAnalysisGuideTopics/AnalysisWorkflow_concept.htm" />
+  <TocEntry
+    Title="Import the Western Small Animal In-Cell Western Analysis Key"
+    Link="/Content/GenAnalysisGuideTopics/ImportAKey_concept.htm">
+    <TocEntry
+      Title="ImportAKey_task"
+      Link="/Content/GenAnalysisGuideTopics/ImportAKey_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Import Example Images"
+    Link="/Content/GenAnalysisGuideTopics/ImportForTutorial.htm" />
+  <TocEntry
+    Title="Western or MPX Western Analysis"
+    Link="/Content/GenAnalysisGuideTopics/ApplyAnalysis.htm"></TocEntry>
+  <TocEntry
+    Title="Adjust the Boundary"
+    Link="/Content/Western/RedrawBoundary.htm"></TocEntry>
+  <TocEntry
+    Title="Set the Lanes"
+    Link="/Content/Western/SetTheLanes.htm"></TocEntry>
+  <TocEntry
+    Title="Size Bands Using Markers"
+    Link="/Content/ChameleonUsage/SizeBandsUsingMarkers-IS40.htm"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Add, Save, or Delete Markers"
+    Link="/Content/Western/AddSaveOrDeleteMarkers.htm">
+    <TocEntry
+      Title="Add Molecular Weight Values (Image Studio Software 4.0)"
+      Link="/Content/ChameleonUsage/AddMarkerWeights.htm"></TocEntry>
+    <TocEntry
+      Title="Delete A Marker"
+      Link="/Content/Western/DeleteAMarker.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Find Bands Automatically"
+    Link="/Content/Western/FindBandsAutoMagically.htm" />
+  <TocEntry
+    Title="Edit Bands Manually"
+    Link="/Content/Western/EditBandsManually.htm">
+    <TocEntry
+      Title="Bands Can Be Edited Manually From Only One Channel at a Time"
+      Link="/Content/Western/OneChannelAtATime.htm" />
+    <TocEntry
+      Title="Add a Band"
+      Link="/Content/Western/AddABand.htm"></TocEntry>
+    <TocEntry
+      Title="Add Band in All Lanes"
+      Link="/Content/Western/AddToAllLanes.htm" />
+    <TocEntry
+      Title="Edit A Band"
+      Link="/Content/Western/EditABand.htm" />
+    <TocEntry
+      Title="Merge Bands"
+      Link="/Content/Western/MergeBands.htm" />
+    <TocEntry
+      Title="Delete a Band"
+      Link="/Content/Western/DeleteABand.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Normalize One Channel At A Time"
+    Link="/Content/Western/NormalizeOneChannel_concept.htm">
+    <TocEntry
+      Title="Normalization_task"
+      Link="/Content/Western/Normalization_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Review Data"
+    Link="/Content/Western/ReviewTableData_concept.htm">
+    <TocEntry
+      Title="TableMgmt_task"
+      Link="/Content/GenAnalysisGuideTopics/TableMgmt_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Export Data"
+    Link="/Content/GenAnalysisGuideTopics/Export_concept.htm">
+    <TocEntry
+      Title="Export_task"
+      Link="/Content/GenAnalysisGuideTopics/Export_task.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/BioTechNoteLastPage-FurtherQuestions.htm"
+    BreakType="pageLayout"
+    PageType="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-questions.flpgl" />
+</CatapultToc>

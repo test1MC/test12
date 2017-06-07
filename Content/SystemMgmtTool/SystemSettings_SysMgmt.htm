@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="833" MadCap:lastWidth="720">
+    <head>
+    </head>
+    <body>
+        <h1>Security Settings</h1>
+        <p>The system settings (password requirements, password settings, and security settings) apply to all users, including <span class="snippet-font">System Managers</span>. The <MadCap:xref href="DefaultConfiguration_SysMgmt.htm" class="HypLinkTopic">"Default Settings"</MadCap:xref> topic <MadCap:conditionalText MadCap:conditions="Default.PaperCopy">(<MadCap:xref href="DefaultConfiguration_SysMgmt.htm" class="on_page">see page 1</MadCap:xref>) </MadCap:conditionalText>includes system settings defaults for reference.</p>
+        <p class="important">Changes to the system configuration are recorded in the <MadCap:snippetText src="../Resources/Snippets/UserLog.flsnp" />. <MadCap:xref href="UserLog_SysMgmt.htm" class="See_HypLinkTopic">See "User Log" on page 1</MadCap:xref>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modify the system configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Click Setup <img src="../Resources/Images/pref.png" class="inLineIcon" alt="Setup icon" /> on the top navigation bar.</li>
+                    <li>Click <img src="../Resources/Images/tedit.png" class="inLineIcon24by24" alt="Edit/Pencil icon" /> to the right of the system settings.</li>
+                    <li>
+                        <p>Make changes and click <MadCap:snippetText src="../Resources/Snippets/Save.flsnp" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Password Requirements</h2>
+        <p>Password requirement options are provided to ensure passwords in <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> comply with your organization's policy. The password requirements do not apply to temporary passwords.</p>
+        <h2>Password Settings</h2>
+        <ul>
+            <li><span class="snippet-font">Valid for X day(s):</span> This setting specifies the length of time a password is valid. Users will be locked out of the system if they do not change their passwords within this time frame. To be readmitted to the system, users must receive a temporary password from the <MadCap:snippetText src="../Resources/Snippets/SystemManager_21CFR11.flsnp" />. <MadCap:xref href="SetPassword_SysMgmt.htm" class="See_HypLinkTopic">See "Set Temporary Password" on page 1</MadCap:xref> for how to grant a user a temporary password.</li>
+            <li><span class="snippet-font">Reuse old password after X day(s):</span> This setting specifies the length of time users must wait before reusing an old password. The time is measured from when the old password was created.</li>
+            <li><span class="snippet-font">Start expiration warning at X hour(s):</span> Users will be warned to reset their passwords at each login to the system within this time frame. The time is measured from when the password expires.</li>
+            <li><span class="snippet-font">Temporary password valid for X hour(s):</span> When a user is granted a temporary password, the user must reset the password within this time frame.</li>
+        </ul>
+        <h2>Security Settings</h2>
+        <ul>
+            <li>
+                <p><span class="snippet-font">Lock out user after X failed login attempts.</span> Once a user is locked out, you will have to provide the user with a temporary password that can be used to login to the system. The user will have to set a new password immediately after logging in with the temporary password. <MadCap:xref href="SetPassword_SysMgmt.htm" class="See_HypLinkTopic">See "Set Temporary Password" on page 1</MadCap:xref>.</p>
+            </li>
+            <li><span class="snippet-font">Post notification after more than X attempts to login with an invalid username occur in Y hour(s).</span> The notification will be posted on the <MadCap:snippetText src="../Resources/Snippets/Home_page_SysMgmt.flsnp" /> until it has been marked as read on the Logs page. This notification is available to alert <span class="snippet-font">System Managers</span> to possible attacks on the system.</li>
+            <li><span class="snippet-font">Time out session after X minute(s).</span> Users will automatically be logged out after this time and will be required to log back in.</li>
+        </ul>
+        <h2>Assigned Actions Table</h2>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> are software operations performed in <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" />. Use the <MadCap:snippetText src="../Resources/Snippets/AssignedActions_SysMgmt.flsnp" /> to select which <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> will be allowed in the system and what response (comment, password, signature) will be required when an <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" /> is performed. Click <img src="../Resources/Images/tedit.png" class="inLineIcon24by24" alt="Edit/Pencil icon" /> at the right of the table to configure an <MadCap:snippetText src="../Resources/Snippets/Action_21CFR11.flsnp" />.</p>
+        <ul>
+            <li>
+                <MadCap:xref href="ManageActions_SysMgmt.htm" class="See_HypLinkTopic">See "Manage Actions" on page 1</MadCap:xref> for details about allowing <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> in the system.            </li>
+            <li>
+                <MadCap:xref href="ManageRoles_SysMgmt.htm" class="See_HypLinkTopic">See "Manage Roles" on page 1</MadCap:xref> for how to assign <MadCap:snippetText src="../Resources/Snippets/Actions_21CFR11.flsnp" /> to a <MadCap:snippetText src="../Resources/Snippets/Role_21CFR11.flsnp" />.
+            </li>
+        </ul>
+    </body>
+</html>

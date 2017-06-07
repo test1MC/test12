@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Pearl_Acc_Cover.flpgl" />
+  <TocEntry
+    Title="Notice"
+    Link="/Content/imaging_systems/pearl/Operators Manual.htm"
+    BreakType="chapter"
+    PageType="first"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    StartSection="false"
+    PageNumber="2"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/imaging_systems/pearl/TOC.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Description"
+    Link="/Content/imaging_systems/pearl/Description.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    PageNumberFormat="decimal"
+    PageNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    VolumeNumberReset="reset"
+    VolumeNumber="1"
+    SectionNumberReset="reset"
+    SectionNumber="1">
+    <TocEntry
+      Title="Assembling the Pearl Docking Station"
+      Link="/Content/imaging_systems/pearl/Assembling the Pearl Docking.htm" />
+    <TocEntry
+      Title="Docking Station Operation"
+      Link="/Content/imaging_systems/pearl/Docking Station Operation.htm" />
+    <TocEntry
+      Title="Routine  Maintenance"
+      Link="/Content/imaging_systems/pearl/Routine Maintenance1.htm" />
+    <TocEntry
+      Title="Docking Station Specifications"
+      Link="/Content/imaging_systems/pearl/Docking Station Specifications.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Carrying/Locking"
+    Link="/Content/imaging_systems/pearl/Description1.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Installation"
+      Link="/Content/imaging_systems/pearl/Installation.htm" />
+    <TocEntry
+      Title="Sanitizing the Pearl Clean Box"
+      Link="/Content/imaging_systems/pearl/Sanitizing the Pearl Clean.htm" />
+    <TocEntry
+      Title="Clean Box Operation"
+      Link="/Content/imaging_systems/pearl/Clean Box Operation.htm" />
+    <TocEntry
+      Title="Maintenance of the Clean Box Window"
+      Link="/Content/imaging_systems/pearl/Maintenance of the Clean Box.htm" />
+    <TocEntry
+      Title="Replacing Heater Plate Contact Pins"
+      Link="/Content/imaging_systems/pearl/Replacing Heater Plate Contact1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="LastPage_footer"
+    Link="/Content/LastPage_footer.htm"
+    BreakType="pageLayout"
+    PageType="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/LastPage_footer.flpgl" />
+</CatapultToc>

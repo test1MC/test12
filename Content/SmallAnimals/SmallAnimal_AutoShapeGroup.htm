@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="859" MadCap:lastWidth="638">
+    <head>&#160;</head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Auto Shape tool" />Auto Shape Group</h1>
+        <p>The Auto Shape tool creates a shape automatically that encloses fluorescence from irregularly shaped tumors or organs in images of small animals. </p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li>Select one channel to be displayed and disable the other channel in the <MadCap:snippetText src="../Resources/Snippets/Display_tab.flsnp" /> on the right-hand side. </li>
+            <li>After assigning a shape as background, click the <MadCap:snippetText src="../Resources/Snippets/Define_New.flsnp" /> button to launch the Auto Shape tool.</li>
+            <li>Click the center of an area of fluorescence to create an Auto Shape. </li>
+            <li>Adjust the <MadCap:snippetText src="../Resources/Snippets/Std_Dev_Multiplier.flsnp" /> and <MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" /> sliders in the <MadCap:snippetText src="../Resources/Snippets/Auto_Shape_group.flsnp" /> to interactively change the Auto Shape.</li>
+            <li class="nb">
+                <img src="../Images/Sliders.jpg" class="no-thumb" /> </li>
+        </ol>
+        <h3>
+            <MadCap:keyword term="Standard deviation multiplier" />Standard Deviation Multiplier</h3>
+        <p>The Standard Deviation Multiplier (<MadCap:snippetText src="../Resources/Snippets/Std_Dev_Multiplier.flsnp" />) is used in this equation to calculate the Threshold Value:</p>
+        <p>Threshold Value = User-Defined Background + (Background Standard Deviation x Standard Deviation Multiplier)</p>
+        <p>In general, increasing the <MadCap:snippetText src="../Resources/Snippets/Std_Dev_Multiplier.flsnp" /> increases the threshold and reduces the size of the Auto Shape by excluding more pixels of lower intensity. Similarly, decreasing the <MadCap:snippetText src="../Resources/Snippets/Std_Dev_Multiplier.flsnp" /> increases the size of the Auto Shape.</p>
+        <h3>
+            <MadCap:keyword term="Search limit:Set size of" />Search Limit </h3>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" /> controls the size of the image area that is searched to find a <MadCap:keyword term="Region of interest:Finding" />region of interest. The area searched is a square centered on the mouse click such that the distance (pixels) from the center to the mid-point on any of the four line segments is equal to the <MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" />.</p>
+        <p>Setting the <MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" /> to a smaller value can exclude unwanted fluorescence nearby, confining the Auto Shape to the region of interest. Setting the <MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" /> too low, however, could result in edges where the search area intersects the fluorescence in the region of interest. </p>
+        <p class="note"><MadCap:snippetText src="../Resources/Snippets/Search_Limit.flsnp" />is measured in pixels, so images scanned at higher resolution (smaller distance between data points) require higher search limits to cover the same image area.</p>
+    </body>
+</html>

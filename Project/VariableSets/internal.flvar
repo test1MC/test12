@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="title"
+    Comment=""
+    EvaluatedDefinition="D-DiGit™ Gel Scanner Cleaning Instructions">D-DiGit™ Gel Scanner Cleaning Instructions</Variable>
+  <Variable
+    Name="part_number"
+    Comment=""
+    EvaluatedDefinition="xxx-shipp">xxx-shipp</Variable>
+  <Variable
+    Name="title"
+    Comment=""
+    EvaluatedDefinition="D-DiGit™ Gel Scanner Shipping Instructions">D-DiGit™ Gel Scanner Shipping Instructions</Variable>
+  <Variable
+    Name="part_number"
+    Comment=""
+    EvaluatedDefinition="977-16748">977-16748</Variable>
+</CatapultVariableSet>

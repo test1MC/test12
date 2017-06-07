@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2535" MadCap:lastWidth="614">
+    <head><title>Lookup Table Values (LUTs)</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Display;Display:Display colors on" />Display</h1>
+        <p>The Display panel allows you to edit the parameters 
+ that display the selected image in the image view. The Display panel has individual 
+ sections for each channel available on a given acquisition. This example 
+ shows the 700 channel in red and the 800 channel in green.</p>
+        <h2>
+            <MadCap:keyword term="Image Display panel: Features" />
+            <MadCap:keyword term="Display: Features;Features: Display;Display" />Features</h2>
+        <p>Click the <MadCap:snippetText src="Resources/Snippets/Features.flsnp" /> at the top left corner of the <MadCap:snippetText src="Resources/Snippets/Display_panel.flsnp" /> to toggle between displaying and hiding all features on the image. Features include Bands, Lanes, Wells, Spots, Annotations, and more. Select specific features to display or hide on the <MadCap:snippetText src="Resources/Snippets/ShowGroup.flsnp" /> in each <MadCap:snippetText src="Resources/Snippets/AnalysisTab.flsnp" />.  </p>
+        <h2>
+            <MadCap:keyword term="Image Display panel:Contrast" />Brightness and <MadCap:keyword term="Image Display panel:Brightness" />Contrast</h2>
+        <p>You can adjust the display with the <MadCap:snippetText src="Resources/Snippets/Brightness.flsnp" /> and <MadCap:snippetText src="Resources/Snippets/Contrast.flsnp" /> sliders. Drag a slider to adjust the display.</p>
+        <p>
+            <img src="Images/image181.gif" class="width013pct" />
+        </p>
+        <p>You can also adjust the display using curves on a histogram. Click <MadCap:snippetText src="Resources/Snippets/Curves.flsnp" /> on the top of the <MadCap:snippetText src="Resources/Snippets/Display_panel.flsnp" /> to open the <MadCap:snippetText src="Resources/Snippets/Curves_tab.flsnp" />.</p>
+        <p class="note">You can also click the arrow (<b>&gt;</b>) in the <MadCap:snippetText src="Resources/Snippets/Display_group.flsnp" /> on the <MadCap:snippetText src="Resources/Snippets/Image_tab.flsnp" /> to open a dialog and choose <MadCap:snippetText src="Resources/Snippets/Curves.flsnp" /> to view the Curves for this image. Select <span class="snippet-font">Brightness/Contrast</span> to view the Brightness and Contrast sliders again.</p>
+        <h2>
+            <MadCap:keyword term="Display: Curves" />Curves</h2>
+        <p>The x-axis 
+ of each panel represents the raw pixel values. Each panel has a bar graph displaying a histogram of number of pixels with each raw value. The higher the bar at a given location on the x-axis, the more pixels that contain that particular intensity value. This histogram is shaded with the color map in use for that channel. Also shown in each panel is an adjustable curve that maps raw data to displayed data.</p>
+        <p>
+            <img src="Images/image21.gif" border="0" class="width013pct" />
+        </p>
+        <p>The adjustable curve overlaying each histogram represents how the raw data maps to the displayed data. Adjust any of the three dots on the line (Max, Min, or K Value) to optimize the displayed image.To view the numbers hover the mouse over one of the three dots in the line. The Max and Min numbers are displayed. The middle one also shows the K value, which is used to smoothly change between linear (K=0) and logarithmic (K=1) mappings of the data onto the color maps.</p>
+        <ul>
+            <li>Moving the <MadCap:keyword term="Max point" />Max Point to the left is similar to increasing the Contrast value in the Odyssey software. As more of the intensity values are mapped to the brightest display values, the bands become brighter. </li>
+            <li>Moving the <MadCap:keyword term="Min point" />Min Point to the right shades more of the lower intensity values to lower display values, creating a visually cleaner background. </li>
+            <li>Increasing the <MadCap:keyword term="K value" />K value reduces the contrast between the higher and lower intensity values, so less intense bands appear brighter while very bright bands are avoided.</li>
+        </ul>
+        <h2>
+            <MadCap:keyword term="Parameters:Adjust" />Adjusting the Parameters</h2>
+        <p>You can adjust each channel’s display parameters independently.</p>
+        <ul style="list-style: disc;" type="disc">
+            <li>
+                <img src="Images/channelbutton.gif" style="width: 55px; height: 22px;" width="55" height="22" border="0" class="no-thumb" /> 
+ Use the Channel label to cycle through channel 
+ views. Press once to show the single channel. Press again to show the 
+ other channels.&#160;</li>
+            <li>&#160;<img src="Images/image25.gif" style="width: 16px; height: 16px;" width="16" height="16" border="0" class="no-thumb" /> Use the disable button to disable (gray 
+ out) the channel. This is necessary when you are adding shapes.&#160;</li>
+            <li>&#160;<img src="Images/image26.gif" style="width: 16px; height: 16px;" width="16" height="16" border="0" class="no-thumb" /> <img src="Images/image27.gif" style="width: 16px; height: 16px;" width="16" height="16" border="0" class="no-thumb" /> <img src="Images/image28.gif" style="width: 16px; height: 16px;" width="16" height="16" border="0" class="no-thumb" /> <img src="Images/image29.gif" style="width: 16px; height: 16px;" width="16" height="16" border="0" class="no-thumb" /> Use the color buttons 
+ to change the channel’s display color.&#160;</li>
+            <li>
+                <img src="Images/image30.gif" style="width: 16px; height: 16px;" width="16" height="16" border="1" class="no-thumb" /> <img src="Images/image31.gif" style="width: 16px; height: 16px;" width="16" height="16" border="1" class="no-thumb" /> Use 
+ the gray scale buttons to display the channel in gray scale. This is useful 
+ for displaying the image for reports that will be published.&#160;</li>
+            <li>
+                <img src="Images/ZoomIn.gif" width="32px" height="32px" border="0" class="no-thumb" />
+                <img src="Images/ZoomOut.gif" width="32px" height="32px" border="0" class="no-thumb" /> Use 
+ the zoom buttons to zoom in on the range of pixel values for the channel.</li>
+            <li>
+                <img src="Images/image34.gif" style="width: 16px; height: 16px;" width="16" height="16" border="1" class="no-thumb" /> 
+ Use the expand button to show the full histogram 
+ in full zoomed out view. Use the zoom in button to zoom back incrementally 
+ or the automatic button to zoom in all the way.&#160;</li>
+            <li>
+                <img src="Images/choosebutton.gif" class="no-thumb" /> Use the <MadCap:keyword term="Choose Display" /><b>Choose Display</b> button to select the best display from six choices. See <a href="Choose_Display.htm">Choose Display</a> for more information.</li>
+            <li>
+                <img src="Images/wizardbutton.gif" class="no-thumb" /> Use the <MadCap:keyword term="Adjust Display" /><b>Adjust Display</b> button to open a dialog to help you set the min and max points of the display mapping. See <a href="Adjust_Display.htm">Adjust Display</a> for more information.</li>
+        </ul>
+        <p class="note">The <MadCap:snippetText src="Resources/Snippets/Choose_Display.flsnp" /> and <MadCap:snippetText src="Resources/Snippets/AdjustDisplay.flsnp" /> dialogs automatically open after a scan for each channel acquired. Click the arrow (<b>&gt;</b>) in the <MadCap:snippetText src="Resources/Snippets/Display_group.flsnp" /> to open the <MadCap:snippetText src="Resources/Snippets/DisplayOptions_dialog.flsnp" /> and remove the check marks to disable this feature.</p>
+        <p>
+            <img src="Images/autodisplay.gif" class="width013pct no-border" />
+        </p>
+        <h3>
+            <MadCap:keyword term="Link Image Display Values" />Link Image Display Values</h3>
+        <p>Click Link at the top of the Display panel to force all images currently in the filtered Images Table to have 
+ the same Image Display values as those applied to the display of the selected image. 
+ When the Image Display values are linked, any changes that you make to the 
+ Curves or Brightness/Contrast sliders affect all the images in the filtered view regardless of the image 
+ view mode (single image or multi-image mode).</p>
+        <p class="note">The <MadCap:snippetText src="Resources/Snippets/Link_button.flsnp" /> is only enabled 
+ after a filter has been defined and applied to the <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" />. It is unavailable if no filter has been applied.</p>
+        <p>The Image Display values will differ depending on the instrument and acquisition settings used. Linking the Image Display values of images from different instruments, or from the same instrument with different acquisition settings, will not provide accurate comparisons.</p>
+    </body>
+</html>

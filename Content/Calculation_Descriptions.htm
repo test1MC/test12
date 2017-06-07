@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2352" MadCap:lastWidth="687">
+    <head>&#160;</head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Calculation descriptions" />Calculation Descriptions</h1>
+        <p>In the Tables there are columns that refer to calculations. When these columns are part of the table, the values are automatically calculated and reported in the table. Some columns are specific to one table and some can be shared across 
+ tables. The <span class="snippet-font">Columns</span> group has commands 
+ for adding and removing columns. For further instructions, select "Adding and Removing Columns" in the help section of any table type. </p>
+        <p>Below are  detailed descriptions of the calculations in these columns. First, the terms used in these descriptions are defined.</p>
+        <h2>Definitions of Terms</h2>
+        <p><span class="snippet-font">Shape </span>— any area enclosed using the shape tools.</p>
+        <p><span class="snippet-font">Pixel </span>— the smallest area unit of an image that is measured with a single intensity value.</p>
+        <p><span class="snippet-font">Signal intensity </span>or<span class="snippet-font"> intensity</span> — signal counts measured in a single pixel per unit time.</p>
+        <h2>Descriptions of the Calculations</h2>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Area" />Area</span> — The area is the total number of pixels enclosed by a shape.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Background" />Bkgnd. </span>— The background is the average intensity of the pixels selected as the background region.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Background" />Bkgnd. Std Dev </span>— The background standard deviation is the standard deviation of all of the background pixel intensities in a single channel.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Maximum Intensity" />Max </span>— The maximum intensity is the highest pixel intensity within a shape. The maximum intensity value does not have background intensity subtracted. </p>
+        <p>
+            <MadCap:keyword term="Calculation descriptions:Mean" /><span class="snippet-font">Mean</span> — The mean is the sum of all of the pixel intensities for a shape divided by the total number of pixels in a shape.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Minimum Intensity" />Min </span>— The minimum intensity is the lowest pixel intensity within a shape. The minimum intensity value does not have background intensity subtracted. </p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Signal" />Signal </span>— The signal is the sum of the individual pixel intensity values (<MadCap:snippetText src="Resources/Snippets/Total.flsnp" />) for a shape minus the product of the average intensity values of the pixels in the background (<MadCap:snippetText src="Resources/Snippets/Bkgnd.flsnp" />) and the total number of pixels enclosed by the shape (<MadCap:snippetText src="Resources/Snippets/Area.flsnp" />). <span class="snippet-font">Signal = Total - (Bkgnd. x Area)</span></p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Standard Deviation" />StdDev</span> — The standard deviation of all of the pixel intensities for a shape.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Total" />Total</span> — The total intensity is the sum of the individual pixel intensities for a shape.</p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Trimmed Background" />Trim Bkgnd.</span> — The trimmed background is the average intensity of the pixels selected as the background region.</p>
+        <p class="note">
+            <MadCap:snippetText src="Resources/Snippets/TrimCalc_simple.flsnp" />
+        </p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Trimmed Background Standard Deviation" />Trim Bkgnd. StdDev</span> — The trimmed background standard deviation is the standard deviation of all of the background pixel intensities in a single channel. <b>Note</b>: the highest 5% count and lowest 5% count of the intensity pixel values of the background are discarded.</p>
+        <p><b><MadCap:keyword term="Calculation descriptions:Trimmed Mean" />Trim Mean</b> — The trimmed mean is the sum of all of the pixel intensities for a shape divided by the total number of pixels in a shape.</p>
+        <p class="note">
+            <MadCap:snippetText src="Resources/Snippets/TrimCalc_simple.flsnp" />
+        </p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Trimmed Signal" />Trim Signal</span> — The trimmed signal is the sum of the individual pixel intensity values  for a shape minus the product of the average intensity values of the pixels in the background (<b>Bkgnd.</b>) and the total number of pixels enclosed by the shape. <b>Note</b>: The highest 5% count and lowest 5% count are excluded from the intensity summation and the pixel count. </p>
+        <p><span class="snippet-font"><MadCap:keyword term="Calculation descriptions:Trimmed Standard Deviation" />Trim StdDev</span> — The trimmed standard deviation is the standard deviation of all of the pixel intensities for a shape.</p>
+        <p class="note">
+            <MadCap:snippetText src="Resources/Snippets/TrimCalc_simple.flsnp" />
+        </p>
+        <h3>In-Cell Western Calculations</h3>
+        <p><b>Background</b> — <MadCap:snippetText src="Resources/Snippets/ICWBg_definition.flsnp" /></p>
+        <p><b>Linked Wells</b> — The pixel intensities from linked wells are averaged, and this average is used in the following calculations for each of the linked wells. </p>
+        <MadCap:snippetBlock src="Resources/Snippets/ICWRelative_explanation.flsnp" />
+        <p><b>ICW&#160;% Response</b> — After background subtraction and normalization (if used), all wells designated as Sample are divided by the average of the wells designated as 100% Standard in that channel and multiplied by 100 to give a percentage response to the control in the 100% Standard.</p>
+        <p class="note">All <MadCap:snippetText src="Resources/Snippets/ICW_Per_Response.flsnp" /> values for the normalization channel are reported as <MadCap:snippetText src="Resources/Snippets/NaN.flsnp" />. </p>
+        <p><b>ICW Std Dev</b> — The ICW&#160;standard deviation is the standard deviation of the average of the pixel intensities from linked wells. </p>
+        <h3>Z-Factor Calculation</h3>
+        <MadCap:snippetBlock src="Resources/Snippets/ZFactor_definition.flsnp" />
+    </body>
+</html>

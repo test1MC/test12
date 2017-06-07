@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="638" MadCap:lastWidth="672">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Image Studio Lane Background Subtraction</h1>
+        <p>To begin the Image Studio Lane background subtraction algorithm, the average pixel intensity of each row of pixels in a lane is calculated to establish a "lane profile". The lane profile is used to find areas of minimum pixel intensity between shapes, called "local minima". <MadCap:xref href="#lane_brief_profile_graphic" class="figure-x">Figure 1</MadCap:xref> shows a lane with its corresponding lane profile.</p>
+        <p>To subtract background, a linear connection is drawn between consecutive local minima and background noise that falls beneath the lines is subtracted. The Lane background subtraction method accurately subtracts background without being affected by shape size, shape spacing, or image resolution.</p>
+        <p class="moreInfo">A full description of the Lane background subtraction algorithm is available in the help (<a href="http://www.licor.com/BgSubtractHelp">licor.com/BgSubtractHelp</a>).</p>
+        <figure>
+            <img src="../Resources/Images/LaneProfileExample.png" class="width050pct" />
+            <figcaption MadCap:autonum="&lt;b&gt;Figure 1. &lt;/b&gt;"><a name="lane_brief_profile_graphic"></a>The peaks and troughs of pixel intensity throughout the lane are modeled in the graph.</figcaption>
+        </figure>
+    </body>
+</html>

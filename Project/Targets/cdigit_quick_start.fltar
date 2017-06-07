@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/quick_starts.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/quick_starts.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/quick-start.css"
+  OutputFile="C-DiGit_QuickStart_XXXXX"
+  ConditionTagExpression="include[TechNoteCond.quickStart-Cdig] exclude[Default.21CFR11 or Default.21CFR11AdminGuide or Default.app_note or Default.BackgroundGuide or Default.CDiG_Int_1019 or Default.CDiG_Int_114 or Default.CDiG_Internal or Default.CLx or Default.complianceGuide or Default.EmbeddedSfw or Default.Fc or Default.gngb or Default.OdyBrowser or Default.OdyExport or Default.PaperCopy or Default.Pearl_Int_1110 or Default.Pearl_Int_127 or Default.Pearl_Int_131 or Default.Pearl_Int_134 or Default.Pearl_Internal or Default.Sa or Default.SmallAnimal or Default.smt_print or Default.standard or Default.SysMgmtHelp or Default.WebHelp or Default.webinar or TechNoteCond.21CFR11_admin or TechNoteCond.Background or TechNoteCond.ChameleonIS30 or TechNoteCond.ChameleonIS30and40 or TechNoteCond.ChameleonIS40 or TechNoteCond.ChameleonUsageNote or TechNoteCond.ElectronicPDF or TechNoteCond.ExportGuide or TechNoteCond.hkp-normalization or TechNoteCond.hkp-validation or TechNoteCond.ICW or TechNoteCond.install-Cdig or TechNoteCond.install-Classic or TechNoteCond.install-CLx or TechNoteCond.install-Fc or TechNoteCond.install-Pearl or TechNoteCond.install-Sa or TechNoteCond.install-Trilogy or TechNoteCond.linear-range-of-system or TechNoteCond.NrmlLastPage or TechNoteCond.pan-protein-norm or TechNoteCond.PaperCopy or TechNoteCond.pub_list or TechNoteCond.quickStart-Classic or TechNoteCond.quickStart-CLx or TechNoteCond.quickStart-Fc or TechNoteCond.quickStart-Pearl or TechNoteCond.quickStart-Sa or TechNoteCond.quickStart-Trilogy or TechNoteCond.revert-norm-protocol or TechNoteCond.RevisionTarget or TechNoteCond.SmallAnimalImage or TechNoteCond.Survey or TechNoteCond.trilogy_gasket_install or TechNoteCond.WesternAndMPXGuide or TechNoteCond.WorkArea or TechNoteCond.WorkArea-IS5] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="100"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Title="Image Studio 5.0 Quick Start Guide for the C-DiGit Blot Scanner"
+    Author="LI-COR Biosciences" />
+</CatapultTarget>

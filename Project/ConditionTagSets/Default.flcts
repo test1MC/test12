@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="PaperCopy"
+    BackgroundColor="#52ecf3" />
+  <ConditionTag
+    BackgroundColor="#009966"
+    Name="CLx"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#66cc66"
+    Name="Fc"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ccff"
+    Name="Sa"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="BackgroundGuide"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="WebHelp"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="SmallAnimal"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8d00ff"
+    Name="21CFR11"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="EmbeddedSfw"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="21CFR11AdminGuide"
+    Comment=""
+    OriginalName="21CFR11AdminGuide" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="CDiG_Internal"
+    Comment=""
+    OriginalName="CDiG_Internal" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="Pearl_Internal"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="CDiG_Int_1019"
+    Comment=""
+    OriginalName="CDiG_Int_1019" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="CDiG_Int_114"
+    Comment=""
+    OriginalName="CDiG_Int_114" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="Pearl_Int_1110"
+    Comment=""
+    OriginalName="Pearl_Int_1110" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="Pearl_Int_127"
+    Comment=""
+    OriginalName="Pearl_Int_127" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="Pearl_Int_131"
+    Comment=""
+    OriginalName="Pearl_Inst_131" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="OdyBrowser"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="OdyExport"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="SysMgmtHelp"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="complianceGuide"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Pearl_Int_134"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="standard"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="smt_print"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="app_note"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="gngb"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="webinar"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="ddigit_quick_start"
+    Comment="" />
+</CatapultConditionTagSet>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="806" MadCap:lastWidth="806">
+    <body>
+        <p>
+            <MadCap:snippetText src="PNG.flsnp" /> images are created using an algorithm that compresses the original image to take up less file space without any loss of information. The smaller file size makes <MadCap:snippetText src="PNG.flsnp" /> images useful for applications such as web pages, presentation software, and general printing (<i>e.g.</i> a lab notebook).</p>
+    </body>
+</html>

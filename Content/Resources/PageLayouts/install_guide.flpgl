@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="First" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-96px" Y="-48px" Width="720px" Height="114px" Flow="header" Right="-48px" Bottom="798px" Anchors="" BorderTopLeftRadius="7px" BorderTopRightRadius="7px" BorderBottomRightRadius="7px" BorderBottomLeftRadius="7px" BackgroundRepeat="no-repeat" BackgroundImage="none" BackgroundType="Solid" BackgroundColor="#007dc1" BackgroundColorAlt="#007dc1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="title-front" MadCap:conditions="TechNoteCond.install-Classic" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/ClassicInstall_Title.flsnp" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="title-front" MadCap:conditions="TechNoteCond.install-Cdig" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/Cdig_Install_Title.flsnp" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="title-front" MadCap:conditions="TechNoteCond.install-CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/CLxInstall_CoverTitle.flsnp" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="title-front" MadCap:conditions="TechNoteCond.install-Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/FcInstall_Title.flsnp" />
+                        </xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.install-Pearl" xhtml:class="title-front" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/PearlInstall_Title.flsnp" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="title-front" MadCap:conditions="TechNoteCond.install-Sa" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <MadCap:snippetText xhtml:src="../Snippets/SaInstall_Title.flsnp" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="113px" Width="720px" Height="28px" Flow="decoration0" Right="-48px" Bottom="723px" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#0093cb" Anchors="" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="subtitle">Image Studio Software 5.x.x Installation Instructions</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-84px" Y="164px" Width="696px" Height="652px" FlowIndex="1" Flow="body" Right="-36px" Bottom="48px" />
+        <Frame X="-84px" Y="-19px" Width="56px" Height="56px" FlowIndex="2" Flow="decoration1" Right="604px" Bottom="827px" Anchors="" BackgroundRepeat="no-repeat" BackgroundImage="none">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="header-icon-p">
+                            <xhtml:img xhtml:src="../Images/ImageStudio5-icon.eps" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="519px" Y="37px" Width="1.104167in" Height="0.25in" FlowIndex="5" Flow="decoration2" Right="-49px" Bottom="803px" Anchors="" BackgroundRepeat="no-repeat" BackgroundImage="../Images/licor-logo-white.eps" />
+        <Frame X="-21px" Y="-19px" Width="56px" Height="56px" FlowIndex="6" Flow="decoration3" Right="541px" Bottom="827px" Anchors="" BackgroundRepeat="no-repeat" BackgroundImage="none">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Sa" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Sa.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Pearl" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Pearl.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Trilogy" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Pearl.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Classic" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Odyssey.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-CLx" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Clx.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Fc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product-icon_Fc.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="header-icon-p" MadCap:conditions="TechNoteCond.install-Cdig" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                            <xhtml:img xhtml:src="../Images/product_icon_cdigit.eps" xhtml:class="header-icon-img" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame Flow="header" Anchors="Left,Right,Top" Right="-1in" Bottom="9.25in" X="-0.5in" Y="-0.75in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="0.5in" VerticalAlign="bottom" TextAlign="center" Width="720px" BorderBottomStyle="solid" BorderBottomWidth="1px">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="page-num-top">
+                            <MadCap:snippetText xhtml:src="../Snippets/ImageStudio_X.x.flsnp" /> Installation Instructions - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="Left,Right,Top,Bottom" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-0.375in" Y="0in" Right="-0.875in" Bottom="0in" Width="696px" Height="864px">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedRight="0.5in" BleedLeft="0.5in">
+        <Frame Flow="header" Anchors="Left,Right,Top" Right="-0.5in" Bottom="9.25in" X="-1in" Y="-0.75in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="0.5in" VerticalAlign="bottom" TextAlign="center" Width="720px" BorderBottomStyle="solid" BorderBottomWidth="1px">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="page-num-top">
+                            <MadCap:snippetText xhtml:src="../Snippets/ImageStudio_X.x.flsnp" /> Installation Instructions - Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="Left,Right,Top,Bottom" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-0.875in" Y="0in" Right="-0.375in" Bottom="0in" Width="696px" Height="864px">
+        </Frame>
+    </Page>
+</PageStyles>

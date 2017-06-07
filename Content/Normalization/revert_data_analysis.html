@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1008" MadCap:lastWidth="1012">
+    <head>
+        <link href="../Resources/TableStyles/longTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Data Analysis for <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" /></h1>
+        <p>Once you have validated the <MadCap:snippetText src="../Resources/Snippets/revert_tps.flsnp" /> and documented your validation procedure, you are ready to perform your experiment and normalize your data.</p>
+        <p class="warning">Normalization factors must be calculated for each blot. Normalization factors and standard curves cannot be reused between blots.</p>
+        <ol>
+            <li>
+                <p>Quantify target and total protein in each lane.</p>
+            </li>
+            <li>
+                <p>Calculate the Normalization Factor.</p>
+                <p class="pad-top20">
+                    <img class="no-border" src="../Resources/Images/tps_lane_normalization.eps" style="margin-left: 4px;width: 459px;height: 33px;" />
+                </p>
+                <!--<p class="pad-top20">
+                    <MadCap:equation>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>Lane Normalization Factor</mi>
+                                <mo> = </mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mi>TPS for Each Lane</mi>
+                                </mrow>
+                                <mi>TPS Signal from the Lane with the Highest TPS Signal</mi>
+                            </mfrac>
+                        </math>
+                    </MadCap:equation>
+                </p>-->
+                <table style="mc-table-style: url('../Resources/TableStyles/longTable.css');margin-left:6px;width: 465px;" class="TableStyle-longTable" cellspacing="0">
+                    <col class="TableStyle-longTable-Column-Column1" style="width: 83px;" />
+                    <col class="TableStyle-longTable-Column-Column1" style="width: 58px;" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-longTable-Body-Subhead" MadCap:pattern="5">
+                            <td class="TableStyle-longTable-BodyE-Column1-Subhead">Lane Name</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">Channel</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">TPS Signal for Each Lane</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">Highest Signal</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Subhead">Lane Normalization Factor</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">A</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">700</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">900</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">1000</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body2">0.9</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">B</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">700</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">700</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">1000</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body1">0.7</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">C</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">700</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">1000</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">1000</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body2">1.0</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">D</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">700</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">800</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">1000</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyA-Column1-Body1">0.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="low-emphasis">Example numbers shown for illustrative purposes only.</p>
+            </li>
+            <li>
+                <p>Calculate the Normalized Signal to be used for relative quantitative comparisons.</p>
+                <p class="pad-top20">
+                    <img class="no-border" src="../Resources/Images/tps_band_normalization.eps" />
+                </p>
+                <!--<p class="pad-top20">
+                    <MadCap:equation>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>Normalized Signal</mi>
+                                <mo> = </mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mi>Target Band Signal</mi>
+                                </mrow>
+                                <mi>Lane Normalization Factor</mi>
+                            </mfrac>
+                        </math>
+                    </MadCap:equation>
+                </p>-->
+                <table style="mc-table-style: url('../Resources/TableStyles/longTable.css');margin-left:6px;width: 465px;" class="TableStyle-longTable" cellspacing="0">
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <col class="TableStyle-longTable-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-longTable-Body-Subhead" MadCap:pattern="5">
+                            <td class="TableStyle-longTable-BodyE-Column1-Subhead">Lane Name</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">Channel</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">Target Signal</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Subhead">Lane Normalization Factor</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Subhead">Normalized Signal</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">A</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">800</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">90</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">0.9</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body2">100</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body1">B</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">800</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">70</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body1">0.7</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body1">100</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body2">
+                            <td class="TableStyle-longTable-BodyE-Column1-Body2">C</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">800</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">100</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyE-Column1-Body2">1.0</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyD-Column1-Body2">100</td>
+                        </tr>
+                        <tr class="TableStyle-longTable-Body-Body1">
+                            <td class="TableStyle-longTable-BodyB-Column1-Body1">D</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">800</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">80</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyB-Column1-Body1">0.8</td>
+                            <td style="text-align:right;" class="TableStyle-longTable-BodyA-Column1-Body1">100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="low-emphasis">Example numbers shown for illustrative purposes only.</p>
+            </li>
+            <li>
+                <p>Only use the normalized signal for relative quantitative comparisons.</p>
+                <p class="note">Although a simple ratio of the target to total protein in each lane will give you the same value proportionally, the ratio does not demonstrate the relationship of the normalized quantification to the raw measurement.</p>
+            </li>
+        </ol>
+    </body>
+</html>

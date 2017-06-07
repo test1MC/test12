@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Left" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="14px" Y="0in" Right="13px" Bottom="-48px" Width="7.010417in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+        <Frame X="14px" Y="-72px" Width="7in" Height="0.3125in" Flow="header" Anchors="Right" Right="14px" Bottom="858px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header">Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - <MadCap:variable xhtml:name="quick_starts.name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="empty" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+    </Page>
+    <Page Name="Right" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1.25in" PaddingBottom="1.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Right" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="14px" Y="0in" Right="14px" Bottom="-48px" Width="7in" Height="9in" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderLeftColor="#022855" BorderRightStyle="solid" BorderRightWidth="0px" BorderRightColor="#022855" BorderTopStyle="solid" BorderTopWidth="0px" BorderTopColor="#022855" BorderBottomStyle="solid" BorderBottomWidth="0px" BorderBottomColor="#022855">
+        </Frame>
+        <Frame X="14px" Y="-72px" Width="7in" Height="0.3125in" Flow="header" Anchors="Right" Right="14px" Bottom="858px" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#000000" VerticalAlign="middle">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="Header" xhtml:style="text-align: right;"><MadCap:variable xhtml:name="quick_starts.name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> - Page <MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="First" Width="7in" Height="8.5in" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="0.6in" PaddingRight="0.6in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="330px" Y="778px" Width="370px" Height="134px" Flow="footer" Right="0px" Bottom="-48px" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p MadCap:conditions="TechNoteCond.ChameleonIS40,TechNoteCond.ChameleonIS30and40" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.ChameleonIS30" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.Background" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published <MadCap:variable xhtml:name="Instruments.MonYearDate" />.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.WorkArea" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published June 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.WorkArea-IS5" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published February 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.ExportGuide" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.WesternAndMPXGuide" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.SmallAnimalImage" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.ICW" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2015.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.OdyBrowser" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.OdyExport" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published July 2014.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.app_note" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published October 2016. <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.hkp-validation" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2017.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.hkp-validation" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Visit us on protocols.io! Explore an interactive version of this protocol at <MadCap:snippetText xhtml:src="../Snippets/hkp-validation-link-protocols-io.flsnp" />.</xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.revert-norm-protocol" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2017.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.revert-norm-protocol" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Visit us on protocols.io! Explore an interactive version of this protocol at <MadCap:snippetText xhtml:src="../Snippets/revert-normalization-link-protocols-io.flsnp" />.</xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.hkp-normalization" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2017.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.hkp-normalization" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Visit us on protocols.io! Explore an interactive version of this protocol at <MadCap:snippetText xhtml:src="../Snippets/hkp-normalization-link-protocols-io.flsnp" />.</xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.pan-protein-norm" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2017.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.pan-protein-norm" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Visit us on protocols.io! Explore an interactive version of this protocol at <MadCap:snippetText xhtml:src="../Snippets/pan-protein-normalization-link-protocols-io.flsnp" />.</xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.linear-range-of-system" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published March 2017.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                        <xhtml:p MadCap:conditions="TechNoteCond.linear-range-of-system" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Visit us on protocols.io! Explore an interactive version of this protocol at <MadCap:snippetText xhtml:src="../Snippets/linear-range-link-protocols-io.flsnp" />.</xhtml:p>
+                        <xhtml:p MadCap:conditions="Default.gngb" xhtml:class="gen-guide-cover__footer" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Published December 2016.  <MadCap:conditionalText MadCap:conditions="TechNoteCond.RevisionTarget">Revised <MadCap:variable xhtml:name="Instruments.MonYearDate" />.</MadCap:conditionalText> <MadCap:snippetText xhtml:src="../Snippets/most-recent-tech-note.flsnp" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="15px" Y="-31px" Width="671px" Height="69px" Flow="header" Right="14px" Bottom="826px" Anchors="" BorderBottomStyle="solid" BorderBottomWidth="1pt" BorderBottomColor="#0275c8" TextAlign="left">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="title-cover" xhtml:style="padding-bottom: 16px;">Technical Note</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="14px" Y="50px" Width="672px" Height="147px" Flow="decoration0" Right="14px" Bottom="667px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="TitlePage2" xhtml:style="color: #002d62;"><MadCap:variable xhtml:name="quick_starts.name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="14px" Y="780px" Width="187px" Height="37px" FlowIndex="3" Flow="decoration1" Right="499px" Bottom="47px" BackgroundImage="../Images/licor-logo-blue-cover.eps" Anchors="" />
+    </Page>
+</PageStyles>

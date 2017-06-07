@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="883" MadCap:lastWidth="720">
+    <head>
+    </head>
+    <body>
+        <h1>User Log</h1>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/UserLog.flsnp"></MadCap:snippetText>, accessible only through the <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp"></MadCap:snippetText>, contains the following records:</p>
+        <ul>
+            <li><span class="snippet-font">User activity:</span> Includes activity in the client and the <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp"></MadCap:snippetText>. The log keeps the time stamp, full name of the user, and description of the activity performed.</li>
+            <li><span class="snippet-font">Notifications:</span> Notifications will be posted on the <MadCap:snippetText src="../Resources/Snippets/Home_page_SysMgmt.flsnp" /> and recorded in the <MadCap:snippetText src="../Resources/Snippets/UserLog.flsnp" /> when a configurable number of login attempts with an invalid <MadCap:snippetText src="../Resources/Snippets/UserName_MMS4.flsnp" /> occur within a specified time limit. This notification is configurable, <MadCap:xref href="SystemSettings_SysMgmt.htm" class="lwrCaseSee_HypLinkTopic">see "Security Settings" on page 1</MadCap:xref>.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>View and download the user log</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Click Logs <img src="../Resources/Images/logs.png" alt="Logs icon" class="inLineIcon" /> on the top navigation bar.</li>
+                    <li>User activity records are in the table, including time stamp, full name, and description of the activity.</li>
+                    <li>To find the entries you need, use the search box above the table or the filters to the right of the table.</li>
+                    <li>
+                        <p>Click download to get a pdf of records in the user log for the date range specified in the Filters group.</p>
+                        <p>If other filters are applied, the pdf will contain only the entries that meet the filter requirements.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Unassociated Entries</h2>
+        <p>Two conditions will cause the entry in the <MadCap:snippetText src="../Resources/Snippets/Full_name_column_SysMgmt.flsnp"></MadCap:snippetText> to be recorded as <MadCap:snippetText src="../Resources/Snippets/Unassociated_LogEntry_SysMgmt.flsnp"></MadCap:snippetText> instead of a user's full name:</p>
+        <ul>
+            <li><span class="snippet-font">Incorrect <MadCap:snippetText src="../Resources/Snippets/UserName_MMS4.flsnp"></MadCap:snippetText>:</span> If a login attempt is made with an incorrect <MadCap:snippetText src="../Resources/Snippets/UserName_MMS4.flsnp"></MadCap:snippetText>, the login attempt will be recorded as <MadCap:snippetText src="../Resources/Snippets/Unassociated_LogEntry_SysMgmt.flsnp"></MadCap:snippetText> because the login attempt cannot be linked to a known user.</li>
+            <li><span class="snippet-font">Notifications:</span> System notifications are recorded as <MadCap:snippetText src="../Resources/Snippets/Unassociated_LogEntry_SysMgmt.flsnp" />.</li>
+        </ul>
+        <h2>User Activity Entries</h2>
+        <ul>
+            <li>Login attempts to the client and <MadCap:snippetText src="../Resources/Snippets/System_Mgmt_Tool.flsnp" /><ul style="list-style-type: square;"><li>Successful user logins</li><li>Failed user logins (a known <MadCap:snippetText src="../Resources/Snippets/UserName_MMS4.flsnp" /> failed to login due to an incorrect password)</li><li>Attempted logins with an incorrect user name (listed with <MadCap:snippetText src="../Resources/Snippets/Unassociated_LogEntry_SysMgmt.flsnp" /> in the <MadCap:snippetText src="../Resources/Snippets/Full_name_column_SysMgmt.flsnp" />)</li></ul></li>
+            <li>Logouts</li>
+        </ul>
+        <h2>System Manager Activity Entries</h2>
+        <ul>
+            <li>User account created</li>
+            <li>User deactivated</li>
+            <li>User reactivated</li>
+            <li>Password reset</li>
+            <li>User <MadCap:snippetText src="../Resources/Snippets/Group.flsnp"></MadCap:snippetText> or <MadCap:snippetText src="../Resources/Snippets/Role_21CFR11.flsnp"></MadCap:snippetText> assignment changed</li>
+            <li>System configuration changed (changes made on the <MadCap:snippetText src="../Resources/Snippets/Setup_page_SysMgmt.flsnp" />)</li>
+        </ul>
+    </body>
+</html>

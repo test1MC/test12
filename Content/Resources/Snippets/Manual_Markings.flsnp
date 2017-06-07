@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="162" MadCap:lastWidth="576">
+    <body>
+        <h1 class="front" MadCap:autonum="">Manual Markings:</h1>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="font-weight: bold;vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p>WARNING</p>
+                    </td>
+                    <td>
+                        <p><b>Warnings</b> must be followed carefully to avoid bodily injury. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p>CAUTION</p>
+                    </td>
+                    <td>
+                        <p><b>Cautions</b> must be observed to avoid damaging your equipment. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p>NOTE</p>
+                    </td>
+                    <td>
+                        <p><b>Notes</b> contain additional information and useful tips.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;vertical-align: top;padding-left: 2pt;padding-right: 2pt;">
+                        <p>IMPORTANT </p>
+                    </td>
+                    <td>
+                        <p><b>Information of importance</b> to prevent procedural mistakes in the operation of the equipment or related software. Failure to comply may result in a poor experimental outcome but will not cause bodily injury or equipment damage.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

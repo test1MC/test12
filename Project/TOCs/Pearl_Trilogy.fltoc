@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Pearl_Trilogy_Cover.flpgl" />
+  <TocEntry
+    Title="Notice"
+    Link="/Content/imaging_systems/pearl/Operators Manual.htm"
+    BreakType="chapter"
+    PageType="first"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    StartSection="false"
+    PageNumber="2"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/imaging_systems/pearl/TOC.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Safety Considerations"
+    Link="/Content/imaging_systems/pearl/Safety Considerations.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="reset"
+    PageNumberFormat="decimal"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal">
+    <TocEntry
+      Title="Placement in the Laboratory"
+      Link="/Content/imaging_systems/pearl/Placement in the Laboratory.htm"></TocEntry>
+    <TocEntry
+      Title="Moving the Instrument"
+      Link="/Content/MovingInstrument.htm" />
+    <TocEntry
+      Title="Anesthesia Safety Considerations"
+      Link="/Content/imaging_systems/pearl/Anesthesia Safety Considerations.htm" />
+    <TocEntry
+      Title="Oxygen Safety Considerations"
+      Link="/Content/imaging_systems/pearl/Oxygen Safety Considerations.htm" />
+    <TocEntry
+      Title="Chemical Safety"
+      Link="/Content/imaging_systems/pearl/Chemical Safety.htm" />
+    <TocEntry
+      Title="Electrical Considerations"
+      Link="/Content/imaging_systems/pearl/Electrical Considerations.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="External Panels and Controls"
+    Link="/Content/imaging_systems/pearl/External Panels and Controls.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Imaging bedImaging Drawer"
+      Link="/Content/imaging_systems/pearl/Imaging Drawer.htm" />
+    <TocEntry
+      Title="Computer Connections and Networking"
+      Link="/Content/imaging_systems/pearl/Computer Connections and Networking.htm" />
+    <TocEntry
+      Title="Image Studio Software Features"
+      Link="/Content/imaging_systems/pearl/Image Studio Software Features.htm" />
+    <TocEntry
+      Title="Optical System Description"
+      Link="/Content/imaging_systems/pearl/Optical System Description.htm" />
+    <TocEntry
+      Title="Near-Infrared Detection Advantages"
+      Link="/Content/imaging_systems/pearl/Near Infrared Detection Advantages.htm"></TocEntry>
+    <TocEntry
+      Title="Bioluminescent Detection"
+      Link="/Content/imaging_systems/pearl/BioluminescenceDetection.htm" />
+    <TocEntry
+      Title="Overview of Infrared"
+      Link="/Content/imaging_systems/pearl/Overview of Infrared.htm" />
+    <TocEntry
+      Title="References"
+      Link="/Content/imaging_systems/pearl/References.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Installing the Rotameter and Charcoal Filter"
+    Link="/Content/imaging_systems/pearl/Connecting an Anesthesia System.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Connecting an Anesthesia System"
+      Link="/Content/imaging_systems/pearl/ConnectingSystem.htm" />
+    <TocEntry
+      Title="Checking the Imaging Bed Connections"
+      Link="/Content/imaging_systems/pearl/Checking the Imaging Bed Connections.htm" />
+    <TocEntry
+      Title="Starting the Anesthesia Gas Flow"
+      Link="/Content/imaging_systems/pearl/Starting the Anesthesia Gas.htm" />
+    <TocEntry
+      Title="Stopping the Anesthesia Gas Flow"
+      Link="/Content/imaging_systems/pearl/Stopping the Anesthesia Gas.htm" />
+    <TocEntry
+      Title="Flow Path for Anesthesia Gas"
+      Link="/Content/imaging_systems/pearl/Flow Path for Anesthesia Gas.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Overview"
+    Link="/Content/imaging_systems/pearl/Overview.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Cleaning the Imaging Bed"
+      Link="/Content/imaging_systems/pearl/Cleaning the Imaging Bed.htm" />
+    <TocEntry
+      Title="Setting the Heater Plate Temperature"
+      Link="/Content/imaging_systems/pearl/Setting the Heater Plate Temperature.htm" />
+    <TocEntry
+      Title="Starting the Anesthesia Gas"
+      Link="/Content/imaging_systems/pearl/Starting the Anesthesia Gas1.htm" />
+    <TocEntry
+      Title="Placing Mice on the Imaging Bed"
+      Link="/Content/imaging_systems/pearl/Placing Mice on the Imaging.htm" />
+    <TocEntry
+      Title="Imaging Tips"
+      Link="/Content/imaging_systems/pearl/Imaging Tips.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Routine  Maintenance"
+    Link="/Content/imaging_systems/pearl/Routine Maintenance.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Cleaning the Fan Filter"
+      Link="/Content/imaging_systems/pearl/Cleaning the Fan Filter.htm" />
+    <TocEntry
+      Title="Nose Cone Replacement"
+      Link="/Content/imaging_systems/pearl/Nose Cone Replacement.htm" />
+    <TocEntry
+      Title="Replacing Heater Plate Contact Pins"
+      Link="/Content/imaging_systems/pearl/Replacing Heater Plate Contact.htm" />
+    <TocEntry
+      Title="Desiccant  Replacement"
+      Link="/Content/imaging_systems/pearl/Desiccant Replacement.htm" />
+    <TocEntry
+      Title="Front Panel Warning Light Indicates an Error"
+      Link="/Content/imaging_systems/pearl/Front Panel Warning Light.htm" />
+    <TocEntry
+      Title="Resetting the Instrument"
+      Link="/Content/imaging_systems/pearl/Resetting the Instrument.htm" />
+    <TocEntry
+      Title="Obtaining Technical Support"
+      Link="/Content/imaging_systems/pearl/Obtaining Technical Support.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Description"
+    Link="/Content/imaging_systems/pearl/Description.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Assembling the Pearl Docking Station"
+      Link="/Content/imaging_systems/pearl/Assembling the Pearl Docking.htm" />
+    <TocEntry
+      Title="Docking Station Operation"
+      Link="/Content/imaging_systems/pearl/Docking Station Operation.htm" />
+    <TocEntry
+      Title="Routine  Maintenance"
+      Link="/Content/imaging_systems/pearl/Routine Maintenance1.htm" />
+    <TocEntry
+      Title="Docking Station Specifications"
+      Link="/Content/imaging_systems/pearl/Docking Station Specifications.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Carrying/locking handleClean BoxwindowClean Box lidImaging bedDescription"
+    Link="/Content/imaging_systems/pearl/Description1.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Installation"
+      Link="/Content/imaging_systems/pearl/Installation.htm" />
+    <TocEntry
+      Title="Sanitizing the Pearl Clean Box"
+      Link="/Content/imaging_systems/pearl/Sanitizing the Pearl Clean.htm" />
+    <TocEntry
+      Title="Clean Box Operation"
+      Link="/Content/imaging_systems/pearl/Clean Box Operation.htm" />
+    <TocEntry
+      Title="Maintenance of the Clean Box Window"
+      Link="/Content/imaging_systems/pearl/Maintenance of the Clean Box.htm" />
+    <TocEntry
+      Title="Replacing Heater Plate Contact Pins"
+      Link="/Content/imaging_systems/pearl/Replacing Heater Plate Contact1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Specifications"
+    Link="/Content/imaging_systems/pearl/Specifications.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Obtain Embedded Source Code"
+      Link="/Content/manual_resources/obtain_sources.htm" />
+  </TocEntry>
+</CatapultToc>

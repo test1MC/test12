@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="background_subtraction_reference"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="C-DiGit_embedded_internal"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="cdigit_install"
+      Type="PDF"
+      LastBuilt="2016-03-31T14:54:17.8037852-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="cdigit_int_114"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="cdigit_int_1019"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="cdigit_quick_start"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-03-31T14:55:13.7146433-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="chameleon__guide_IS30"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="chameleon_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="classic_install"
+      Type="PDF"
+      LastBuilt="2016-03-31T14:55:43.4248038-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="classic_quick_start"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-03-31T14:58:38.7587864-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="clx_install"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="clx_quick_start"
+      Type="PDF"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="compliance_guide_21cfr11"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="fc_install"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="fc_quick_start"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-03-31T14:39:30.4783820-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="image_studio"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="image_studio_admin_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="image_studio_export_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="image_studio_in_product"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="image_studio_web"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="impulse_quick_start"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-03-31T14:44:54.5484036-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="ody_software_export_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="odyssey_web_int_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pearl_embedded_INT"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Pearl_embedded_internal"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pearl_install"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pearl_int_131"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pearl_int_1110"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="plate_analysis_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="revert_trifold"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="revert_trifold_crops"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="sa_install"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="sa_quick_start"
+      Type="PDF"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="sai_analysis_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="server_app_help_21cfr11"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="test"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="test1"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="trilogy_quick_start"
+      Type="PDF"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="vplate_clx_quick_start"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="vplate_sa_quick_start"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="western_analysis_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="work_area_guide"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="work_area_IS5"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="work_area_print"
+      Type="PDF" />
+  </Targets>
+</CatapultBatchTarget>

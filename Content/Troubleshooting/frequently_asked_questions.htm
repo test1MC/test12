@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1700" MadCap:lastWidth="1068">
+    <head>
+    </head>
+    <body>
+        <h1>Frequently Asked Questions</h1>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>When I update to Image Studio 5.2, why do I need to update all versions of Image Studio that my group and I use?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Most importantly, Image Studio 5.2 provides fixes for bugs in Image Studio 5.0. If you are currently using 5.0, please upgrade to 5.2.</li>
+                    <li>No matter which version of Image Studio you upgrade from, you should upgrade <span class="snippet-font">all</span> installations of Image Studio (lite and full) you and your group use to 5.2 because 5.2 uses a new data format. Once a Work Area has been opened in Image Studio 5.2, do not attempt to open it in an earlier version of Image Studio (even 5.0).</li>
+                </ol>
+                <p class="note">You can always export one or more images in an Image Studio zip file to transfer images and analysis data between versions of Image Studio.</p>
+                <p>For more details about updating to version 5.2, please see the <MadCap:xref href="upgrade_52_instructions.htm" class="HypLinkTopic"><span style="color: Blue;"><u>Image Studio 5.2 Upgrade</u></span></MadCap:xref> topic.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What are "Work Areas" and how should I use them?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/WorkArea-Plural.flsnp" /> allow you to organize your images and data by experiment, save software settings relevant to the experiment, and quickly reuse analysis templates to perform every analysis quickly and precisely. For more about using <MadCap:snippetText src="../Resources/Snippets/WorkArea-Plural.flsnp" />, see the <MadCap:xref href="../Work_Area.htm" class="HypLinkTopic"><span style="color: Blue;"><u>Work Area</u></span></MadCap:xref> page.</p>
+                <p class="note">Do not save your <MadCap:snippetText src="../Resources/Snippets/WorkArea.flsnp" /> on a network drive. To transfer images and data between computers, <a target="_blank" href="../CopyImagesTopics/Copy_Images.htm">export a <MadCap:snippetText src="../Resources/Snippets/ZipFilE.flsnp" /></a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Should I use a Manual Analysis or a Western Analysis?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you only need to quantify a gel or blot with a few, well spaced shapes, a manual analysis may be all you need.</p>
+                <p>Use a <MadCap:snippetText src="../Resources/Snippets/DNAGel.flsnp" />, <MadCap:snippetText src="../Resources/Snippets/Western_Analysis.flsnp" />, or <span class="snippet-font">MPX Western Analysis</span> to:</p>
+                <ul>
+                    <li>Perform an analysis involving molecular weight markers or normalization.</li>
+                    <li>Reduce the amount of manual effort required to analyze gels and blots, especially gels and blots that contain many lanes and bands.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What is signal and how is it calculated?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><span class="snippet-font">Signal = Total - (Background x Area)</span>
+                </p>
+                <p>Signal is the sum of the pixel intensity values (total) for a shape minus the product of the background and the area of the shape.</p>
+                <p>More detailed information is available in the <a target="_blank" href="https://licor.box.com/s/3by7ad0ywbyaetg6tjn8gch1le3a78fk">Odyssey Imaging System Data Quantification</a> technical note.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Why do analysis shapes on an image not have to be the same size?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The background is multiplied by the area to correct the background value for the size of the shape being quantified, so the size of the shape does not need to be the same for each feature on an image.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Why is there a grid on my image?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The grid on your image is from an <strong>add-on analysis</strong>. Sometimes people will reduce the size of the grid and move it to the side, in which case it may appear like the one shown below.</p>
+                <p>
+                    <img src="../Resources/Images/squised_grid.png" class="width013pct" />
+                </p>
+                <p>If you do not want to use the add-on analysis type, follow these steps.</p>
+                <ol>
+                    <li>
+                        <p>On the <MadCap:snippetText src="../Resources/Snippets/Analysis tab.flsnp" />, change the analysis to <MadCap:snippetText src="../Resources/Snippets/Manual.flsnp" /> in the <MadCap:snippetText src="../Resources/Snippets/Type_group.flsnp" />.</p>
+                        <p class="note">
+                            All data from the add-on analysis will be deleted before the new <MadCap:snippetText src="../Resources/Snippets/Manual.flsnp" /> analysis is applied. Manually added shapes and data from manually added shapes will remain.</p>
+                    </li>
+                    <li>To prevent the add-on analysis type from being applied to newly acquired images automatically, open the <MadCap:snippetText src="../Resources/Snippets/Acquire_tab.flsnp" /> and ensure the <MadCap:snippetText src="../Resources/Snippets/AnalysisType.flsnp" /> in the <MadCap:snippetText src="../Resources/Snippets/Setup_group.flsnp" /> is set to <MadCap:snippetText src="../Resources/Snippets/Manual.flsnp" />.</li>
+                    <p class="note">The analysis type setting in the <MadCap:snippetText src="../Resources/Snippets/Setup_group.flsnp" /> is specific to the <MadCap:snippetText src="../Resources/Snippets/WorkArea.flsnp" /> and instrument. If you change the setting to manual but switch to a different <MadCap:snippetText src="../Resources/Snippets/WorkArea.flsnp" /> or connect to a different instrument, the setting may be different.</p>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Which background subtraction method should I choose?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The best method for background correction depends on the image and its background consistency. Background must be subtracted to accurately calculate signal from the shape(s) of interest, especially if background values vary throughout an image.</p>
+                <p>Background options are explained by analysis type in the following sections.</p>
+                <ul>
+                    <li>Western Blot and Gel Analyses</li>
+                    <ul>
+                        <li><a href="../Western_Key_Background_Options.htm">Background overview</a>
+                        </li>
+                        <li><a href="../Background/StandardMethodsForBlotsAndGels.htm">Comparison of methods and examples</a>
+                        </li>
+                    </ul>
+                    <li><a href="../Background/PlateBgGroup.htm">Plate and Grid</a>
+                    </li>
+                    <li><a href="../Background/SmallAnimal_BackgroundGroup.htm">Small Animal Image</a>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How do I move files between computers?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can export an image, along with all Image Table data and analysis data, to an Image Studio Zip File.</p>
+                <p class="note">Zip Files exported from Image Studio 3, 4, or 5 can be imported into Image Studio 3, 4, or 5.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Export a zip file from Image Studio 5.2</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>
+                                <p>Select the image or images in the Images Table to export.</p>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../Resources/Snippets/Click_the_ImageStudioAppButton.flsnp" />
+                            </li>
+                            <li>
+                                <p>Point to Export, then Image Studio Files, and then click Zip File.</p>
+                                <p>The Export to Zip File dialog will open.</p>
+                            </li>
+                            <li>Choose where to save the Zip File, and click <span class="snippet-font">Save</span>.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Import a Zip File into Image Studio 5.2</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>
+                                <MadCap:snippetText src="../Resources/Snippets/Click_the_ImageStudioAppButton.flsnp" />
+                            </li>
+                            <li>Point to <MadCap:snippetText src="../Resources/Snippets/Import.flsnp" /> and then click <MadCap:snippetText src="../Resources/Snippets/ImageStudioZipFile.flsnp" />.</li>
+                            <li>In the <MadCap:snippetText src="../Resources/Snippets/ImportImageStudioZipFile_dialog.flsnp" />, select the <MadCap:snippetText src="../Resources/Snippets/ZipFilE.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/ZipFiles.flsnp" /> to be imported.</li>
+                            <li>
+                                <p>Click <MadCap:snippetText src="../Resources/Snippets/Open.flsnp" />.</p>
+                                <p>The <MadCap:snippetText src="../Resources/Snippets/ZipFiles.flsnp" /> will be imported.</p>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

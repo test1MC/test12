@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Start the Demo"
+    Link="/Content/imaging_systems/ddigit/demo/start_ddigit_demo.htm"></TocEntry>
+  <TocEntry
+    Title="Care and Cleaning"
+    Link="/Content/imaging_systems/ddigit/care_and_cleaning.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Lock the D-DiGit Gel Scanner"
+    Link="/Content/imaging_systems/ddigit/prepare_ddigit_for_shipping.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Packaging Procedure"
+    Link="/Content/imaging_systems/ddigit/demo/packaging_procedure.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="LastPage_universal"
+    Link="/Content/LastPage_universal.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/last-page-footer-only.flpgl"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+</CatapultToc>

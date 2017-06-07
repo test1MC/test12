@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/Odyssey_Sa.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/LI-COR_Manual.css"
+  ConditionTagExpression="include[Manuals.sa-manual] exclude[Manuals.cdigit-manual or Manuals.clx-manual or Manuals.ddigit-manual or Manuals.impulse-manual or Manuals.odyssey-manual or Manuals.pearl-accessories-manual or Manuals.trilogy-manual] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="10001,20041,20037,20036">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Author="LI-COR, Inc."
+    Subject=""
+    Keywords=""
+    Title="Odyssey Sa" />
+  <PDF
+    InitialMagnification="100"
+    PageLayout="OneColumn"
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

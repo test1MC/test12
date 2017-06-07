@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="252" MadCap:lastWidth="612">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">Recommended Methods for Analyzing Plates and Grids</h1>
+        <p>Use the following table as a quick reference for which background method to use when analyzing microwell plate experiments or micro or macroarray experiments.</p>
+        <p class="note">The background methods described below are available with specific software keys (please visit <a href="http://www.licor.com/AnalysisKeys"><span class="hyperLink"> www.licor.com/AnalysisKeys</span></a> for information about key availability).The <MadCap:xref href="RequantifyBackground.htm" class="hypLinkSectionOnPage"><span style="color: Blue;"><u>Changing the Background Method</u></span> section on page&#160;1</MadCap:xref> describes where <MadCap:snippetText src="../Resources/Snippets/add_on.flsnp" /> applications can be found, if they are installed.</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Basic.css');" class="TableStyle-Basic" cellspacing="0">
+            <col style="width: 172px;" />
+            <col style="width: 240px;" />
+            <col style="width: 240px;" />
+            <thead>
+                <tr>
+                    <td colspan="3">
+                        <p class="headingInTable">Background Correction Options<br />(available with the Grid Analysis Key)</p>
+                    </td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>
+                        <p class="tableHeading">Method</p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">Best Used</p>
+                    </td>
+                    <td>
+                        <p class="tableHeading">Background Calculation</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <MadCap:snippetText src="../Resources/Snippets/NewSnippet.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Plate Array.flsnp" /></td>
+                    <td style="vertical-align: top;">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Use the <MadCap:snippetText src="../Resources/Snippets/PlateAnalysis.flsnp" /> background methods to analyze experiments that were performed in standard-sized microwell plates and when certain wells need to be designated as background.</li>
+                            <li class="fvPxTb">Standard microwell sizes are preset in <MadCap:snippetText src="../Resources/Snippets/NewSnippet.flsnp" /> applications, and background wells can be easily designated.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">
+                                <MadCap:snippetText src="../Resources/Snippets/NewSnippet.flsnp" />: A well or wells must be designated as background. The average pixel intensities from each background well are averaged together to find the background subtracted from each sample well.</li>
+                            <li class="fvPxTb">
+                                <MadCap:snippetText src="../Resources/Snippets/Plate Array.flsnp" />: Local background methods can be used to subtract the average or median background around each spot, or the <MadCap:snippetText src="../Resources/Snippets/Array Background.flsnp" /> method can be used to designate spots in each <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> to be used as background. The average pixel intensity from each background spot in a <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> will be averaged to find the background for that <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" />.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <MadCap:snippetText src="../Resources/Snippets/Grid.flsnp" /> or <MadCap:snippetText src="../Resources/Snippets/Grid Array.flsnp" /></td>
+                    <td style="vertical-align: top;">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">Use the <span class="snippet-font">Grid Analysis</span> methods to analyze experiments performed in microarrays or macroarrays.</li>
+                            <li class="fvPxTb">Wells can be designated as background, or local background methods can be used to subtract background caused by nonspecific binding of secondary antibodies, labels, or dyes to the membrane or slide used for the array experiment.</li>
+                            <li class="fvPxTb">Use grid analysis to create a custom plate size.</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <ul class="fvPxTb">
+                            <li class="fvPxTb">
+                                <MadCap:snippetText src="../Resources/Snippets/Grid.flsnp" />: Local background methods can be used to subtract the average or median background around each spot, or a user-defined spot or spots can be set as background spots.</li>
+                            <li class="fvPxTb">
+                                <MadCap:snippetText src="../Resources/Snippets/Grid Array.flsnp" />: Local background methods can be used to subtract the average or median background around each spot, or the <MadCap:snippetText src="../Resources/Snippets/Array Background.flsnp" /> method can be used to designate spots in each <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> to be used as background. The average pixel intensity from each background spot in a <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" /> will be averaged to find the background for that <MadCap:snippetText src="../Resources/Snippets/sub-grid.flsnp" />.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

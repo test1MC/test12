@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="716" MadCap:lastWidth="716">
+    <body>
+        <p>Use the controls in the <MadCap:snippetText src="ShowGroup.flsnp" /> to specify what to display on the image. You can display <MadCap:snippetText src="Bands.flsnp" />, 
+ <MadCap:snippetText src="Lanes.flsnp" />, <MadCap:snippetText src="Label_s.flsnp" />, <MadCap:snippetText src="Quantification.flsnp" />,
+ <MadCap:snippetText src="Boundary.flsnp" />, <MadCap:snippetText src="Marker_Handle.flsnp" />, and <MadCap:snippetText src="Local_Background.flsnp" /> (see <a href="../../ShapesTopics/Show_Group.htm">Show Group</a> for further details). </p>
+        <p>
+            <img src="../../Images/ShowGroup.gif" class="width013pct" />
+        </p>
+    </body>
+</html>

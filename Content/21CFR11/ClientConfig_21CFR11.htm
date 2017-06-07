@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="791" MadCap:lastWidth="1067">
+    <head>
+        <link href="../Resources/TableStyles/longTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="quickStart">Client Configuration</h1>
+        <p>A configuration file exists on the client that will configure the client to communicate with the server's IP address/port.</p>
+        <p>The <MadCap:snippetText src="../Resources/Snippets/IS_21CFRPart11_Module.flsnp" /> requires the same minimum hardware configuration as the full version of Image Studio Software.</p>
+        <h2 MadCap:conditions="Default.SysMgmtHelp">Hardware and Software</h2>
+        <h2 MadCap:conditions="Default.21CFR11AdminGuide" class="install">Hardware and Software</h2>
+        <ul>
+            <li>Minimum 4 GB RAM</li>
+            <li>Minimum display resolution of 1920 x 1080</li>
+            <li>Windows 7 or Windows 8</li>
+            <li>Network Interface Card</li>
+            <li>Image Studio 5.3.x (includes private Java installation ver 1.8.x).  Also installs mDNSResponder and USB drivers.</li>
+            <li>Must have IPv6 enabled for instrument communications</li>
+            <li>A second Network Interface Card is required for optimal instrument communication when the instrument is not located on the local network.</li>
+            <li>Must have Bonjour for most instrument auto-connection (mDNSResponder installed with Image Studio Client)</li>
+            <li>Some client event and error log and temporary storage on <code>C:\users\&lt;windows login name&gt;\.licor\Image Studio\temporary</code>.  NO image data, analysis data, user log or sample log data stored on client drives.</li>
+            <li>Image Studio Lab Books, Excel spreadsheets, and publication images can be exported to local or other network drives.  Exported files are outside of <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> control.</li>
+        </ul>
+        <h2 MadCap:conditions="Default.SysMgmtHelp">Configuration Files</h2>
+        <h2 MadCap:conditions="Default.21CFR11AdminGuide" class="install">Configuration Files</h2>
+        <p>These configuration files must be present in the following locations for the <MadCap:snippetText src="../Resources/Snippets/IS_21CFRPart11_Module.flsnp" /> to function properly.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/longTable.css');" class="TableStyle-longTable" cellspacing="0">
+            <col class="TableStyle-longTable-Column-Column1" />
+            <col class="TableStyle-longTable-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-longTable-Body-Body1">
+                    <td class="TableStyle-longTable-BodyE-Column1-Body1">
+                        <p>C:\Program Files\Licor\Image Studio</p>
+                    </td>
+                    <td class="TableStyle-longTable-BodyD-Column1-Body1">
+                        <ul>
+                            <li>21cfr11.config
+                            </li>
+                            <li>IS_keystore_client.p12
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-longTable-Body-Body2">
+                    <td class="TableStyle-longTable-BodyB-Column1-Body2">
+                        <p>C:\Program Files\Licor\Image Studio\Keys</p>
+                    </td>
+                    <td class="TableStyle-longTable-BodyA-Column1-Body2">
+                        <ul style="list-style:none;">
+                            <li>LICOR-21-CFR-11.lke
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    </body>
+</html>

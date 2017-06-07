@@ -1,0 +1,315 @@
+	/*<meta />*/
+
+body
+{
+	color: #000000;
+	font-family: 'Univers Next Pro';
+	font-size: 8pt;
+	line-height: 12px;
+}
+
+/* Heading Classes */
+
+h1
+{
+	mc-hyphenate: never;
+	column-break-before: always;
+	color: #002f5f;
+	font-size: 11pt;
+	font-weight: 200;
+	margin-bottom: 8px;
+	margin-left: 0;
+	margin-right: 20px;
+	page-break-before: avoid;
+	text-align: center;
+}
+
+h2
+{
+	color: #0077c6;
+	font-size: 10pt;
+	font-weight: 600;
+	margin-bottom: 4px;
+	margin-left: 0;
+	margin-right: 20px;
+	margin-top: 16px;
+	line-height: 1.3em;
+	mc-heading-level: 0;
+}
+
+h3
+{
+	font-weight: 400;
+	font-size: 9pt;
+	color: #344b75;
+	margin-bottom: 4px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 16px;
+	line-height: 1.3em;
+	letter-spacing: 0.03em;
+}
+
+/* End Heading Classes */
+/* Generic Classes */
+
+.pgBrkBfr
+{
+	page-break-before: always;
+}
+
+.center {
+	text-align: center;
+}
+
+.note
+{
+	border-left: 6px solid #a1a4ae;
+	background-color: #d4d7e1;
+	padding: 5px;
+}
+
+.note::before
+{
+	border: none;
+	font-weight: bolder;
+	content: 'Note: ';
+}
+
+ol > li > .note
+{
+	margin-left: 4px;
+}
+
+/* End Generic Classes */
+/* Images */
+
+img{
+	width: 100%;
+	max-width: 100%;
+}
+
+img.width-9{
+	width: 90%;
+	max-width: 90%;
+}
+
+img.width-8{
+	width: 80%;
+	max-width: 80%;
+}
+
+img.width-75{
+	width: 75%;
+	max-width: 75%;
+}
+
+img.width-7{
+	width: 70%;
+	max-width: 70%;
+}
+img.width-6{
+	width: 60%;
+	max-width: 60%;
+}
+
+img.width-5{
+	width: 50%;
+	max-width: 50%;
+}
+
+img.width-4{
+	width: 40%;
+	max-width: 40%;
+}
+
+img.width-35{
+	width: 35%;
+	max-width: 35%;
+}
+
+img.width-3{
+	width: 30%;
+	max-width: 30%;
+}
+
+img.width-2{
+	width: 20%;
+	max-width: 20%;
+}
+
+img.inLineIcon
+{
+	margin-bottom: -3pt;
+	width: 20px;
+	height: 20px;
+}
+
+img.inLineIcon20by20
+{
+	height: 20px;
+	width: 20px;
+	margin-bottom: -3pt;
+	mc-thumbnail: none;
+	border: none;
+}
+
+img.inLineIcon24by24
+{
+	height: 24px;
+	width: 24px;
+	margin-bottom: -3pt;
+	mc-thumbnail: none;
+	border: none;
+}
+
+img.width013pct
+{
+	height: auto;
+	width: 0.75in;
+	border: solid 1px #000000;
+	border-radius: 3px;
+}
+
+img.width075pctNoBorder
+{
+	height: auto;
+	width: 4.625in;
+}
+
+/* End Images */
+/* Paragraph Section */
+
+p
+{
+	margin: 4px;
+	color: #000000;
+}
+
+p.inList
+{
+	margin-left: 4px;
+}
+
+p:before
+{
+	content: url('../Images/BulletDark.eps');
+}
+
+p.BackPanel
+{
+	column-break-before: always;
+	color: #000000;
+	margin-left: 10px;
+	padding-top: 30px;
+}
+
+p.ExampleHead
+{
+	margin-left: 0;
+	background-color: #CACEDA;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	margin-top: 16px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 18px;
+	page-break-after: avoid;
+}
+
+p.ExampleMiddleSection
+{
+	margin-left: 0;
+	background-color: #CACEDA;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0 10px 3px 10px;
+}
+
+div.introBloc
+{
+
+}
+
+strong
+{
+	font-family: 'Univers Next Pro Light';
+	font-weight: bold;
+}
+
+/* End Paragraph Section */
+/* Lists */
+
+ol
+{
+	list-style-image: none;
+	margin-left: 20px;
+}
+
+ol ol {
+	list-style: lower-alpha;
+	margin-left: 0;
+	padding-left: 18pt;
+}
+
+ol ol li {
+	border: none;
+	padding-left: 0;
+	margin-left: 0;
+	line-height: 1.1em;
+}
+
+ul
+{
+	/* list-style-image: url('../Images/BulletDark.eps'); */
+	margin-left: 20px;
+}
+
+ul li {
+	border:  none;
+}
+
+ol ul {
+	margin-left: 12pt;
+	padding-left: 0;
+}
+
+ol ul li {
+	line-height: .9em;
+	padding-left: 0;
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	border-left: 1px solid #ddd;
+	padding-left: 3px;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+@media non-print
+{
+	li
+	{
+		mc-auto-number-position: float-left;
+		display: list-item;
+		list-style-position: outside;
+	}
+
+	ol
+	{
+		mc-auto-number-position: outside-head;
+	}
+
+	h3
+	{
+		mc-auto-number-format: '{n+} ';
+	}
+}
+

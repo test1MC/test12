@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Front_Cover"
+    Link="/Content/manual_resources/Front_Cover.htm"
+    BreakType="chapter"
+    PageType="title"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Odyssey_Fc_Cover.flpgl"></TocEntry>
+  <TocEntry
+    Title="FrontMatter"
+    Link="/Content/imaging_systems/odyssey_fc/FrontMatter.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    PageNumber="2"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ReplaceMergeNode="false"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatterResizeable.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/imaging_systems/odyssey_fc/TOC.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
+  <TocEntry
+    Title="Ch1"
+    Link="/Content/imaging_systems/odyssey_fc/Ch1.htm"
+    BreakType="chapter"
+    PageType="first"
+    PageNumberReset="reset"
+    PageNumber="1"
+    PageNumberFormat="decimal"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="reset"
+    ReplaceMergeNode="false"
+    ChapterNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Safety Consideration"
+      Link="/Content/imaging_systems/odyssey_fc/Safety_Considerations.htm"
+      StartSection="false"
+      BreakType="none"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumberFormat="decimal"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumber="1"
+      PageNumberFormat="decimal">
+      <TocEntry
+        Title="Safety Interlocks"
+        Link="/Content/imaging_systems/odyssey_fc/Safety_Interlocks.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Placement in the Laboratory"
+      Link="/Content/imaging_systems/odyssey_fc/Placement_in_the_Laborat.htm">
+      <TocEntry
+        Title="Ambient Laboratory Conditions"
+        Link="/Content/imaging_systems/odyssey_fc/Ambient_Laboratory_Condi.htm" />
+      <TocEntry
+        Title="Instrument Ventilation"
+        Link="/Content/imaging_systems/odyssey_fc/Instrument_Ventilation.htm" />
+      <TocEntry
+        Title="Space Requirements"
+        Link="/Content/imaging_systems/odyssey_fc/Space_Requirements.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Moving the Instrument"
+      Link="/Content/MovingInstrument.htm" />
+    <TocEntry
+      Title="Chemical Safety"
+      Link="/Content/imaging_systems/odyssey_fc/Chemical_Safety.htm" />
+    <TocEntry
+      Title="Electrical Considerations"
+      Link="/Content/imaging_systems/odyssey_fc/Electrical_Consideration.htm">
+      <TocEntry
+        Title="Fuse Replacement"
+        Link="/Content/imaging_systems/odyssey_fc/Fuse_Replacement.htm" />
+      <TocEntry
+        Title="Chassis Ground Access Hole"
+        Link="/Content/imaging_systems/odyssey_fc/Chassis_Ground_Access.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH2"
+    Link="/Content/imaging_systems/odyssey_fc/CH2.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="External Panels and Controls"
+      Link="/Content/imaging_systems/odyssey_fc/ExternalPanelsAndControls.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Right-side and Rear Panels"
+        Link="/Content/imaging_systems/odyssey_fc/Right_Side_and_Rear_Pane.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Imaging Drawer"
+      Link="/Content/imaging_systems/odyssey_fc/Imaging_Drawer.htm">
+      <TocEntry
+        Title="Imaging Drawer Safety"
+        Link="/Content/imaging_systems/odyssey_fc/Imaging_Drawer_Safety.htm" />
+      <TocEntry
+        Title="Sample Placement"
+        Link="/Content/imaging_systems/odyssey_fc/Sample_Placement_.htm" />
+      <TocEntry
+        Title="Using Membranes"
+        Link="/Content/imaging_systems/odyssey_fc/Using_Membranes.htm" />
+      <TocEntry
+        Title="Using Gels"
+        Link="/Content/imaging_systems/odyssey_fc/Using_Gels.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Optical System Description"
+      Link="/Content/imaging_systems/odyssey_fc/Optical_System_Descripti.htm">
+      <TocEntry
+        Title="Computer Connections and Networking"
+        Link="/Content/imaging_systems/odyssey_fc/Computer_Connections_and.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Image Studio Software Overview"
+      Link="/Content/imaging_systems/odyssey_fc/Image_Studio_Software_Ov.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH3"
+    Link="/Content/imaging_systems/odyssey_fc/CH3.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Routine Maintenance"
+      Link="/Content/imaging_systems/odyssey_fc/Routine_Maintenance.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue" />
+    <TocEntry
+      Title="Cleaning the Fan Filter"
+      Link="/Content/imaging_systems/odyssey_fc/Cleaning_the_Fan_Filter.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Front Panel Warning Light Indicates an Error"
+      Link="/Content/imaging_systems/odyssey_fc/Front_Panel_Warning_Ligh.htm" />
+    <TocEntry
+      Title="Resetting the Instrument"
+      Link="/Content/imaging_systems/odyssey_fc/Resetting_the_Instrument.htm" />
+    <TocEntry
+      Title="Desiccant Replacement"
+      Link="/Content/imaging_systems/odyssey_fc/Desiccant_Replacement.htm">
+      <TocEntry
+        Title="Replacement Procedure"
+        Link="/Content/imaging_systems/odyssey_fc/Replacement Procedure.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Obtaining Technical Support"
+      Link="/Content/imaging_systems/odyssey_fc/Obtaining_Technical_Supp.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/imaging_systems/odyssey_fc/Appendix.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/ChapterReSizeable.flpgl">
+    <TocEntry
+      Title="Specifications"
+      Link="/Content/imaging_systems/odyssey_fc/Specifications.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue" />
+    <TocEntry
+      Title="Obtain Embedded Source Code"
+      Link="/Content/manual_resources/obtain_sources.htm" />
+  </TocEntry>
+</CatapultToc>

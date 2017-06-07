@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="826" MadCap:lastWidth="1241">
+    <head>
+    </head>
+    <body>
+        <h1 class="quickStart" style="page-break-before:always;">Data Management</h1>
+        <p>
+            <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> data are stored on the server.</p>
+        <ul>
+            <li>Images and server log files are saved in the <span class="snippet-font">Server</span> folder.
+            <div class="code">C:\users\&lt;windows login name&gt;\.licor\ImageStudio\Server</div></li>
+            <li>
+                <p class="inList">All other data, including analysis data and <MadCap:snippetText src="../Resources/Snippets/metadata_MMS.flsnp" />, are stored in a PostgreSQL database.</p>
+                <p class="warning">
+                    The PostgreSQL System Master password is required to back up the database. <MadCap:snippetText src="../Resources/Snippets/LI-COR.flsnp" /> is not responsible for maintaining the password.</p>
+            </li>
+        </ul>
+        <h2 class="install">Data Backup</h2>
+        <p>Each <MadCap:snippetText src="../Resources/Snippets/customer_organization.flsnp" /> is responsible for backing up data according to their own policy. <MadCap:snippetText src="../Resources/Snippets/LI-COR.flsnp" /> recommends the following guidelines for backing up your data:</p>
+        <ul>
+            <li>Back up the PostgreSQL database and image data in the <span class="snippet-font">Server</span> folder on a routine basis.</li>
+            <li>Keep the database backup and <span class="snippet-font">Server</span> folder backup in sync by backing both up at the same time.</li>
+        </ul>
+        <p>Contents of the <span class="snippet-font">Server</span> folder can be backed up using appropriate file management procedures, and the database can be backed up using the methods described below.</p>
+        <h3 class="page-header" MadCap:conditions="Default.SysMgmtHelp">Back up Database Using the pgAdmin III Interface</h3>
+        <h3 MadCap:conditions="Default.21CFR11AdminGuide" class="quick3">Back up Database Using the pgAdmin III Interface</h3>
+        <p>Please see the following third-party guide for more information about using the pgAdmin III database management system to back up and restore your database <a target="_blank" href="http://get.enterprisedb.com/docs/Tutorial_All_PP_pgAdmin_Backup_Restore.pdf">http://get.enterprisedb.com/docs/Tutorial_All_PP_pgAdmin_Backup_Restore.pdf</a>.</p>
+        <p class="note">
+            Plain text backup files generated from the backup with pgAdmin III <strong>cannot</strong> be restored in pgAdmin III.</p>
+        <h3 class="page-header" MadCap:conditions="Default.SysMgmtHelp">Back up Database Using a Batch Script</h3>
+        <h3 MadCap:conditions="Default.21CFR11AdminGuide" class="quick3">Back up Database Using a Batch Script</h3>
+        <p>A batch script <code>backup.bat</code> is provided on the <MadCap:snippetText src="../Resources/Snippets/IS21CFR11.flsnp" /> installation CD to assist with automated backups. This script calls <code>pg_dump.exe</code> to create a plain text backup.</p>
+        <p>Copy the batch script from the installation CD to the server, and modify the script as necessary for use in your backup procedure.</p>
+        <p>Additional backup and restore information can be found on the PostgreSQL wiki <a target="_blank" href="https://wiki.postgresql.org/wiki/Automated_Backup_on_Windows">https://wiki.postgresql.org/wiki/Automated_Backup_on_Windows</a>.</p>
+        <h3 class="page-header" MadCap:conditions="Default.SysMgmtHelp">Restore a Plain Text Backup</h3>
+        <h3 MadCap:conditions="Default.21CFR11AdminGuide" class="quick3">Restore a Plain Text Backup</h3>
+        <p>Use the following command (as the PostgreSQL administrative user) to restore a plain text backup from pgAdmin III (where the backup file is <code>MyBackup_10_29_2015.backup</code>).</p>
+        <div class="code">"C:\Program Files\Postgresql\9.3\bin\psql.exe" -d "licor_image_studio" -f "MyBackup_10_29_2015.backup" –U “&lt;user name&gt;"</div>
+    </body>
+</html>

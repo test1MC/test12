@@ -1,0 +1,815 @@
+﻿/*<meta />*/
+
+@media print
+{
+	.right
+	{
+		float: right;
+		clear: left;
+		display: block;
+	}
+
+	.rightQuart
+	{
+		float: right;
+		clear: left;
+		display: block;
+		padding-bottom: -5pt;
+		padding-top: 5pt;
+		padding-left: 12pt;
+		width: 1.625in;
+	}
+
+	.rightHalf
+	{
+		float: right;
+		clear: left;
+		display: block;
+		padding-bottom: -3pt;
+		padding-top: 5pt;
+		padding-left: 42pt;
+		width: 3.25in;
+	}
+
+	.leftQuart
+	{
+		float: left;
+		clear: right;
+		display: block;
+		padding-bottom: -5pt;
+		padding-top: 5pt;
+		padding-right: 12pt;
+		width: 1.625in;
+	}
+
+	.leftHalf
+	{
+		float: left;
+		clear: right;
+		display: block;
+		padding-bottom: -3pt;
+		padding-top: 5pt;
+		padding-right: 12pt;
+		width: 3.25in;
+	}
+
+	.right200
+	{
+		float: right;
+		clear: left;
+		display: block;
+		padding-left: 10pt;
+		width: 200pt;
+	}
+
+	.right100
+	{
+		float: right;
+		clear: left;
+		display: block;
+		padding-left: 10pt;
+		width: 100pt;
+	}
+
+	.pgBrkBfr
+	{
+		page-break-before: always;
+	}
+
+	.pgBrkAft
+	{
+		page-break-after: always;
+	}
+
+	.noTOC
+	{
+		mc-heading-level: 0;
+	}
+
+	p.img
+	{
+		page-break-after: avoid;
+		margin-bottom: 1pt;
+		text-align: left;
+	}
+
+	p.TOC1
+	{
+		margin-right: 6pt;
+		margin-left: 0pt;
+		mc-leader-format: ' ';
+		margin-bottom: 6pt;
+		font-family: 'Univers Next Pro Medium';
+		font-weight: normal;
+		mc-pagenum-display: none;
+		font-size: 16pt;
+		margin-top: 10pt;
+	}
+
+	p.TOC2
+	{
+		font-family: 'Univers Next Pro';
+		mc-leader-format: '.';
+		margin-right: 6pt;
+		mc-auto-number-position: float-right;
+		margin-left: 0pt;
+		font-weight: bold;
+		font-size: 10pt;
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+	}
+
+	p.TOC3
+	{
+		font-family: 'Univers Next Pro';
+		mc-leader-format: '.';
+		margin-right: 6pt;
+		font-weight: bold;
+		font-size: 10pt;
+		margin-left: 20pt;
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+	}
+
+	p.IndexHeading
+	{
+		margin-top: 6pt;
+		margin-bottom: 3pt;
+		text-align: center;
+		font-size: 13pt;
+		font-family: 'Univers Next Pro Medium';
+	}
+
+	p.Index1
+	{
+		margin-bottom: 0pt;
+		text-align: left;
+		margin-top: 0pt;
+		mc-multiline-indent: 10pt;
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	p.Index2
+	{
+		margin-bottom: 0pt;
+		text-align: left;
+		margin-top: 0pt;
+		margin-left: 10pt;
+		mc-multiline-indent: 0in;
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	p.Index3
+	{
+		margin-bottom: 0pt;
+		text-align: left;
+		margin-top: 0pt;
+		margin-left: 20pt;
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-color: #ffffff;
+		border-top-style: none;
+		border-top-width: 0px;
+		padding-left: 0px;
+		margin-left: 0in;
+		padding-right: 0px;
+		margin-right: 0in;
+		margin-top: 2pt;
+	}
+
+	MadCap|indexProxy
+	{
+		border-top-style: none;
+		border-top-width: 0px;
+		border-top-color: #ffffff;
+		padding-left: 0px;
+		padding-top: 0px;
+		mc-column-count: 2;
+		margin-top: 0px;
+		margin-left: -1in;
+	}
+
+	/* Heading Classes Start */
+
+	h1
+	{
+		page-break-before: avoid;
+		mc-hyphenate: never;
+		font-family: 'Univers Next Pro Medium';
+		font-weight: normal;
+		/*mc-auto-number-class: chapnum;*/
+		font-size: 16pt;
+		margin-left: 0;
+		border-radius: 3px;
+		margin-top: 12pt;
+		/*mc-auto-number-format: 'GH:Chapter {n+}: ';*/
+	}
+
+	.chapnum
+	{
+		color: #ffffff;
+		font-family: 'Univers Next Pro Medium Cond';
+		font-weight: normal;
+		font-size: 28pt;
+		padding-left: 6pt;
+		padding-top: 5pt;
+		padding-bottom: 0pt;
+	}
+
+	h1.front
+	{
+		color: #000000;
+		mc-auto-number-format: '{ }';
+		margin-left: 0pt;
+		mc-heading-level: 0;
+		background-color: #ffffff;
+	}
+
+	h2
+	{
+		color: #000000;
+		background-color: #ffffff;
+		font-family: 'Univers Next Pro';
+		font-size: 16pt;
+		font-weight: bold;
+		margin-left: 0in;
+		margin-top: 16pt;
+		margin-bottom: 10pt;
+		page-break-before: avoid;
+		mc-hyphenate: never;
+	}
+
+	h3
+	{
+		mc-hyphenate: never;
+		margin-right: 0pt;
+		margin-top: 10pt;
+		font-size: 14pt;
+		margin-left: 0in;
+		font-family: 'Univers Next Pro Condensed';
+		font-weight: bold;
+		margin-bottom: 1pt;
+	}
+
+	h4
+	{
+		mc-heading-level: 0;
+		margin-bottom: 5pt;
+		margin-top: 10pt;
+		font-weight: normal;
+		margin-left: 0in;
+		font-family: 'Univers Next Pro Condensed';
+		font-size: 14pt;
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+		margin-left: -1in;
+		font-size: 11pt;
+		font-family: 'Univers Next Pro Medium';
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	/* End Heading Classes */
+	/* Paragraph Classes Start*/
+
+	p
+	{
+		margin: 0px;
+		margin-left: 0in;
+		font-size: 10pt;
+		margin-bottom: 10pt;
+		mc-hyphenate: never;
+	}
+
+	p.PageNumbers
+	{
+		text-align: center;
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+		font-family: 'Univers Next Pro Condensed';
+		font-size: 10pt;
+	}
+
+	/* End Paragraph Classes */
+
+	MadCap|dropDownHotspot
+	{
+		font-weight: bold;
+		padding-left: 36pt;
+		font-size: 11pt;
+		font-family: 'Univers Next Pro';
+	}
+
+	sub
+	{
+		font-size: 70%;
+		line-height: 90%;
+		padding: 0;
+		vertical-align: text-bottom;
+	}
+
+	th
+	{
+		page-break-inside: avoid;
+	}
+
+	table
+	{
+		margin-bottom: 5pt;
+		margin-top: 8pt;
+		border-spacing: 0px;
+		mc-caption-repeat: true;
+		mc-caption-continuation: ' (...continued)';
+		margin-right: 0pt;
+		margin-left: 0in;
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	caption
+	{
+		text-align: left;
+	}
+
+	MadCap|dropDownHead
+	{
+		margin-left: 36pt;
+		font-size: 13pt;
+		font-weight: bold;
+		font-family: 'Univers Next Pro';
+	}
+
+	/* Sam's Xrefs from BioTechNote stylesheet */
+
+	MadCap|xref.XreftoParanum
+	{
+		color: #000000;
+		mc-format: '{paranum}';
+		text-decoration: none;
+	}
+
+	/* End Sam's Xrefs from BioTechNote */
+	/*xref class created by Thad 2/20/2014 */
+	/*End Thad xref classes*/
+
+	td
+	{
+		padding-right: 2pt;
+		padding-left: 2pt;
+	}
+
+	img
+	{
+		page-break-after: avoid;
+	}
+
+	MadCap|dropDownBody
+	{
+		margin-left: 12pt;
+	}
+
+	MadCap|equation
+	{
+		font-weight: normal;
+		font-size: 11pt;
+		max-width: 7in;
+	}
+
+	.equation
+	{
+		mc-auto-number-class: right;
+		mc-auto-number-format: 'CH:{chapnum}-{n+}';
+		margin-left: 0.25in;
+		font-family: 'Univers Next Pro';
+	}
+
+	.equation0
+	{
+		margin-left: -1in;
+		mc-auto-number-class: right;
+		mc-auto-number-format: 'CH:{chapnum}-{n+}';
+		font-family: 'Univers Next Pro';
+		max-width: 6.5in;
+	}
+
+	body
+	{
+		font-family: 'Univers Next Pro';
+	}
+
+	p.front
+	{
+		margin: 0;
+		margin-bottom: 10pt;
+		margin-left: 0in;
+		font-size: 9pt;
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 8pt;
+		text-indent: -5pt;
+		margin-left: 0in;
+		line-height: 10pt;
+	}
+
+	MadCap|footnote
+	{
+		mc-footnote-position: page;
+		mc-footnote-format: '{n}';
+		font-size: 8pt;
+		line-height: 9pt;
+		font-family: 'Univers Next Pro';
+	}
+
+	p.TOC4
+	{
+		font-size: 0pt;
+		margin-left: 0pt;
+	}
+
+	p.TOC5
+	{
+		font-size: 0pt;
+	}
+
+	img.width100pct
+	{
+		height: auto;
+		width: 6in;
+	}
+
+	img.width088pct
+	{
+		height: auto;
+		width: 5.75in;
+	}
+
+	img.width075pct
+	{
+		height: auto;
+		width: 4.75in;
+	}
+
+	img.width066pct
+	{
+		height: auto;
+		width: 4in;
+	}
+
+	img.width050pct
+	{
+		height: auto;
+		width: 3in;
+	}
+
+	img.width033pct
+	{
+		height: auto;
+		width: 2in;
+	}
+
+	img.width025pct
+	{
+		height: auto;
+		width: 1.5in;
+	}
+
+	img.width013pct
+	{
+		height: auto;
+		width: 0.81in;
+	}
+
+	.note
+	{
+		border: solid 1pt #000000;
+		padding: 5pt;
+		border-left-width: 1pt;
+		border-top-width: 1pt;
+		border-bottom-width: 2pt;
+		border-right-width: 2pt;
+		page-break-inside: avoid;
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+	}
+
+	MadCap|xref
+	{
+		color: #000000;
+		text-decoration: none;
+	}
+
+	a.Popup:link
+	{
+		color: #010101;
+		text-decoration: none;
+	}
+
+	a.Popup:visited
+	{
+		color: #000000;
+	}
+
+	a:link
+	{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	caption.table
+	{
+		page-break-after: avoid;
+		font-style: normal;
+		mc-auto-number-format: 'CT:{b}Table {chapnum}‑{n+}';
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	.figure
+	{
+		display: block;
+		page-break-before: avoid;
+		mc-auto-number-format: 'CF:Figure {chapnum}‑{n+}';
+		margin-top: 1pt;
+		margin-bottom: 10pt;
+		font-style: normal;
+		font-size: 10pt;
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	MadCap|footnotesBlock
+	{
+		margin-top: 4pt;
+		padding-top: 4pt;
+		margin-left: -1in;
+		border-top-align: right;
+		border-top-length: 85%;
+	}
+
+	MadCap|listOfProxy
+	{
+		padding-left: 0px;
+	}
+
+	p.ListOf
+	{
+		margin-left: 0in;
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+		mc-leader-offset: 20pt;
+	}
+
+	tr
+	{
+		page-break-inside: avoid;
+	}
+
+	span.SeeIndex
+	{
+		font-weight: bold;
+	}
+
+	span.SeeAlsoIndex
+	{
+		font-weight: bold;
+	}
+
+	span.SeeAlsoIndexTerms
+	{
+
+	}
+
+	span.SeeIndexTerms
+	{
+
+	}
+
+	p.specs
+	{
+		margin-left: 0in;
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+	}
+
+	ol
+	{
+		text-indent: 0pt;
+		margin: 0;
+	}
+
+	ul
+	{
+		margin-left: 0pt;
+		font-family: 'Univers Next Pro';
+		font-size: 10pt;
+	}
+
+	i
+	{
+
+	}
+
+	p.Index4
+	{
+		font-family: 'Univers Next Pro Condensed';
+	}
+
+	/* EXPERIMENTAL AND/OR TEMPORARY CLASSES */
+	/* Copied from BioAppNote Template */
+
+	p.page
+	{
+		float: right;
+		margin-right: 15pt;
+		font-weight: bold;
+		font-family: 'Univers Next Pro Medium';
+		font-size: 12pt;
+		margin-bottom: 0pt;
+	}
+
+	/* END EXPERIMENTAL AND/OR TEMPORARY CLASSES */
+
+	p.Numbered
+	{
+		margin-bottom: 6pt;
+		mc-auto-number-format: 'N:{n+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-class: Number;
+		mc-auto-number-offset: 15pt;
+		margin-left: 15pt;
+	}
+
+	MadCap|xref.H1PageRef
+	{
+		mc-format: '{b}{i}{h1}{/i}{/b} {pageref}';
+	}
+
+	p.warning
+	{
+		background-image: url('../Images/warn.eps');
+		background-repeat: no-repeat;
+		padding-left: 30pt;
+		padding-bottom: 8pt;
+	}
+
+	p.warning_fr
+	{
+		margin-bottom: 0pt;
+		margin-left: 30pt;
+		font-weight: bold;
+	}
+
+	p.warning_fr_body
+	{
+		margin-left: 30pt;
+	}
+
+	li
+	{
+		margin-left: 12pt;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	p.licences
+	{
+		text-indent: 10pt;
+		font-size: 8pt;
+		margin-bottom: 7pt;
+	}
+
+	p.licences_num
+	{
+		text-indent: 10pt;
+		font-size: 8pt;
+		mc-auto-number-format: '{n+}. ';
+		margin-bottom: 7pt;
+	}
+
+	p.licences_let
+	{
+		font-size: 8pt;
+		margin-left: 20pt;
+		mc-auto-number-format: 'A:{a+}) ';
+		margin-bottom: 7pt;
+	}
+
+	p.licence_no_num
+	{
+		font-size: 8pt;
+		margin-bottom: 7pt;
+	}
+
+	p.prod_header
+	{
+		font-family: 'Univers Next Pro Light';
+		float: right;
+		color: #ffffff;
+		font-size: 11pt;
+		margin-top: -22pt;
+	}
+
+	p.prod_head
+	{
+		font-size: 8pt;
+		color: #111111;
+		background-color: #ffffff;
+		float: left;
+		margin-top: -21pt;
+		padding-right: 2pt;
+		padding-left: 2pt;
+	}
+
+	p.contents_label
+	{
+		margin-left: 4pt;
+		font-size: 28pt;
+		font-family: 'Univers Next Pro Medium Cond';
+		color: #ffffff;
+		margin-bottom: 0;
+		float: left;
+		margin-top: -30pt;
+	}
+
+	div.video
+	{
+		border: solid 1pt #000000;
+		padding: 6pt;
+		height: 40pt;
+		border-radius: 6px;
+	}
+
+	p.video
+	{
+		background-image: url('../Images/video.eps');
+		background-repeat: no-repeat;
+		padding-left: 40pt;
+		font-family: 'Univers Next Pro Medium';
+		padding-bottom: 10pt;
+		padding-top: 10pt;
+	}
+
+	a.video
+	{
+		color: #0000ff;
+	}
+
+	.no_num
+	{
+		display: block;
+	}
+
+	.NoNum
+	{
+		margin-bottom: 4pt;
+		margin-left: 15pt;
+		padding-left: -3pt;
+		display: block;
+	}
+
+	ol.paren
+	{
+		list-style-type: decimal;
+		font-size: 10pt;
+		margin-left: 6pt;
+	}
+
+	ol.paren > li::marker
+	{
+		content: counter(paren) ')';
+	}
+
+	ol.let
+	{
+		list-style-type: lower-alpha;
+		margin-left: 4pt;
+		font-size: 10pt;
+	}
+
+	MadCap|xref.TOCPageNumber
+	{
+		mc-format: '{b}{i}{paratext}{/i}{/b} {pageref}';
+	}
+}
+
+MadCap|xref.contextSensitive
+{
+	mc-format: '{pageref}';
+}
+
+@media non-print
+{
+	h2
+	{
+		background-color: #ffffff;
+		color: #000000;
+	}
+}

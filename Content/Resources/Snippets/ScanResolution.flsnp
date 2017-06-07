@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="742" MadCap:lastWidth="742">
+    <body>
+        <MadCap:keyword term="Scan resolution" />
+        <MadCap:snippetText src="Resolution.flsnp" /> — This is the distance the scanner travels between readings. Shorter distances will give higher resolutions that provide more image details but create large image files. Longer distances will give lower resolutions that provide small image files but do not offer fine image details.</body>
+</html>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="900" MadCap:lastWidth="1010">
+    <head>
+        <link href="../Resources/TableStyles/condensedTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. " class="pgBrkBfr">Calculate the Lane Normalization Factor for Each Lane (pan protein, 700 nm)</h1>
+        <ol>
+            <li>
+                <p>Prepare a spreadsheet containing the pan protein and phospho-protein quantification data.</p>
+            </li>
+            <li>
+                <p>Using the pan-antibody data from the normalization channel (700 nm), calculate the Average (arithmetic mean), Standard Deviation, and % Coefficient of Variation (% CV) of the replicate samples.</p>
+                <p class="pad-top20">
+                    <MadCap:snippetText src="../Resources/Snippets/excel_average_formula.flsnp" />
+                </p>
+                <p class="pad-top20">
+                    <MadCap:snippetText src="../Resources/Snippets/excel_stdev_formula.flsnp" />
+                </p>
+                <p class="pad-top20">
+                    <img class="no-border width075pct" src="../Resources/Images/cv-excel.eps" />
+                </p>
+                <p class="readingList">Pan protein (700 nm)</p>
+                <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/condensedTable.css');" class="TableStyle-inListTable" cellspacing="0">
+                    <col style="width: 77px;" class="TableStyle-inListTable-Column-Column1" />
+                    <col class="TableStyle-inListTable-Column-Column1" style="width: 75px;" />
+                    <col class="TableStyle-inListTable-Column-Column1" />
+                    <col class="TableStyle-inListTable-Column-Column1" />
+                    <col class="TableStyle-inListTable-Column-Column1" style="width: 69px;" />
+                    <col class="TableStyle-inListTable-Column-Column1" style="width: 183px;" />
+                    <col class="TableStyle-inListTable-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-inListTable-Body-Subhead" MadCap:pattern="5">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Treatment</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Replicate</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Primary Antibody</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead" style="padding-left: 5px;padding-right: 5px;">Signal</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Average</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Subhead">St Dev</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Subhead">% CV</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body2">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">-</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">1</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">990</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">950</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">36</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Body2">4%</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body1">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">-</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">2</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">pan</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1" style="padding-left: 5px;padding-right: 5px;">940</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body2">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">-</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">3</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">920</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body1">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">+</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">1</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">pan</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1" style="padding-left: 5px;padding-right: 5px;">930</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">943</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body1">51</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Body1">5%</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body2">
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">+</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">2</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">900</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyD-Column1-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-inListTable-Body-Body1">
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1">+</td>
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1">3</td>
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1">pan</td>
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1" style="padding-left: 5px;padding-right: 5px;">1000</td>
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyB-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-inListTable-BodyA-Column1-Body1">&#160;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/example_values_only.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Calculate the Lane Normalization Factor (LNF) for each lane.</p>
+                <ol style="list-style:lower-alpha;">
+                    <li style="border:none;">
+                        <p>Identify the lane with the highest signal for total protein staining.</p>
+                    </li>
+                    <li style="border:none;">
+                        <p>Use this value to calculate the Lane Normalization Factor for each lane.</p>
+                        <p class="pad-top20">
+                            <img class="no-border" src="../Resources/Images/pan_protein_lane_normalization.eps" style="width: 449px;height: 42px;" />
+                        </p>
+                        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/condensedTable.css');" class="TableStyle-inListTable" cellspacing="0">
+                            <col style="width: 77px;" class="TableStyle-inListTable-Column-Column1" />
+                            <col class="TableStyle-inListTable-Column-Column1" style="width: 75px;" />
+                            <col class="TableStyle-inListTable-Column-Column1" />
+                            <col class="TableStyle-inListTable-Column-Column1" />
+                            <col class="TableStyle-inListTable-Column-Column1" style="width: 69px;" />
+                            <col class="TableStyle-inListTable-Column-Column1" style="width: 183px;" />
+                            <tbody>
+                                <tr class="TableStyle-inListTable-Body-Subhead" MadCap:pattern="5">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Treatment</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Replicate</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Primary Antibody</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Subhead" style="padding-left: 5px;padding-right: 5px;">Signal</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Subhead">Highest Signal</td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Subhead">LNF</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body2">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">-</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">1</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">990</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Body2">0.99</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body1">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">-</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">2</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">pan</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1" style="padding-left: 5px;padding-right: 5px;">940</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Body1">0.94</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body2">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">-</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">3</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">920</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Body2">0.92</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body1">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">+</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">1</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1">pan</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1" style="padding-left: 5px;padding-right: 5px;">930</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body1"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Body1">0.93</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body2">
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">+</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">2</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2">pan</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2" style="padding-left: 5px;padding-right: 5px;">900</td>
+                                    <td class="TableStyle-inListTable-BodyE-Column1-Body2"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyD-Column1-Body2">0.90</td>
+                                </tr>
+                                <tr class="TableStyle-inListTable-Body-Body1">
+                                    <td class="TableStyle-inListTable-BodyB-Column1-Body1">+</td>
+                                    <td class="TableStyle-inListTable-BodyB-Column1-Body1">3</td>
+                                    <td class="TableStyle-inListTable-BodyB-Column1-Body1">pan</td>
+                                    <td class="TableStyle-inListTable-BodyB-Column1-Body1" style="padding-left: 5px;padding-right: 5px;"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyB-Column1-Body1"><span class="orange">1,000</span>
+                                    </td>
+                                    <td class="TableStyle-inListTable-BodyA-Column1-Body1">1.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

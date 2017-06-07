@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="System Management Tool Server Help"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  GenerateWebSafeImages="false"
+  WebSafeFileExtension="png"
+  TOCChunkSize="30000"
+  MasterPage="/Content/Resources/MasterPages/SysMgmt_top.flmsp"
+  Medium="print"
+  PreCompileScaledImages="false"
+  DisableAutoSync="false"
+  MasterToc="/Project/TOCs/server_app_21cfr11_print.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/smt_help_print.css"
+  OutputFile="system_management_tool_guide"
+  InsertMOTW="true"
+  ExcludeUnreferencedContent="true"
+  ConditionTagExpression="include[Default.PaperCopy or Default.smt_print or Default.SysMgmtHelp or Default.WebHelp or TechNoteCond.PaperCopy] exclude[Default.21CFR11 or Default.21CFR11AdminGuide or Default.app_note or Default.BackgroundGuide or Default.CDiG_Int_1019 or Default.CDiG_Int_114 or Default.CDiG_Internal or Default.CLx or Default.complianceGuide or Default.EmbeddedSfw or Default.Fc or Default.gngb or Default.OdyBrowser or Default.OdyExport or Default.Pearl_Int_1110 or Default.Pearl_Int_127 or Default.Pearl_Int_131 or Default.Pearl_Int_134 or Default.Pearl_Internal or Default.Sa or Default.SmallAnimal or Default.standard or Default.webinar or TechNoteCond.21CFR11_admin or TechNoteCond.Background or TechNoteCond.ChameleonIS30 or TechNoteCond.ChameleonIS30and40 or TechNoteCond.ChameleonIS40 or TechNoteCond.ChameleonUsageNote or TechNoteCond.ElectronicPDF or TechNoteCond.ExportGuide or TechNoteCond.hkp-normalization or TechNoteCond.hkp-validation or TechNoteCond.ICW or TechNoteCond.install-Cdig or TechNoteCond.install-Classic or TechNoteCond.install-CLx or TechNoteCond.install-Fc or TechNoteCond.install-Pearl or TechNoteCond.install-Sa or TechNoteCond.install-Trilogy or TechNoteCond.linear-range-of-system or TechNoteCond.NrmlLastPage or TechNoteCond.pan-protein-norm or TechNoteCond.quickStart-Cdig or TechNoteCond.quickStart-Classic or TechNoteCond.quickStart-CLx or TechNoteCond.quickStart-Fc or TechNoteCond.quickStart-Pearl or TechNoteCond.quickStart-Sa or TechNoteCond.quickStart-Trilogy or TechNoteCond.revert-norm-protocol or TechNoteCond.RevisionTarget or TechNoteCond.SmallAnimalImage or TechNoteCond.Survey or TechNoteCond.trilogy_gasket_install or TechNoteCond.WesternAndMPXGuide or TechNoteCond.WorkArea or TechNoteCond.WorkArea-IS5] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings=""
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  MakeFileLowerCase="false"
+  EnableSitemap="false"
+  MenuSkin="/Project/Skins/Menu.flskn"
+  BrowseSequence="/Project/Advanced/Browse Sequences/Top Nav.flbrs"
+  TabletBreakpoint="800"
+  MobileBreakpoint="100"
+  MasterPageLayout="/Content/Resources/PageLayouts/plain.flpgl">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand" />
+  <Destinations></Destinations>
+</CatapultTarget>

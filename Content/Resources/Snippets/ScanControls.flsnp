@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Use options in the <MadCap:snippetText src="Scan_Controls_group.flsnp" /> to set the <span class="snippet-font">Resolution</span>, <span class="snippet-font">Quality</span>, and <span class="snippet-font">Focus Offset</span>. Use <span class="snippet-font"><MadCap:keyword term="Flip Image" />Flip Image</span> to automatically show the acquired image flipped top to bottom (useful for microplate images).</p>
+        <p>
+            <img src="../../Images/CLx-ScanControls.gif" class="width013pct" />
+        </p>
+        <ul>
+            <li><span class="snippet-font"><MadCap:keyword term="Scan resolution" />Scan Resolution</span>— Select 169 µm for most scans. This is the distance the scanner travels between readings. Shorter distances (21 µm) will give higher resolutions that provide more image details but create large image files. Longer distances (337 µm) will give lower resolutions that provide small image files but do not offer fine image details.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Scan quality" />Scan Quality</span> — Select the scan quality that affects the time and quality aspects of the scan. The lowest quality setting sets the fastest scan speed.  Increasing the quality results in slower scan speeds, as more detector readings are processed for a given area. The Lowest scan setting gives the fastest scan time and is appropriate for most scans.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Focus offset" />Focus Offset</span> — Select the Focus Offset value from the list or enter a value by choosing the <span class="snippet-font">Enter Value</span> menu item.</li>
+            <li><span class="snippet-font"><MadCap:keyword term="Flip Image;Image:Flip" />Flip Image</span> — When selected the image is automatically flipped top to bottom.</li>
+        </ul>
+    </body>
+</html>

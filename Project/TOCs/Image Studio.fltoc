@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="About Image Studio"
+    Link="/Content/About_Image_Studio.htm"></TocEntry>
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Introduction_help.htm" />
+  <TocEntry
+    Title="New in Image Studio 5"
+    Link="/Content/WhatsNewTopics/Whats_New_5.htm"></TocEntry>
+  <TocEntry
+    Title="Frequently Asked Questions"
+    Link="/Content/Troubleshooting/frequently_asked_questions.htm"></TocEntry>
+  <TocEntry
+    Title="Image Studio 5.2 Upgrade"
+    Link="/Content/Troubleshooting/upgrade_52_instructions.htm" />
+  <TocEntry
+    Title="User Interface">
+    <TocEntry
+      Title="Image Studio Ribbon"
+      Link="/Content/Image_Studio_Ribbon.htm" />
+    <TocEntry
+      Title="Application Menu"
+      Link="/Content/Application_Menu.htm" />
+    <TocEntry
+      Title="Quick Launch Buttons"
+      Link="/Content/Quick_Launch_Buttons.htm" />
+    <TocEntry
+      Title="Preferences"
+      Link="/Content/Preferences.htm" />
+    <TocEntry
+      Title="Tooltips"
+      Link="/Content/Tooltips.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="File Management">
+    <TocEntry
+      Title="Work Areas">
+      <TocEntry
+        Title="Work Area"
+        Link="/Content/Work_Area.htm" />
+      <TocEntry
+        Title="21CFR11 Work Areas"
+        Link="/Content/21CFR11/WorkArea_21CFR11.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Import">
+      <TocEntry
+        Title="Import"
+        Link="/Content/ImportTopics/ImportOverview.htm" />
+      <TocEntry
+        Title="Image Studio Zip File"
+        Link="/Content/ImportTopics/ImportZipFiles.htm"></TocEntry>
+      <TocEntry
+        Title="Third-Party Images"
+        Link="/Content/ImportTopics/ImportThirdPartyImages.htm" />
+      <TocEntry
+        Title="Images from Other LI-COR Software"
+        Link="/Content/ImportTopics/ImportFromOtherLICORSoftware.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Export Image and Data Analysis">
+      <TocEntry
+        Title="Export Options Overview"
+        Link="/Content/Export/ExportOverview.htm"></TocEntry>
+      <TocEntry
+        Title="Exporting Single Images"
+        Link="/Content/Export/ExportingSingleImages.htm"></TocEntry>
+      <TocEntry
+        Title="Export Multiple Images in Batch"
+        Link="/Content/Export/ExportImagesInBatch.htm"></TocEntry>
+      <TocEntry
+        Title="Export Movies"
+        Link="/Content/Export/ExportMovies.htm"></TocEntry>
+      <TocEntry
+        Title="Export Color Bar"
+        Link="/Content/Export/ExportColorBar.htm" />
+      <TocEntry
+        Title="Export Zip Files"
+        Link="/Content/CopyImagesTopics/Copy_Images.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Image Types"
+      Link="/Content/ImageFormats.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Tabs/Ribbons">
+    <TocEntry
+      Title="Acquire">
+      <TocEntry
+        Title="Acquire Tab"
+        Link="/Content/AcquireTopics/Acquire_Tab.htm" />
+      <TocEntry
+        Title="Acquire Tab - Odyssey CLx"
+        Link="/Content/AcquireTopics/Acquire_Tab_Odyssey_CLx.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Acquire Tab - Odyssey Classic"
+        Link="/Content/AcquireTopics/Acquire_Tab_Odyssey_Classic.htm" />
+      <TocEntry
+        Title="Acquire Tab - Odyssey Fc"
+        Link="/Content/AcquireTopics/Acquire_Tab_Odyssey_Fc.htm" />
+      <TocEntry
+        Title="Acquire Tab - Odyssey Sa"
+        Link="/Content/AcquireTopics/Acquire_Tab_Odyssey_Sa.htm" />
+      <TocEntry
+        Title="Acquire Tab - Odyssey Sa Express"
+        Link="/Content/AcquireTopics/Acquire_Tab_Odyssey_Sa_Express.htm" />
+      <TocEntry
+        Title="Acquire Tab - Pearl"
+        Link="/Content/AcquireTopics/Acquire_Pearl.htm" />
+      <TocEntry
+        Title="Acquire Tab - C-DiGit"
+        Link="/Content/AcquireTopics/Acquire_Tab_C_DiGit.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Images">
+      <TocEntry
+        Title="Image Tab"
+        Link="/Content/Image_Tab.htm" />
+      <TocEntry
+        Title="Adjust Display"
+        Link="/Content/Adjust_Display.htm" />
+      <TocEntry
+        Title="Choose Display"
+        Link="/Content/Choose_Display.htm" />
+      <TocEntry
+        Title="Copy Image"
+        Link="/Content/CopyImagesTopics/Copy_Image.htm" />
+      <TocEntry
+        Title="Rotate or Flip"
+        Link="/Content/Rotate_or_Flip.htm" />
+      <TocEntry
+        Title="Free Rotate"
+        Link="/Content/FreeRotate.htm" />
+      <TocEntry
+        Title="Reduce Noise"
+        Link="/Content/Reduce_Noise.htm" />
+      <TocEntry
+        Title="Align Channels"
+        Link="/Content/Align_Channels.htm" />
+      <TocEntry
+        Title="Crop"
+        Link="/Content/Crop.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Analysis"
+      Link=""
+      ReplaceMergeNode="false">
+      <TocEntry
+        Title="Analysis Tab"
+        Link="/Content/ShapesTopics/Shapes_Tab.htm" />
+      <TocEntry
+        Title="Adding Shapes"
+        Link="/Content/AddAnntnsTopics/Adding_Shapes.htm" />
+      <TocEntry
+        Title="Editing Tools"
+        Link="/Content/Editing_Tools.htm" />
+      <TocEntry
+        Title="Background">
+        <TocEntry
+          Title="Background"
+          Link="/Content/Background.htm"></TocEntry>
+        <TocEntry
+          Title="Average and Median Background Methods"
+          Link="/Content/Background/ManualBg_AvgAndMedian.htm" />
+        <TocEntry
+          Title="User-Defined Background Method"
+          Link="/Content/Background/ManualBg_UserDefined.htm" />
+        <TocEntry
+          Title="When to Use None"
+          Link="/Content/Background/ManualBg_None.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Show Group"
+        Link="/Content/ShapesTopics/Show_Group.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Annotation">
+      <TocEntry
+        Title="Annotation Tab"
+        Link="/Content/AddAnntnsTopics/Annotation_Tab.htm" />
+      <TocEntry
+        Title="Adding Text"
+        Link="/Content/AddAnntnsTopics/Adding_Text.htm" />
+      <TocEntry
+        Title="Adding Arrows"
+        Link="/Content/AddAnntnsTopics/Adding_Arrows.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Lab Book">
+      <TocEntry
+        Title="Lab Book Tab"
+        Link="/Content/Build_a_Custom_Western_Lab_Book.htm" />
+      <TocEntry
+        Title="Editing a Lab Book Report"
+        Link="/Content/Editing a Lab Book Report.htm" />
+      <TocEntry
+        Title="Header Options"
+        Link="/Content/HeaderTopics/Header Options.htm" />
+      <TocEntry
+        Title="Print a Lab Book Report"
+        Link="/Content/PrintTopics/Print_a_Lab_Book_Report.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Panels">
+    <TocEntry
+      Title="Display"
+      Link="/Content/Lookup_Table_Values_(LUTs).htm" />
+    <TocEntry
+      Title="Profiles">
+      <TocEntry
+        Title="Profiles Overview"
+        Link="/Content/Profiles.htm"></TocEntry>
+      <TocEntry
+        Title="Inspect Bands"
+        Link="/Content/Background/use_profiles_tab.htm" />
+      <TocEntry
+        Title="Inspect a Lane Profile"
+        Link="/Content/Background/ProfileTabToViewLaneProfile.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Concentration"
+      Link="/Content/Concentration.htm"></TocEntry>
+    <TocEntry
+      Title="Chart"
+      Link="/Content/Chart.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Tables">
+    <TocEntry
+      Title="Working with Table Data"
+      Link="/Content/Working_with_Table_Data.htm"></TocEntry>
+    <TocEntry
+      Title="Filter the Table"
+      Link="/Content/Filtering.htm" />
+    <TocEntry
+      Title="Table Columns"
+      Link="/Content/Images_Table.htm" />
+    <TocEntry
+      Title="Grid Sheet"
+      Link="/Content/GrdAndGrdArryTopics/Grid_Sheet.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Analysis">
+    <TocEntry
+      Title="Blot &amp; Gel">
+      <TocEntry
+        Title="Western Analysis">
+        <TocEntry
+          Title="Overview"
+          Link="/Content/WesternAnalysisTopics/WesternOverview.htm" />
+        <TocEntry
+          Title="Lanes Group"
+          Link="/Content/WesternAnalysisTopics/WestLanesGroup.htm" />
+        <TocEntry
+          Title="Bands Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNABandsGroup.htm" />
+        <TocEntry
+          Title="Marker Lanes Group"
+          Link="/Content/WesternAnalysisTopics/WestAndMPXMarkerLanesGroup.htm" />
+        <TocEntry
+          Title="Normalize Group"
+          Link="/Content/WesternAnalysisTopics/WestAndMPXNormalizeGroup.htm"></TocEntry>
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/Blots&amp;GelsBg.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNAShowGroup.htm" />
+        <TocEntry
+          Title="Bands Table"
+          Link="/Content/WesternAnalysisTopics/Western_Bands_Table.htm"></TocEntry>
+        <TocEntry
+          Title="Western Lanes Table"
+          Link="/Content/WesternAnalysisTopics/Western_Lanes_Table.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="MPX Western Analysis">
+        <TocEntry
+          Title="Overview"
+          Link="/Content/MPXWestTopics/MPXOverview.htm" />
+        <TocEntry
+          Title="Comb Group"
+          Link="/Content/MPXWestTopics/MPXWestCombGroup.htm" />
+        <TocEntry
+          Title="Bands Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNABandsGroup.htm" />
+        <TocEntry
+          Title="Marker Lanes Group"
+          Link="/Content/WesternAnalysisTopics/WestAndMPXMarkerLanesGroup.htm" />
+        <TocEntry
+          Title="Normalize Group"
+          Link="/Content/WesternAnalysisTopics/WestAndMPXNormalizeGroup.htm"></TocEntry>
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/Blots&amp;GelsBg.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNAShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="DNA Gel Analysis">
+        <TocEntry
+          Title="Overview"
+          Link="/Content/DNAAnalysisTopics/DNAOverview.htm" />
+        <TocEntry
+          Title="Lanes Group"
+          Link="/Content/DNAAnalysisTopics/DNALanes.htm" />
+        <TocEntry
+          Title="Bands Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNABandsGroup.htm" />
+        <TocEntry
+          Title="Marker Group"
+          Link="/Content/DNAAnalysisTopics/DNAMarkerLanes.htm"></TocEntry>
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/Blots&amp;GelsBg.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/WesternAnalysisTopics/WestMPXAndDNAShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Background">
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Western_Key_Background_Options.htm"></TocEntry>
+        <TocEntry
+          Title="Lane Background"
+          Link="/Content/Background/LaneBGOverview.htm" />
+        <TocEntry
+          Title="Average and Median"
+          Link="/Content/Background/Average &amp; Median Background.htm" />
+        <TocEntry
+          Title="User-Defined Background"
+          Link="/Content/Background/User Defined Background.htm" />
+        <TocEntry
+          Title="When to Use None"
+          Link="/Content/Background/ChooseNone.htm" />
+        <TocEntry
+          Title="Method Comparison"
+          Link="/Content/Background/StandardMethodsForBlotsAndGels.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Plate &amp; Grid">
+      <TocEntry
+        Title="Plate Analysis">
+        <TocEntry
+          Title="Plate Analysis Overview"
+          Link="/Content/PlateAndPlateArryTopics/PlateAnalysisOverview.htm" />
+        <TocEntry
+          Title="Plate Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateGroup.htm" />
+        <TocEntry
+          Title="Well Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateAnalysis_WellGroup.htm" />
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/PlateBgGroup.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateAnalysis_ShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Plate Array Analysis">
+        <TocEntry
+          Title="Plate Array Analysis Overview"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_Overview.htm" />
+        <TocEntry
+          Title="Plate Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_PlateGroup.htm" />
+        <TocEntry
+          Title="Spot Layout Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_SpotLayoutGroup.htm" />
+        <TocEntry
+          Title="Well Spot Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_WellSpot.htm" />
+        <TocEntry
+          Title="Auto-Adjust Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_AutoAdjust.htm" />
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/ArrayBgGroup.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/PlateAndPlateArryTopics/PlateArray_ShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Grid Analysis">
+        <TocEntry
+          Title="Grid Analysis Overview"
+          Link="/Content/GrdAndGrdArryTopics/Grid_Overview.htm" />
+        <TocEntry
+          Title="Grid Group"
+          Link="/Content/GrdAndGrdArryTopics/Grid_Group.htm" />
+        <TocEntry
+          Title="Spot Group"
+          Link="/Content/GrdAndGrdArryTopics/Grid_SpotGroup.htm" />
+        <TocEntry
+          Title="Auto-Adjust Group"
+          Link="/Content/GrdAndGrdArryTopics/Grid_AutoAdjust.htm" />
+        <TocEntry
+          Title="Grid Background"
+          Link="/Content/Background/GridBgGroup.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/GrdAndGrdArryTopics/Grid_ShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Grid Array Analysis">
+        <TocEntry
+          Title="Grid Array Analysis Overview"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_Overview.htm" />
+        <TocEntry
+          Title="Grid Group"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_GridGroup.htm" />
+        <TocEntry
+          Title="Array Group"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_ArrayGroup.htm" />
+        <TocEntry
+          Title="Spot Group"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_SpotGroup.htm" />
+        <TocEntry
+          Title="Auto-Adjust Group"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_AutoAdjust.htm" />
+        <TocEntry
+          Title="Background Group"
+          Link="/Content/Background/ArrayBgGroup.htm" />
+        <TocEntry
+          Title="Show Group"
+          Link="/Content/GrdAndGrdArryTopics/GridArray_ShowGroup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Plate &amp; Grid Background">
+        <TocEntry
+          Title="Background Overview"
+          Link="/Content/Plate_Key_Background_Options.htm" />
+        <TocEntry
+          Title="User-Defined"
+          Link="/Content/Background/UserDefinedPlateAndGrid.htm" />
+        <TocEntry
+          Title="Average &amp; Median"
+          Link="/Content/Background/AvgMed_Plate&amp;Grid.htm" />
+        <TocEntry
+          Title="Array"
+          Link="/Content/Background/ArrayBg.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="In-Cell Western">
+      <TocEntry
+        Title="In-Cell™ Western Analysis"
+        Link="/Content/ICWTopics/ICW_Overview.htm" />
+      <TocEntry
+        Title="Plate Group"
+        Link="/Content/ICWTopics/ICW_PlateGroup.htm" />
+      <TocEntry
+        Title="Well Group"
+        Link="/Content/ICWTopics/ICW_WellGroup.htm" />
+      <TocEntry
+        Title="Definition Group"
+        Link="/Content/ICWTopics/ICW_DefinitionGroup.htm" />
+      <TocEntry
+        Title="Show Group"
+        Link="/Content/ICWTopics/ICW_ShowGroup.htm" />
+      <TocEntry
+        Title="Z-Factor Analysis"
+        Link="/Content/Z_Factor_Analysis.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Small Animal">
+      <TocEntry
+        Title="Small Animal Image Analysis"
+        Link="/Content/SmallAnimals/SmallAnimal_Overview.htm" />
+      <TocEntry
+        Title="Shapes Group"
+        Link="/Content/SmallAnimals/SmallAnimal_ShapesGroup.htm" />
+      <TocEntry
+        Title="Background Group"
+        Link="/Content/Background/SmallAnimal_BackgroundGroup.htm" />
+      <TocEntry
+        Title="Auto Shape Group"
+        Link="/Content/SmallAnimals/SmallAnimal_AutoShapeGroup.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="CLx Verification Plate">
+      <TocEntry
+        Title="Recertify Plate"
+        Link="/Content/VerificationPlate/recertify_plate.htm"></TocEntry>
+      <TocEntry
+        Title="Scan Plate"
+        Link="/Content/VerificationPlate/clx_verification_plate_scan.htm"></TocEntry>
+      <TocEntry
+        Title="Analyze Data"
+        Link="/Content/VerificationPlate/clx_verification_plate_data.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Sa Verification Plate">
+      <TocEntry
+        Title="Recertify Plate"
+        Link="/Content/VerificationPlate/recertify_plate.htm"></TocEntry>
+      <TocEntry
+        Title="Scan Plate"
+        Link="/Content/VerificationPlate/sa_verification_plate_scan.htm" />
+      <TocEntry
+        Title="Analyze Data"
+        Link="/Content/VerificationPlate/sa_verification_plate_data.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Reporting">
+    <TocEntry
+      Title="Printing Reports"
+      Link="/Content/PrintTopics/Printing_Reports.htm"></TocEntry>
+    <TocEntry
+      Title="Print Table"
+      Link="/Content/PrintTopics/Print_Table.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Reference">
+    <TocEntry
+      Title="Band Normalization"
+      Link="/Content/Band_Normalization.htm" />
+    <TocEntry
+      Title="Calculation Descriptions"
+      Link="/Content/Calculation_Descriptions.htm" />
+    <TocEntry
+      Title="General Background Subtraction Concepts"
+      Link="/Content/Background/GeneralBackgroundSubtraction.htm"></TocEntry>
+    <TocEntry
+      Title="Lane Method vs. Rolling Ball"
+      Link="/Content/Background/LaneVsImageJRollingBall.htm" />
+    <TocEntry
+      Title="Building File Names Using Column Fields"
+      Link="/Content/Building_File_Names_Using_Column_Fields.htm" />
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Glossary.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Embedded Firmware"
+    conditions="Default.EmbeddedSfw"
+    ComputeToc="false">
+    <TocEntry
+      Title="Classic"
+      Link="/Content/Embedded/classic_embedded.htm"
+      conditions="Default.EmbeddedSfw" />
+    <TocEntry
+      Title="Pearl"
+      Link="/Content/Embedded/Pearl_embedded.htm"
+      conditions="Default.EmbeddedSfw"></TocEntry>
+    <TocEntry
+      Title="C-DiGit"
+      Link="/Content/Embedded/C-DiGit_embedded.htm"
+      conditions="Default.EmbeddedSfw"
+      StartSection="false"
+      ComputeToc="false"></TocEntry>
+    <TocEntry
+      Title="CLx"
+      Link="/Content/Embedded/clx__embedded.htm"
+      conditions="Default.EmbeddedSfw"
+      StartSection="false" />
+    <TocEntry
+      Title="Fc"
+      Link="/Content/Embedded/fc__embedded.htm"
+      conditions="Default.EmbeddedSfw"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
+    Title="21 CFR Part 11 Module"
+    conditions="Default.21CFR11"
+    ComputeToc="false">
+    <TocEntry
+      Title="Users, Roles, and Groups">
+      <TocEntry
+        Title="Overview"
+        Link="/Content/21CFR11/RolesAndActions_Overview_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="User Roles"
+        Link="/Content/21CFR11/Roles_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Actions"
+        Link="/Content/21CFR11/Actions_21CFR11.htm" />
+      <TocEntry
+        Title="Image Status"
+        Link="/Content/21CFR11/ImageStatus_21CFR11.htm" />
+      <TocEntry
+        Title="Groups"
+        Link="/Content/21CFR11/Groups_21CFR11.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="21CFR11 Tasks">
+      <TocEntry
+        Title="Workflow"
+        Link="/Content/21CFR11/Workflow_Overview_21CFR11.htm" />
+      <TocEntry
+        Title="Edit"
+        Link="/Content/21CFR11/Edit_21CFR11.htm" />
+      <TocEntry
+        Title="Switch Images"
+        Link="/Content/21CFR11/SwitchImages_21CFR11.htm" />
+      <TocEntry
+        Title="Submit Image and Analysis"
+        Link="/Content/21CFR11/SubmitImage_21CFR11.htm" />
+      <TocEntry
+        Title="Review Analysis"
+        Link="/Content/21CFR11/ReviewAnalysis_21CFR11.htm" />
+      <TocEntry
+        Title="Image Log Tasks"
+        Link="/Content/21CFR11/ExportImageLog_21CFR11.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="System Requirements">
+      <TocEntry
+        Title="System Overview"
+        Link="/Content/21CFR11/SysOverview_21CFR11_1.htm"></TocEntry>
+      <TocEntry
+        Title="System Diagram"
+        Link="/Content/21CFR11/SysOverview_21CFR11_2.htm"></TocEntry>
+      <TocEntry
+        Title="Server Configuration"
+        Link="/Content/21CFR11/ServerConfiguration_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Client Configuration"
+        Link="/Content/21CFR11/ClientConfig_21CFR11.htm"></TocEntry>
+      <TocEntry
+        Title="Networking"
+        Link="/Content/21CFR11/Networking_21CFR12.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

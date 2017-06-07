@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="introBloc">
+            <p class="ExampleHead" style="margin-top:0;padding-top:6px;">Before&#160;You&#160;Begin</p>
+            <p class="ExampleMiddleSection">
+            <img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Re-certify</strong> the <MadCap:snippetText src="verification_plate_lwr.flsnp" /> annually. Contact <a href="mailto:biosupport@licor.com">biosupport@licor.com</a> to request the re-certification service (service number <MadCap:snippetText src="vplate_certification_pn.flsnp" />).</p>
+            <p class="ExampleMiddleSection"><img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Handle</strong> the <MadCap:snippetText src="verification_plate_lwr.flsnp" /> with powder-free gloves.</p>
+            <p class="ExampleMiddleSection"><img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Store</strong> the <MadCap:snippetText src="verification_plate_lwr.flsnp" /> in the envelope it ships with.</p>
+            <p class="ExampleMiddleSection"><img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Only</strong> touch the plate by the black outer casing.</p>
+            <p class="ExampleMiddleSection"><img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Never</strong> touch the stainless steel part of the plate.</p>
+            <p class="ExampleMiddleSection"><img src="../Images/BulletDark.eps" MadCap:conditions="Default.PaperCopy" /> <strong>Never</strong> attempt to clean the plate yourself. If the stainless steel face becomes contaminated, return the plate to LI&#8209;COR Biosciences for cleaning and re-certification.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Unpack the D-DiGit"
+    Link="/Content/imaging_systems/ddigit/unpack_ddigit.htm"
+    BreakType="pageLayout"
+    PageType="first"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/one-page-quick-start.flpgl"
+    ComputeToc="false"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Install D-DiGit Image Acquisition Software"
+    Link="/Content/imaging_systems/ddigit/install_ddigit_software.htm"
+    BreakType="none"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/one-page-quick-start.flpgl" />
+  <TocEntry
+    Title="Unlock Scanner"
+    Link="/Content/imaging_systems/ddigit/unlock_ddigit.htm"
+    BreakType="none"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/one-page-quick-start.flpgl" />
+  <TocEntry
+    Title="Connect Power and USB Cable"
+    Link="/Content/imaging_systems/ddigit/connect_ddigit.htm" />
+  <TocEntry
+    Title="Turn on the D-DiGit Scanner"
+    Link="/Content/imaging_systems/ddigit/power_on_ddigit.htm" />
+  <TocEntry
+    Title="Start D-DiGit Image Acquisition Software"
+    Link="/Content/imaging_systems/ddigit/launch_ddigit_software.htm" />
+  <TocEntry
+    Title="D-DiGit Image Acquisition Software Overview"
+    Link="/Content/imaging_systems/ddigit/ddigit_software_overview.htm" />
+  <TocEntry
+    Title="Further Questions"
+    Link="/Content/imaging_systems/ddigit/ddigit_assistance.htm"></TocEntry>
+</CatapultToc>

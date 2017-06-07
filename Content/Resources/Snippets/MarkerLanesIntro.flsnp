@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Use the controls in the <MadCap:snippetText src="Marker_Lanes_group.flsnp" /> to select the Marker set to use, to specify the number of markers, and to add new markers or delete selected markers.</p>
+        <p>When you initially define sizing for an analysis, the number of marker lanes are assigned from the left-most lane, continuing to lanes to the right.</p>
+        <p>
+            <img src="../Images/WesternAnalysis-MarkerLane-example.png" alt="Western Analysis with a Marker Lane Selected and pointed out" class="width025pct" />
+        </p>
+        <p>
+            <MadCap:keyword term="Marker lanes">
+            </MadCap:keyword>The sizes defined in the marker lane set are assigned from the bands in the marker lanes from top to bottom.</p>
+        <p>Sizing information is displayed in the <MadCap:snippetText src="Bands_Table.flsnp" /> using the <MadCap:snippetText src="Size.flsnp" /> column. For bands in the Marker Lanes, the sizes are the standard's sizes; for all other bands, the sizes are calculated. 
+ See <a href="../../WesternAnalysisTopics/Western_Bands_Table.htm">Bands Table</a> for more information.</p>
+    </body>
+</html>

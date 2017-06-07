@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  GenerateWebSafeImages="true"
+  WebSafeFileExtension="png"
+  TOCChunkSize="30000"
+  MasterPage="/Content/Resources/MasterPages/SysMgmt_top.flmsp"
+  Medium="non-print"
+  PreCompileScaledImages="false"
+  DisableAutoSync="false"
+  MasterToc="/Project/TOCs/server_app_21CFR11.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/smt_help.css"
+  OutputFile="index"
+  InsertMOTW="true"
+  ExcludeUnreferencedContent="true"
+  ConditionTagExpression="include[Default.CLx or Default.EmbeddedSfw or Default.Fc or Default.Sa or Default.SysMgmtHelp or Default.WebHelp] exclude[Default.21CFR11AdminGuide or Default.BackgroundGuide or Default.CDiG_Int_1019 or Default.CDiG_Int_114 or Default.CDiG_Internal or Default.PaperCopy or Default.Pearl_Int_1110 or Default.Pearl_Int_127 or Default.Pearl_Int_131 or Default.Pearl_Internal or Default.SmallAnimal or TechNoteCond.ICW or TechNoteCond.SmallAnimalImage or TechNoteCond.WesternAndMPXGuide] "
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings=""
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  MakeFileLowerCase="false"
+  EnableSitemap="false"
+  MenuSkin="/Project/Skins/Menu.flskn"
+  BrowseSequence="/Project/Advanced/Browse Sequences/Top Nav.flbrs"
+  Skin="/Project/Skins/SystemMgmt_21CFR11.flskn"
+  TabletBreakpoint="800"
+  MobileBreakpoint="100">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/utility_sysmgmt.fldes" />
+  </Destinations>
+</CatapultTarget>

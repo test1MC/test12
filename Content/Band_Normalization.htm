@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="991" MadCap:lastWidth="917">
+    <head><title>Band Normalization</title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="I. ">
+            <MadCap:keyword term="Band Normalization" />Band Normalization</h1>
+        <p>Normalization is useful for using one channel to correct for loading variation between lanes.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Display normalization values in the <MadCap:snippetText src="Resources/Snippets/Table_section.flsnp" />...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="Resources/Snippets/Normalization_Channel.flsnp" />: The <MadCap:snippetText src="Resources/Snippets/Normalization_Channel.flsnp" /> chosen for an image can be displayed in the <MadCap:snippetText src="Resources/Snippets/ImagesTable.flsnp" />, <MadCap:snippetText src="Resources/Snippets/Western_Bands_Table.flsnp" />, or <MadCap:snippetText src="Resources/Snippets/WesternLanesTable.flsnp" />. Click <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /> <img src="Resources/Images/ReviewExpress.gif" class="inLineIcon24by24" /> above and to the right of the <MadCap:snippetText src="Resources/Snippets/Table_section.flsnp" /> and select <MadCap:snippetText src="Resources/Snippets/Normalization_Channel.flsnp" /> in the dialog that opens.</li>
+                    <li>
+                        <MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" />: Add the <MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" /> to the <MadCap:snippetText src="Resources/Snippets/Western_Bands_Table.flsnp" /> or <MadCap:snippetText src="Resources/Snippets/WesternLanesTable.flsnp" /> by clicking <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /> <img src="Resources/Images/ReviewExpress.gif" class="inLineIcon24by24" /> above and to the right of the <MadCap:snippetText src="Resources/Snippets/Table_section.flsnp" /> and selecting <MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" /> in the dialog that opens.</li>
+                    <li>
+                        <MadCap:snippetText src="Resources/Snippets/Normalized_Signal.flsnp" />: Add the <MadCap:snippetText src="Resources/Snippets/Normalized_Signal.flsnp" /> to the <MadCap:snippetText src="Resources/Snippets/Western_Bands_Table.flsnp" /> by clicking <MadCap:snippetText src="Resources/Snippets/Columns.flsnp" /> <img src="Resources/Images/ReviewExpress.gif" class="inLineIcon24by24" /> above and to the right of the <MadCap:snippetText src="Resources/Snippets/Western_Bands_Table.flsnp" /> and selecting <MadCap:snippetText src="Resources/Snippets/Normalized_Signal.flsnp" /> in the dialog that opens.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Normalization calculation description...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If the lane has a single band in the <MadCap:snippetText src="Resources/Snippets/Normalization_Channel.flsnp" />, the <MadCap:keyword term="Normalization factor" /><MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" /> is calculated by dividing the signal for this single band by the maximum signal of all singleton bands in the <MadCap:snippetText src="Resources/Snippets/Normalization_Channel.flsnp" />. Otherwise, the value is NaN. The value will be identical for all channels within a lane. The <MadCap:snippetText src="Resources/Snippets/Normalized_Signal.flsnp" /> column in the <MadCap:snippetText src="Resources/Snippets/Bands_Table.flsnp" /> is calculated as the <MadCap:snippetText src="Resources/Snippets/Signal.flsnp" /> divided by the <MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" />.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Procedure to normalize signal values...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This example will normalize the 800 channel to the 700 channel:</p>
+                <ol>
+                    <li>Ensure only one band is present in each sample lane for the normalization channel.</li>
+                    <li>In the <MadCap:snippetText src="Resources/Snippets/Normalize_group.flsnp" />, select <span class="snippet-font">700 channel</span> from the <MadCap:snippetText src="Resources/Snippets/Normalize_Channel_list.flsnp" />.</li>
+                    <li>
+                        <p>Choose a background method in the <MadCap:snippetText src="Resources/Snippets/Set Background Type.flsnp" /> list <img src="Resources/Images/SetBackgroundAnalyze.gif" alt="Define Type icon" class="inLineIcon20by20" />. See the <MadCap:snippetText src="Resources/Snippets/ImageStudioSoftwareHelp.flsnp" /> for more information on which background method to choose.</p>
+                        <p class="note">
+                            <MadCap:snippetText src="Resources/Snippets/ChangingBgMethod_words.flsnp" />
+                        </p>
+                    </li>
+                    <li>You should see the following in the <MadCap:snippetText src="Resources/Snippets/Normalized_Signal.flsnp" /> column of the <MadCap:snippetText src="Resources/Snippets/Western_Bands_Table.flsnp" />:<ol style="list-style-type: lower-alpha;"><li>Rows corresponding to bands in the marker lane will display "<MadCap:snippetText src="Resources/Snippets/NaN.flsnp" />" (because the marker lane has more than one band).</li><li>Rows corresponding to bands in the normalization channel will display the value of the band with the greatest <MadCap:snippetText src="Resources/Snippets/Signal.flsnp" /> value.</li><li>Rows corresponding to bands in the opposite channel will show each band's <MadCap:snippetText src="Resources/Snippets/Signal.flsnp" /> divided by the <MadCap:snippetText src="Resources/Snippets/Normalization_Factor.flsnp" /> from the band in the normalization channel in the same lane.</li></ol></li>
+                </ol>
+                <p>
+                    <img src="Resources/Images/046.gif" class="width025pct" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
